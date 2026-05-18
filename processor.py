@@ -12,12 +12,12 @@ LIVE_TV_DIR = os.path.join(BASE_DIR, 'LiveTV')
 os.makedirs(LIVE_TV_DIR, exist_ok=True)
 
 MOVIE_JSON = os.path.join(BASE_DIR, 'all_movies.json')
-OFFLINE_MOVIE_JSON = os.path.join(BASE_DIR, 'ofline movie.json')
-OFFLINE_MOVIE_M3U = os.path.join(BASE_DIR, 'ofline movie.m3u')
+OFFLINE_MOVIE_JSON = os.path.join(BASE_DIR, 'offline movie.json')
+OFFLINE_MOVIE_M3U = os.path.join(BASE_DIR, 'offline movie.m3u')
 LIVE_TV_JSON = os.path.join(LIVE_TV_DIR, 'live_tv.json')
 LIVE_TV_M3U = os.path.join(LIVE_TV_DIR, 'live_tv.m3u')
-OFFLINE_TV_JSON = os.path.join(LIVE_TV_DIR, 'ofline Tv.json')
-OFFLINE_TV_M3U = os.path.join(LIVE_TV_DIR, 'ofline Tv.m3u')
+OFFLINE_TV_JSON = os.path.join(LIVE_TV_DIR, 'offline Tv.json')
+OFFLINE_TV_M3U = os.path.join(LIVE_TV_DIR, 'offline Tv.m3u')
 REPORT = os.path.join(BASE_DIR, 'logs', 'processor_report.txt')
 
 REMOTE_URLS = [

@@ -28,7 +28,7 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.11'
-        cache: 'pip'           # pip cache করবে — পরের run দ্রুত হবে
+        # cache সরিয়ে দেওয়া হয়েছে (requirements.txt না থাকলে crash করে)
 
     # ─────────────────────────────────────────
     # STEP 3: Install Dependencies

@@ -1,0 +1,38 @@
+name: IPTV Link Processor
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # এটি প্রতি ১২ ঘণ্টা পর পর স্বয়ংক্রিয়ভাবে স্ক্রিপ্টটি রান করবে
+  workflow_dispatch: # এর মাধ্যমে আপনি যেকোনো সময় গিটহাব থেকে ম্যানুয়ালি রান করতে পারবেন
+
+permissions:
+  contents: write # গিটহাবে নতুন ফাইল পুশ বা আপডেট করার পারমিশন
+
+jobs:
+  run-processor:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+
+    - name: Run Processor Script
+      run: python processor.py
+
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add .
+        # যদি ফাইলে কোনো পরিবর্তন না থাকে তবে এরর এড়াতে এই শর্তটি ব্যবহার করা হয়েছে
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-updated IPTV playlists and JSON" && git push)

@@ -1,88 +1,53 @@
-name: IPTV Ultimate Auto Update
+name: IPTV Auto Update
 
 on:
-
   workflow_dispatch:
-
   schedule:
     - cron: "0 */6 * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: iptv-auto-update-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-
-  build:
-
+  update:
     runs-on: ubuntu-latest
-
     timeout-minutes: 60
 
     steps:
-
-      # Checkout Repository
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      # Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # Install FFmpeg
-      - name: Install FFmpeg
-        run: |
-          sudo apt update
-          sudo apt install ffmpeg -y
-
-      # Install Python Requirements
-      - name: Install Requirements
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Create Required Folders
-      - name: Create Folders
-        run: |
-          mkdir -p data/output
-          mkdir -p logs
-          mkdir -p assets/posters
-          mkdir -p assets/logos
-
-      # Run Main IPTV Script
-      - name: Run IPTV System
+      - name: Run IPTV processor
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          XTREAM_CONFIG_JSON: ${{ secrets.XTREAM_CONFIG_JSON }}
         run: |
           python main.py
 
-      # Upload Output Files
-      - name: Upload Output
-        uses: actions/upload-artifact@v4
-        with:
-          name: IPTV-Outputs
-          path: |
-            data/output/
-            logs/
-
-      # Git Status Check
-      - name: Git Status
+      - name: Commit and push changes
         run: |
-          git status
-
-      # Auto Commit Changes
-      - name: Auto Commit & Push
-        run: |
-
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-
-          git commit -m "🔄 Auto IPTV Update" || echo "No changes to commit"
-
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "🔄 Auto IPTV update $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
           git push
-
-      # Workflow Finished
-      - name: Done
-        run: |
-          echo "IPTV Auto Update Completed Successfully"

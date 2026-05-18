@@ -2,37 +2,90 @@ name: IPTV Link Processor
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # এটি প্রতি ১২ ঘণ্টা পর পর স্বয়ংক্রিয়ভাবে স্ক্রিপ্টটি রান করবে
-  workflow_dispatch: # এর মাধ্যমে আপনি যেকোনো সময় গিটহাব থেকে ম্যানুয়ালি রান করতে পারবেন
+    - cron: '0 */12 * * *'   # প্রতি ১২ ঘণ্টায় auto-run
+  workflow_dispatch:           # GitHub থেকে manual run
 
 permissions:
-  contents: write # গিটহাবে নতুন ফাইল পুশ বা আপডেট করার পারমিশন
+  contents: write
 
 jobs:
   run-processor:
     runs-on: ubuntu-latest
+    timeout-minutes: 30        # ৩০ মিনিটের বেশি চললে auto-cancel
 
     steps:
+
+    # ─────────────────────────────────────────
+    # STEP 1: Repository Checkout
+    # ─────────────────────────────────────────
     - name: Checkout Repository
       uses: actions/checkout@v4
 
+    # ─────────────────────────────────────────
+    # STEP 2: Python Setup (Node.js 24 compatible)
+    # ─────────────────────────────────────────
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.10'
+        python-version: '3.11'
+        cache: 'pip'           # pip cache করবে — পরের run দ্রুত হবে
 
+    # ─────────────────────────────────────────
+    # STEP 3: Install Dependencies
+    # ─────────────────────────────────────────
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests
 
-    - name: Run Processor Script
-      run: python processor.py
+    # ─────────────────────────────────────────
+    # STEP 4: Debug — File Structure দেখুন
+    # ─────────────────────────────────────────
+    - name: Show Repository Structure
+      run: |
+        echo "====== ROOT FILES ======"
+        ls -la
+        echo ""
+        echo "====== MOVIES FOLDER ======"
+        ls -la Movies/ 2>/dev/null || echo "Movies/ folder নেই!"
+        echo ""
+        echo "====== LIVETV FOLDER ======"
+        ls -la LiveTV/ 2>/dev/null || echo "LiveTV/ folder নেই (script তৈরি করবে)"
 
+    # ─────────────────────────────────────────
+    # STEP 5: Run Processor Script
+    # ─────────────────────────────────────────
+    - name: Run Processor Script
+      run: |
+        echo "Python version: $(python --version)"
+        echo "Script শুরু হচ্ছে..."
+        python processor.py
+        echo "Script সফলভাবে শেষ হয়েছে ✅"
+
+    # ─────────────────────────────────────────
+    # STEP 6: Output Summary দেখুন
+    # ─────────────────────────────────────────
+    - name: Show Output Files
+      run: |
+        echo "====== GENERATED FILES ======"
+        echo "--- Root ---"
+        ls -lh *.json 2>/dev/null || echo "কোনো JSON নেই root-এ"
+        echo "--- LiveTV ---"
+        ls -lh LiveTV/ 2>/dev/null || echo "LiveTV/ folder নেই"
+
+    # ─────────────────────────────────────────
+    # STEP 7: Commit & Push Changes
+    # ─────────────────────────────────────────
     - name: Commit and Push Changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         git add .
-        # যদি ফাইলে কোনো পরিবর্তন না থাকে তবে এরর এড়াতে এই শর্তটি ব্যবহার করা হয়েছে
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-updated IPTV playlists and JSON" && git push)
+        if git diff --quiet && git diff --staged --quiet; then
+          echo "কোনো পরিবর্তন নেই — push করার দরকার নেই।"
+        else
+          TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S UTC')
+          git commit -m "🔄 Auto-updated IPTV playlists [$TIMESTAMP]"
+          git push
+          echo "সফলভাবে push হয়েছে ✅"
+        fi

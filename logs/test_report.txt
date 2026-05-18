@@ -1,9 +1,23 @@
+IPTV Feature Check Report
+=========================
+Loaded playlist files: 9
+Total parsed streams: 8171
+Checked streams: 120
+Dead removed (checked set): 1
+Final streams: 8170
+Movie entries: 2704
+TV entries: 5466
+Poster files: 6
+EPG loaded: 0
 
-Feature Test Report
-
-[OK] Async Stream Checker
-[OK] Auto Logo Fetcher
-[OK] Multi-playlist Support
-[OK] JSON API Export
-[OK] Xtream Parser
-[OK] GitHub Workflow
+Sample quality checks:
+- BTV CTG => Unknown | HLS: True
+- My TV => 720p | HLS: True
+- Channel I HD => 720p | HLS: True
+- Jamuna TV => SD | HLS: True
+- Banglavision => 720p | HLS: True
+- Channel 24 => 720p | HLS: True
+- ATN News => 720p | HLS: True
+- Independent TV => SD | HLS: True
+- Somoy TV => 720p | HLS: True
+- Ekattor TV => 720p | HLS: True

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="900" viewBox="0 0 600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="900" fill="url(#bg)" rx="32"/>
+  <text x="50%" y="18%" text-anchor="middle" fill="#ffffff" font-size="34" font-family="Arial">Poster Generator</text>
+  <text x="50%" y="45%" text-anchor="middle" fill="#ffffff" font-size="54" font-weight="bold" font-family="Arial">Tu Meri Main Tera Main Tera Tu Meri</text>
+  <text x="50%" y="55%" text-anchor="middle" fill="#d1d5db" font-size="28" font-family="Arial">Hindi Movies</text>
+  <text x="50%" y="88%" text-anchor="middle" fill="#cbd5e1" font-size="22" font-family="Arial">Generated locally without external API</text>
+</svg>

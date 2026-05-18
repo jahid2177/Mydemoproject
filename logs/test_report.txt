@@ -1,6 +1,6 @@
 IPTV Feature Check Report
 =========================
-Loaded playlist files: 9
+Loaded playlist files: 10
 Total parsed streams: 8171
 Checked streams: 120
 Dead removed (checked set): 1
@@ -11,13 +11,13 @@ Poster files: 6
 EPG loaded: 0
 
 Sample quality checks:
+- Goldmines Movies 2 => 480p | HLS: True
+- Sheemaroo Bollywood => 1080p | HLS: True
+- Goldmines => 480p | HLS: True
 - BTV CTG => Unknown | HLS: True
-- My TV => 720p | HLS: True
+- BTV HD => Unknown | HLS: True
+- ATN Bangla => 1080p | HLS: True
 - Channel I HD => 720p | HLS: True
-- Jamuna TV => SD | HLS: True
-- Banglavision => 720p | HLS: True
-- Channel 24 => 720p | HLS: True
-- ATN News => 720p | HLS: True
 - Independent TV => SD | HLS: True
 - Somoy TV => 720p | HLS: True
-- Ekattor TV => 720p | HLS: True
+- ATN News => 720p | HLS: True

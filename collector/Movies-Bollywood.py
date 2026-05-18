@@ -174,7 +174,6 @@ def main():
         "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/AynaOTT.m3u",
         "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/AynaOTT.m3u",
         "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-      ",
         "https://raw.githubusercontent.com/imShakil/tvlink/refs/heads/main/all.m3u",
     ]
     collector = M3UCollector(country="Bollywood")

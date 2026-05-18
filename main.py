@@ -1,13 +1,12 @@
 
-from core.duplicate_remover import remove_duplicates
-from core.validator import is_alive
+from core.async_checker import check_streams
+from core.multi_playlist import merge_playlists
 
-streams = [
-    {"name": "Demo TV", "url": "https://example.com/live.m3u8"}
+playlists = [
+    "data/input/sample1.m3u",
+    "data/input/sample2.m3u"
 ]
 
-streams = remove_duplicates(streams)
+merged = merge_playlists(playlists)
 
-alive = [s for s in streams if is_alive(s["url"])]
-
-print("Working Streams:", len(alive))
+print("Merged Streams:", len(merged))

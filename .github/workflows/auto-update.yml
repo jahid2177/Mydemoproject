@@ -1,20 +1,88 @@
-
 name: IPTV Ultimate Auto Update
 
 on:
+
+  workflow_dispatch:
+
   schedule:
     - cron: "0 */6 * * *"
 
+permissions:
+  contents: write
+
 jobs:
+
   build:
+
     runs-on: ubuntu-latest
 
-    steps:
-      - uses: actions/checkout@v4
+    timeout-minutes: 60
 
-      - uses: actions/setup-python@v5
+    steps:
+
+      # Checkout Repository
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install -r requirements.txt
-      - run: python main.py
+      # Install FFmpeg
+      - name: Install FFmpeg
+        run: |
+          sudo apt update
+          sudo apt install ffmpeg -y
+
+      # Install Python Requirements
+      - name: Install Requirements
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Create Required Folders
+      - name: Create Folders
+        run: |
+          mkdir -p data/output
+          mkdir -p logs
+          mkdir -p assets/posters
+          mkdir -p assets/logos
+
+      # Run Main IPTV Script
+      - name: Run IPTV System
+        run: |
+          python main.py
+
+      # Upload Output Files
+      - name: Upload Output
+        uses: actions/upload-artifact@v4
+        with:
+          name: IPTV-Outputs
+          path: |
+            data/output/
+            logs/
+
+      # Git Status Check
+      - name: Git Status
+        run: |
+          git status
+
+      # Auto Commit Changes
+      - name: Auto Commit & Push
+        run: |
+
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git add .
+
+          git commit -m "🔄 Auto IPTV Update" || echo "No changes to commit"
+
+          git push
+
+      # Workflow Finished
+      - name: Done
+        run: |
+          echo "IPTV Auto Update Completed Successfully"

@@ -2,13 +2,15 @@ name: Auto Update Movies
 
 on:
   schedule:
-    # দিনে ৩ বার
     - cron: '0 */8 * * *'
   workflow_dispatch:
 
-# রিপোজিটরিতে কোড পুশ করার জন্য এই পারমিশনটি দেওয়া বাধ্যতামূলক
 permissions:
   contents: write
+
+concurrency:
+  group: iptv-writes
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -17,6 +19,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -25,21 +30,29 @@ jobs:
 
       - name: Install Dependencies
         run: |
+          python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Run Collector
         run: |
           python scripts/collect_movies.py
 
-      # ফাইলগুলো ঠিকমতো তৈরি হয়েছে কিনা তা চেক করার জন্য একটি ডিবাগ স্টেপ
       - name: Check generated files
-        run: ls -la
+        run: |
+          echo "=== File sizes ==="
+          ls -lh movies_link.json duplicate_link.json 2>/dev/null || true
+          echo "=== Movie count ==="
+          python -c "import json; data=json.load(open('movies_link.json')); print(f'Movies: {len(data)}')" 2>/dev/null || true
 
       - name: Commit Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          git add .
-          git commit -m "Auto Update Movie Links" || echo "No changes"
-          git push
+          git pull --rebase origin main || true
+          git add movies_link.json duplicate_link.json
+          if git diff --staged --quiet; then
+            echo "কোনো পরিবর্তন নেই"
+          else
+            git commit -m "Auto Update Movie Links — $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push origin main || (git pull --rebase origin main && git push origin main)
+          fi

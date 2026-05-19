@@ -12,19 +12,14 @@ SOURCES = [
 movies = []
 duplicate_movies = []
 offline_movies = []
-
 seen_links = set()
 
-
 def extract_link(item):
-    keys = [
-        "url",
-        "link",
-        "stream_url",
-        "video_url",
-        "file",
-        "source"
-    ]
+    # যদি item কোনো ডিকশনারি না হয় (যেমন শুধু স্ট্রিং হয়), তাহলে ইগনোর করবে
+    if not isinstance(item, dict):
+        return None
+        
+    keys = ["url", "link", "stream_url", "video_url", "file", "source"]
 
     for key in keys:
         if key in item and isinstance(item[key], str):
@@ -32,36 +27,17 @@ def extract_link(item):
 
     return None
 
-
 def is_online(url):
     try:
-        headers = {
-            "User-Agent": "Mozilla/5.0"
-        }
-
-        response = requests.head(
-            url,
-            headers=headers,
-            timeout=10,
-            allow_redirects=True
-        )
-
+        headers = {"User-Agent": "Mozilla/5.0"}
+        response = requests.head(url, headers=headers, timeout=10, allow_redirects=True)
         if response.status_code < 400:
             return True
-
-        response = requests.get(
-            url,
-            headers=headers,
-            timeout=10,
-            stream=True,
-            allow_redirects=True
-        )
-
+            
+        response = requests.get(url, headers=headers, timeout=10, stream=True, allow_redirects=True)
         return response.status_code < 400
-
     except:
         return False
-
 
 def process_movie(item):
     link = extract_link(item)
@@ -80,11 +56,9 @@ def process_movie(item):
     seen_links.add(link)
     movies.append(item)
 
-
 for source in SOURCES:
     try:
-        print(f"Fetching: {source}")
-
+        print(f"\nFetching: {source}")
         response = requests.get(source, timeout=30)
         response.raise_for_status()
 
@@ -94,15 +68,25 @@ for source in SOURCES:
             data = data.get("movies", [])
 
         if not isinstance(data, list):
+            print("Warning: Data is not a list. Skipping this source.")
             continue
+            
+        print(f"Success: Found {len(data)} items to process in this source.")
 
         with ThreadPoolExecutor(max_workers=20) as executor:
-            executor.map(process_movie, data)
+            # list() ব্যবহার করা হয়েছে যাতে থ্রেডের ভেতরের কোনো এরর লুকিয়ে না থাকে
+            list(executor.map(process_movie, data))
 
+    except requests.exceptions.RequestException as e:
+        print(f"Network Error for this source: {e}")
+    except json.JSONDecodeError:
+        print(f"JSON Error: This source does not contain valid JSON data.")
     except Exception as e:
-        print(f"Source Error: {e}")
+        print(f"Unexpected Error: {e}")
 
-# --- ডুপ্লিকেট এবং ভুল ভেরিয়েবলগুলো ঠিক করা হয়েছে ---
+print("\n---------------------------------")
+print("Saving Files...")
+
 with open("movies_link.json", "w", encoding="utf-8") as f:
     json.dump(movies, f, indent=4, ensure_ascii=False)
 

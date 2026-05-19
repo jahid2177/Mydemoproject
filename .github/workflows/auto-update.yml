@@ -8,7 +8,7 @@ on:
 permissions:
   contents: write
 
-# ✅ FIX: processor.yml এর সাথে একই group "iptv-writes"
+# ✅ processor.yml এর সাথে একই group "iptv-writes"
 # দুটো workflow একই সময়ে LiveTV/ ও logs/ তে push করলে conflict হত
 # এখন একটা চললে অন্যটা queue হবে
 concurrency:
@@ -39,9 +39,12 @@ jobs:
           sudo apt-get install -y ffmpeg
 
       - name: Install Requirements
+        # ✅ FIX: requirements.txt install করার পরেও explicitly aiohttp নিশ্চিত করা হচ্ছে
+        # কারণ async_checker.py এর জন্য aiohttp অপরিহার্য
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install aiohttp  # explicit ensure — async stream checker এর জন্য
 
       - name: Create Required Folders
         run: |
@@ -81,9 +84,14 @@ jobs:
 
           git pull --rebase origin main || true
 
-          # ✅ FIX: পুরনো space-নামের files git থেকে সরাই
-          git rm -f "offline movie.json" "offline movie.m3u" \
-                    "LiveTV/offline Tv.json" "LiveTV/offline Tv.m3u" 2>/dev/null || true
+          # ✅ FIX: পুরনো space-নামের files git থেকে সরাই — quotes সহ সঠিকভাবে
+          git rm --cached -f -- "offline movie.json" "offline movie.m3u" \
+                    "LiveTV/offline Tv.json" "LiveTV/offline Tv.m3u" \
+                    "LiveTV/offline tv.json" "LiveTV/offline tv.m3u" 2>/dev/null || true
+          # disk থেকেও মুছে দাও যদি থাকে
+          rm -f "offline movie.json" "offline movie.m3u" \
+                "LiveTV/offline Tv.json" "LiveTV/offline Tv.m3u" \
+                "LiveTV/offline tv.json" "LiveTV/offline tv.m3u" 2>/dev/null || true
 
           git add data/output/ logs/ assets/posters/ LiveTV/ \
                   all_movies.json offline_movie.json offline_movie.m3u \

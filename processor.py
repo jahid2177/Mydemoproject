@@ -24,16 +24,23 @@ OFFLINE_TV_M3U     = os.path.join(LIVE_TV_DIR, 'offline_tv.m3u')
 REPORT             = os.path.join(BASE_DIR,    'logs', 'processor_report.txt')
 
 # ─── পুরনো space-নামের files মুছে দাও ──────────────────────────────────────
+# ✅ FIX: সঠিক পুরনো file paths — এগুলো actually exist করলে delete হবে
 _OLD_FILES = [
     os.path.join(BASE_DIR,    'offline movie.json'),
     os.path.join(BASE_DIR,    'offline movie.m3u'),
     os.path.join(LIVE_TV_DIR, 'offline Tv.json'),
     os.path.join(LIVE_TV_DIR, 'offline Tv.m3u'),
+    # ✅ FIX: case-sensitive — আরো variant handle করা হচ্ছে
+    os.path.join(LIVE_TV_DIR, 'offline tv.json'),
+    os.path.join(LIVE_TV_DIR, 'offline tv.m3u'),
 ]
 for _f in _OLD_FILES:
     if os.path.exists(_f):
-        os.remove(_f)
-        print(f'Deleted old file: {_f}')
+        try:
+            os.remove(_f)
+            print(f'Deleted old file: {_f}')
+        except OSError as _err:
+            print(f'Could not delete {_f}: {_err}')
 
 REMOTE_URLS = [
     'https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/Movies/Bollywood/Movies.m3u',

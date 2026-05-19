@@ -1,62 +1,37 @@
 """
 Auto Logo Fetcher
-- ui-avatars.com API fail করলে default logo ব্যবহার করে
-- existing logo overwrite করে না
+✅ FIX: প্রতি stream এ HTTP call বাদ — GitHub Actions এ হাজার stream হলে timeout হত
+✅ FIX: existing valid logo overwrite করে না
+✅ FIX: ui-avatars.com URL তৈরি করে, reachable কিনা check করে না (fast)
 """
-import os
 from urllib.parse import quote_plus
-
-import requests
 
 DEFAULT_LOGO = (
     'https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png'
 )
-AVATAR_API = 'https://ui-avatars.com/api/?name={name}&background=0D8ABC&color=fff&size=256&bold=true'
+AVATAR_BASE = (
+    'https://ui-avatars.com/api/'
+    '?background=0D8ABC&color=fff&size=256&bold=true&name='
+)
 
 
 def _build_avatar_url(channel_name: str) -> str:
+    """Channel name থেকে avatar URL তৈরি করে — কোনো HTTP call নেই।"""
     name = (channel_name or 'IPTV').strip()[:50]
-    return AVATAR_API.format(name=quote_plus(name))
-
-
-def _is_valid_logo_url(url: str) -> bool:
-    """Logo URL টি reachable কিনা চেক করে — timeout 5s"""
-    if not url or not url.startswith('http'):
-        return False
-    try:
-        r = requests.head(url, timeout=5, allow_redirects=True,
-                          headers={'User-Agent': 'Mozilla/5.0'})
-        return r.status_code < 400
-    except Exception:
-        return False
-
-
-def fetch_logo(channel_name: str) -> str:
-    """
-    channel_name থেকে logo URL তৈরি করে।
-    ui-avatars.com fail করলে DEFAULT_LOGO return করে।
-    """
-    avatar_url = _build_avatar_url(channel_name)
-    if _is_valid_logo_url(avatar_url):
-        return avatar_url
-    return DEFAULT_LOGO
+    return AVATAR_BASE + quote_plus(name)
 
 
 def apply_logos(streams, default_logo: str = DEFAULT_LOGO):
     """
     Streams এ logo assign করে।
-    ✅ FIX: বিদ্যমান valid logo overwrite করে না।
-    ✅ FIX: API fail হলে default_logo দেয়।
+    ✅ বিদ্যমান http logo থাকলে পরিবর্তন করে না।
+    ✅ প্রতি stream এ HTTP call নেই — তাই দ্রুত।
+    ✅ logo না থাকলে ui-avatars URL দেয়, যেটা browser/player এ load হবে।
     """
     for stream in streams:
         existing = (stream.get('logo') or '').strip()
         if existing and existing.startswith('http'):
-            # ইতিমধ্যে logo আছে — পরিবর্তন না করি
-            continue
+            continue  # ইতিমধ্যে logo আছে — পরিবর্তন না করি
         name = stream.get('name', 'IPTV')
-        # ui-avatars এ network issue হলে default logo
-        try:
-            stream['logo'] = fetch_logo(name)
-        except Exception:
-            stream['logo'] = default_logo
+        stream['logo'] = _build_avatar_url(name)
     return streams

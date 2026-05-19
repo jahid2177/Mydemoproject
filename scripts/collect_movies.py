@@ -102,7 +102,7 @@ for source in SOURCES:
     except Exception as e:
         print(f"Source Error: {e}")
 
-
+# --- ডুপ্লিকেট এবং ভুল ভেরিয়েবলগুলো ঠিক করা হয়েছে ---
 with open("movies_link.json", "w", encoding="utf-8") as f:
     json.dump(movies, f, indent=4, ensure_ascii=False)
 
@@ -114,15 +114,5 @@ with open("offline_link.json", "w", encoding="utf-8") as f:
 
 print("Done")
 print(f"Movies: {len(movies)}")
-print(f"Duplicate: {len(duplicate_movies)}")
-print(f"Offline: {len(offline_movies)}")with open("duplicate_link.json", "w", encoding="utf-8") as f:
-    json.dump(duplicate_movies, f, indent=4, ensure_ascii=False)
-
-with open("offline_link.json", "w", encoding="utf-8") as f:
-    json.dump(offline_movies, f, indent=4, ensure_ascii=False)
-
-
-print("Done")
-print(f"All Movies: {len(all_movies)}")
 print(f"Duplicate: {len(duplicate_movies)}")
 print(f"Offline: {len(offline_movies)}")

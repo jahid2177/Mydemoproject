@@ -1,4 +1,4 @@
-name: Update IPTV Movies
+name: Auto Update Movies
 
 on:
   schedule:
@@ -20,11 +20,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Requirements
+      - name: Install Dependencies
         run: |
           pip install -r requirements.txt
 
-      - name: Run Collector Script
+      - name: Run Collector
         run: |
           python scripts/collect_movies.py
 
@@ -35,6 +35,6 @@ jobs:
 
           git add .
 
-          git commit -m "Auto Update Movies JSON" || echo "No changes"
+          git commit -m "Auto Update Movie Links" || echo "No changes"
 
           git push

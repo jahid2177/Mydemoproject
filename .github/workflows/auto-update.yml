@@ -8,6 +8,12 @@ on:
 permissions:
   contents: write
 
+# ✅ FIX: একাধিক workflow একসাথে চললে push conflict হয়
+# concurrency group দিয়ে শুধু ১টি চলবে, আগেরটা cancel হবে
+concurrency:
+  group: iptv-auto-update
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,8 +24,9 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          # ✅ FIX: সবসময় latest commit নিয়ে কাজ করে — concurrent push conflict এড়ায়
           fetch-depth: 0
+          # ✅ FIX: PAT বা GITHUB_TOKEN দিয়ে checkout — push permission নিশ্চিত করে
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -34,6 +41,7 @@ jobs:
       - name: Install Requirements
         run: |
           python -m pip install --upgrade pip
+          # ✅ FIX: requirements.txt থেকে install (ffmpeg-python ও m3u-parser বাদ দেওয়া হয়েছে)
           pip install -r requirements.txt
 
       - name: Create Required Folders
@@ -72,7 +80,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # ✅ FIX: push এর আগে latest pull — concurrent workflow conflict এড়ায়
+          # ✅ FIX: push এর আগে latest pull — concurrent push conflict এড়ায়
           git pull --rebase origin main || true
 
           git add data/output/ logs/ assets/posters/ LiveTV/ \
@@ -84,7 +92,8 @@ jobs:
           else
             TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
             git commit -m "🔄 Auto IPTV Update [$TIMESTAMP]"
-            git push origin main
+            # ✅ FIX: push fail হলে retry
+            git push origin main || (git pull --rebase origin main && git push origin main)
             echo "✅ Push সফল"
           fi
 

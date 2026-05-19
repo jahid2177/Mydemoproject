@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Channel 175",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Live Tv",
+    "url": "http://103.175.73.12:8080/live/175/175_0.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Live Tv\",Channel 175"
+  },
+  {
+    "name": "NHK World",
+    "logo": "https://s3.aynaott.com/storage/d969a37a7e1bbd49449ae092d34f0549",
+    "group": "News",
+    "url": "https://tvsen6.aynaott.com/nhkworld/index.m3u8?e=1779154600&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3cf57a406996b052bf42c35e2de9293c",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d969a37a7e1bbd49449ae092d34f0549\" group-title=\"News\",NHK World"
+  },
+  {
+    "name": "Taaza TV",
+    "logo": "https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce",
+    "group": "Hindi",
+    "url": "https://tvsen7.aynaott.com/TaazaTV/index.m3u8?e=1779154732&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c07ec65ea1f8fdc481e1389a053a4ef6",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce\" group-title=\"Hindi\",Taaza TV"
+  },
+  {
+    "name": "Channel-16",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "MUSIC",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"MUSIC\",Channel-16"
+  }
+]

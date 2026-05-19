@@ -9,14 +9,15 @@ SOURCES = [
     "https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/scripts/static_movies(discoveryftp).json"
 ]
 
-all_movies = []
+movies = []
 duplicate_movies = []
 offline_movies = []
+
 seen_links = set()
 
 
-def get_movie_link(item):
-    possible_keys = [
+def extract_link(item):
+    keys = [
         "url",
         "link",
         "stream_url",
@@ -25,7 +26,7 @@ def get_movie_link(item):
         "source"
     ]
 
-    for key in possible_keys:
+    for key in keys:
         if key in item and isinstance(item[key], str):
             return item[key]
 
@@ -62,8 +63,8 @@ def is_online(url):
         return False
 
 
-def process_item(item):
-    link = get_movie_link(item)
+def process_movie(item):
+    link = extract_link(item)
 
     if not link:
         return
@@ -77,7 +78,7 @@ def process_item(item):
         return
 
     seen_links.add(link)
-    all_movies.append(item)
+    movies.append(item)
 
 
 for source in SOURCES:
@@ -96,16 +97,25 @@ for source in SOURCES:
             continue
 
         with ThreadPoolExecutor(max_workers=20) as executor:
-            executor.map(process_item, data)
+            executor.map(process_movie, data)
 
     except Exception as e:
-        print(f"Error fetching source: {e}")
+        print(f"Source Error: {e}")
 
 
-with open("all_movies.json", "w", encoding="utf-8") as f:
-    json.dump(all_movies, f, indent=4, ensure_ascii=False)
+with open("movies_link.json", "w", encoding="utf-8") as f:
+    json.dump(movies, f, indent=4, ensure_ascii=False)
 
 with open("duplicate_link.json", "w", encoding="utf-8") as f:
+    json.dump(duplicate_movies, f, indent=4, ensure_ascii=False)
+
+with open("offline_link.json", "w", encoding="utf-8") as f:
+    json.dump(offline_movies, f, indent=4, ensure_ascii=False)
+
+print("Done")
+print(f"Movies: {len(movies)}")
+print(f"Duplicate: {len(duplicate_movies)}")
+print(f"Offline: {len(offline_movies)}")with open("duplicate_link.json", "w", encoding="utf-8") as f:
     json.dump(duplicate_movies, f, indent=4, ensure_ascii=False)
 
 with open("offline_link.json", "w", encoding="utf-8") as f:

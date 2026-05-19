@@ -2,10 +2,12 @@
 Stream Quality Detector
 ✅ FIX: ffprobe না থাকলে gracefully fallback করে
 ✅ FIX: HLS playlist থেকে RESOLUTION parse করে quality নির্ধারণ করে
+✅ FIX: Optional[str] ব্যবহার করা হয়েছে — Python 3.9 compatible (str | None ছিল 3.10+ only)
 """
 import re
 import shutil
 import subprocess
+from typing import Optional
 
 import requests
 
@@ -27,9 +29,10 @@ def _label_from_width(width: int) -> str:
     return 'SD'
 
 
-def _quality_from_hls_playlist(url: str, timeout: int = 10) -> str | None:
+def _quality_from_hls_playlist(url: str, timeout: int = 10) -> Optional[str]:
     """
     M3U8 playlist fetch করে RESOLUTION= tag থেকে quality বের করে।
+    ✅ FIX: Optional[str] — Python 3.9 compatible
     """
     try:
         resp = requests.get(url, timeout=timeout, headers=HEADERS)
@@ -59,8 +62,11 @@ def _quality_from_hls_playlist(url: str, timeout: int = 10) -> str | None:
     return None
 
 
-def _quality_from_ffprobe(url: str, timeout: int = 10) -> str | None:
-    """ffprobe দিয়ে video width বের করে — ffprobe না থাকলে None।"""
+def _quality_from_ffprobe(url: str, timeout: int = 10) -> Optional[str]:
+    """
+    ffprobe দিয়ে video width বের করে — ffprobe না থাকলে None।
+    ✅ FIX: Optional[str] — Python 3.9 compatible
+    """
     if not FFPROBE_AVAILABLE:
         return None
     try:

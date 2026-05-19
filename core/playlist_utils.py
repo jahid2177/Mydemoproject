@@ -6,6 +6,14 @@ from typing import Dict, Iterable, List, Tuple
 
 ATTRIBUTE_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
+# ✅ FIX: এই output filenames কখনো input হিসেবে pick করা যাবে না
+_OUTPUT_FILENAMES = {
+    'live_tv.m3u',
+    'offline_tv.m3u',
+    'offline tv.m3u',   # পুরনো space-নামের file
+    'playlist.m3u',
+}
+
 
 def ensure_dir(path: str) -> None:
     directory = path if os.path.isdir(path) else os.path.dirname(path)
@@ -101,6 +109,11 @@ def write_json(path: str, data) -> None:
 
 
 def discover_local_playlists(base_dir: str = '.') -> List[str]:
+    """
+    Input M3U playlists discover করে।
+    ✅ FIX: output files (live_tv.m3u, offline_tv.m3u, playlist.m3u) exclude করে
+            যাতে এগুলো আবার input হিসেবে process না হয় — infinite loop এড়াতে।
+    """
     patterns = [
         os.path.join(base_dir, 'data', 'input', '*.m3u'),
         os.path.join(base_dir, 'Movies', '*', 'Movies.m3u'),
@@ -108,7 +121,13 @@ def discover_local_playlists(base_dir: str = '.') -> List[str]:
     ]
     paths = []
     for pattern in patterns:
-        paths.extend(glob.glob(pattern))
+        for path in glob.glob(pattern):
+            filename = os.path.basename(path).lower()
+            # ✅ output files বাদ দাও
+            if filename in _OUTPUT_FILENAMES:
+                print(f'[discover] Skipping output file: {path}')
+                continue
+            paths.append(path)
     return sorted({os.path.normpath(path) for path in paths if os.path.isfile(path)})
 
 

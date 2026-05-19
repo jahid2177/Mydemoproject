@@ -4,8 +4,11 @@ on:
   schedule:
     # দিনে ৩ বার
     - cron: '0 */8 * * *'
-
   workflow_dispatch:
+
+# রিপোজিটরিতে কোড পুশ করার জন্য এই পারমিশনটি দেওয়া বাধ্যতামূলক
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -28,13 +31,15 @@ jobs:
         run: |
           python scripts/collect_movies.py
 
+      # ফাইলগুলো ঠিকমতো তৈরি হয়েছে কিনা তা চেক করার জন্য একটি ডিবাগ স্টেপ
+      - name: Check generated files
+        run: ls -la
+
       - name: Commit Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
+          
           git add .
-
           git commit -m "Auto Update Movie Links" || echo "No changes"
-
           git push

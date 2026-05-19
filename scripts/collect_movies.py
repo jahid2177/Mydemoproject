@@ -1,7 +1,7 @@
 import json
 import requests
-from concurrent.futures import ThreadPoolExecutor
 import threading
+from concurrent.futures import ThreadPoolExecutor
 
 SOURCES = [
     "https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/scripts/static_movies(103.225.94.27).json",
@@ -14,6 +14,7 @@ movies = []
 duplicate_movies = []
 seen_links = set()
 lock = threading.Lock()
+
 
 def extract_link(item):
     if isinstance(item, str):
@@ -31,11 +32,11 @@ def extract_link(item):
                     return val
     return None
 
+
 def process_movie(item):
     link = extract_link(item)
 
     if not link:
-        print(f"Skipped (No valid link found): {item}")
         return
 
     with lock:
@@ -44,6 +45,7 @@ def process_movie(item):
             return
         seen_links.add(link)
         movies.append(item)
+
 
 for source in SOURCES:
     try:
@@ -77,9 +79,7 @@ for source in SOURCES:
             list(executor.map(process_movie, data))
 
     except requests.exceptions.RequestException as e:
-        print(f"Network Error for this source: {e}")
-    except json.JSONDecodeError:
-        print(f"JSON Error: This source does not contain valid JSON data.")
+        print(f"Network Error: {e}")
     except Exception as e:
         print(f"Unexpected Error: {e}")
 

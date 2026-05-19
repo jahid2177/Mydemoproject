@@ -2,8 +2,8 @@ name: IPTV Link Processor
 
 on:
   schedule:
-    - cron: '0 */12 * * *'   # প্রতি ১২ ঘণ্টায় auto-run
-  workflow_dispatch:           # GitHub থেকে manual run
+    - cron: '0 */12 * * *'   # প্রতি ১২ ঘণ্টায়
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -11,81 +11,71 @@ permissions:
 jobs:
   run-processor:
     runs-on: ubuntu-latest
-    timeout-minutes: 30        # ৩০ মিনিটের বেশি চললে auto-cancel
+    timeout-minutes: 45
 
     steps:
 
-    # ─────────────────────────────────────────
-    # STEP 1: Repository Checkout
-    # ─────────────────────────────────────────
-    - name: Checkout Repository
-      uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # ✅ FIX: latest commit
 
-    # ─────────────────────────────────────────
-    # STEP 2: Python Setup (Node.js 24 compatible)
-    # ─────────────────────────────────────────
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.11'
-        # cache সরিয়ে দেওয়া হয়েছে (requirements.txt না থাকলে crash করে)
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-    # ─────────────────────────────────────────
-    # STEP 3: Install Dependencies
-    # ─────────────────────────────────────────
-    - name: Install Dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install requests aiohttp
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # ✅ FIX: aiohttp যোগ করা হয়েছে (async checker এর জন্য দরকার)
+          pip install requests aiohttp
 
-    # ─────────────────────────────────────────
-    # STEP 4: Debug — File Structure দেখুন
-    # ─────────────────────────────────────────
-    - name: Show Repository Structure
-      run: |
-        echo "====== ROOT FILES ======"
-        ls -la
-        echo ""
-        echo "====== MOVIES FOLDER ======"
-        ls -la Movies/ 2>/dev/null || echo "Movies/ folder নেই!"
-        echo ""
-        echo "====== LIVETV FOLDER ======"
-        ls -la LiveTV/ 2>/dev/null || echo "LiveTV/ folder নেই (script তৈরি করবে)"
+      - name: Show Repository Structure
+        run: |
+          echo "====== ROOT FILES ======"
+          ls -la
+          echo ""
+          echo "====== MOVIES FOLDER ======"
+          ls -la Movies/ 2>/dev/null || echo "Movies/ folder নেই!"
+          echo ""
+          echo "====== LIVETV FOLDER ======"
+          ls -la LiveTV/ 2>/dev/null || echo "LiveTV/ folder নেই (script তৈরি করবে)"
 
-    # ─────────────────────────────────────────
-    # STEP 5: Run Processor Script
-    # ─────────────────────────────────────────
-    - name: Run Processor Script
-      run: |
-        echo "Python version: $(python --version)"
-        echo "Script শুরু হচ্ছে..."
-        python processor.py
-        echo "Script সফলভাবে শেষ হয়েছে ✅"
+      - name: Run Processor Script
+        run: |
+          echo "Python: $(python --version)"
+          python processor.py
+          echo "✅ Script সফলভাবে শেষ হয়েছে"
 
-    # ─────────────────────────────────────────
-    # STEP 6: Output Summary দেখুন
-    # ─────────────────────────────────────────
-    - name: Show Output Files
-      run: |
-        echo "====== GENERATED FILES ======"
-        echo "--- Root ---"
-        ls -lh *.json 2>/dev/null || echo "কোনো JSON নেই root-এ"
-        echo "--- LiveTV ---"
-        ls -lh LiveTV/ 2>/dev/null || echo "LiveTV/ folder নেই"
+      - name: Show Output Files
+        run: |
+          echo "====== Generated Output ======"
+          ls -lh all_movies.json offline_movie.json offline_movie.m3u 2>/dev/null || true
+          ls -lh LiveTV/ 2>/dev/null || true
+          echo ""
+          cat logs/processor_report.txt 2>/dev/null || true
 
-    # ─────────────────────────────────────────
-    # STEP 7: Commit & Push Changes
-    # ─────────────────────────────────────────
-    - name: Commit and Push Changes
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-        git add .
-        if git diff --quiet && git diff --staged --quiet; then
-          echo "কোনো পরিবর্তন নেই — push করার দরকার নেই।"
-        else
-          TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S UTC')
-          git commit -m "🔄 Auto-updated IPTV playlists [$TIMESTAMP]"
-          git push
-          echo "সফলভাবে push হয়েছে ✅"
-        fi
+      - name: Commit and Push
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name  "github-actions[bot]"
+
+          # ✅ FIX: push এর আগে pull — conflict এড়ায়
+          git pull --rebase origin main || true
+
+          # পুরনো space-নামের file গুলো git থেকে সরাই
+          git rm -f "offline movie.json" "offline movie.m3u" \
+                    "LiveTV/offline Tv.json" "LiveTV/offline Tv.m3u" 2>/dev/null || true
+
+          git add all_movies.json offline_movie.json offline_movie.m3u \
+                  LiveTV/ logs/ 2>/dev/null || true
+
+          if git diff --staged --quiet; then
+            echo "কোনো পরিবর্তন নেই"
+          else
+            TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S UTC')
+            git commit -m "🔄 Auto-updated IPTV playlists [$TIMESTAMP]"
+            git push origin main
+            echo "✅ Push সফল"
+          fi

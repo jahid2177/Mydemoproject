@@ -15,15 +15,23 @@ offline_movies = []
 seen_links = set()
 
 def extract_link(item):
-    # যদি item কোনো ডিকশনারি না হয় (যেমন শুধু স্ট্রিং হয়), তাহলে ইগনোর করবে
-    if not isinstance(item, dict):
+    # ১. ডেটা যদি সরাসরি লিংক (String) হয়
+    if isinstance(item, str):
+        if item.startswith("http"):
+            return item
         return None
         
-    keys = ["url", "link", "stream_url", "video_url", "file", "source"]
+    # ২. ডেটা যদি ডিকশনারি (Dict) হয়
+    if isinstance(item, dict):
+        # Key গুলোকে case-insensitive করার জন্য সব ছোট হাতের করে নিচ্ছি
+        item_lower = {str(k).lower(): v for k, v in item.items()}
+        
+        # খোঁজার জন্য সম্ভাব্য সব রকম নামের লিস্ট
+        keys = ["url", "link", "stream_url", "video_url", "file", "source", "movie_url", "path", "stream"]
 
-    for key in keys:
-        if key in item and isinstance(item[key], str):
-            return item[key]
+        for key in keys:
+            if key in item_lower and isinstance(item_lower[key], str):
+                return item_lower[key]
 
     return None
 
@@ -43,6 +51,8 @@ def process_movie(item):
     link = extract_link(item)
 
     if not link:
+        # লিংক না পেলে কনসোলে প্রিন্ট করবে, যাতে আপনি বুঝতে পারেন ডেটার স্ট্রাকচার কেমন
+        print(f"Skipped (No valid link found): {item}")
         return
 
     if link in seen_links:
@@ -65,16 +75,17 @@ for source in SOURCES:
         data = response.json()
 
         if isinstance(data, dict):
-            data = data.get("movies", [])
+            # যদি 'movies' না থাকে, তবে 'data' বা অন্য কোনো key ট্রাই করবে
+            data = data.get("movies", data.get("data", data.get("Movies", [])))
 
-        if not isinstance(data, list):
-            print("Warning: Data is not a list. Skipping this source.")
+        if not isinstance(data, list) or len(data) == 0:
+            print("Warning: Data is empty or not a list. Skipping this source.")
             continue
             
         print(f"Success: Found {len(data)} items to process in this source.")
 
         with ThreadPoolExecutor(max_workers=20) as executor:
-            # list() ব্যবহার করা হয়েছে যাতে থ্রেডের ভেতরের কোনো এরর লুকিয়ে না থাকে
+            # list() ব্যবহার করা হয়েছে যাতে থ্রেডের ভেতরের কোনো এরর লুকিয়ে না থাকে
             list(executor.map(process_movie, data))
 
     except requests.exceptions.RequestException as e:

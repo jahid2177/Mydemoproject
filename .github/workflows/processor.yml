@@ -2,16 +2,17 @@ name: IPTV Link Processor
 
 on:
   schedule:
-    - cron: '0 */12 * * *'   # প্রতি ১২ ঘণ্টায়
+    - cron: '0 6,18 * * *'   # দিনে ২ বার — auto-update.yml এর সাথে overlap এড়াতে
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# ✅ FIX: concurrency group — একই সময়ে শুধু ১টি processor চলবে
+# ✅ FIX: auto-update.yml এর সাথে একই group "iptv-writes"
+# দুটো workflow LiveTV/ ও logs/ এ একসাথে push করলে conflict হত
 concurrency:
-  group: iptv-processor
-  cancel-in-progress: true
+  group: iptv-writes
+  cancel-in-progress: false
 
 jobs:
   run-processor:
@@ -32,13 +33,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install FFmpeg
-        # ✅ FIX: processor.yml এ ffmpeg ছিল না — quality_detector.py এর ffprobe এর জন্য দরকার
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y ffmpeg
 
       - name: Install Dependencies
-        # ✅ FIX: সব দরকারি package install — আগে শুধু requests aiohttp ছিল
         run: |
           python -m pip install --upgrade pip
           pip install requests aiohttp beautifulsoup4 lxml pytz
@@ -52,7 +51,7 @@ jobs:
           ls -la Movies/ 2>/dev/null || echo "Movies/ folder নেই!"
           echo ""
           echo "====== LIVETV FOLDER ======"
-          ls -la LiveTV/ 2>/dev/null || echo "LiveTV/ folder নেই (script তৈরি করবে)"
+          ls -la LiveTV/ 2>/dev/null || echo "LiveTV/ folder নেই"
 
       - name: Run Processor Script
         run: |
@@ -73,10 +72,9 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name  "github-actions[bot]"
 
-          # ✅ FIX: push এর আগে pull — conflict এড়ায়
           git pull --rebase origin main || true
 
-          # পুরনো space-নামের file গুলো git থেকে সরাই
+          # ✅ FIX: পুরনো space-নামের files git থেকে সরাই
           git rm -f "offline movie.json" "offline movie.m3u" \
                     "LiveTV/offline Tv.json" "LiveTV/offline Tv.m3u" 2>/dev/null || true
 
@@ -88,7 +86,6 @@ jobs:
           else
             TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S UTC')
             git commit -m "🔄 Auto-updated IPTV playlists [$TIMESTAMP]"
-            # ✅ FIX: push fail হলে retry
             git push origin main || (git pull --rebase origin main && git push origin main)
             echo "✅ Push সফল"
           fi

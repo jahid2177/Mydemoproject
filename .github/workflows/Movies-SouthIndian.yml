@@ -8,8 +8,10 @@ on:
 permissions:
   contents: write
 
+# ✅ FIX: cancel-in-progress: false — একটা fail হলেও বাকিগুলো চলে
+# ✅ FIX: iptv-writes group — auto-update ও processor এর সাথে conflict এড়াতে
 concurrency:
-  group: movies-update
+  group: iptv-writes
   cancel-in-progress: false
 
 jobs:

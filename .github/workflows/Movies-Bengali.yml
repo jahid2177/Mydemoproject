@@ -2,17 +2,17 @@ name: Movies-Bengali Update
 
 on:
   schedule:
-    - cron: '0 0,8,16 * * *'   # দিনে ৩ বার — 00:00, 08:00, 16:00 UTC
+    - cron: '0 0,8,16 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# ✅ FIX: global concurrency group — সব Movies-* workflow একসাথে push করলে conflict হয়
-# একটি shared group দিলে সব সিরিয়ালি চলবে
+# ✅ FIX: cancel-in-progress: false — একটা fail হলেও বাকিগুলো চলে
+# ✅ FIX: iptv-writes group — auto-update ও processor এর সাথে conflict এড়াতে
 concurrency:
-  group: movies-update
-  cancel-in-progress: false   # cancel না করে queue করো
+  group: iptv-writes
+  cancel-in-progress: false
 
 jobs:
   update-movies:
@@ -42,7 +42,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          # ✅ FIX: commit এর আগে pull করো — অন্য workflow push করলেও conflict হবে না
           git pull --rebase origin main || true
           git add Movies/Bengali/Movies.m3u Movies/Bengali/Movies.json Movies/Bengali/Movies_app.json
           git commit -m "🎬 Movies-Bengali updated — $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "No changes"

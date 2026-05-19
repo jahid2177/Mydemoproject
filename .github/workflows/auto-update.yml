@@ -3,16 +3,17 @@ name: IPTV Ultimate Auto Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"   # প্রতি ৬ ঘণ্টায়
+    - cron: "0 2,14 * * *"   # দিনে ২ বার — processor.yml এর সাথে time overlap এড়াতে
 
 permissions:
   contents: write
 
-# ✅ FIX: একাধিক workflow একসাথে চললে push conflict হয়
-# concurrency group দিয়ে শুধু ১টি চলবে, আগেরটা cancel হবে
+# ✅ FIX: processor.yml এর সাথে একই group "iptv-writes"
+# দুটো workflow একই সময়ে LiveTV/ ও logs/ তে push করলে conflict হত
+# এখন একটা চললে অন্যটা queue হবে
 concurrency:
-  group: iptv-auto-update
-  cancel-in-progress: true
+  group: iptv-writes
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -25,7 +26,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # ✅ FIX: PAT বা GITHUB_TOKEN দিয়ে checkout — push permission নিশ্চিত করে
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Python
@@ -41,7 +41,6 @@ jobs:
       - name: Install Requirements
         run: |
           python -m pip install --upgrade pip
-          # ✅ FIX: requirements.txt থেকে install (ffmpeg-python ও m3u-parser বাদ দেওয়া হয়েছে)
           pip install -r requirements.txt
 
       - name: Create Required Folders
@@ -80,8 +79,11 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # ✅ FIX: push এর আগে latest pull — concurrent push conflict এড়ায়
           git pull --rebase origin main || true
+
+          # ✅ FIX: পুরনো space-নামের files git থেকে সরাই
+          git rm -f "offline movie.json" "offline movie.m3u" \
+                    "LiveTV/offline Tv.json" "LiveTV/offline Tv.m3u" 2>/dev/null || true
 
           git add data/output/ logs/ assets/posters/ LiveTV/ \
                   all_movies.json offline_movie.json offline_movie.m3u \
@@ -92,7 +94,6 @@ jobs:
           else
             TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
             git commit -m "🔄 Auto IPTV Update [$TIMESTAMP]"
-            # ✅ FIX: push fail হলে retry
             git push origin main || (git pull --rebase origin main && git push origin main)
             echo "✅ Push সফল"
           fi

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IPTV Dashboard — Mydemoproject</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0d1117;
+      color: #c9d1d9;
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: #58a6ff;
+      letter-spacing: 1px;
+    }
+    header p {
+      color: #8b949e;
+      margin-top: 6px;
+      font-size: 0.9rem;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #21262d;
+      border: 1px solid #30363d;
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.8rem;
+      color: #8b949e;
+      margin-top: 10px;
+    }
+    .badge span { color: #58a6ff; font-weight: 600; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      max-width: 900px;
+      margin: 0 auto 32px;
+    }
+
+    .card {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      transition: border-color 0.2s;
+    }
+    .card:hover { border-color: #58a6ff; }
+    .card .num {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #58a6ff;
+    }
+    .card .label {
+      font-size: 0.85rem;
+      color: #8b949e;
+      margin-top: 6px;
+    }
+    .card.green .num  { color: #3fb950; }
+    .card.yellow .num { color: #d29922; }
+    .card.purple .num { color: #bc8cff; }
+    .card.red .num    { color: #f85149; }
+
+    .section {
+      max-width: 900px;
+      margin: 0 auto 28px;
+    }
+    .section h2 {
+      font-size: 1.1rem;
+      color: #58a6ff;
+      border-bottom: 1px solid #21262d;
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+    }
+    th {
+      text-align: left;
+      color: #8b949e;
+      font-weight: 500;
+      padding: 8px 10px;
+      border-bottom: 1px solid #21262d;
+    }
+    td {
+      padding: 10px 10px;
+      border-bottom: 1px solid #161b22;
+      color: #c9d1d9;
+    }
+    tr:hover td { background: #161b22; }
+    td.num { text-align: right; font-weight: 600; color: #58a6ff; }
+    td.date { color: #8b949e; font-size: 0.8rem; }
+
+    .bar-wrap {
+      background: #21262d;
+      border-radius: 4px;
+      height: 8px;
+      margin-top: 4px;
+      overflow: hidden;
+    }
+    .bar { height: 100%; border-radius: 4px; background: #1f6feb; transition: width 0.6s ease; }
+
+    .merge-box {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 20px;
+    }
+    .merge-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #21262d;
+      font-size: 0.88rem;
+    }
+    .merge-row:last-child { border-bottom: none; }
+    .merge-row .src  { color: #8b949e; }
+    .merge-row .cnt  { font-weight: 600; color: #3fb950; }
+
+    .refresh-btn {
+      display: block;
+      margin: 16px auto 0;
+      background: #1f6feb;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 8px 24px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    .refresh-btn:hover { background: #388bfd; }
+
+    .error { color: #f85149; text-align: center; margin: 20px 0; font-size: 0.9rem; }
+    .loading { text-align: center; color: #8b949e; padding: 40px; font-size: 0.95rem; }
+
+    footer {
+      text-align: center;
+      color: #484f58;
+      font-size: 0.8rem;
+      margin-top: 40px;
+    }
+    footer a { color: #58a6ff; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>📺 IPTV Dashboard</h1>
+  <p>jahid2177 / Mydemoproject</p>
+  <div class="badge">Auto-updates every 8 hours &nbsp;|&nbsp; Last fetched: <span id="fetch-time">Loading...</span></div>
+</header>
+
+<div id="loading" class="loading">⏳ Loading stats...</div>
+<div id="error"   class="error"   style="display:none"></div>
+<div id="content"               style="display:none">
+
+  <!-- Top summary cards -->
+  <div class="grid">
+    <div class="card blue">
+      <div class="num" id="grand-total">—</div>
+      <div class="label">Grand Total Movies</div>
+    </div>
+    <div class="card green">
+      <div class="num" id="cat-total">—</div>
+      <div class="label">Category Movies</div>
+    </div>
+    <div class="card purple">
+      <div class="num" id="merge-unique">—</div>
+      <div class="label">Merged Unique Links</div>
+    </div>
+    <div class="card yellow">
+      <div class="num" id="merge-dup">—</div>
+      <div class="label">Duplicate Links</div>
+    </div>
+    <div class="card green">
+      <div class="num" id="proc-online">—</div>
+      <div class="label">Online Movies</div>
+    </div>
+    <div class="card red">
+      <div class="num" id="proc-offline">—</div>
+      <div class="label">Offline Movies</div>
+    </div>
+    <div class="card green">
+      <div class="num" id="tv-online">—</div>
+      <div class="label">Online TV Channels</div>
+    </div>
+    <div class="card red">
+      <div class="num" id="tv-offline">—</div>
+      <div class="label">Offline TV Channels</div>
+    </div>
+  </div>
+
+  <!-- Category breakdown -->
+  <div class="section">
+    <h2>🎬 Movies by Category</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Category</th>
+          <th>Count</th>
+          <th style="width:220px">Bar</th>
+          <th>Last Updated</th>
+        </tr>
+      </thead>
+      <tbody id="cat-table"></tbody>
+    </table>
+  </div>
+
+  <!-- Merge source breakdown -->
+  <div class="section">
+    <h2>🔗 Merge Source Breakdown</h2>
+    <div class="merge-box">
+      <div class="merge-row">
+        <span class="src">103.225.94.27</span>
+        <span class="cnt" id="src-103">—</span>
+      </div>
+      <div class="merge-row">
+        <span class="src">cinehub24.com</span>
+        <span class="cnt" id="src-cinehub">—</span>
+      </div>
+      <div class="merge-row">
+        <span class="src">ctgfun</span>
+        <span class="cnt" id="src-ctgfun">—</span>
+      </div>
+      <div class="merge-row">
+        <span class="src">discoveryftp</span>
+        <span class="cnt" id="src-discoveryftp">—</span>
+      </div>
+      <div class="merge-row" style="border-top:1px solid #30363d;margin-top:6px;padding-top:12px">
+        <span class="src" style="color:#c9d1d9;font-weight:600">Total Unique</span>
+        <span class="cnt" id="src-total">—</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Last updated -->
+  <div class="section">
+    <h2>🕐 Timestamps</h2>
+    <table>
+      <thead>
+        <tr><th>Info</th><th>Time (Dhaka +0600)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Stats last updated</td><td class="date" id="ts-dhaka">—</td></tr>
+        <tr><td>Dashboard fetched</td><td class="date" id="ts-now">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <button class="refresh-btn" onclick="loadStats()">🔄 Refresh</button>
+</div>
+
+<footer>
+  <p>Data source: <a href="https://github.com/jahid2177/Mydemoproject" target="_blank">github.com/jahid2177/Mydemoproject</a></p>
+  <p style

@@ -11,6 +11,18 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+# Google Drive বা অন্য non-stream URL বাদ দেওয়ার জন্য
+BLOCKED_DOMAINS = ['drive.google.com', 'dropbox.com', 'mega.nz', 'youtube.com']
+
+def is_valid_stream_url(url):
+    if not url.startswith("http"):
+        return False
+    for domain in BLOCKED_DOMAINS:
+        if domain in url:
+            return False
+    return True
+
+
 class M3UCollector:
     def __init__(self, country="Bengali", base_dir="Movies"):
         self.channels = defaultdict(list)
@@ -46,28 +58,35 @@ class M3UCollector:
                 return False
 
     def parse_and_store(self, lines, source_url):
-        current_channel = {}
+        current_info = {}
         count = 0
         for line in lines:
             line = line.strip()
             if line.startswith('#EXTINF:'):
                 logo = re.search(r'tvg-logo="([^"]*)"', line)
                 group = re.search(r'group-title="([^"]*)"', line)
-                name = re.search(r',(.+)$', line)
-                current_channel = {
-                    'name': name.group(1).strip() if name else "Unknown",
+                # শুধু শেষ কমার পরের অংশটুকু নাম হিসেবে নাও (attributes এড়াতে)
+                name_match = re.search(r'(?:^|")(?:[^"]*"),([^,].+)$', line)
+                if not name_match:
+                    name_match = re.search(r',([^,].+)$', line)
+                name = name_match.group(1).strip() if name_match else "Unknown"
+                current_info = {
+                    'name': name,
                     'logo': logo.group(1) if logo and logo.group(1) else self.default_logo,
                     'group': group.group(1) if group else "Bengali Movies",
                     'source': source_url
                 }
-            elif line.startswith('http') and current_channel:
-                with self.lock:
-                    if line not in self.seen_urls:
-                        self.seen_urls.add(line)
-                        current_channel['url'] = line
-                        self.channels[current_channel['group']].append(current_channel)
-                        count += 1
-                current_channel = {}
+            elif line.startswith('http') and current_info:
+                if is_valid_stream_url(line):
+                    with self.lock:
+                        if line not in self.seen_urls:
+                            self.seen_urls.add(line)
+                            current_info['url'] = line
+                            self.channels[current_info['group']].append(current_info)
+                            count += 1
+                else:
+                    logging.warning(f"Skipped non-stream URL: {line}")
+                current_info = {}
         logging.info(f"Parsed {count} from {source_url}")
 
     def filter_active_channels(self):
@@ -131,7 +150,6 @@ class M3UCollector:
 
 def main():
     sources = [
-        # Bangladesh BDIX sources
         "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
         "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim-Movies.mim",
         "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",

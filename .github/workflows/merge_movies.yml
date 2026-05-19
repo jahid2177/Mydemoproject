@@ -1,0 +1,54 @@
+name: Merge Movie Links
+
+on:
+  schedule:
+    - cron: '30 */8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-writes
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pytz
+
+      - name: Run Merge Script
+        run: python scripts/merge_movies.py
+
+      - name: Show Report
+        run: cat logs/merge_link.txt
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          git add merge_link.json logs/merge_link.txt
+          if git diff --staged --quiet; then
+            echo "কোনো পরিবর্তন নেই"
+          else
+            git commit -m "Merge Movie Links updated — $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push origin main || (git pull --rebase origin main && git push origin main)
+          fi

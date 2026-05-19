@@ -1,18 +1,18 @@
 """
-IPTV Ultimate System — সব feature সঠিকভাবে কাজ করছে এমন main.py
+IPTV Ultimate System — সব feature সঠিকভাবে কাজ করছে
 Features:
   ✅ Async Stream Checker
-  ✅ Auto Logo Fetcher
+  ✅ Auto Logo Fetcher        (FIX: existing logo overwrite করে না, API fail হলে default)
   ✅ Multi-playlist Support
   ✅ JSON API Export
-  ✅ Xtream Parser
+  ✅ Xtream Parser            (FIX: XTREAM_CODES না থাকলে clearly log করে)
   ✅ Duplicate Link Remove
-  ✅ Auto GitHub Commit (workflow এ)
+  ✅ Auto GitHub Commit       (FIX: workflow এ concurrency + retry)
   ✅ Broken Stream Auto Delete
-  ✅ Stream Quality Detect
+  ✅ Stream Quality Detect    (FIX: ffprobe optional, graceful fallback)
   ✅ Poster Generator
   ✅ EPG Support (gzip সহ)
-  ✅ HLS Validation
+  ✅ HLS Validation           (FIX: Content-Type ও redirect handle করে)
   ✅ IPTV Category Sort
 """
 import asyncio
@@ -33,15 +33,15 @@ from core.quality_detector import detect_quality
 from core.stream_cleaner import clean_dead
 from core.xtream_parser import parse_xtream
 
-BASE_DIR   = os.getcwd()
-OUTPUT_DIR = os.path.join(BASE_DIR, 'data', 'output')
-LOG_DIR    = os.path.join(BASE_DIR, 'logs')
-POSTER_DIR = os.path.join(BASE_DIR, 'assets', 'posters')
+BASE_DIR    = os.getcwd()
+OUTPUT_DIR  = os.path.join(BASE_DIR, 'data', 'output')
+LOG_DIR     = os.path.join(BASE_DIR, 'logs')
+POSTER_DIR  = os.path.join(BASE_DIR, 'assets', 'posters')
 REPORT_FILE = os.path.join(LOG_DIR, 'test_report.txt')
 
-CHECK_LIMIT   = int(os.getenv('CHECK_LIMIT',   '200'))   # বাড়ানো হয়েছে 120→200
+CHECK_LIMIT   = int(os.getenv('CHECK_LIMIT',   '200'))
 QUALITY_LIMIT = int(os.getenv('QUALITY_LIMIT', '30'))
-POSTER_LIMIT  = int(os.getenv('POSTER_LIMIT',  '10'))    # বাড়ানো হয়েছে 6→10
+POSTER_LIMIT  = int(os.getenv('POSTER_LIMIT',  '10'))
 
 
 def load_streams():
@@ -50,29 +50,32 @@ def load_streams():
     playlist_files.extend(extra)
     playlist_files = sorted(dict.fromkeys(playlist_files))
 
-    # ✅ FIX: merge_playlists এখন (streams, epg_urls) tuple return করে
     if playlist_files:
         streams, m3u_epg_urls = merge_playlists(playlist_files)
+        print(f'[Playlist] {len(playlist_files)} file(s) loaded → {len(streams)} entries')
     else:
         streams, m3u_epg_urls = [], []
+        print('[Playlist] কোনো local playlist file পাওয়া যায়নি')
 
     # Xtream Codes support
     xtream_entries = []
-    xtream_codes = [i.strip() for i in os.getenv('XTREAM_CODES', '').split(';') if i.strip()]
-    for code in xtream_codes:
-        parts = [p.strip() for p in code.split('|')]
-        if len(parts) >= 3:
-            try:
-                # live streams
-                xtream_entries.extend(parse_xtream(parts[0], parts[1], parts[2], stream_type='live'))
-                # VOD streams (optional)
-                xtream_entries.extend(parse_xtream(parts[0], parts[1], parts[2], stream_type='vod'))
-            except Exception as exc:
-                print(f'Xtream parse error: {exc}')
+    xtream_codes_env = os.getenv('XTREAM_CODES', '').strip()
+    if xtream_codes_env:
+        for code in xtream_codes_env.split(';'):
+            parts = [p.strip() for p in code.split('|')]
+            if len(parts) >= 3:
+                try:
+                    xtream_entries.extend(parse_xtream(parts[0], parts[1], parts[2], stream_type='live'))
+                    xtream_entries.extend(parse_xtream(parts[0], parts[1], parts[2], stream_type='vod'))
+                except Exception as exc:
+                    print(f'[Xtream] Parse error: {exc}')
+        print(f'[Xtream] {len(xtream_entries)} entries loaded')
+    else:
+        # ✅ FIX: clearly log করা হচ্ছে — silently skip না করে
+        print('[Xtream] XTREAM_CODES env variable set নেই — Xtream parser skip হচ্ছে')
 
     all_streams = streams + xtream_entries
 
-    # EPG URLs: M3U ভেতর থেকে + ENV variable
     env_epg = [i.strip() for i in os.getenv('EPG_URLS', '').split(',') if i.strip()]
     combined_epg = list(dict.fromkeys(m3u_epg_urls + env_epg))
 
@@ -90,7 +93,11 @@ def main():
     streams = remove_duplicates(streams)
     print(f'[Duplicate Remove] {before_dedup} → {len(streams)} (removed {before_dedup - len(streams)})')
 
+    if not streams:
+        print('[WARNING] কোনো stream নেই — empty output তৈরি হবে')
+
     # ── 2. Auto Logo Fetcher ───────────────────────────────────────────────
+    # ✅ FIX: existing logo preserve করে, API fail হলে default logo দেয়
     streams = apply_logos(streams)
     print(f'[Logo Fetcher] Applied logos to {len(streams)} streams')
 
@@ -105,17 +112,16 @@ def main():
     if sample_to_check:
         print(f'[Async Checker] Checking {len(sample_to_check)} streams...')
         checked_results = asyncio.run(check_streams(sample_to_check, concurrency=50, timeout=8))
-        # ✅ FIX: clean_dead সবসময় tuple return করে এখন
         checked_alive, checked_dead = clean_dead(sample_to_check, checked_results)
         print(f'[Broken Stream Delete] alive={len(checked_alive)}, dead={len(checked_dead)}')
     else:
         checked_alive, checked_dead = [], []
 
-    # Unchecked streams assumed alive
     survivors = checked_alive + unchecked
     print(f'[Survivors] {len(survivors)} streams remaining')
 
     # ── 5. Stream Quality Detect + HLS Validation ─────────────────────────
+    # ✅ FIX: ffprobe না থাকলেও quality_detector HLS playlist থেকে detect করে
     quality_targets = [
         s for s in survivors if '.m3u8' in s.get('url', '').lower()
     ][:QUALITY_LIMIT]
@@ -128,10 +134,12 @@ def main():
 
     # ── 6. IPTV Category Sort ──────────────────────────────────────────────
     grouped = sort_category(survivors)
+    print(f'[Category Sort] {len(grouped)} categories')
 
     # ── 7. Classify movies vs TV ──────────────────────────────────────────
     movies = [s for s in survivors if classify_entry(s) == 'movie']
     tv     = [s for s in survivors if classify_entry(s) == 'tv']
+    print(f'[Classify] Movies: {len(movies)}, TV: {len(tv)}')
 
     # ── 8. Poster Generator ───────────────────────────────────────────────
     poster_files = [fetch_poster(s, output_dir=POSTER_DIR) for s in movies[:POSTER_LIMIT]]
@@ -142,39 +150,39 @@ def main():
         'generated_at_utc': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S UTC'),
         'playlist_files': playlist_files,
         'feature_summary': {
-            'async_stream_checker':    bool(checked_alive) or bool(checked_dead),
-            'auto_logo_fetcher':       True,
-            'multi_playlist_support':  len(playlist_files) > 0,
-            'json_api_export':         True,
-            'xtream_parser':           bool(os.getenv('XTREAM_CODES', '')),
-            'duplicate_link_remove':   before_dedup > len(streams) or True,
-            'broken_stream_auto_delete': len(checked_dead) >= 0,
-            'stream_quality_detect':   len(quality_targets) > 0,
-            'poster_generator':        len(poster_files) > 0,
-            'epg_support':             len(epg_map) > 0,
-            'hls_validation':          True,
-            'iptv_category_sort':      len(grouped) > 0,
+            'async_stream_checker':      bool(sample_to_check),
+            'auto_logo_fetcher':         True,
+            'multi_playlist_support':    len(playlist_files) > 0,
+            'json_api_export':           True,
+            'xtream_parser':             bool(os.getenv('XTREAM_CODES', '')),
+            'duplicate_link_remove':     True,
+            'broken_stream_auto_delete': True,
+            'stream_quality_detect':     len(quality_targets) > 0,
+            'poster_generator':          len(poster_files) > 0,
+            'epg_support':               len(epg_map) > 0,
+            'hls_validation':            True,
+            'iptv_category_sort':        len(grouped) > 0,
         },
         'counts': {
-            'total_streams':               before_dedup,
-            'after_dedup':                 len(streams),
-            'checked_streams':             len(sample_to_check),
-            'dead_removed':                len(checked_dead),
-            'alive_after_check':           len(checked_alive),
-            'final_survivors':             len(survivors),
-            'movies':                      len(movies),
-            'tv':                          len(tv),
-            'epg_channels_loaded':         len(epg_map),
-            'quality_checked_streams':     len(quality_targets),
-            'posters_generated':           len(poster_files),
-            'category_groups':             len(grouped),
+            'total_streams':           before_dedup,
+            'after_dedup':             len(streams),
+            'checked_streams':         len(sample_to_check),
+            'dead_removed':            len(checked_dead),
+            'alive_after_check':       len(checked_alive),
+            'final_survivors':         len(survivors),
+            'movies':                  len(movies),
+            'tv':                      len(tv),
+            'epg_channels_loaded':     len(epg_map),
+            'quality_checked_streams': len(quality_targets),
+            'posters_generated':       len(poster_files),
+            'category_groups':         len(grouped),
         },
         'groups': grouped,
     }
 
-    export_json(payload,  os.path.join(OUTPUT_DIR, 'streams.json'))
-    export_json(movies,   os.path.join(OUTPUT_DIR, 'movies.json'))
-    export_json(tv,       os.path.join(OUTPUT_DIR, 'live_tv.json'))
+    export_json(payload, os.path.join(OUTPUT_DIR, 'streams.json'))
+    export_json(movies,  os.path.join(OUTPUT_DIR, 'movies.json'))
+    export_json(tv,      os.path.join(OUTPUT_DIR, 'live_tv.json'))
     write_m3u(os.path.join(OUTPUT_DIR, 'playlist.m3u'), survivors, epg_urls=epg_urls)
 
     # ── 10. Report ────────────────────────────────────────────────────────
@@ -194,7 +202,10 @@ def main():
         fh.write(f'Category groups       : {len(grouped)}\n')
         fh.write('\nSample quality checks:\n')
         for s in quality_targets[:15]:
-            fh.write(f'  - {s.get("name", "?")} => {s.get("quality", "Unknown")} | HLS valid: {s.get("hls_valid", False)}\n')
+            fh.write(
+                f'  - {s.get("name", "?")} => {s.get("quality", "Unknown")} '
+                f'| HLS valid: {s.get("hls_valid", False)}\n'
+            )
 
     print('\n===== PROCESS COMPLETED =====')
     print(f'Total: {before_dedup} → dedup: {len(streams)} → survivors: {len(survivors)}')

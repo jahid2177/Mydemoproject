@@ -20,18 +20,17 @@ def extract_link(item):
         if item.startswith("http"):
             return item
         return None
-        
+
     # ২. ডেটা যদি ডিকশনারি (Dict) হয়
     if isinstance(item, dict):
-        # Key গুলোকে case-insensitive করার জন্য সব ছোট হাতের করে নিচ্ছি
         item_lower = {str(k).lower(): v for k, v in item.items()}
-        
-        # খোঁজার জন্য সম্ভাব্য সব রকম নামের লিস্ট
         keys = ["url", "link", "stream_url", "video_url", "file", "source", "movie_url", "path", "stream"]
 
         for key in keys:
             if key in item_lower and isinstance(item_lower[key], str):
-                return item_lower[key]
+                val = item_lower[key]
+                if val.startswith("http"):
+                    return val
 
     return None
 
@@ -41,7 +40,7 @@ def is_online(url):
         response = requests.head(url, headers=headers, timeout=10, allow_redirects=True)
         if response.status_code < 400:
             return True
-            
+
         response = requests.get(url, headers=headers, timeout=10, stream=True, allow_redirects=True)
         return response.status_code < 400
     except:
@@ -51,7 +50,6 @@ def process_movie(item):
     link = extract_link(item)
 
     if not link:
-        # লিংক না পেলে কনসোলে প্রিন্ট করবে, যাতে আপনি বুঝতে পারেন ডেটার স্ট্রাকচার কেমন
         print(f"Skipped (No valid link found): {item}")
         return
 
@@ -75,17 +73,28 @@ for source in SOURCES:
         data = response.json()
 
         if isinstance(data, dict):
-            # যদি 'movies' না থাকে, তবে 'data' বা অন্য কোনো key ট্রাই করবে
-            data = data.get("movies", data.get("data", data.get("Movies", [])))
+            # প্রথমে standard key চেক করো
+            extracted = data.get("movies", data.get("data", data.get("Movies", None)))
+            if extracted is not None:
+                data = extracted
+            else:
+                # Dict-এর প্রতিটা value হলো একটা movie, যার ভেতরে 'links' array আছে
+                items = []
+                for title, movie in data.items():
+                    if isinstance(movie, dict) and "links" in movie:
+                        for link_obj in movie["links"]:
+                            if isinstance(link_obj, dict):
+                                link_obj["title"] = title
+                                items.append(link_obj)
+                data = items
 
         if not isinstance(data, list) or len(data) == 0:
             print("Warning: Data is empty or not a list. Skipping this source.")
             continue
-            
+
         print(f"Success: Found {len(data)} items to process in this source.")
 
         with ThreadPoolExecutor(max_workers=20) as executor:
-            # list() ব্যবহার করা হয়েছে যাতে থ্রেডের ভেতরের কোনো এরর লুকিয়ে না থাকে
             list(executor.map(process_movie, data))
 
     except requests.exceptions.RequestException as e:

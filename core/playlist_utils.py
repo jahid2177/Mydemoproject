@@ -113,6 +113,37 @@ def discover_local_playlists(base_dir: str = '.') -> List[str]:
 
 
 def classify_entry(entry: dict) -> str:
-    text = f"{entry.get('name', '')} {entry.get('group', '')} {entry.get('url', '')}".lower()
-    keywords = [' tv', 'news', 'sport', 'channel', 'live', '/live', '.ts', '.m3u8']
-    return 'tv' if any(keyword in text for keyword in keywords) else 'movie'
+    group = (entry.get('group') or '').lower().strip()
+    name  = (entry.get('name')  or '').lower().strip()
+    url   = (entry.get('url')   or '').lower().strip()
+
+    # 1. group-title দেখে প্রথমে movie detect করি (সবচেয়ে নির্ভরযোগ্য)
+    movie_group_keywords = [
+        'movie', 'movies', 'film', 'films', 'cinema',
+        'bollywood', 'hollywood', 'bengali movie', 'south indian',
+        'worldwidevod', 'vod', 'ott',
+    ]
+    if any(kw in group for kw in movie_group_keywords):
+        return 'movie'
+
+    # 2. group-title দেখে TV detect করি
+    tv_group_keywords = [
+        'live tv', 'live', 'news', 'sport', 'channel', 'tv channel',
+        'bangla tv', 'hindi tv', 'english tv',
+    ]
+    if any(kw in group for kw in tv_group_keywords):
+        return 'tv'
+
+    # 3. name দেখে movie detect করি
+    movie_name_keywords = ['movie', 'film', 'cinema', 'vod']
+    if any(kw in name for kw in movie_name_keywords):
+        return 'movie'
+
+    # 4. URL/name দেখে TV detect করি (fallback — .m3u8 একা TV বোঝায় না)
+    tv_fallback_keywords = [' tv', 'news', 'sport', 'channel', '/live/', 'live/', '.ts']
+    text = f'{name} {url}'
+    if any(kw in text for kw in tv_fallback_keywords):
+        return 'tv'
+
+    # 5. Default: movie
+    return 'movie'

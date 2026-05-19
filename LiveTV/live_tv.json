@@ -610,6 +610,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Live Tv\",Channel 144"
   },
   {
+    "name": "Channel 175",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Live Tv",
+    "url": "http://103.175.73.12:8080/live/175/175_0.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Live Tv\",Channel 175"
+  },
+  {
     "name": "Channel 176",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Live Tv",
@@ -1750,6 +1760,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/e0b6da4715f468eb39591911a0597546\" group-title=\"News\",CNN"
   },
   {
+    "name": "NHK World",
+    "logo": "https://s3.aynaott.com/storage/d969a37a7e1bbd49449ae092d34f0549",
+    "group": "News",
+    "url": "https://tvsen6.aynaott.com/nhkworld/index.m3u8?e=1779154600&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3cf57a406996b052bf42c35e2de9293c",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d969a37a7e1bbd49449ae092d34f0549\" group-title=\"News\",NHK World"
+  },
+  {
     "name": "Iran Press",
     "logo": "https://s3.aynaott.com/storage/201491b7327fffb27d78f800dd9f42d2",
     "group": "News",
@@ -2128,6 +2148,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/c63628e7301ba1eded68c0f75ab8d903\" group-title=\"Hindi\",ShemarooTV"
+  },
+  {
+    "name": "Taaza TV",
+    "logo": "https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce",
+    "group": "Hindi",
+    "url": "https://tvsen7.aynaott.com/TaazaTV/index.m3u8?e=1779154732&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=c07ec65ea1f8fdc481e1389a053a4ef6",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce\" group-title=\"Hindi\",Taaza TV"
   },
   {
     "name": "Music India",
@@ -2568,16 +2598,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL EKHBARIA"
-  },
-  {
-    "name": "AL QAMAR",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "ISLAMIC CHANNELS",
-    "url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL QAMAR"
   },
   {
     "name": "AL ISTIQAMA",
@@ -3538,426 +3558,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Indian-Bangla\",R Plus Gould"
-  },
-  {
-    "name": "STAR SPORTS 2",
-    "logo": "https://ottking.top/app/uploads/tv_image/star-sports-2.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHohKF4H7nKD0n_EenyefoTE/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/star-sports-2.png\" group-title=\"BDIX TV\",STAR SPORTS 2"
-  },
-  {
-    "name": "STAR SPORTS 1",
-    "logo": "https://ottking.top/app/uploads/tv_image/star-sports-1.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHuVlGRAaKYcIN0heTvETivU/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/star-sports-1.png\" group-title=\"BDIX TV\",STAR SPORTS 1"
-  },
-  {
-    "name": "GLOBAL TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/global-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHu26Bt-doJO37_xokMGRnAM/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/global-tv.png\" group-title=\"BDIX TV\",GLOBAL TV"
-  },
-  {
-    "name": "ASIAN TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/asian-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHuArOQlM0VI5bBTiK5Ama5Q/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/asian-tv.png\" group-title=\"BDIX TV\",ASIAN TV"
-  },
-  {
-    "name": "BIJOY TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/bijoy-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHmUVUj-HPb9QIt88-SgQBng/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/bijoy-tv.png\" group-title=\"BDIX TV\",BIJOY TV"
-  },
-  {
-    "name": "ANANDA TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/ananda-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHqzWPsk1L-H_lguZdSgo8LU/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/ananda-tv.png\" group-title=\"BDIX TV\",ANANDA TV"
-  },
-  {
-    "name": "MOHONA TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/mohona-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHqS6462sWaOLssve0aj2xbI/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/mohona-tv.png\" group-title=\"BDIX TV\",MOHONA TV"
-  },
-  {
-    "name": "BANGLA TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/bangla-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHgcz6c2XooioeLu_Xl1JFdk/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/bangla-tv.png\" group-title=\"BDIX TV\",BANGLA TV"
-  },
-  {
-    "name": "GAZI TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/gazi-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHoVx89n4Ti3rolgqaANl8Gk/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/gazi-tv.png\" group-title=\"BDIX TV\",GAZI TV"
-  },
-  {
-    "name": "DEEPTO TV HD",
-    "logo": "https://ottking.top/app/uploads/tv_image/depto-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHh3EUWYtVKckUwvjbakFT78/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/depto-tv.png\" group-title=\"BDIX TV\",DEEPTO TV HD"
-  },
-  {
-    "name": "CHANNEL I HD",
-    "logo": "https://ottking.top/app/uploads/tv_image/channel-i.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHtl2oMPmM5jMwVcx3VxaOHM/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/channel-i.png\" group-title=\"BDIX TV\",CHANNEL I HD"
-  },
-  {
-    "name": "DESH TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/desh-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHsDTFttilK0phEumbUS7xEY/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/desh-tv.png\" group-title=\"BDIX TV\",DESH TV"
-  },
-  {
-    "name": "DBC NEWS HD",
-    "logo": "https://ottking.top/app/uploads/tv_image/dbc-news.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHqHSl6DNuD2F-9xlgBKb9HU/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/dbc-news.png\" group-title=\"BDIX TV\",DBC NEWS HD"
-  },
-  {
-    "name": "SOMOY TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/somoy-news.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHt7aXnQ93sdFqUcVKMa8QJI/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/somoy-news.png\" group-title=\"BDIX TV\",SOMOY TV"
-  },
-  {
-    "name": "NEWS 24 HD",
-    "logo": "https://ottking.top/app/uploads/tv_image/news-24.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHntT56yDr7ReY5A8Wd8xPzE/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/news-24.png\" group-title=\"BDIX TV\",NEWS 24 HD"
-  },
-  {
-    "name": "CHANNEL 9 HD",
-    "logo": "https://ottking.top/app/uploads/tv_image/channel-9.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHp0ySDsabAW6OF3odNTlZ-A/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/channel-9.png\" group-title=\"BDIX TV\",CHANNEL 9 HD"
-  },
-  {
-    "name": "JAMUNA TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/jamuna-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHpimKhR-hIb2LFRDp0WUGS0/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/jamuna-tv.png\" group-title=\"BDIX TV\",JAMUNA TV"
-  },
-  {
-    "name": "CHANNEL 24 HD",
-    "logo": "https://ottking.top/app/uploads/tv_image/channel-24.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHrRM17vd2FO2sC6Tv5cI4Lw/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/channel-24.png\" group-title=\"BDIX TV\",CHANNEL 24 HD"
-  },
-  {
-    "name": "SONY SPORTS TEN 1 HD",
-    "logo": "https://ottking.top/app/uploads/tv_image/sony-ten-1.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHh-UxB610FciBF1Tj_bGNKI/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/sony-ten-1.png\" group-title=\"BDIX TV\",SONY SPORTS TEN 1 HD"
-  },
-  {
-    "name": "INDEPENDENT TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/independent-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHub--vxuEgL9iVpPdaKOL6o/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/independent-tv.png\" group-title=\"BDIX TV\",INDEPENDENT TV"
-  },
-  {
-    "name": "NAGORIK TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/nagorik-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHgGF3Kt-wtQAHmegTeUK6ms/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/nagorik-tv.png\" group-title=\"BDIX TV\",NAGORIK TV"
-  },
-  {
-    "name": "DURONTO TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/duranto-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHhTiv1OlV1jscsCBc3HYhhU/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/duranto-tv.png\" group-title=\"BDIX TV\",DURONTO TV"
-  },
-  {
-    "name": "NEXUS TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/nexus-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHg4UQVwo4IGaPuEu46D2RuI/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/nexus-tv.png\" group-title=\"BDIX TV\",NEXUS TV"
-  },
-  {
-    "name": "WILLOW TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/willow-hd-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHvSSYAHFV1g0pFbOXu7GMJM/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/willow-hd-tv.png\" group-title=\"BDIX TV\",WILLOW TV"
-  },
-  {
-    "name": "ZEE TV HD",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHqQyFbhyQkLYZ-qQFV3g07c/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",ZEE TV HD"
-  },
-  {
-    "name": "OTT-KING TV",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHirXzA9v-iF67tJhiU67Z8g/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",OTT-KING TV"
-  },
-  {
-    "name": "STAR NEWS",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHpW6CfvSSgm9TbwiQsfaUeY/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",STAR NEWS"
-  },
-  {
-    "name": "MAASRANGA TV",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHoZHaQSVvpyEdoV6dxJeLLc/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",MAASRANGA TV"
-  },
-  {
-    "name": "FAST SPORTS HD",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHvlTaBI18coWNDqrO38mYO4/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",FAST SPORTS HD"
-  },
-  {
-    "name": "EUROSPORTS HD",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHtAj4uifsS6euyVBqzKgdHA/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",EUROSPORTS HD"
-  },
-  {
-    "name": "TNT SPORTS 2",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHppGq0bSD7CFXkXh_-20VOQ/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",TNT SPORTS 2"
-  },
-  {
-    "name": "BEIN SPORTS 1",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHnsMJE5r7P9RE3lfKsLQWnc/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",BEIN SPORTS 1"
-  },
-  {
-    "name": "A SPORTS",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHo7MLT8FTbzAtUj5Z0SUpfE/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",A SPORTS"
-  },
-  {
-    "name": "SONY SPORTS TEN 5 HD",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHsiN5gbipJ6vUCkdAxUzUe8/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",SONY SPORTS TEN 5 HD"
-  },
-  {
-    "name": "PTV SPORTS",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHlH_7kWjpNCqgOZHNv6li80/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",PTV SPORTS"
-  },
-  {
-    "name": "SONY SPORTS TEN 3 HD",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHlPNI9t68BHj54dsPowAFUE/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",SONY SPORTS TEN 3 HD"
-  },
-  {
-    "name": "SONY SPORTS TEN 2 HD",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHtx7HvwRCMbMWJV-O0squEI/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",SONY SPORTS TEN 2 HD"
-  },
-  {
-    "name": "STAR SPORTS SELECT 2",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHtOGPe5Mw5bSND116DNfVlA/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",STAR SPORTS SELECT 2"
-  },
-  {
-    "name": "ZOOM TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/zoom-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHu4LAgtAHApGEy5aPNofor4/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/zoom-tv.png\" group-title=\"BDIX TV\",ZOOM TV"
-  },
-  {
-    "name": "STAR SPORTS SELECT 1",
-    "logo": "https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHt-6UuECPfcGIEumeifHQcY/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/default_image/tv_thumbnail.jpg\" group-title=\"BDIX TV\",STAR SPORTS SELECT 1"
-  },
-  {
-    "name": "ATN NEWS",
-    "logo": "https://ottking.top/app/uploads/tv_image/atn-news.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHnABLU4jd1kVVUuxEjgtLzU/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/atn-news.png\" group-title=\"BDIX TV\",ATN NEWS"
-  },
-  {
-    "name": "EKHON TV",
-    "logo": "https://ottking.top/app/uploads/tv_image/ekhon-tv.png",
-    "group": "BDIX TV",
-    "url": "http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHhEypigcAT25EEtDy_BZ5nM/m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://ottking.top/app/uploads/tv_image/ekhon-tv.png\" group-title=\"BDIX TV\",EKHON TV"
   },
   {
     "name": "BEIN SPORTS 4 [AR]",
@@ -6998,16 +6598,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png\" group-title=\"Documentary\",Love Nature"
-  },
-  {
-    "name": "Probashi TV",
-    "logo": "https://probashinews24.tv/images/logo.png",
-    "group": "SM All TV",
-    "url": "http://158.69.24.53:8080/probashi_tv/tracks-v1a1/mono.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://probashinews24.tv/images/logo.png\" group-title=\"SM All TV\",Probashi TV"
   },
   {
     "name": "DBC News HD",

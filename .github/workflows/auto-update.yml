@@ -1,88 +1,92 @@
 name: IPTV Ultimate Auto Update
 
 on:
-
   workflow_dispatch:
-
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */6 * * *"   # প্রতি ৬ ঘণ্টায়
 
 permissions:
   contents: write
 
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     timeout-minutes: 60
 
     steps:
 
-      # Checkout Repository
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          # ✅ FIX: সবসময় latest commit নিয়ে কাজ করে — concurrent push conflict এড়ায়
+          fetch-depth: 0
 
-      # Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # Install FFmpeg
       - name: Install FFmpeg
         run: |
-          sudo apt update
-          sudo apt install ffmpeg -y
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
 
-      # Install Python Requirements
       - name: Install Requirements
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Create Required Folders
-      - name: Create Folders
+      - name: Create Required Folders
         run: |
-          mkdir -p data/output
-          mkdir -p logs
-          mkdir -p assets/posters
-          mkdir -p assets/logos
+          mkdir -p data/output logs assets/posters assets/logos LiveTV
 
-      # Run Main IPTV Script
       - name: Run IPTV System
-        run: |
-          python main.py
+        run: python main.py
+        env:
+          CHECK_LIMIT: "200"
+          QUALITY_LIMIT: "30"
+          POSTER_LIMIT: "10"
+          # EPG_URLS: "https://your-epg-url.xml.gz"
+          # XTREAM_CODES: "http://server|user|pass"
+          # EXTRA_PLAYLISTS: "https://extra-list.m3u"
 
-      # Upload Output Files
-      - name: Upload Output
+      - name: Show Output Summary
+        run: |
+          echo "=== Generated Files ==="
+          ls -lh data/output/ 2>/dev/null || echo "No output dir"
+          echo ""
+          echo "=== Report ==="
+          cat logs/test_report.txt 2>/dev/null || echo "No report"
+
+      - name: Upload Output Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: IPTV-Outputs
+          name: IPTV-Outputs-${{ github.run_number }}
           path: |
             data/output/
             logs/
+          retention-days: 7
 
-      # Git Status Check
-      - name: Git Status
-        run: |
-          git status
-
-      # Auto Commit Changes
       - name: Auto Commit & Push
         run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          # ✅ FIX: push এর আগে latest pull — concurrent workflow conflict এড়ায়
+          git pull --rebase origin main || true
 
-          git add .
+          git add data/output/ logs/ assets/posters/ LiveTV/ \
+                  all_movies.json offline_movie.json offline_movie.m3u \
+                  2>/dev/null || true
 
-          git commit -m "🔄 Auto IPTV Update" || echo "No changes to commit"
+          if git diff --staged --quiet; then
+            echo "কোনো পরিবর্তন নেই — push দরকার নেই"
+          else
+            TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
+            git commit -m "🔄 Auto IPTV Update [$TIMESTAMP]"
+            git push origin main
+            echo "✅ Push সফল"
+          fi
 
-          git push
-
-      # Workflow Finished
       - name: Done
-        run: |
-          echo "IPTV Auto Update Completed Successfully"
+        run: echo "✅ IPTV Auto Update Completed"

@@ -1,5 +1,25 @@
 [
   {
+    "name": "Bangla TV",
+    "logo": "https://images.seeklogo.com/logo-png/40/2/bangla-tv-logo-png_seeklogo-404114.png",
+    "group": "Live Tv",
+    "url": "https://tvsen6.aynaott.com/banglatv/index.m3u8?e=1750361554&u=8be812d7-3211-4694-a402-0aa09074dfc1&token=331426a6477d76d38c55b00929455e2d",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://images.seeklogo.com/logo-png/40/2/bangla-tv-logo-png_seeklogo-404114.png\" group-title=\"Live Tv\",Bangla TV"
+  },
+  {
+    "name": "Channel 144",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Live Tv",
+    "url": "http://103.175.73.12:8080/live/144/144_0.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Live Tv\",Channel 144"
+  },
+  {
     "name": "Channel 331",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Live Tv",
@@ -10,14 +30,64 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Live Tv\",Channel 331"
   },
   {
-    "name": "Taaza TV",
-    "logo": "https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce",
-    "group": "Hindi",
-    "url": "https://tvsen7.aynaott.com/TaazaTV/index.m3u8?e=1779184362&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=510fe29a004bb75eda6bd2b8806e55d8",
+    "name": "Boishakhi TV",
+    "logo": "https://s3.aynaott.com/storage/58658d4594ca1ff3c5031c9d8e3d9fc0",
+    "group": "Bangla",
+    "url": "https://tvsen6.aynaott.com/boishakhitv/index.m3u8?e=1779184230&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=3fa439b39ab4bfd96f54bd7728caae0c",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce\" group-title=\"Hindi\",Taaza TV"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/58658d4594ca1ff3c5031c9d8e3d9fc0\" group-title=\"Bangla\",Boishakhi TV"
+  },
+  {
+    "name": "Bangla TV",
+    "logo": "https://s3.aynaott.com/storage/e42ecfa90e3d6b15bdb7fea5ef673864",
+    "group": "Bangla",
+    "url": "https://tvsen6.aynaott.com/banglatv/index.m3u8?e=1779184232&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=e40bcd2e3a551e36be883dd6f7184662",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/e42ecfa90e3d6b15bdb7fea5ef673864\" group-title=\"Bangla\",Bangla TV"
+  },
+  {
+    "name": "SA TV",
+    "logo": "https://s3.aynaott.com/storage/f710d2ff532cb7e7b75566232c5b72d3",
+    "group": "Bangla",
+    "url": "https://tvsen6.aynaott.com/satv/index.m3u8?e=1779184231&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a3a42c16d06953456f3e57030a91d000",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/f710d2ff532cb7e7b75566232c5b72d3\" group-title=\"Bangla\",SA TV"
+  },
+  {
+    "name": "DBC News",
+    "logo": "https://s3.aynaott.com/storage/2c5a73ac3f9772a9cb2d18df1b152545",
+    "group": "News",
+    "url": "https://tvsen6.aynaott.com/dbcnews/index.m3u8?e=1779184243&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=acf2d62a442623167b0eaf793a369097",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/2c5a73ac3f9772a9cb2d18df1b152545\" group-title=\"News\",DBC News"
+  },
+  {
+    "name": "Hindi Khabar",
+    "logo": "https://s3.aynaott.com/storage/d3943796d7fe5962ca5385b656682b1a",
+    "group": "News",
+    "url": "https://tvsen7.aynaott.com/HindiKhabar/index.m3u8?e=1779184254&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=75080b61936be3f3d79df94a6a608453",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d3943796d7fe5962ca5385b656682b1a\" group-title=\"News\",Hindi Khabar"
+  },
+  {
+    "name": "Manoranjan TV",
+    "logo": "https://s3.aynaott.com/storage/1a62a70103bac9999411a72b8a8b7ccc",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/ManoranjanTV/index.m3u8?e=1779184372&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=318968b56cebe7375cd79787dcfcb954",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/1a62a70103bac9999411a72b8a8b7ccc\" group-title=\"Hindi\",Manoranjan TV"
   },
   {
     "name": "Sunnah Tv",
@@ -58,15 +128,5 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangladeshi \",Arabica TV"
-  },
-  {
-    "name": "ENT | Pardesi TV",
-    "logo": "https://yt3.googleusercontent.com/ytc/AIdro_l6ng9Q3XSycBvkucH0HoN0EuEgF7f4ZwSlPSIofS4_X9A=s160-c-k-c0x00ffffff-no-rj",
-    "group": "SM All TV",
-    "url": "http://stream.pardesitv.online/pardesi/tracks-v1a1/mono.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://yt3.googleusercontent.com/ytc/AIdro_l6ng9Q3XSycBvkucH0HoN0EuEgF7f4ZwSlPSIofS4_X9A=s160-c-k-c0x00ffffff-no-rj\" group-title=\"SM All TV\",ENT | Pardesi TV"
   }
 ]

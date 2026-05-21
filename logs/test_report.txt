@@ -1,13 +1,13 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 8038
-After duplicate remove: 8038
+Total parsed streams  : 8043
+After duplicate remove: 8043
 Checked (async)       : 200
-Dead removed          : 6
-Final survivors       : 8032
-Movies                : 7261
-TV channels           : 771
+Dead removed          : 1
+Final survivors       : 8042
+Movies                : 7266
+TV channels           : 776
 Posters generated     : 10
 EPG channels loaded   : 0
 Category groups       : 158
@@ -21,7 +21,7 @@ Sample quality checks:
   - G-Serise => Unknown | HLS valid: True
   - BTV CTG => Unknown | HLS valid: True
   - BTV HD => Unknown | HLS valid: True
-  - Channel I HD => Unknown | HLS valid: True
+  - Channel I HD => 720p | HLS valid: True
   - Channel 24 => 720p | HLS valid: True
   - ATN News => 720p | HLS valid: True
   - Independent TV => SD | HLS valid: True

@@ -8,10 +8,8 @@ on:
 permissions:
   contents: write
 
-# ✅ FIX: cancel-in-progress: false — একটা fail হলেও বাকিগুলো চলে
-# ✅ FIX: iptv-writes group — auto-update ও processor এর সাথে conflict এড়াতে
 concurrency:
-  group: iptv-writes
+  group: iptv-writes-bengali  # Changed to avoid conflict
   cancel-in-progress: false
 
 jobs:
@@ -36,13 +34,22 @@ jobs:
           pip install requests pytz beautifulsoup4
 
       - name: Run Movies-Bengali collector
+        id: collector
         run: python collector/Movies-Bengali.py
+        continue-on-error: false
 
       - name: Commit and push output files
+        if: success()
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
-          git add Movies/Bengali/Movies.m3u Movies/Bengali/Movies.json Movies/Bengali/Movies_app.json
-          git commit -m "🎬 Movies-Bengali updated — $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "No changes"
-          git push origin main || (git pull --rebase origin main && git push origin main)
+          
+          if [ -f "Movies/Bengali/Movies.m3u" ]; then
+            git add Movies/Bengali/Movies.m3u Movies/Bengali/Movies.json Movies/Bengali/Movies_app.json
+            git commit -m "🎬 Movies-Bengali updated — $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "No changes"
+            git push origin main || (git pull --rebase origin main && git push origin main)
+          else
+            echo "No output files generated, skipping commit"
+            exit 1
+          fi

@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 8043
-After duplicate remove: 8043
+Total parsed streams  : 10644
+After duplicate remove: 10644
 Checked (async)       : 200
-Dead removed          : 1
-Final survivors       : 8042
-Movies                : 7266
-TV channels           : 776
+Dead removed          : 183
+Final survivors       : 10461
+Movies                : 9179
+TV channels           : 1282
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 158
+Category groups       : 171
 
 Sample quality checks:
   - Sheemaroo Bollywood => 1080p | HLS valid: True
+  - Zee Cinema HD => SD | HLS valid: True
+  - Star Gold => Unknown | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
-  - Goldmines => 480p | HLS valid: True
-  - Goldmines Movies 2 => 480p | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
-  - G-Serise => Unknown | HLS valid: True
-  - BTV CTG => Unknown | HLS valid: True
+  - Goldmines => 480p | HLS valid: True
   - BTV HD => Unknown | HLS valid: True
-  - Channel I HD => 720p | HLS valid: True
-  - Channel 24 => 720p | HLS valid: True
+  - BTV CTG => Unknown | HLS valid: True
+  - ATN Bangla => 1080p | HLS valid: True
   - ATN News => 720p | HLS valid: True
-  - Independent TV => SD | HLS valid: True
-  - Ekattor TV => 720p | HLS valid: True
+  - Channel I HD => 720p | HLS valid: True
   - Somoy TV => 720p | HLS valid: True
-  - Bijoy TV => 720p | HLS valid: True
+  - Independent TV => SD | HLS valid: True
+  - Channel 24 => 720p | HLS valid: True
+  - Ekattor TV => 720p | HLS valid: True

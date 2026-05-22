@@ -115,7 +115,13 @@ class M3UCollector:
 if __name__ == "__main__":
     # ⚠️ আপনার সোর্স লিঙ্কগুলো এখানে দিন (নিচের লিঙ্কটি মুছে আপনারগুলো বসান)
     SOURCES = [
-        "https://example.com/your-source-url-here.m3u" 
+        "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+          "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim-Movies.mim",
+          "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+          "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
+          "https://raw.githubusercontent.com/mhmimxl/filoox-bdix-selected/main/playlist.m3u",
+          "https://raw.githubusercontent.com/mr-masudrana/LiveTV/refs/heads/main/Bangla_Playlist.m3u",
+          "https://raw.githubusercontent.com/tanvir907/bdix/refs/heads/main/bdix.m3u", 
     ]
     
     collector = M3UCollector(country="Bengali", base_dir="Movies")

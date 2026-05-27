@@ -1,7 +1,6 @@
 {
   "api_config": {
     "live_tv_url":  "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/LiveTV/live_tv.json",
-    "series_url":   "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/series.json",
     "maintenance":  false,
     "movie_categories": [
       { "name": "Hollywood",     "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Hollywood.json" },
@@ -11,6 +10,11 @@
       { "name": "Korean",        "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Korean.json" },
       { "name": "Animation",     "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Animation.json" },
       { "name": "Horror",        "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Horror.json" }
+      ],
+    "series_categories": [
+      { "name": "English Series",      "url": "" },
+      { "name": "Hindi Dubbed Series", "url": "" },
+      { "name": "Hindi Tv Series",     "url": "" }
     ]
   }
 }

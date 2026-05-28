@@ -1,24 +1,25 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 11055
-After duplicate remove: 11055
+Total parsed streams  : 10959
+After duplicate remove: 10959
 Checked (async)       : 200
 Dead removed          : 183
-Final survivors       : 10872
-Movies                : 9575
-TV channels           : 1297
+Final survivors       : 10776
+Movies                : 9408
+TV channels           : 1368
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 176
+Category groups       : 172
 
 Sample quality checks:
-  - Zee Cinema HD => SD | HLS valid: True
+  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Star Gold => Unknown | HLS valid: True
-  - B4U Kadak => 480p | HLS valid: True
+  - Joo Music => 720p | HLS valid: True
+  - Zee Cinema HD => SD | HLS valid: True
+  - Goldmines Movies 2 => 480p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
-  - Goldmines Movies 2 => 480p | HLS valid: True
   - Cineedge HD => 720p | HLS valid: True
   - Uniques HD => 720p | HLS valid: True
   - Superrix HD => 720p | HLS valid: True
@@ -27,4 +28,3 @@ Sample quality checks:
   - True Stories => 720p | HLS valid: True
   - Intelligence => 720p | HLS valid: True
   - Originals => 720p | HLS valid: True
-  - BTV HD => Unknown | HLS valid: True

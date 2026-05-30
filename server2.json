@@ -3,18 +3,16 @@
     "live_tv_url":  "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/live_tv.json",
     "maintenance":  false,
     "movie_categories": [
-      { "name": "Hollywood",     "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Hollywood.json" },
-      { "name": "Bollywood",     "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Bollywood.json" },
-      { "name": "Hindi Dubbed",  "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Hindi_dubbed.json" },
-      { "name": "Indian Bangla", "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Indian_Bangla.json" },
-      { "name": "Korean",        "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Korean.json" },
+      { "name": "Hollywood",     "url": "https://raw.githubusercontent.com/faria2177/live-tv-channels/refs/heads/main/CTGMovies/Movie/English.json" },
+      { "name": "Bollywood",     "url": "https://raw.githubusercontent.com/faria2177/live-tv-channels/refs/heads/main/CTGMovies/Movie/hindi.json" },
+      { "name": "Hindi Dubbed",  "url": "https://raw.githubusercontent.com/faria2177/live-tv-channels/refs/heads/main/CTGMovies/Movie/Hindi_Dubbed.json" },
+      { "name": "Korean",        "url": "https://raw.githubusercontent.com/faria2177/live-tv-channels/refs/heads/main/CTGMovies/Movie/foreign_Movie.json" },
       { "name": "Animation",     "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Animation.json" },
-      { "name": "Horror",        "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Horror.json" }
       ],
     "series_categories": [
-      { "name": "English Series",      "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/English_series.json" },
-      { "name": "Hindi Dubbed Series", "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Hindi_Dubbed_series.json" },
-      { "name": "Hindi Tv Series",     "url": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/refs/heads/main/Hindi_Tv_series.json" }
+      { "name": "English Series",      "url": "https://raw.githubusercontent.com/faria2177/live-tv-channels/refs/heads/main/CTGMovies/series/English_Series.json" },
+      { "name": "Hindi Dubbed Series", "url": "https://raw.githubusercontent.com/faria2177/live-tv-channels/refs/heads/main/CTGMovies/series/Foreigh_Series.json" },
+      { "name": "Hindi Tv Series",     "url": "https://raw.githubusercontent.com/faria2177/live-tv-channels/refs/heads/main/CTGMovies/series/Hindi_Series.json" }
     ]
   }
 }

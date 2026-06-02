@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 9510
-After duplicate remove: 9510
+Total parsed streams  : 10386
+After duplicate remove: 10386
 Checked (async)       : 200
 Dead removed          : 200
-Final survivors       : 9310
-Movies                : 8246
-TV channels           : 1064
+Final survivors       : 10186
+Movies                : 9197
+TV channels           : 989
 Posters generated     : 10
 EPG channels loaded   : 0
 Category groups       : 159
 
 Sample quality checks:
-  - Star Gold => Unknown | HLS valid: True
+  - Zee Action => Unknown | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
   - Sheemaroo Bollywood => 1080p | HLS valid: True
-  - Zee Action => Unknown | HLS valid: True
-  - Zee Cinema HD => SD | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
-  - Goldmines Movies 2 => 480p | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
+  - Goldmines Movies 2 => 480p | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
   - Ekushey TV => Unknown | HLS valid: True
   - Deepto TV => Unknown | HLS valid: True
   - BBC News => Unknown | HLS valid: False
   - Deshe Bideshe => Unknown | HLS valid: False
+  - Star News => Unknown | HLS valid: True
+  - MUSIC BANGLA => Unknown | HLS valid: False

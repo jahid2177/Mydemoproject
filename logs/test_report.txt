@@ -1,26 +1,26 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 12553
-After duplicate remove: 12553
+Total parsed streams  : 12324
+After duplicate remove: 12324
 Checked (async)       : 200
 Dead removed          : 166
-Final survivors       : 12387
-Movies                : 11348
+Final survivors       : 12158
+Movies                : 11119
 TV channels           : 1039
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 180
+Category groups       : 176
 
 Sample quality checks:
   - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
   - Zee Action => Unknown | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
-  - B4U Kadak => 480p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
-  - Goldmines Movies 2 => 480p | HLS valid: True
+  - B4U Kadak => 480p | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
+  - Goldmines Movies 2 => 480p | HLS valid: True
   - G-Serise => Unknown | HLS valid: True
   - S01E04 - Episode 4 => Unknown | HLS valid: False
   - S01E05 - Episode 5 => Unknown | HLS valid: False

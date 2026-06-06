@@ -1,20 +1,21 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 12161
-After duplicate remove: 12161
+Total parsed streams  : 12564
+After duplicate remove: 12564
 Checked (async)       : 200
 Dead removed          : 166
-Final survivors       : 11995
-Movies                : 10882
-TV channels           : 1113
+Final survivors       : 12398
+Movies                : 11242
+TV channels           : 1156
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 186
+Category groups       : 184
 
 Sample quality checks:
   - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
+  - Zee Action => Unknown | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
@@ -23,8 +24,7 @@ Sample quality checks:
   - S01E04 - Episode 4 => Unknown | HLS valid: False
   - S01E05 - Episode 5 => Unknown | HLS valid: False
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - Ekushey TV => Unknown | HLS valid: True
-  - Deepto TV => Unknown | HLS valid: True
-  - BBC News => Unknown | HLS valid: False
-  - Deshe Bideshe => Unknown | HLS valid: False
-  - Star News => Unknown | HLS valid: True
+  - Press Conference - 6 Jun 2026 [ENG] - India Tour Of Ireland 2026 => Unknown | HLS valid: False
+  - Session 1 - Men's Match - 6 Jun 2026 [ENG] - HSBC SVNS Bordeaux 2026 => Unknown | HLS valid: False
+  - Bundelkhand Bulls Women vs Royal Nimar Eagles Women (Madhya Pradesh League T20 Women's 2026) => Unknown | HLS valid: False
+  - Day 2 vs Balaton (GRAND PRIX OF HUNGARY 2026) => Unknown | HLS valid: False

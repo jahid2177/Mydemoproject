@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 12841
-After duplicate remove: 12841
+Total parsed streams  : 12494
+After duplicate remove: 12494
 Checked (async)       : 200
 Dead removed          : 166
-Final survivors       : 12675
-Movies                : 11518
-TV channels           : 1157
+Final survivors       : 12328
+Movies                : 11244
+TV channels           : 1084
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 178
+Category groups       : 177
 
 Sample quality checks:
   - Sheemaroo Bollywood => 1080p | HLS valid: True
-  - Zee Anmol TV => Unknown | HLS valid: True
   - Zee Action => Unknown | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
-  - Goldmines Movies => 480p | HLS valid: True
+  - Zee Anmol TV => Unknown | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
-  - Goldmines Movies 2 => 480p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
+  - Goldmines Movies => 480p | HLS valid: True
+  - Goldmines Movies 2 => 480p | HLS valid: True
   - S01E04 - Episode 4 => Unknown | HLS valid: False
   - S01E05 - Episode 5 => Unknown | HLS valid: False
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - UFC Fight Night - Muhammad vs Bonfim - 6 Jun 2026 [ENG] - UFC Fight Night - Muhammad vs Bonfim => Unknown | HLS valid: False
-  - UFC Fight Night - Muhammad vs Bonfim - 6 Jun 2026 [HIN] - UFC Fight Night - Muhammad vs Bonfim => Unknown | HLS valid: False
-  - UFC Fight Night - Muhammad vs Bonfim - 6 Jun 2026 [TAM] - UFC Fight Night - Muhammad vs Bonfim => Unknown | HLS valid: False
-  - UFC Fight Night - Muhammad vs Bonfim - 6 Jun 2026 [TEL] - UFC Fight Night - Muhammad vs Bonfim => Unknown | HLS valid: False
+  - Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [ENG] - Roland-Garros 2026 => Unknown | HLS valid: False
+  - Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [HIN] - Roland-Garros 2026 => Unknown | HLS valid: False
+  - Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [TAM] - Roland-Garros 2026 => Unknown | HLS valid: False
+  - Siniakova/Townsend vs Krunic/Danilina - Final - 7 Jun 2026 [TEL] - Roland-Garros 2026 => Unknown | HLS valid: False

@@ -1,29 +1,29 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 12678
-After duplicate remove: 12678
+Total parsed streams  : 12504
+After duplicate remove: 12504
 Checked (async)       : 200
 Dead removed          : 165
-Final survivors       : 12513
-Movies                : 11434
-TV channels           : 1079
+Final survivors       : 12339
+Movies                : 11282
+TV channels           : 1057
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 181
+Category groups       : 177
 
 Sample quality checks:
-  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
-  - Goldmines => 480p | HLS valid: True
+  - Zee Action => Unknown | HLS valid: True
+  - Sheemaroo Bollywood => 1080p | HLS valid: True
+  - Goldmines Bollywood => Unknown | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
-  - Goldmines Movies 2 => 480p | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
+  - Goldmines => 480p | HLS valid: True
+  - Goldmines Movies 2 => 480p | HLS valid: True
   - S01E04 - Episode 4 => Unknown | HLS valid: False
   - S01E05 - Episode 5 => Unknown | HLS valid: False
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - Raigarh Lions vs Bastar Bisons - 10 Jun 2026 [HIN] - Chhattisgarh Cricket Premier League 2026 => Unknown | HLS valid: False
-  - Gwalior Shernis vs Royal Nimar Eagles Women (Madhya Pradesh League T20 Women's 2026) => Unknown | HLS valid: False
   - Ekushey TV => Unknown | HLS valid: True
   - Deepto TV => Unknown | HLS valid: True
   - BBC News => Unknown | HLS valid: False

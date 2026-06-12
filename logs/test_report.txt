@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 12572
-After duplicate remove: 12572
+Total parsed streams  : 11932
+After duplicate remove: 11932
 Checked (async)       : 200
 Dead removed          : 165
-Final survivors       : 12407
-Movies                : 11333
-TV channels           : 1074
+Final survivors       : 11767
+Movies                : 11017
+TV channels           : 750
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 184
+Category groups       : 166
 
 Sample quality checks:
   - Zee Action => Unknown | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
-  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
+  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
-  - Goldmines Movies => 480p | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
+  - Goldmines Movies => 480p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
   - S01E04 - Episode 4 => Unknown | HLS valid: False
   - S01E05 - Episode 5 => Unknown | HLS valid: False
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - India A vs Afghanistan A - 11 Jun 2026 [ENG] - Talent TV Cup => Unknown | HLS valid: False
-  - India A vs Afghanistan A - 11 Jun 2026 [HIN] - Talent TV Cup => Unknown | HLS valid: False
-  - India A vs Afghanistan A - 11 Jun 2026 [TAM] - Talent TV Cup => Unknown | HLS valid: False
-  - India A vs Afghanistan A - 11 Jun 2026 [TEL] - Talent TV Cup => Unknown | HLS valid: False
+  - Ekushey TV => Unknown | HLS valid: True
+  - Deepto TV => Unknown | HLS valid: True
+  - BBC News => Unknown | HLS valid: False
+  - Deshe Bideshe => Unknown | HLS valid: False

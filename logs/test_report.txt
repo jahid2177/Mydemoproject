@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 11789
-After duplicate remove: 11789
+Total parsed streams  : 11828
+After duplicate remove: 11828
 Checked (async)       : 200
 Dead removed          : 165
-Final survivors       : 11624
-Movies                : 10919
-TV channels           : 705
+Final survivors       : 11663
+Movies                : 10954
+TV channels           : 709
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 161
+Category groups       : 162
 
 Sample quality checks:
-  - Zee Anmol TV => Unknown | HLS valid: True
   - Zee Action => Unknown | HLS valid: True
-  - Goldmines Bollywood => Unknown | HLS valid: True
+  - Zee Anmol TV => Unknown | HLS valid: True
   - Sheemaroo Bollywood => 1080p | HLS valid: True
+  - Hinde Movies 3 => 1080p | HLS valid: True
+  - Goldmines Bollywood => Unknown | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
-  - Goldmines => 480p | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
+  - Goldmines => 480p | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - Ekushey TV => Unknown | HLS valid: True
-  - Deepto TV => Unknown | HLS valid: True
-  - BBC News => Unknown | HLS valid: False
-  - Deshe Bideshe => Unknown | HLS valid: False
-  - Desh TV => Unknown | HLS valid: True
-  - MUSIC BANGLA => Unknown | HLS valid: False
+  - UFC Freedom 250 - Topuria vs Gaethje - 15 Jun 2026 [ENG] - UFC Freedom 250 - Topuria vs Gaethje => Unknown | HLS valid: False
+  - UFC Freedom 250 - Topuria vs Gaethje - 15 Jun 2026 [HIN] - UFC Freedom 250 - Topuria vs Gaethje => Unknown | HLS valid: False
+  - UFC Freedom 250 - Topuria vs Gaethje - 15 Jun 2026 [TAM] - UFC Freedom 250 - Topuria vs Gaethje => Unknown | HLS valid: False
+  - UFC Freedom 250 - Topuria vs Gaethje - 15 Jun 2026 [TEL] - UFC Freedom 250 - Topuria vs Gaethje => Unknown | HLS valid: False
+  - UFC Freedom 250 - Topuria vs Gaethje - 15 Jun 2026 [KAN] - UFC Freedom 250 - Topuria vs Gaethje => Unknown | HLS valid: False

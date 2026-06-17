@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 11806
-After duplicate remove: 11806
+Total parsed streams  : 11798
+After duplicate remove: 11798
 Checked (async)       : 200
 Dead removed          : 165
-Final survivors       : 11641
-Movies                : 10952
-TV channels           : 689
+Final survivors       : 11633
+Movies                : 10929
+TV channels           : 704
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 152
+Category groups       : 153
 
 Sample quality checks:
+  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
   - Zee Action => Unknown | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
-  - Joo Music => 720p | HLS valid: True
-  - B4U Kadak => 480p | HLS valid: True
-  - Goldmines Movies => 480p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
-  - Sheemaroo Bollywood => 1080p | HLS valid: True
+  - B4U Kadak => 480p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
+  - Goldmines Movies => 480p | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - Ekushey TV => Unknown | HLS valid: True
-  - Deepto TV => Unknown | HLS valid: True
-  - BBC News => Unknown | HLS valid: False
-  - Deshe Bideshe => Unknown | HLS valid: True
-  - Desh TV => Unknown | HLS valid: False
+  - India A vs Afghanistan A - 17 Jun 2026 [ENG] - Talent TV Cup => Unknown | HLS valid: False
+  - India A vs Afghanistan A - 17 Jun 2026 [HIN] - Talent TV Cup => Unknown | HLS valid: False
+  - India A vs Afghanistan A - 17 Jun 2026 [TAM] - Talent TV Cup => Unknown | HLS valid: False
+  - India A vs Afghanistan A - 17 Jun 2026 [TEL] - Talent TV Cup => Unknown | HLS valid: False
+  - India A vs Afghanistan A - 17 Jun 2026 [KAN] - Talent TV Cup => Unknown | HLS valid: False
+  - 2nd Test - Day 1 - 17 Jun 2026  [ENG] - New Zealand Tour of England 2026 => Unknown | HLS valid: False

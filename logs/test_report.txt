@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 11795
-After duplicate remove: 11795
+Total parsed streams  : 11871
+After duplicate remove: 11871
 Checked (async)       : 200
 Dead removed          : 165
-Final survivors       : 11630
-Movies                : 10942
-TV channels           : 688
+Final survivors       : 11706
+Movies                : 11016
+TV channels           : 690
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 155
+Category groups       : 157
 
 Sample quality checks:
   - Sheemaroo Bollywood => 1080p | HLS valid: True
-  - Zee Action => Unknown | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
+  - Zee Action => Unknown | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
+  - Goldmines => 480p | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
-  - Goldmines => 480p | HLS valid: True
+  - G-Serise => Unknown | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - Ekushey TV => Unknown | HLS valid: True
-  - Deepto TV => Unknown | HLS valid: True
-  - BBC News => Unknown | HLS valid: False
-  - Deshe Bideshe => Unknown | HLS valid: True
-  - MUSIC BANGLA => Unknown | HLS valid: False
-  - MY TV => Unknown | HLS valid: False
+  - 2nd Test - Day 4 - 20 Jun 2026  [ENG] - New Zealand Tour of England 2026 => Unknown | HLS valid: False
+  - Ludhiana Lions vs Jalandhar Jaguars (Punjab T10 2026) => Unknown | HLS valid: False
+  - Goteborg Phoenix vs Stockholm City (Nordic Smash T20 Cup- 2026) => Unknown | HLS valid: False
+  - Bathinda Bulls vs Mohali Monsters (Punjab T10 2026) => Unknown | HLS valid: False
+  - Day 2 vs BRNO (GRAND PRIX OF CZECHIA 2026) => Unknown | HLS valid: False

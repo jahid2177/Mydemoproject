@@ -1,16 +1,16 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 11871
-After duplicate remove: 11871
+Total parsed streams  : 11809
+After duplicate remove: 11809
 Checked (async)       : 200
 Dead removed          : 165
-Final survivors       : 11706
-Movies                : 11015
-TV channels           : 691
+Final survivors       : 11644
+Movies                : 10958
+TV channels           : 686
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 154
+Category groups       : 153
 
 Sample quality checks:
   - Sheemaroo Bollywood => 1080p | HLS valid: True
@@ -19,12 +19,12 @@ Sample quality checks:
   - Goldmines Bollywood => Unknown | HLS valid: True
   - Goldmines => 480p | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
-  - B4U Kadak => 480p | HLS valid: True
-  - Goldmines Movies 2 => 480p | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - UFC Fight Night - Kape vs Horiguchi - 21 Jun 2026 [ENG] -  UFC Fight Night - Kape vs Horiguchi => Unknown | HLS valid: False
-  - UFC Fight Night - Kape vs Horiguchi - 21 Jun 2026 [HIN] -  UFC Fight Night - Kape vs Horiguchi => Unknown | HLS valid: False
-  - UFC Fight Night - Kape vs Horiguchi - 21 Jun 2026 [TAM] -  UFC Fight Night - Kape vs Horiguchi => Unknown | HLS valid: False
-  - UFC Fight Night - Kape vs Horiguchi - 21 Jun 2026 [TEL] -  UFC Fight Night - Kape vs Horiguchi => Unknown | HLS valid: False
-  - UFC Fight Night - Kape vs Horiguchi - 21 Jun 2026 [KAN] -  UFC Fight Night - Kape vs Horiguchi => Unknown | HLS valid: False
-  - Day 3 vs Shinnecock Hills Golf Club- NY (US Open 2026) => Unknown | HLS valid: False
+  - Ekushey TV => Unknown | HLS valid: True
+  - Deepto TV => Unknown | HLS valid: True
+  - BBC News => Unknown | HLS valid: False
+  - Deshe Bideshe => Unknown | HLS valid: True
+  - MUSIC BANGLA => Unknown | HLS valid: False
+  - MY TV => Unknown | HLS valid: False
+  - MAASRANGA HD => Unknown | HLS valid: False
+  - Somoy TV => Unknown | HLS valid: False

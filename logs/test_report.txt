@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 11982
-After duplicate remove: 11982
+Total parsed streams  : 11954
+After duplicate remove: 11954
 Checked (async)       : 200
 Dead removed          : 164
-Final survivors       : 11818
-Movies                : 11049
-TV channels           : 769
+Final survivors       : 11790
+Movies                : 11017
+TV channels           : 773
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 161
+Category groups       : 162
 
 Sample quality checks:
+  - Sheemaroo Bollywood => 1080p | HLS valid: True
+  - Goldmines Bollywood => Unknown | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
   - Zee Action => Unknown | HLS valid: True
-  - Goldmines Bollywood => Unknown | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
-  - Goldmines Movies => 480p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
+  - Goldmines Movies => 480p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
-  - Sheemaroo Bollywood => 1080p | HLS valid: True
+  - G-Serise => Unknown | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - Ekushey TV => Unknown | HLS valid: True
-  - Deepto TV => Unknown | HLS valid: True
-  - BBC News => Unknown | HLS valid: False
-  - Deshe Bideshe => Unknown | HLS valid: True
-  - MUSIC BANGLA => Unknown | HLS valid: False
-  - MY TV => Unknown | HLS valid: False
+  - 3rd Test - Day 3 - 27 Jun 2026 [ENG] - New Zealand Tour of England 2026 => Unknown | HLS valid: False
+  - Itahari Super Kings vs RML Sports (KPL Indo Nepal T20 2026) => Unknown | HLS valid: False
+  - Namibia vs Nigeria (Nigeria tour of Namibia 2026) => Unknown | HLS valid: False
+  - Day 2 vs ASSEN (GRAND PRIX OF NETHERLANDS 2026) => Unknown | HLS valid: False
+  - Sprint Race vs Spielberg (F3 AUSTRIA 2026) => Unknown | HLS valid: False

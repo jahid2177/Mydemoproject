@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 11925
-After duplicate remove: 11925
+Total parsed streams  : 9656
+After duplicate remove: 9656
 Checked (async)       : 200
-Dead removed          : 164
-Final survivors       : 11761
-Movies                : 11029
-TV channels           : 732
+Dead removed          : 163
+Final survivors       : 9493
+Movies                : 8705
+TV channels           : 788
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 162
+Category groups       : 144
 
 Sample quality checks:
-  - Zee Anmol TV => Unknown | HLS valid: True
   - Sheemaroo Bollywood => 1080p | HLS valid: True
+  - Zee Anmol TV => Unknown | HLS valid: True
   - Zee Action => Unknown | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
   - Goldmines Movies => 480p | HLS valid: True
   - B4U Kadak => 480p | HLS valid: True
-  - Goldmines Movies 2 => 480p | HLS valid: True
   - Goldmines => 480p | HLS valid: True
+  - Goldmines Movies 2 => 480p | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
-  - 3rd Test - Day 4 - 28 Jun 2026 [ENG] - New Zealand Tour of England 2026 => Unknown | HLS valid: False
-  - Open d'Italia - Day 4 - 28 Jun 2026 [ENG] - DP World Tour => Unknown | HLS valid: False
-  - Bangladesh vs Zimbabwe (Bangladesh tour of Zimbabwe- 2026) => Unknown | HLS valid: False
-  - HPCA Patna vs Itahari Super Kings (KPL Indo Nepal T20 2026) => Unknown | HLS valid: False
-  - Shivamogga Yodhas vs Coastal Kings Mangaluru (Maharaja T20 Trophy- 2026) => Unknown | HLS valid: False
-  - Feature Race vs Austria (F2 AUSTRIA 2026) => Unknown | HLS valid: False
+  - Ekushey TV => Unknown | HLS valid: True
+  - Deepto TV => Unknown | HLS valid: True
+  - BBC News => Unknown | HLS valid: False
+  - Deshe Bideshe => Unknown | HLS valid: True
+  - RTV => Unknown | HLS valid: True
+  - Desh TV => Unknown | HLS valid: True

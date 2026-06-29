@@ -30,26 +30,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/3/31/Deepto_TV_logo.png\" group-title=\"Akash Go\",Deepto TV"
   },
   {
-    "name": "Desh TV",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "BANGLA",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1/mono.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",Desh TV"
-  },
-  {
-    "name": "SOMOY TV-[2]",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "BANGLA",
-    "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",SOMOY TV-[2]"
-  },
-  {
     "name": "Channel S",
     "logo": "https://s3.aynaott.com/storage/342b1a51814ed9946fe36ac4999d82a2",
     "group": "Bangla",
@@ -163,7 +143,7 @@
     "name": "FASHION ONE",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Entertainment",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
@@ -173,7 +153,7 @@
     "name": "FASHION ONE",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Entertainment",
-    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
+    "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
@@ -288,16 +268,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/33f87783637fc95fdb8837ba9344c9e9\" group-title=\"Sports\",Oman Sports TV"
-  },
-  {
-    "name": "Star Sports 1 HD",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Sports",
-    "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Sports\",Star Sports 1 HD"
   },
   {
     "name": "TVCARiB Kids & Teens",
@@ -520,14 +490,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi\",Big Magic"
   },
   {
-    "name": "MK Six",
+    "name": "MBC tv",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Hindi",
-    "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8",
+    "url": "http://93.184.10.248/MBCBollywood/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi\",MK Six"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi\",MBC tv"
   },
   {
     "name": "Channel Win",
@@ -580,16 +550,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Deshi TV (720p)"
   },
   {
-    "name": "Boishakhi TV",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Unknown",
-    "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Boishakhi TV"
-  },
-  {
     "name": "Green TV (1080p)",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Unknown",
@@ -610,6 +570,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Desh TV (1080p)"
   },
   {
+    "name": "Boishakhi TV",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Unknown",
+    "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Boishakhi TV"
+  },
+  {
     "name": "YRF Music HD",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Unknown",
@@ -620,14 +590,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",YRF Music HD"
   },
   {
-    "name": "TSN Canada",
+    "name": "Fox Sport Fifa",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "FIFA World Cup 2026",
-    "url": "https://hugh.cdn.rumble.cloud/live/v0xi25uh/slot-85/m8uy-e0k3/chunklist_DVR.m3u8",
+    "url": "http://84.17.50.102/fox/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",TSN Canada"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",Fox Sport Fifa"
   },
   {
     "name": "Bein Sports Direct",
@@ -640,14 +610,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",Bein Sports Direct"
   },
   {
-    "name": "Bein Sports",
+    "name": "TPV Sport",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "FIFA World Cup 2026",
-    "url": "http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8",
+    "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",Bein Sports"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",TPV Sport"
   },
   {
     "name": "T Sports HD",
@@ -660,6 +630,26 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",T Sports HD"
   },
   {
+    "name": "Bein Sports",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "FIFA World Cup 2026",
+    "url": "http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",Bein Sports"
+  },
+  {
+    "name": "Somoy TV",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "FIFA World Cup 2026",
+    "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",Somoy TV"
+  },
+  {
     "name": "Bein Sports Tekrar",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "FIFA World Cup 2026",
@@ -668,26 +658,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"FIFA World Cup 2026\",Bein Sports Tekrar"
-  },
-  {
-    "name": "G Series Drama",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Cricket",
-    "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Cricket \",G Series Drama"
-  },
-  {
-    "name": "Saudia Arabia",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Cricket",
-    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Cricket \",Saudia Arabia"
   },
   {
     "name": "Live Quran TV",
@@ -710,14 +680,24 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Cricket \",Sky Sports"
   },
   {
-    "name": "Bein Sports 1",
+    "name": "Saudia Arabia",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Football",
-    "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
+    "group": "Cricket",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Football\",Bein Sports 1"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Cricket \",Saudia Arabia"
+  },
+  {
+    "name": "G Series Drama",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Cricket",
+    "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Cricket \",G Series Drama"
   },
   {
     "name": "Desh TV",
@@ -740,64 +720,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangladeshi \",Arabica TV"
   },
   {
-    "name": "Travel XP English",
+    "name": "Bein Sports 1",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Infotainment Channels",
-    "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    "group": "Football",
+    "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Travel XP English"
-  },
-  {
-    "name": "Travel XP English NZ",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Infotainment Channels",
-    "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Travel XP English NZ"
-  },
-  {
-    "name": "Sochi 24 HD",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Infotainment Channels",
-    "url": "http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Sochi 24 HD"
-  },
-  {
-    "name": "Amazon SAT",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Infotainment Channels",
-    "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Amazon SAT"
-  },
-  {
-    "name": "ALMASIRA MUBASHER",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "ISLAMIC CHANNELS",
-    "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",ALMASIRA MUBASHER"
-  },
-  {
-    "name": "Saudi Quran",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "ISLAMIC CHANNELS",
-    "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",Saudi Quran"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Football\",Bein Sports 1"
   },
   {
     "name": "QURAN RADIOTV SMC",
@@ -808,6 +738,36 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",QURAN RADIOTV SMC"
+  },
+  {
+    "name": "AL EKHBARIA",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "ISLAMIC CHANNELS",
+    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL EKHBARIA"
+  },
+  {
+    "name": "Unknown",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "ISLAMIC CHANNELS",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",Unknown"
+  },
+  {
+    "name": "ALMASIRA MUBASHER",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "ISLAMIC CHANNELS",
+    "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",ALMASIRA MUBASHER"
   },
   {
     "name": "Unknown",
@@ -830,14 +790,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL EKHBARIA"
   },
   {
-    "name": "AL QAMAR",
+    "name": "Saudi Quran",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "ISLAMIC CHANNELS",
-    "url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
+    "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL QAMAR"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",Saudi Quran"
   },
   {
     "name": "Madani Tv",
@@ -850,34 +810,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",Madani Tv"
   },
   {
-    "name": "AL ISTIQAMA",
+    "name": "AL QAMAR",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "ISLAMIC CHANNELS",
-    "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
+    "url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL ISTIQAMA"
-  },
-  {
-    "name": "Peace Tv English",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "ISLAMIC CHANNELS",
-    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",Peace Tv English"
-  },
-  {
-    "name": "AL EKHBARIA",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "ISLAMIC CHANNELS",
-    "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL EKHBARIA"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL QAMAR"
   },
   {
     "name": "BAHRAIN QURAN",
@@ -890,14 +830,54 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",BAHRAIN QURAN"
   },
   {
-    "name": "DW NEWS",
+    "name": "AL ISTIQAMA",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "NEWS INTERNASIONAL",
-    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
+    "group": "ISLAMIC CHANNELS",
+    "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",DW NEWS"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",AL ISTIQAMA"
+  },
+  {
+    "name": "Travel XP English NZ",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Infotainment Channels",
+    "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Travel XP English NZ"
+  },
+  {
+    "name": "Travel XP English",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Infotainment Channels",
+    "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Travel XP English"
+  },
+  {
+    "name": "Sochi 24 HD",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Infotainment Channels",
+    "url": "http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Sochi 24 HD"
+  },
+  {
+    "name": "Amazon SAT",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Infotainment Channels",
+    "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Amazon SAT"
   },
   {
     "name": "T Global News (Canada)",
@@ -910,24 +890,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",T Global News (Canada)"
   },
   {
-    "name": "DW English",
+    "name": "DW NEWS",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "NEWS INTERNASIONAL",
-    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",DW English"
-  },
-  {
-    "name": "DW English _",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "NEWS INTERNASIONAL",
-    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",DW English _"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",DW NEWS"
   },
   {
     "name": "Global News (US)",
@@ -948,6 +918,26 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",CNN (US)"
+  },
+  {
+    "name": "DW English",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "NEWS INTERNASIONAL",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",DW English"
+  },
+  {
+    "name": "DW English _",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "NEWS INTERNASIONAL",
+    "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",DW English _"
   },
   {
     "name": "Iran International(EN)",
@@ -980,16 +970,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",France 24 English (720p)"
   },
   {
-    "name": "NDTV Hindi",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "NEWS INTERNASIONAL",
-    "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",NDTV Hindi"
-  },
-  {
     "name": "NDTV NEWS",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "NEWS INTERNASIONAL",
@@ -1010,14 +990,24 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",NDTV English"
   },
   {
-    "name": "RTNEWS GLOBAL",
+    "name": "NDTV Hindi",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "NEWS INTERNASIONAL",
-    "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
+    "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",RTNEWS GLOBAL"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",NDTV Hindi"
+  },
+  {
+    "name": "RT NEWS USA",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "NEWS INTERNASIONAL",
+    "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",RT NEWS USA"
   },
   {
     "name": "RT News (EN)",
@@ -1030,14 +1020,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",RT News (EN)"
   },
   {
-    "name": "RT NEWS USA",
+    "name": "RTNEWS GLOBAL",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "NEWS INTERNASIONAL",
-    "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
+    "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",RT NEWS USA"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL\",RTNEWS GLOBAL"
   },
   {
     "name": "France News 24",
@@ -1060,6 +1050,46 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"NEWS INTERNASIONAL TV\",Times Of India"
   },
   {
+    "name": "Motu Patlu",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "CARTOON Drama",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Motu Patlu"
+  },
+  {
+    "name": "Gopal Bhar TV",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "CARTOON Drama",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Gopal Bhar TV"
+  },
+  {
+    "name": "Doraemon TV",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "CARTOON Drama",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Doraemon TV"
+  },
+  {
+    "name": "Tom & Jerry TV",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "CARTOON Drama",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Tom & Jerry TV"
+  },
+  {
     "name": "EWTN TV",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Relagion Channel",
@@ -1080,44 +1110,24 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Relagion Channel\",Arihant TV"
   },
   {
-    "name": "Peace TV Urdu",
+    "name": "Peace TV English",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Relagion Channel",
-    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Relagion Channel\",Peace TV Urdu"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Relagion Channel\",Peace TV English"
   },
   {
-    "name": "Gopal Bhar TV",
+    "name": "Dhoom Music",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "CARTOON Drama",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
+    "group": "Kolkata Bangla Music",
+    "url": "http://103.175.73.12:8080/live/378/378_0.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Gopal Bhar TV"
-  },
-  {
-    "name": "Motu Patlu",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "CARTOON Drama",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Motu Patlu"
-  },
-  {
-    "name": "Tom & Jerry TV",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "CARTOON Drama",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Tom & Jerry TV"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Kolkata Bangla Music\",Dhoom Music"
   },
   {
     "name": "NK",
@@ -1130,16 +1140,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Indian Bangla News\",NK"
   },
   {
-    "name": "Kolkata TV",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Indian Bangla News",
-    "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Indian Bangla News\",Kolkata TV"
-  },
-  {
     "name": "R Plus News",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Indian Bangla News",
@@ -1150,14 +1150,44 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Indian Bangla News\",R Plus News"
   },
   {
-    "name": "Dhoom Music",
+    "name": "Kolkata TV",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Kolkata Bangla Music",
-    "url": "http://103.175.73.12:8080/live/378/378_0.m3u8",
+    "group": "Indian Bangla News",
+    "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Kolkata Bangla Music\",Dhoom Music"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Indian Bangla News\",Kolkata TV"
+  },
+  {
+    "name": "9XM",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Hindi Music",
+    "url": "http://103.175.73.12:8080/live/155/155_0.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi Music\",9XM"
+  },
+  {
+    "name": "Music India",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Hindi Music",
+    "url": "http://103.175.73.12:8080/live/158/158_0.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi Music\",Music India"
+  },
+  {
+    "name": "E24",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Hindi Music",
+    "url": "http://103.175.73.12:8080/live/159/159_0.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi Music\",E24"
   },
   {
     "name": "R Plus Gold",
@@ -1178,36 +1208,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Kolkata Bangla\",AAKASH AATH"
-  },
-  {
-    "name": "9XM",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Hindi Music",
-    "url": "http://103.175.73.12:8080/live/155/155_0.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi Music\",9XM"
-  },
-  {
-    "name": "E24",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Hindi Music",
-    "url": "http://103.175.73.12:8080/live/159/159_0.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi Music\",E24"
-  },
-  {
-    "name": "Music India",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Hindi Music",
-    "url": "http://103.175.73.12:8080/live/158/158_0.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi Music\",Music India"
   },
   {
     "name": "Food Food",
@@ -1290,14 +1290,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Indian-Bangla\",R Plus Gould"
   },
   {
-    "name": "Doraemon",
+    "name": "Akash Aath",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Bangla | 24/7",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
+    "group": "Indian-Bangla",
+    "url": "https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangla | 24/7\",Doraemon"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Indian-Bangla\",Akash Aath"
   },
   {
     "name": "Somoy TV",
@@ -1380,16 +1380,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/BadhanStrom/img/refs/heads/main/jhonmobhumitv.png\" group-title=\"SM All TV\",JonmoBhumi TV"
   },
   {
-    "name": "Mohona TV HD",
-    "logo": "https://i.ibb.co.com/1JMhnC3G/MOHONA-TV-HD.png",
-    "group": "SM All TV",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co.com/1JMhnC3G/MOHONA-TV-HD.png\" group-title=\"SM All TV\",Mohona TV HD"
-  },
-  {
     "name": "ME TV",
     "logo": "https://www.metvbd.com/media/common/logo-fb.png",
     "group": "SM All TV",
@@ -1418,6 +1408,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://probashinews24.tv/images/logo.png\" group-title=\"SM All TV\",Probashi TV"
+  },
+  {
+    "name": "ZB Cartun TV",
+    "logo": "https://iili.io/F8gQjJS.png",
+    "group": "SM All TV",
+    "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://iili.io/F8gQjJS.png\" group-title=\"SM All TV\",ZB Cartun TV"
   },
   {
     "name": "Star Jalsha HD",
@@ -1580,16 +1580,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://m.economictimes.com/thumb/msid-71679942,width-1200,height-900,resizemode-4,imgsize-42753/radio-mirchi-agencies.jpg\" group-title=\"SM All TV\",Radio Mirchi"
   },
   {
-    "name": "Somoy TV",
-    "logo": "https://www.somoynews.tv/icon.png",
-    "group": "World_Cup",
-    "url": "http://ubuntu.moonplex.net:8080/Somoy_TV/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.somoynews.tv/icon.png\" group-title=\"World_Cup\",Somoy TV"
-  },
-  {
     "name": "M6 Direct TV",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/1/15/M6_1987_logo.svg",
     "group": "World_Cup",
@@ -1710,16 +1700,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/t-sports-2.png\" group-title=\"SM_IPTV\",T Sports 2"
   },
   {
-    "name": "T Sports 2",
-    "logo": "https://otapp.store/uploads/tv_image/sm/t-sports-2.png",
-    "group": "SM_IPTV",
-    "url": "http://ubuntu.moonplex.net:8080/TSports_HD/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/t-sports-2.png\" group-title=\"SM_IPTV\",T Sports 2"
-  },
-  {
     "name": "q_75,f_webp/zUGrjZ4BuUSiBsg_1BeE/posters/4509b2c4-c315-48e6-a30a-bf44d144c9f2.png\" group-title=\"SM_IPTV\",FIFA WC CHANNEL 1",
     "logo": "https://assets-prod.services.toffeelive.com/w_256,q_75,f_webp/zUGrjZ4BuUSiBsg_1BeE/posters/4509b2c4-c315-48e6-a30a-bf44d144c9f2.png",
     "group": "SM_IPTV",
@@ -1808,16 +1788,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/ten-sports.png\" group-title=\"SM_IPTV\",Ten Sports"
-  },
-  {
-    "name": "S TV Bangla",
-    "logo": "https://otapp.store/uploads/tv_image/sm/s-tv-bangla.png",
-    "group": "SM_IPTV",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/s-tv-bangla.png\" group-title=\"SM_IPTV\",S TV Bangla"
   },
   {
     "name": "RAJDHANI TV",
@@ -1930,26 +1900,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/ekattor-tv.png\" group-title=\"SM_IPTV\",Ekattor TV"
   },
   {
-    "name": "Channel 9",
-    "logo": "https://otapp.store/uploads/tv_image/sm/channel-9.png",
-    "group": "SM_IPTV",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/channel-9.png\" group-title=\"SM_IPTV\",Channel 9"
-  },
-  {
-    "name": "Gazi TV HD",
-    "logo": "https://otapp.store/uploads/tv_image/sm/gazi-tv-hd.png",
-    "group": "SM_IPTV",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/gazi-tv-hd.png\" group-title=\"SM_IPTV\",Gazi TV HD"
-  },
-  {
     "name": "Bijoy TV",
     "logo": "https://otapp.store/uploads/tv_image/sm/bijoy-tv.png",
     "group": "SM_IPTV",
@@ -1968,16 +1918,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/mohona-tv.png\" group-title=\"SM_IPTV\",Mohona TV"
-  },
-  {
-    "name": "My TV",
-    "logo": "https://otapp.store/uploads/tv_image/sm/my-tv.png",
-    "group": "SM_IPTV",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/my-tv.png\" group-title=\"SM_IPTV\",My TV"
   },
   {
     "name": "Desh TV",
@@ -2038,26 +1978,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/news18-bangla-news.png\" group-title=\"SM_IPTV\",News18 Bangla News"
-  },
-  {
-    "name": "Makkah Live Quran TV",
-    "logo": "https://otapp.store/uploads/tv_image/sm/makkah-live-quran-tv.png",
-    "group": "SM_IPTV",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkahtv.stream/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/makkah-live-quran-tv.png\" group-title=\"SM_IPTV\",Makkah Live Quran TV"
-  },
-  {
-    "name": "Madina Live Tv Sunnah TV",
-    "logo": "https://otapp.store/uploads/tv_image/sm/madina-live-tv-sunnah-tv.png",
-    "group": "SM_IPTV",
-    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/madina.stream/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/madina-live-tv-sunnah-tv.png\" group-title=\"SM_IPTV\",Madina Live Tv Sunnah TV"
   },
   {
     "name": "Discovery Channel Bengali",
@@ -5460,6 +5380,26 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/TAKBEER.png\" group-title=\"URDU | PAKISTAN\",TAKBEER TV [PK]"
   },
   {
+    "name": "TNS 1",
+    "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+    "group": "FIFA",
+    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3146.ts",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",TNS 1"
+  },
+  {
+    "name": "TNS 2",
+    "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
+    "group": "FIFA",
+    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3145.ts",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",TNS 2"
+  },
+  {
     "name": "Unite 8 Sports 1 HD",
     "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
     "group": "FIFA",
@@ -5480,34 +5420,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",TVRI sport"
   },
   {
-    "name": "TVP Sports",
+    "name": "FS1",
     "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
     "group": "FIFA",
-    "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
+    "url": "http://fastshare1.com:8080/live/931461266/374152877/751354.ts?RKDYIPTV&token=rkdyiptv",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",TVP Sports"
-  },
-  {
-    "name": "TNS 2",
-    "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-    "group": "FIFA",
-    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3145.ts",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",TNS 2"
-  },
-  {
-    "name": "TNS 1",
-    "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
-    "group": "FIFA",
-    "url": "http://s.rocketdns.info:8080/live/monstercable/Dq6jjknxCr/3146.ts",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",TNS 1"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",FS1"
   },
   {
     "name": "WIN Sports",
@@ -5550,14 +5470,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",PTV 4K"
   },
   {
-    "name": "FS1",
+    "name": "Somoy",
     "logo": "https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png",
     "group": "FIFA",
-    "url": "http://fastshare1.com:8080/live/931461266/374152877/751354.ts?RKDYIPTV&token=rkdyiptv",
+    "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",FS1"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://assets.football-logos.cc/logos/tournaments/1500x1500/fifa-world-cup-2026--white.10e0b37b.png\" group-title=\"FIFA\",Somoy"
   },
   {
     "name": "D Sports",
@@ -5610,6 +5530,26 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ytimg.com/vi/GRCWbI5ZSFg/maxresdefault.jpg\" group-title=\"BD.BANG.CH ( BDIX )\",ATN BANGLA UK"
   },
   {
+    "name": "Discovery Hindi",
+    "logo": "https://bdiptv.stream/uploads/tv_image/discovery.png",
+    "group": "Documentary",
+    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://bdiptv.stream/uploads/tv_image/discovery.png\" group-title=\"Documentary\",Discovery Hindi"
+  },
+  {
+    "name": "Love Nature",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png",
+    "group": "Documentary",
+    "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png\" group-title=\"Documentary\",Love Nature"
+  },
+  {
     "name": "ATN Bangla UK",
     "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png",
     "group": "Bangla",
@@ -5638,26 +5578,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Bangla%20TV.png\" group-title=\"Bangla\",Bangla TV Europe"
-  },
-  {
-    "name": "Discovery Hindi",
-    "logo": "https://bdiptv.stream/uploads/tv_image/discovery.png",
-    "group": "Documentary",
-    "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoverychannel2/default/manifest.mpd",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://bdiptv.stream/uploads/tv_image/discovery.png\" group-title=\"Documentary\",Discovery Hindi"
-  },
-  {
-    "name": "Love Nature",
-    "logo": "https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png",
-    "group": "Documentary",
-    "url": "https://cdn1.logichost.in/ajmantv/live/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/1/1d/Love_Nature_TV.png\" group-title=\"Documentary\",Love Nature"
   },
   {
     "name": "Ekushey TV",
@@ -5730,16 +5650,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://i.postimg.cc/ZnD8CtvQ/BBC.jpg\" group-title=\"NEWS INTERNASIONAL\",Breaking News"
   },
   {
-    "name": "ACCU WEATHER",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/AccuWeather_2021.svg",
-    "group": "Infotainment Channels",
-    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/5/5d/AccuWeather_2021.svg\" group-title=\"Infotainment Channels\",ACCU WEATHER"
-  },
-  {
     "name": "Wild Life",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Infotainment Channels",
@@ -5750,10 +5660,60 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Infotainment Channels\",Wild Life"
   },
   {
+    "name": "ACCU WEATHER",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5d/AccuWeather_2021.svg",
+    "group": "Infotainment Channels",
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/5/5d/AccuWeather_2021.svg\" group-title=\"Infotainment Channels\",ACCU WEATHER"
+  },
+  {
+    "name": "Football World Cup 2026 4K",
+    "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+    "group": "Football World Cup 2026",
+    "url": "http://starhub.pro/live/farhat-3379/67897-913379/745269.ts",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg\" group-title=\"Football World Cup 2026\",Football World Cup 2026 4K"
+  },
+  {
     "name": "Football World Cup 2026",
     "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
     "group": "Football World Cup 2026",
     "url": "http://starhub.pro/live/farhat-3379/67897-913379/742610.ts",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg\" group-title=\"Football World Cup 2026\",Football World Cup 2026"
+  },
+  {
+    "name": "Football World Cup 2026",
+    "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+    "group": "Football World Cup 2026",
+    "url": "http://starhub.pro/live/farhat-3379/67897-913379/744527.ts",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg\" group-title=\"Football World Cup 2026\",Football World Cup 2026"
+  },
+  {
+    "name": "Football World Cup 2026",
+    "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+    "group": "Football World Cup 2026",
+    "url": "http://103.114.11.37:8081/T-Sports-BDIX-2-1080p/tracks-v1a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg\" group-title=\"Football World Cup 2026\",Football World Cup 2026"
+  },
+  {
+    "name": "Football World Cup 2026",
+    "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+    "group": "Football World Cup 2026",
+    "url": "http://103.114.11.37:8081/T-Sports-BDIX-3-1080p/tracks-v1a1/mono.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
@@ -5770,20 +5730,10 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg\" group-title=\"Football World Cup 2026\",Football World Cup 2026"
   },
   {
-    "name": "Football World Cup 2026 4K",
-    "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
-    "group": "Football World Cup 2026",
-    "url": "http://starhub.pro/live/farhat-3379/67897-913379/745269.ts",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg\" group-title=\"Football World Cup 2026\",Football World Cup 2026 4K"
-  },
-  {
     "name": "Football World Cup 2026",
     "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
     "group": "Football World Cup 2026",
-    "url": "http://starhub.pro/live/farhat-3379/67897-913379/744527.ts",
+    "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
@@ -5800,6 +5750,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/TtHtGkW/20240803-172601.png\" group-title=\"Relagion Channel\",Makkah TV"
   },
   {
+    "name": "God TV",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Relagion Channel",
+    "url": "https://hlsb-us.god.tv/GODTV/USA-480.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Relagion Channel\",God TV"
+  },
+  {
     "name": "Peace TV Bangla",
     "logo": "https://i.ibb.co/Gfw89mC/20240804-033102.png",
     "group": "Relagion Channel",
@@ -5810,14 +5770,24 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/Gfw89mC/20240804-033102.png\" group-title=\"Relagion Channel\",Peace TV Bangla"
   },
   {
-    "name": "God TV",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "name": "Peace TV Urdu",
+    "logo": "https://i.ibb.co/598TYnC/20240827-092020.png",
     "group": "Relagion Channel",
-    "url": "https://hlsb-us.god.tv/GODTV/USA-480.m3u8",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Relagion Channel\",God TV"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/598TYnC/20240827-092020.png\" group-title=\"Relagion Channel\",Peace TV Urdu"
+  },
+  {
+    "name": "Bantul The Great",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "CARTOON Drama",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Bantul The Great"
   },
   {
     "name": "Oggy and the Cockroaches",
@@ -5830,14 +5800,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Oggy and the Cockroaches"
   },
   {
-    "name": "Bantul The Great",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "CARTOON Drama",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
+    "name": "Star Sports 1 HD",
+    "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%201%40.jpeg",
+    "group": "Sports",
+    "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"CARTOON Drama\",Bantul The Great"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%201%40.jpeg\" group-title=\"Sports\",Star Sports 1 HD"
   },
   {
     "name": "DD Sports 2.0",
@@ -5870,16 +5840,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Information\",CGTN Docment"
   },
   {
-    "name": "CGTN News",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "English News",
-    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"English News\",CGTN News"
-  },
-  {
     "name": "France 24",
     "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FRANCE_24_logo.svg/1200px-FRANCE_24_logo.svg.png",
     "group": "English News",
@@ -5888,6 +5848,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FRANCE_24_logo.svg/1200px-FRANCE_24_logo.svg.png\" group-title=\"English News\",France 24"
+  },
+  {
+    "name": "CGTN News",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "English News",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"English News\",CGTN News"
   },
   {
     "name": "Thunderbolts (2025) 720p latino",
@@ -5910,24 +5880,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/3AvLBac3KejQ1cO0d183t4rALua.jpg\" group-title=\"\",Vi el Brillo del Televisor I Saw the TV Glow(2024)"
   },
   {
-    "name": "Fashion TV",
+    "name": "RACER International",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "lifestyle",
-    "url": "https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01546-fashiontv-fashiontv-rakutengb/playlist.m3u8",
+    "group": "sport",
+    "url": "https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"lifestyle\",Fashion TV"
-  },
-  {
-    "name": "Moda TV",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "lifestyle",
-    "url": "https://amg14891-amg14891c6-amgplt0148.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg14891-amg14891c6-amgplt0148/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"lifestyle\",Moda TV"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",RACER International"
   },
   {
     "name": "Motoretrò",
@@ -5938,6 +5898,36 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",Motoretrò"
+  },
+  {
+    "name": "Golf Television",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "sport",
+    "url": "https://amg14891-amg14891c1-amgplt0165.playout.now3.amagi.tv/playlist/amg14891-amg14891c1-amgplt0165/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",Golf Television"
+  },
+  {
+    "name": "Juventus Play",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "sport",
+    "url": "https://amg27604-amg27604c3-amgplt0148.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg27604-amg27604c3-amgplt0148/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",Juventus Play"
+  },
+  {
+    "name": "Tennis+",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "sport",
+    "url": "https://amg01935-amg01935c1-amgplt0165.playout.now3.amagi.tv/playlist/amg01935-amg01935c1-amgplt0165/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",Tennis+"
   },
   {
     "name": "Automoto",
@@ -5960,26 +5950,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",TOP Barça"
   },
   {
-    "name": "Tennis+",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "sport",
-    "url": "https://amg01935-amg01935c1-amgplt0165.playout.now3.amagi.tv/playlist/amg01935-amg01935c1-amgplt0165/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",Tennis+"
-  },
-  {
-    "name": "RACER International",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "sport",
-    "url": "https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",RACER International"
-  },
-  {
     "name": "FUEL TV",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "sport",
@@ -5990,24 +5960,24 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",FUEL TV"
   },
   {
-    "name": "Golf Television",
+    "name": "Fashion TV",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "sport",
-    "url": "https://amg14891-amg14891c1-amgplt0165.playout.now3.amagi.tv/playlist/amg14891-amg14891c1-amgplt0165/playlist.m3u8",
+    "group": "lifestyle",
+    "url": "https://amg01546-amg01546c1-rakuten-gb-9592.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01546-fashiontv-fashiontv-rakutengb/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",Golf Television"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"lifestyle\",Fashion TV"
   },
   {
-    "name": "Juventus Play",
+    "name": "Moda TV",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "sport",
-    "url": "https://amg27604-amg27604c3-amgplt0148.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg27604-amg27604c3-amgplt0148/playlist.m3u8",
+    "group": "lifestyle",
+    "url": "https://amg14891-amg14891c6-amgplt0148.playout.now3.amagi.tv/ts-eu-w1-n2/playlist/amg14891-amg14891c6-amgplt0148/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"sport\",Juventus Play"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"lifestyle\",Moda TV"
   },
   {
     "name": "Qwest TV",
@@ -6108,15 +6078,5 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"2023\",Канал"
-  },
-  {
-    "name": "Хорошие новости",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "2025",
-    "url": "https://m.cdntv.online/f/y36ankzrhc/GoodNews.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"2025\",Хорошие новости"
   }
 ]

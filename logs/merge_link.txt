@@ -1,8 +1,8 @@
 ==================================================
   MERGE REPORT — merge_link.json
 ==================================================
-  Generated : 2026-07-06 10:49:48 +0600 (Dhaka)
-  Total unique movies : 36641
+  Generated : 2026-07-06 18:41:56 +0600 (Dhaka)
+  Total unique movies : 21456
 
   Per-source breakdown:
 --------------------------------------------------
@@ -25,14 +25,15 @@
     Skipped   : 0
 
   Source : discoveryftp
-    Fetched   : 15185
-    Added     : 15185
+    Fetched   : 0
+    Added     : 0
     Duplicate : 0
     Skipped   : 0
+    Error     : 429 Client Error: Too Many Requests for url: https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/scripts/static_movies(discoveryftp).json
 
 --------------------------------------------------
-  TOTAL Fetched   : 36641
-  TOTAL Added     : 36641
+  TOTAL Fetched   : 21456
+  TOTAL Added     : 21456
   TOTAL Duplicate : 0
   TOTAL Skipped   : 0
 ==================================================

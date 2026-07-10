@@ -1,35 +1,5 @@
 [
   {
-    "name": "Genesis Scottish Open - Day 1 - 9 Jul 2026 [ENG] - DP World Tour",
-    "logo": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019906/1782290184826701_DP_World_Tour_GENESIS_SCOTTISH_Open_day1_24jun_landscape_thumb.jpg",
-    "group": "Live Event",
-    "url": "https://sonydaimenew.akamaized.net/hls/live/20000301/Golf_DP_0907/ENG/std_lrh-800300010.m3u8?hdnea=exp=1783659943~acl=/*~id=50347052214252685965645425623228~hmac=196baad6658c1afca41505d7dddeddc0a6f9c97a22e60cfe77539abe515ea838",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019906/1782290184826701_DP_World_Tour_GENESIS_SCOTTISH_Open_day1_24jun_landscape_thumb.jpg\" group-title=\"Live Event\",Genesis Scottish Open - Day 1 - 9 Jul 2026 [ENG] - DP World Tour"
-  },
-  {
-    "name": "Estonia vs Norway (ICC Men's T20 World Cup Europe Sub Regional Qualifier B- 2026)",
-    "logo": "https://www.fancode.com/skillup-uploads/cms-media/113.png",
-    "group": "Live Event",
-    "url": "https://bd-mc-fblive.fancode.com/mumbai/4246566_english_hls_12153bee0584513_1ta-di_h264/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.fancode.com/skillup-uploads/cms-media/113.png\" group-title=\"Live Event\",Estonia vs Norway (ICC Men's T20 World Cup Europe Sub Regional Qualifier B- 2026)"
-  },
-  {
-    "name": "Zimbabwe vs Bangladesh (Bangladesh tour of Zimbabwe- 2026)",
-    "logo": "https://www.fancode.com/skillup-uploads/cms-media/Zimbabwe--vs-Bangladesh-old-.png",
-    "group": "Live Event",
-    "url": "https://bd-mc-fblive.fancode.com/mumbai/143401_english_hls_f348d94aff63391_1ta-di_h264/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.fancode.com/skillup-uploads/cms-media/Zimbabwe--vs-Bangladesh-old-.png\" group-title=\"Live Event\",Zimbabwe vs Bangladesh (Bangladesh tour of Zimbabwe- 2026)"
-  },
-  {
     "name": "BBC News",
     "logo": "https://seeklogo.com/images/B/bbc-news-logo-8648ABD044-seeklogo.com.png",
     "group": "Akash Go",
@@ -38,6 +8,56 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://seeklogo.com/images/B/bbc-news-logo-8648ABD044-seeklogo.com.png\" group-title=\"Akash Go\",BBC News"
+  },
+  {
+    "name": "Mohona Tv",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "BANGLA",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",Mohona Tv"
+  },
+  {
+    "name": "GAZI TV",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "BANGLA",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",GAZI TV"
+  },
+  {
+    "name": "EP tv",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "BANGLA",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",EP tv"
+  },
+  {
+    "name": "Channel S",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "BANGLA",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",Channel S"
+  },
+  {
+    "name": "Rajdhani tv",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "BANGLA",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",Rajdhani tv"
   },
   {
     "name": "MY TV",
@@ -273,7 +293,7 @@
     "name": "w_300,q_85/zUGrjZ4BuUSiBsg_1BeE/posters/bf5a8ad8-3996-44f8-80cb-df33f4d53d0f.png\" group-title=\"[LIVE] BDIX ♛\",[BD] FIFA WC CHANNEL 1",
     "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/zUGrjZ4BuUSiBsg_1BeE/posters/bf5a8ad8-3996-44f8-80cb-df33f4d53d0f.png",
     "group": "[LIVE] BDIX ♛",
-    "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/index.m3u8?edge-cache-token=Expires=1783624499~Starts=1783617299~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiMmE2YTBlMzktNjgxNi00ODNiLTg4ZDktYWZhZTAzN2IwMDZjIn0~Signature=uElPr0syRTi5WF31bucUxTWsLjKIr_Fujztga5k4VeZ6Ju9i2no44NUsOA1IWStkNvVYyuGLB_bGfpGnsC0yBQ",
+    "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/index.m3u8?edge-cache-token=Expires=1783642542~Starts=1783635342~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiMmE2YTBlMzktNjgxNi00ODNiLTg4ZDktYWZhZTAzN2IwMDZjIn0~Signature=RQSaN4pYxNpcMnE46P8vrXsBSXprpIwVce50K0HOLU4t44soK5Wi6NOTQH8f3d_bWrk8PYZbE3_MIRindnRLAw",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
@@ -283,7 +303,7 @@
     "name": "w_300,q_85/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png\" group-title=\"[LIVE] BDIX ♛\",[BD] WC Match Recap",
     "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png",
     "group": "[LIVE] BDIX ♛",
-    "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/index.m3u8?edge-cache-token=Expires=1783624502~Starts=1783617302~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiMmE2YTBlMzktNjgxNi00ODNiLTg4ZDktYWZhZTAzN2IwMDZjIn0~Signature=Xpdysp0sOB7ZE52Rjuv087HtKitopixjoB1-TqmKA-Pyb80Z6Wr7WxWtmBiZQ2m9nZooNQQJH6H88hUZoQAoBg",
+    "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-6/index.m3u8?edge-cache-token=Expires=1783642544~Starts=1783635344~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiMmE2YTBlMzktNjgxNi00ODNiLTg4ZDktYWZhZTAzN2IwMDZjIn0~Signature=IebsJyxNDEVQji6du85L44Zw29TiYWMKe82TzBHYH6KcpiX5iKRlAzAQ1ucIeZPxkCl1bZgdJOYI7bXDeWgTAA",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
@@ -930,14 +950,64 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp\" group-title=\"[LIVE] BDIX ♛\",[BD] Cartoon Network HD +"
   },
   {
-    "name": "Somoy News TV (1080p)",
+    "name": "ATN Music (360p)",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
     "group": "Unknown",
-    "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8",
+    "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Somoy News TV (1080p)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",ATN Music (360p)"
+  },
+  {
+    "name": "Channel 1 News HD",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Cricket",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Cricket \",Channel 1 News HD"
+  },
+  {
+    "name": "Unknown",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "ISLAMIC CHANNELS",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",Unknown"
+  },
+  {
+    "name": "Peace Tv English",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "ISLAMIC CHANNELS",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"ISLAMIC CHANNELS\",Peace Tv English"
+  },
+  {
+    "name": "Peace TV Urdu",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Relagion Channel",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Relagion Channel\",Peace TV Urdu"
+  },
+  {
+    "name": "Channel-16",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Bangla Music",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangla Music\",Channel-16"
   },
   {
     "name": "CBN TV USA",
@@ -958,6 +1028,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://static.wikia.nocookie.net/etv-gspn-bangla/images/d/dd/Ekhon_TV_logo.png\" group-title=\"SM All TV\",Ekhon TV"
+  },
+  {
+    "name": "Makkah TV",
+    "logo": "http://data.jaagobd.com/media/channel_logos/C16.jpg",
+    "group": "SM All TV",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkah.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"http://data.jaagobd.com/media/channel_logos/C16.jpg\" group-title=\"SM All TV\",Makkah TV"
   },
   {
     "name": "Desh Bangla TV",
@@ -990,16 +1070,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://tplay.live/originals/bengali-beats/bengali-beats.png\" group-title=\"SM All TV\",MU | Bengali Beats"
   },
   {
-    "name": "Football World Cup",
-    "logo": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png",
-    "group": "World_Cup",
-    "url": "https://flussonic.deltainfonet.com/01_Tsports_HD/tracks-v1a1/mono.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/main/Script/world_cup.png\" group-title=\"World_Cup\",Football World Cup"
-  },
-  {
     "name": "q_75,f_webp/zUGrjZ4BuUSiBsg_1BeE/posters/e7383dbd-5016-4deb-896d-a08b3b6ffa58.png\" group-title=\"SM_IPTV\",FIFA WC CHANNEL 1",
     "logo": "https://assets-prod.services.toffeelive.com/w_256,q_75,f_webp/zUGrjZ4BuUSiBsg_1BeE/posters/e7383dbd-5016-4deb-896d-a08b3b6ffa58.png",
     "group": "SM_IPTV",
@@ -1030,6 +1100,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/sananda-tv.png\" group-title=\"SM_IPTV\",Sananda TV"
   },
   {
+    "name": "Peace TV Bangla",
+    "logo": "https://otapp.store/uploads/tv_image/sm/peace-tv-bangla.png",
+    "group": "SM_IPTV",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=qRApYCh4AUmcio2ge9BktA",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/peace-tv-bangla.png\" group-title=\"SM_IPTV\",Peace TV Bangla"
+  },
+  {
     "name": "Global TV",
     "logo": "https://otapp.store/uploads/tv_image/sm/global-tv.png",
     "group": "SM_IPTV",
@@ -1050,6 +1130,26 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/sa-tv.png\" group-title=\"SM_IPTV\",SA TV"
   },
   {
+    "name": "Channel 9",
+    "logo": "https://otapp.store/uploads/tv_image/sm/channel-9.png",
+    "group": "SM_IPTV",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel9hd.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/channel-9.png\" group-title=\"SM_IPTV\",Channel 9"
+  },
+  {
+    "name": "Gazi TV HD",
+    "logo": "https://otapp.store/uploads/tv_image/sm/gazi-tv-hd.png",
+    "group": "SM_IPTV",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/gazi-tv-hd.png\" group-title=\"SM_IPTV\",Gazi TV HD"
+  },
+  {
     "name": "Somoy News TV",
     "logo": "https://otapp.store/uploads/tv_image/sm/somoy-news-tv.png",
     "group": "SM_IPTV",
@@ -1058,6 +1158,36 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/somoy-news-tv.png\" group-title=\"SM_IPTV\",Somoy News TV"
+  },
+  {
+    "name": "My TV",
+    "logo": "https://otapp.store/uploads/tv_image/sm/my-tv.png",
+    "group": "SM_IPTV",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/my-tv.png\" group-title=\"SM_IPTV\",My TV"
+  },
+  {
+    "name": "Makkah Live Quran TV",
+    "logo": "https://otapp.store/uploads/tv_image/sm/makkah-live-quran-tv.png",
+    "group": "SM_IPTV",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/makkahtv.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/makkah-live-quran-tv.png\" group-title=\"SM_IPTV\",Makkah Live Quran TV"
+  },
+  {
+    "name": "Madina Live Tv Sunnah TV",
+    "logo": "https://otapp.store/uploads/tv_image/sm/madina-live-tv-sunnah-tv.png",
+    "group": "SM_IPTV",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/madina.stream/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/madina-live-tv-sunnah-tv.png\" group-title=\"SM_IPTV\",Madina Live Tv Sunnah TV"
   },
   {
     "name": "Star Sport Select 2",
@@ -1078,66 +1208,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://otapp.store/uploads/tv_image/sm/star-sport-select-1.png\" group-title=\"SM_IPTV\",Star Sport Select 1"
-  },
-  {
-    "name": "Ladies' Singles Semi-Finals & Mixed Doubles Final | Wimbledon 2026",
-    "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835079871020x576.jpg",
-    "group": "Tapmad",
-    "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-258tjui/master.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835079871020x576.jpg\" group-title=\"Tapmad\",Ladies' Singles Semi-Finals & Mixed Doubles Final | Wimbledon 2026"
-  },
-  {
-    "name": "England vs India | India Tour of England 2026",
-    "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17832325321020x576.jpg",
-    "group": "Tapmad",
-    "url": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17832325321020x576.jpg\" group-title=\"Tapmad\",England vs India | India Tour of England 2026"
-  },
-  {
-    "name": "Dota 2 - Day 3 - Feed 3 | Esports World Cup 2026 (EWC)",
-    "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835058111020x576.jpg",
-    "group": "Tapmad",
-    "url": "https://saseries.akamaized.net/hls/live/2110097/Tap2534789Mad2026/master.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835058111020x576.jpg\" group-title=\"Tapmad\",Dota 2 - Day 3 - Feed 3 | Esports World Cup 2026 (EWC)"
-  },
-  {
-    "name": "Dota 2 - Day 3 - Feed 1 | Esports World Cup 2026 (EWC)",
-    "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835056711020x576.jpg",
-    "group": "Tapmad",
-    "url": "https://serieAleague.akamaized.net/hls/live/2107107/tap-BK-PSL-D1-E/master.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835056711020x576.jpg\" group-title=\"Tapmad\",Dota 2 - Day 3 - Feed 1 | Esports World Cup 2026 (EWC)"
-  },
-  {
-    "name": "Dota 2 - Day 3 - Feed 2 | Esports World Cup 2026 (EWC)",
-    "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835057671020x576.jpg",
-    "group": "Tapmad",
-    "url": "https://serieAleague.akamaized.net/hls/live/2107107/Tapmad-KjL52/master.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835057671020x576.jpg\" group-title=\"Tapmad\",Dota 2 - Day 3 - Feed 2 | Esports World Cup 2026 (EWC)"
-  },
-  {
-    "name": "Valorant Day 7 | Esports World Cup 2026 (EWC)",
-    "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835060441020x576.jpg",
-    "group": "Tapmad",
-    "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/P2s6L-FiN@L-World_Feed/master.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17835060441020x576.jpg\" group-title=\"Tapmad\",Valorant Day 7 | Esports World Cup 2026 (EWC)"
   },
   {
     "name": "TOFFEE Sports VIP",
@@ -1228,5 +1298,15 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/TtHtGkW/20240803-172601.png\" group-title=\"Relagion Channel\",Makkah TV"
+  },
+  {
+    "name": "Peace TV Bangla",
+    "logo": "https://i.ibb.co/Gfw89mC/20240804-033102.png",
+    "group": "Relagion Channel",
+    "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/Gfw89mC/20240804-033102.png\" group-title=\"Relagion Channel\",Peace TV Bangla"
   }
 ]

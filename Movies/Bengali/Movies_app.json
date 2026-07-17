@@ -1,6 +1,769 @@
 {
     "movies": [
         {
+            "name": "Dhamaal 4",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNjhkY2ViNTYtYjc3MC00OWU3LWFhYWMtMjU5ZDhjZTNkYTc3XkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21026"
+        },
+        {
+            "name": "Alpha",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMjUzMGZjMjYtYjRmMy00NWNkLWExMmUtZTc4MDU4NDZmNzcwXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21004"
+        },
+        {
+            "name": "Welcome to the Jungle",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMTY5ODUxNDctZGJjNC00OTk0LWIzMzAtMWQ5NTAyMGZhY2NmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20993"
+        },
+        {
+            "name": "Cocktail 2",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjFr3ysBEwmNVIrABKyFOTUsLPTYll79z_rph6tHz8Tvx9qrts8Z9S-fE&s=10",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20977"
+        },
+        {
+            "name": "Hai Jawani Toh Ishq Hona Hai",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZWE1OTg5ZDMtYjllZC00YzE2LTg1N2UtZmI0OTBmMWE3NzFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20935"
+        },
+        {
+            "name": "Chand Mera Dil",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNzIwMzcwNzEtYzU4ZS00ZjhjLWFlYTAtMzc4Y2RjMDFjNDNlXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20914"
+        },
+        {
+            "name": "System",
+            "logo": "https://m.media-amazon.com/images/M/MV5BOGEyMzAxZTEtNTMzZi00NTU5LTg2OTktNzM2YTYxMzdkODE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20901"
+        },
+        {
+            "name": "Aakhri Sawal",
+            "logo": "https://m.media-amazon.com/images/M/MV5BY2VlMTM0OTEtYmU1My00ODBhLTk2MzItMDlkMDRiZjcwYWQ1XkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20899"
+        },
+        {
+            "name": "Pati Patni Aur Woh Do",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZmE0ZTA5MTgtNTE4NC00NThmLWFiM2EtZTI2MTc2Y2FmZjkwXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20885"
+        },
+        {
+            "name": "Kartavya",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZDg2MzhlN2YtYzU5ZC00OTZlLTgwNzctMjJmMzQ1ODQ1NDY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20884"
+        },
+        {
+            "name": "Indian Institute of Zombies",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMGM5M2I0YWEtMjNlOS00ZmIwLThiYjYtODA5ODAzYTc3ZDU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20900"
+        },
+        {
+            "name": "Daadi Ki Shaadi",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZGEyMDRmYTMtZjNhYy00Mjc0LTg4NDItYWE5NzE1ZDE3NjM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20898"
+        },
+        {
+            "name": "Ginny Wedss Sunny 2",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwFGZcW1fZ9wmGZeEkAUnpI1iIR9EgduJYUA&s",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20850"
+        },
+        {
+            "name": "Bhooth Bangla",
+            "logo": "https://m.media-amazon.com/images/M/MV5BN2Y3NjRhYmMtNWVjMy00ZmE1LWJkNGYtNDY3Y2I3NjkzOGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20813"
+        },
+        {
+            "name": "Toaster",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Toaster_film_poster.jpg/250px-Toaster_film_poster.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20795"
+        },
+        {
+            "name": "Everybody Loves Sohrab Handa",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNDU1ZTQ3YjctMGZjMi00MjAzLWE1NTQtOWVhNDBjZjQ3YzIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20791"
+        },
+        {
+            "name": "Dhurandhar The Revenge",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNzdkNjAxNWMtNWY3My00NTI1LTg2YWQtOGI3MDA0NzdhMjEyXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20702"
+        },
+        {
+            "name": "Subedaar",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMWVjYWQzZTQtNTI2MC00NzlmLTg3MjUtNGZlYzViNjcyODU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20672"
+        },
+        {
+            "name": "Nukkad Naatak",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYzNiZmRlMzctNTRmYi00OTk1LWFhZGMtMTE2NjM3NDNlZGNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20830"
+        },
+        {
+            "name": "The Kerala Story 2 Goes Beyond",
+            "logo": "https://m.media-amazon.com/images/M/MV5BODA0ZWI5YTktZmE3Ny00NTUyLWEwZGMtNjEyMWZhZDhmNGRlXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20673"
+        },
+        {
+            "name": "Accused",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNTFjODQwNWYtMzMyOC00MzhhLWE1OTgtYmZjMzNjYjBhOTllXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20654"
+        },
+        {
+            "name": "Assi",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMWJkNDFjMDctOGVhYS00ZGE1LWIzY2YtMzBiNjQwMjVhNmQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20812"
+        },
+        {
+            "name": "Do Deewane Seher Mein",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/DDSM_Poster.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20655"
+        },
+        {
+            "name": "Lucky",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMTNiNzcxMDQtY2RlOS00MjAxLWIyN2MtNTYyMmIyMDM0ZDJhXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20639"
+        },
+        {
+            "name": "O' Romeo",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZTQzZTgyODItYzg5My00YzhhLWFlYzctYTljM2E5NWI5NDcyXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20640"
+        },
+        {
+            "name": "Tu Yaa Main",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZTI0NmU5MTItY2RjNC00MzRiLThkMzEtNGFhMTAxZDU1MDdiXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20641"
+        },
+        {
+            "name": "Vadh 2",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNjM1OWU5N2QtMTQwYy00N2Q5LTg5NjUtYWZhOTgwZjkxOWFlXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20769"
+        },
+        {
+            "name": "Bhabiji Ghar Par Hain - Fun on the Run",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYTU5NzQwMTktZTVhOC00MjllLThjZDEtMGNkYjgwNWFhMmVmXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20605"
+        },
+        {
+            "name": "Mardaani 3",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNWZjMzgxMjctZDMzYi00MmMxLThiZmMtZjk3ZDAxZjcwZDE3XkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20577"
+        },
+        {
+            "name": "Hotspot 2 Much",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYjA4MTQxZjUtMDI2NC00ZWE1LWFiMzAtYTIwYTA5ZTYyMjgzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20637"
+        },
+        {
+            "name": "Border 2",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNjQ5MzQ5ZDAtOTlkMi00YmIwLWI3MzctZGM5OGQ5OWU2MjJiXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20565"
+        },
+        {
+            "name": "Mcoca",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNjc4ZmY1ZGEtZmRmYi00OTQzLTliY2MtMzhkNGFjYjM4ZTdhXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20576"
+        },
+        {
+            "name": "Rahu Ketu",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNzJlYjZkMDUtM2MzMi00NmVhLWJhYWYtYzI4NTA4ZGIxZjM3XkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20564"
+        },
+        {
+            "name": "Happy Patel Khatarnak Jasoos",
+            "logo": "https://m.media-amazon.com/images/M/MV5BOWUyZTBjYTctMGQyNS00Mjg0LTg5ZTMtZDA1YmEyZDIxZjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20563"
+        },
+        {
+            "name": "Toh, Ti ani Fuji",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNjZjYjhmOTUtNDg2MS00YjcwLTg4NzMtMWY1OTA4NWU0MDVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20811"
+        },
+        {
+            "name": "The Raja Saab",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYWVmYmJhOTMtMzlhOS00ZDgwLWE3OGUtMGJmZTI3MjRiZmJhXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20608"
+        },
+        {
+            "name": "Ikkis",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/5/5e/Ikkis_Poster.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20505"
+        },
+        {
+            "name": "Ek Din",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZjZkNmI4MWUtMDAzNS00OTAzLWJmNDYtMDBkMGQyZWRiMzVjXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20855"
+        },
+        {
+            "name": "Raja Shivaji",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZmEwNTU4MzEtY2Y4Ni00ZWRmLThhMGMtMDE5MTZmMDIzMGVjXkEyXkFqcGc@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20867"
+        },
+        {
+            "name": "Badmaash Company",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMTc4MTA5NjY5OF5BMl5BanBnXkFtZTgwNDUzMzI2NTE@._V1_.jpg",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=15806"
+        },
+        {
+            "name": "Sheemaroo Bollywood",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8"
+        },
+        {
+            "name": "Zee Anmol TV",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://103.175.73.12:8080/live/256/256_0.m3u8"
+        },
+        {
+            "name": "Zee Action",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://103.175.73.12:8080/live/270/270_0.m3u8"
+        },
+        {
+            "name": "Goldmines Bollywood",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://103.175.73.12:8080/live/52/52_0.m3u8"
+        },
+        {
+            "name": "B4U Kadak",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://cdn-2.pishow.tv/live/227/master.m3u8"
+        },
+        {
+            "name": "Goldmines Movies",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8"
+        },
+        {
+            "name": "Goldmines",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8"
+        },
+        {
+            "name": "Goldmines Movies 2",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8"
+        },
+        {
+            "name": "Blast",
+            "logo": "https://m.media-amazon.com/images/M/MV5BM2Y5NjY0NzktZjc2MS00YWMyLThlNDAtYWY3YWZlNGM5YjA2XkEyXkFqcGc@._V1_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20984"
+        },
+        {
+            "name": "Ugly Story",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMDQwM2QwMDEtMDk5MC00NmNlLThjMGMtY2IwZDhmZTU1MzFmXkEyXkFqcGc@._V1_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20933"
+        },
+        {
+            "name": "Karuppu",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYTY4NWY2MWQtMGFkMi00MDViLWEwZDgtNGMyZjA3MmYzMWU5XkEyXkFqcGc@._V1_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20948"
+        },
+        {
+            "name": "Arjun S/O Vyjayanthi",
+            "logo": "https://m.media-amazon.com/images/M/MV5BOWYzZDRhNTgtZGI1MS00NGZiLTkwNzYtMzE2NzlmZjE2MmRhXkEyXkFqcGc@._V1_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/South%20Indian%20Movies/HINDI-DUBBED/%282025%29/Arjun-Son-Of-Vyjayanthi-2025/Arjun-Son-Of-Vyjayanthi-2025-1080p-WEBDL-Hindi-HQ-Studio-Dub_reencoded.mp4"
+        },
+        {
+            "name": "Peddi",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZjZiM2VjZTUtZTI5My00MjhmLWJjMGEtMzU1MmRhYTY2NjdlXkEyXkFqcGc@._V1_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20931"
+        },
+        {
+            "name": "Sathi Leelavathi",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYTBiYWQyMWQtYTQwMC00NmZiLWFkOWYtNmNlNjM4NDlkNjQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20918"
+        },
+        {
+            "name": "Kara",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNDUzOGQyNTEtZDlhOC00OTRlLThiNzMtMWI5NDliYWVhMTllXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20915"
+        },
+        {
+            "name": "Madhuvidhu",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FJuZJLGDzsBPlFyMwDOgLeCva0vmlRMT5g&s",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20904"
+        },
+        {
+            "name": "TN 2026",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNTk2NjNmYjUtMGEzNS00ZDFiLWE5NmItMDAzZDAyNDYwYTA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20919"
+        },
+        {
+            "name": "Dacoit",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNTA2YzhlYTUtMGJmMS00MjlmLWExMjYtOWEzOTBmMTViMWQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20794"
+        },
+        {
+            "name": "Mohiniyattam",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMzZkN2FlMTQtZTI1MC00OGE4LTgxNDktOTdjNTlhYzVkN2MwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20869"
+        },
+        {
+            "name": "Love Insurance Kompany",
+            "logo": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Southindian Hindi Dubbed",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20868"
+        },
+        {
+            "name": "Ghumpori",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZjExOGFmYTYtMzE3NS00ODY2LTg4N2YtN2YxOTE0NzYzZWIwXkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18621"
+        },
+        {
+            "name": "Cha Gorom",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNDQ3ZDM2ZjEtMjFjMy00NDljLWI2ZDktNDFkODYwMzFkOGNhXkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20809"
+        },
+        {
+            "name": "Bonolota Express",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZmY0M2I1NjYtODU4Zi00MmIyLTk0OWUtMDlhN2JmNzFmOWI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20909"
+        },
+        {
+            "name": "Rakkhosh",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYTliMTg2MWMtZmM2NS00MWFmLTg1NjMtYTdmZmM4ZjEyZGZkXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20888"
+        },
+        {
+            "name": "Domm",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMDY5MTJmNDEtMjM5Zi00NmEwLWI5YjgtMzc2MmRhYTYyMDRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20887"
+        },
+        {
+            "name": "Prince Once Upon a Time in Dhaka",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMjg2MGQyYmYtNWY4My00Yjc2LTgwZmItMzRkYjQ3ZDVmNmIwXkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20886"
+        },
+        {
+            "name": "Jazz City",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/b/b5/Jazz_City_2026_poster.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20706"
+        },
+        {
+            "name": "Ekshathe Alada",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYzczZThkYmItMjk4YS00NDU3LWIwNzItMzkzYWIwODE0ZTQ3XkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20704"
+        },
+        {
+            "name": "Cactus",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZjk4NmJkZjgtMDAwNS00N2EwLTllZDktNTkzZDA2MTZkYTRkXkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20703"
+        },
+        {
+            "name": "Djinner Bachcha",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZTNiZjM4NzctMWFmOC00MGI4LWJjMDctZjIwNDY5ZjIwNmQ2XkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20656"
+        },
+        {
+            "name": "Aatka",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMTFkN2IwMjctYzBmNC00NDZlLThiYjUtZDdhMDI3NWZhNTZlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20529"
+        },
+        {
+            "name": "Jackpot",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkDrZ0O6BCvMBRI8nDs8bDrpL-gpn5XDPxw&s",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20708"
+        },
+        {
+            "name": "Dimlight",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYTAwODc4NDYtOGI3MS00Nzc1LTk2MzctZTE3MzM2OThkMTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20460"
+        },
+        {
+            "name": "Noor",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Noor_2025_film.jpg/250px-Noor_2025_film.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20461"
+        },
+        {
+            "name": "Neel Chokro",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNDZhYjMwMmEtM2NmOS00OWQxLWI5ZTUtYjJiNGJkNjY1MDA5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20354"
+        },
+        {
+            "name": "Tomar Jonno Mon",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMTViZjY5MWItYWVhMy00ODdmLTg3ZjUtNjE2Y2IyODM0YzQ0XkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20358"
+        },
+        {
+            "name": "Shortcut",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbHGinJgclavls6-dqn0jISlax3MJ2BeNAFQ&s",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20355"
+        },
+        {
+            "name": "Taandob",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZmMwZTk1MDctMjM1My00YTA5LTg0YmYtZWE5Y2Q4N2JhZGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20021"
+        },
+        {
+            "name": "Utshob",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZTgzM2IyZGQtOWEyNC00MmQyLTg5ZTAtMzlhZjlhMGJlNzZhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20022"
+        },
+        {
+            "name": "Insaaf: Tale of Legends",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMTY1Y2Q3MzMtMzFiZi00OGEwLTg5OGMtZThmZmYyNjlkODEyXkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20098"
+        },
+        {
+            "name": "Borbaad",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNWViYzgzNzQtMTA0YS00NmRhLWFhZDEtNzEzMjM5OTA4NzRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18616"
+        },
+        {
+            "name": "Daagi",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNGRlNWFmNmItZjFkMy00OGRkLWEyMzUtNDZlMDIxMjRlN2M2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18619"
+        },
+        {
+            "name": "Chokkor 302",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/7/72/Chokkor_302_official_logo.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18623"
+        },
+        {
+            "name": "Jongli",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMGI2NjI2MzAtNTkwYi00NWRlLWIwN2ItYTYyYTc3YjE0NjdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18624"
+        },
+        {
+            "name": "Toofan",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNzdlMDUyZGItYTBkYS00OWJjLTkyMjYtZGE0ZDVjYmQ1ZWJjXkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18641"
+        },
+        {
+            "name": "Last Defenders of Monogamy",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYzhhMjAyMmItZTAwNS00ZmI1LThlZmMtYWE0ZmE0N2FiMmExXkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18639"
+        },
+        {
+            "name": "Antaratma",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZDc5YjcxYmEtOWYzMy00YjE2LThiMTEtZmYyYzI2NGFjMzk1XkEyXkFqcGc@._V1_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20459"
+        },
+        {
+            "name": "Hubba",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Hubba_film_poster.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18648"
+        },
+        {
+            "name": "Surongo",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZTVhYmNhNTgtN2UwMi00NjYwLWE5ZDYtNjhiZGZmOGQ2MGQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18651"
+        },
+        {
+            "name": "Taarkata",
+            "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-eB8lmSUI6pCh_dsexHng6Ha6qNxQce-TgQ&s",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20938"
+        },
+        {
+            "name": "Surongo",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://pub-d8f5af7f053343ed8295b16a145f6c1c.r2.dev/siam/[FGBDVibes]Surongo.(2023).480p.mkv"
+        },
+        {
+            "name": "Antarjal",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Bangla Movies",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://103.225.94.27/Infobase/hdd-2/Bangla/Antarjal%20(2023)%201080p%20WEBDL.mp4"
+        },
+        {
+            "name": "Pariah Volume 1 Every Street Dog Has a Name",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNjQ5MDI5YTEtYmJkMi00MjczLTg0NzMtN2Y5MGEyZDlmMTdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "Kalkata Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18649"
+        },
+        {
+            "name": "Grihapravesh",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNjMwYTQ5ZTktODVjMC00ZmRmLTgzM2YtMzM5MDljM2IwODU0XkEyXkFqcGc@._V1_.jpg",
+            "group": "Kalkata Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20271"
+        },
+        {
+            "name": "Shontaan",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNTk3ODhkZTgtNTVkMC00NTRmLWIzMjctNzY0YmIxZGFjOTY4XkEyXkFqcGc@._V1_.jpg",
+            "group": "Kalkata Bangla Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18637"
+        },
+        {
+            "name": "Animal",
+            "logo": "https://m.media-amazon.com/images/M/MV5BZThmNDg1NjUtNWJhMC00YjA3LWJiMjItNmM4ZDQ5ZGZiN2Y2XkEyXkFqcGc@._V1_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Animal-2023/Animal%20%282023%29%20Hindi%20NF%20WEB-DL%202160p_h264_reencoded.mp4"
+        },
+        {
+            "name": "Article 370",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Article_370_film_poster.jpeg/250px-Article_370_film_poster.jpeg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Article-370-2024/Article.370.2024.2160p.NF.WEB-DL.DDP5.1.HEVC_reencoded.mp4"
+        },
+        {
+            "name": "Bad Newz",
+            "logo": "https://m.media-amazon.com/images/M/MV5BM2QxNGM0OTItMjE1MS00ZjRiLTg3ZTItMTg1NGMyNmRiMjc4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Bad-Newz-2024/Bad.Newz.2024.2160p.AMZN.WEB-DL.DDP5.1.HDR_h264_reencoded.mp4"
+        },
+        {
+            "name": "Bajirao Mastani",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYjNjYzk0NDMtNjU3NC00ZTRhLTkwNmMtN2FhYzc5MmNiNjg4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Bajirao-Mastani-2015/Bajirao-Mastani-2015-4K-BluRay_reencoded.mp4"
+        },
+        {
+            "name": "Bholaa",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMzMzYzZiNWYtZDNlMy00YzIwLTk3YWYtYmMyZjc3NGQ5ZTk5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Bholaa-2023-4K/Bholaa%20%282023%29%202160p%20WEB-DL%20Hindi%20DDP5.1%20H264_h264_reencoded.mp4"
+        },
+        {
+            "name": "Bol Bachchan",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Bol_Bachchan.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Bol-Bachchan-2012-4K/Bol-Bachchan-2012-2160p-BluRay_reencoded.mp4"
+        },
+        {
+            "name": "Brahmastra Part One Shiva",
+            "logo": "https://resizing.flixster.com/Pqi5P6v8Vu_hAAh3O9edOTpM7H0=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzkzODFmYWI3LTA0OTAtNGZmNy05NGI5LWYzMGUxY2M0NDhkMC5qcGc=",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Brahmastra-Part-One-Shiva-2022-4K/Brahmastra%20Part%20One%20Shiva%202022%20Hindi%20WEB-DL%204K%20UHD%20HEVC_h264_reencoded.mp4"
+        },
+        {
+            "name": "Chandu Champion",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/e/e1/Chandu_Champion_film_poster.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Chandu-Champion-2024-4K/Chandu.Champion.2024.4K-2160p.HEVC.AMZN.WEB-DL.Hindi.DDP.5.1.ESub.x265_h264_reencoded.mp4"
+        },
+        {
+            "name": "Chhaava",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMWI4N2Y5NWUtNzEwOC00YjYzLWEzY2ItN2YwYTIxYzBjZGZmXkEyXkFqcGc@._V1_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Chhaava-2025-4K/Chhaava-2025-2160p-WEBDL-Hindi_reencoded.mp4"
+        },
+        {
+            "name": "Crew",
+            "logo": "https://m.media-amazon.com/images/M/MV5BYmJlYjk1ZGMtMGUzYS00NWEwLTliNTktOTE3NzRjOGY1Mzg5XkEyXkFqcGc@._V1_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Crew-2024-4K/Crew.2024.2160p.NF.WEB-DL.DDP5.1.SDR.H265_h264_reencoded.mp4"
+        },
+        {
+            "name": "Dhoom 3",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMDIxODBmZjYtYWM3Ny00N2U1LWI3M2ItMzZkNmQ4NWYyNDFlXkEyXkFqcGc@._V1_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Dhoom-3-2013-4K/Dhoom%203%20%282013%29%20-%204K%20UHD%20BluRay_reencoded.mp4"
+        },
+        {
+            "name": "Dhurandhar",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMTA3MDQ3ODAtNjcyMi00ODQ3LWEyZDMtMjliMzM0MGU3N2ZhXkEyXkFqcGc@._V1_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Dhurandhar-2025-4K/Dhurandhar-2025-2160p-Hindi-WEBDL_reencoded.mp4"
+        },
+        {
+            "name": "Dhurandhar The Revenge",
+            "logo": "https://m.media-amazon.com/images/M/MV5BNzdkNjAxNWMtNWY3My00NTI1LTg2YWQtOGI3MDA0NzdhMjEyXkEyXkFqcGc@._V1_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Dhurandhar-The-Revenge-2026-4K/Dhurandhar-The-Revenge-2026-2160p-Hindi-WEBDL_reencoded.mp4"
+        },
+        {
+            "name": "Drishyam 2",
+            "logo": "https://m.media-amazon.com/images/M/MV5BMDgxYmY0ZjYtMzBlZS00NDViLWJlN2UtMjgwNGFjZmRiMmQxXkEyXkFqcGc@._V1_.jpg",
+            "group": "4K Hindi Movies",
+            "source": "https://raw.githubusercontent.com/Mahabubulalammim/New/refs/heads/main/Mim%20New%20Movie%20Collection",
+            "url": "https://server3.ftpbd.net/FTP-3/Hindi%20Movies/Hindi-4K-Movies/Drishyam-2-2022-4K/Drishyam%202%20%282022%29%202160p%20AMZN%20WEB-DL%20DDP5.1%20HEVC_h264_reencoded.mp4"
+        },
+        {
             "name": "Welcome to PlayZ TV",
             "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyniKyW9pUz1OKx5bgzLASwGVSuP0e7hX9FxVMTJMHxhu8X0tpucgSplBZgM8pCYrJJH0P2_dTC1-wzp4mMUU4sKnOzghGPCwWdbYOOa4jTyhpr7ydNj-UK-bc56IMsk2H3WZJ-SzSZIk0dTpyABCFR2_zjC2_c86W1pv7odFBT_Y-hyJs62g-3zCJkPGd/s1024/1000398131.png",
             "group": "Welcome to PlayZ TV | New App",
@@ -34,6 +797,41 @@
             "group": "BANGLA",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8"
+        },
+        {
+            "name": "Mohona Tv",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "BANGLA",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8"
+        },
+        {
+            "name": "RTV",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "BANGLA",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8"
+        },
+        {
+            "name": "GAZI TV",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "BANGLA",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8"
+        },
+        {
+            "name": "Channel S",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "BANGLA",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channels.stream/playlist.m3u8"
+        },
+        {
+            "name": "EP tv",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "BANGLA",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8"
         },
         {
             "name": "MUSIC BANGLA",
@@ -183,18 +981,18 @@
             "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8"
         },
         {
-            "name": "Colors Infinity SD",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Entertainment",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8"
-        },
-        {
             "name": "Digital Fashion",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "Entertainment",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "http://115.187.41.216:8080/hls/digitalfashion/index.m3u8"
+        },
+        {
+            "name": "Colors Infinity SD",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Entertainment",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8"
         },
         {
             "name": "FASHION ONE",
@@ -400,11 +1198,11 @@
             "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8"
         },
         {
-            "name": "BBC Cbeebies",
+            "name": "PBS Kids",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "Kids",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8"
+            "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8"
         },
         {
             "name": "Cartoon Network",
@@ -412,13 +1210,6 @@
             "group": "Kids",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8"
-        },
-        {
-            "name": "PBS Kids",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Kids",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8"
         },
         {
             "name": "Rongeen TV",
@@ -449,39 +1240,11 @@
             "url": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8"
         },
         {
-            "name": "Day 1 vs Royal Birkdale (The Open 2026)",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/The-Open-Championship_fc-web.jpg",
-            "group": "Live Event",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://bd-mc-fblive.fancode.com/mumbai/4246808_english_hls_cd63cc5f7314604_1ta-di_h264/index.m3u8"
-        },
-        {
-            "name": "Day 4 - World Feed vs Switzerland (ATP 250 - EFG Swiss Open Gstaad 2026)",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/EFG-Swiss-Open-Gstaad_fc-Web.jpg",
-            "group": "Live Event",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://bd-mc-fblive.fancode.com/mumbai/143493_english_hls_b547409e2039401_1ta-di_h264/index.m3u8"
-        },
-        {
-            "name": "Day 4 - World Feed vs Sweden (ATP 250 - Nordea Open 2026)",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/Nordea-Open_Web-match-card.png",
-            "group": "Live Event",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://bd-mc-fblive.fancode.com/mumbai/143486_english_hls_3440f4b86a36375_1ta-di_h264/index.m3u8"
-        },
-        {
-            "name": "Day 4 - World Feed vs Croatia (ATP 250 - Plava Laguna Croatia Open Umag 2026)",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/Plava-Laguna-Croatia-Open-Umag_2026_FC-WEB.jpg",
-            "group": "Live Event",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://bd-mc-fblive.fancode.com/mumbai/143500_english_hls_7bbdedc9af52746_1ta-di_h264/index.m3u8"
-        },
-        {
             "name": "[BD] FIFA WC CHANNEL 1",
             "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/zUGrjZ4BuUSiBsg_1BeE/posters/6d843895-07a0-4c03-b767-aabb833e2b2b.png",
             "group": "[LIVE] BDIX ♛",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/index.m3u8?edge-cache-token=Expires=1784215619~Starts=1784208419~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiMmE2YTBlMzktNjgxNi00ODNiLTg4ZDktYWZhZTAzN2IwMDZjIn0~Signature=-zlvmE9_EaXQ9U-0QHdCeh3is2SRuuq7VdR-ppR1-iE3WLtOsGbz0tsvWwN4LgMLntY1KEPogpbDC-2XMZtfDQ"
+            "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026/sst/index.m3u8?edge-cache-token=Expires=1784246297~Starts=1784239097~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Data=eyJzdWJzY3JpYmVyX2lkIjoiMmE2YTBlMzktNjgxNi00ODNiLTg4ZDktYWZhZTAzN2IwMDZjIn0~Signature=zmMZ2gwpTiRgDG0xRGq363LNWJkMMaOkuL5nb1Fx5lPNqtrjR8iG29tAJ1Kb9boZKkN5FhjkMhaQpx3d79dzBg"
         },
         {
             "name": "[BD] WC Match Recap",
@@ -946,18 +1709,18 @@
             "url": "https://deshitv.deshitv24.net/live/myStream/playlist.m3u8"
         },
         {
-            "name": "ATN Music (360p)",
+            "name": "Ananda TV",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "Unknown",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8"
+            "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/anandatv.stream/live-orgin/anandatv.stream/playlist.m3u8"
         },
         {
-            "name": "Desh TV (1080p)",
+            "name": "Channel S",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "Unknown",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://bozztv.com/rongo/rongo-DeshTV/index.m3u8"
+            "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8"
         },
         {
             "name": "Gazi TV",
@@ -967,11 +1730,18 @@
             "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/gazibdz.stream/live-orgin/gazibdz.stream/playlist.m3u8"
         },
         {
-            "name": "Boishakhi TV",
+            "name": "Desh TV (1080p)",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "Unknown",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8"
+            "url": "https://bozztv.com/rongo/rongo-DeshTV/index.m3u8"
+        },
+        {
+            "name": "Somoy News TV (1080p)",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Unknown",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8"
         },
         {
             "name": "My TV",
@@ -981,11 +1751,11 @@
             "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/mytv-up-off.stream/live-orgin/mytv-up-off.stream/playlist.m3u8"
         },
         {
-            "name": "Somoy News TV (1080p)",
+            "name": "Ekushey TV (480p)",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "Unknown",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://bozztv.com/rongo/rongo-somoy/index.m3u8"
+            "url": "https://ekusheyserver.com/etvlivesn.m3u8"
         },
         {
             "name": "YRF Music HD",
@@ -1002,13 +1772,6 @@
             "url": "http://starhub.pro/live/farhat-3379/67897-913379/744517.ts"
         },
         {
-            "name": "Somoy TV",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "FIFA World Cup 2026",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1"
-        },
-        {
             "name": "unt-s Sports HD",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "FIFA World Cup 2026",
@@ -1021,6 +1784,27 @@
             "group": "FIFA World Cup 2026",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "http://ua.online24.pm/play/1101/350B326FB34F4B8/video.m3u8"
+        },
+        {
+            "name": "Somoy TV",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "FIFA World Cup 2026",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://114.130.57.233:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1"
+        },
+        {
+            "name": "Bein Sports Tekrar",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "FIFA World Cup 2026",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://ua.online24.pm/play/1103/350B326FB34F4B8/video.m3u8"
+        },
+        {
+            "name": "Channel 1 News HD",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Cricket ",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8"
         },
         {
             "name": "Motor Vision",
@@ -1051,11 +1835,18 @@
             "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8"
         },
         {
-            "name": "G Series Drama",
+            "name": "Desh TV",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Cricket ",
+            "group": "Bangladeshi ",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8"
+            "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8"
+        },
+        {
+            "name": "Arabica TV",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Bangladeshi ",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8"
         },
         {
             "name": "Bein Sports 1",
@@ -1072,20 +1863,6 @@
             "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8"
         },
         {
-            "name": "QURAN",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "ISLAMIC CHANNELS",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://m.live.net.sa:1935/live/quran/playlist.m3u8"
-        },
-        {
-            "name": "Sunnah Tv",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "ISLAMIC CHANNELS",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1"
-        },
-        {
             "name": "Saudi Quran",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "ISLAMIC CHANNELS",
@@ -1097,7 +1874,7 @@
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "ISLAMIC CHANNELS",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8"
+            "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ"
         },
         {
             "name": "AL SUNNAH TV",
@@ -1105,6 +1882,20 @@
             "group": "ISLAMIC CHANNELS",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8"
+        },
+        {
+            "name": "Sunnah Tv",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "ISLAMIC CHANNELS",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1"
+        },
+        {
+            "name": "QURAN",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "ISLAMIC CHANNELS",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://m.live.net.sa:1935/live/quran/playlist.m3u8"
         },
         {
             "name": "QURAN RADIOTV SMC",
@@ -1121,6 +1912,13 @@
             "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8"
         },
         {
+            "name": "Madani Tv",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "ISLAMIC CHANNELS",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
+        },
+        {
             "name": "AL EKHBARIA",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "ISLAMIC CHANNELS",
@@ -1128,11 +1926,11 @@
             "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8"
         },
         {
-            "name": "AL ISTIQAMA",
+            "name": "Peace Tv English",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "ISLAMIC CHANNELS",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8"
+            "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8"
         },
         {
             "name": "AL QAMAR",
@@ -1142,32 +1940,11 @@
             "url": "https://streamer3.premio.link/alqamar/playlist.m3u8"
         },
         {
-            "name": "BAHRAIN QURAN",
+            "name": "AL ISTIQAMA",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "ISLAMIC CHANNELS",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8"
-        },
-        {
-            "name": "Arabica TV",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Bangladeshi ",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8"
-        },
-        {
-            "name": "pcv",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Bangladeshi ",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8"
-        },
-        {
-            "name": "Travel XP English",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Infotainment Channels",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8"
+            "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8"
         },
         {
             "name": "Travel XP English NZ",
@@ -1175,6 +1952,13 @@
             "group": "Infotainment Channels",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8"
+        },
+        {
+            "name": "Travel XP English",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Infotainment Channels",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8"
         },
         {
             "name": "Sochi 24 HD",
@@ -1189,20 +1973,6 @@
             "group": "Infotainment Channels",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8"
-        },
-        {
-            "name": "REAL WILD",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Documentary",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8"
-        },
-        {
-            "name": "Insight",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Documentary",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8"
         },
         {
             "name": "DW NEWS",
@@ -1226,25 +1996,11 @@
             "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8"
         },
         {
-            "name": "CNN (US)",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "NEWS INTERNASIONAL",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8"
-        },
-        {
             "name": "Iran International(EN)",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "NEWS INTERNASIONAL",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8"
-        },
-        {
-            "name": "DW English",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "NEWS INTERNASIONAL",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1"
         },
         {
             "name": "News Max 2",
@@ -1254,6 +2010,13 @@
             "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8"
         },
         {
+            "name": "CNN (US)",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "NEWS INTERNASIONAL",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8"
+        },
+        {
             "name": "France 24 English (720p)",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "NEWS INTERNASIONAL",
@@ -1261,18 +2024,18 @@
             "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8"
         },
         {
-            "name": "NDTV Hindi",
+            "name": "DW English _",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "NEWS INTERNASIONAL",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8"
+            "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
         },
         {
-            "name": "NDTV NEWS",
+            "name": "DW English",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "NEWS INTERNASIONAL",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8"
+            "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1"
         },
         {
             "name": "NDTV English",
@@ -1282,18 +2045,25 @@
             "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8"
         },
         {
+            "name": "NDTV NEWS",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "NEWS INTERNASIONAL",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8"
+        },
+        {
+            "name": "NDTV Hindi",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "NEWS INTERNASIONAL",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8"
+        },
+        {
             "name": "RTNEWS GLOBAL",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "NEWS INTERNASIONAL",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1"
-        },
-        {
-            "name": "RT NEWS USA",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "NEWS INTERNASIONAL",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1"
         },
         {
             "name": "RT News (EN)",
@@ -1303,11 +2073,32 @@
             "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8"
         },
         {
-            "name": "France News 24",
+            "name": "RT NEWS USA",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "NEWS INTERNASIONAL",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1"
+        },
+        {
+            "name": "Insight",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Documentary",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8"
+        },
+        {
+            "name": "REAL WILD",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Documentary",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8"
+        },
+        {
+            "name": "Times Of India",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "NEWS INTERNASIONAL TV",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8"
+            "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8"
         },
         {
             "name": "Press TV Iran",
@@ -1317,18 +2108,18 @@
             "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8"
         },
         {
+            "name": "France News 24",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "NEWS INTERNASIONAL TV",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8"
+        },
+        {
             "name": "TRT WORLD",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "NEWS INTERNASIONAL TV",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8"
-        },
-        {
-            "name": "Times Of India",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "NEWS INTERNASIONAL TV",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8"
         },
         {
             "name": "Quran",
@@ -1345,32 +2136,11 @@
             "url": "http://66.45.232.131:9994/;stream.mp3"
         },
         {
-            "name": "EWTN TV",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Relagion Channel",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8"
-        },
-        {
-            "name": "Arihant TV",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Relagion Channel",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8"
-        },
-        {
-            "name": "Madani TV",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Relagion Channel",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8"
-        },
-        {
-            "name": "Motu Patlu",
+            "name": "Gopal Bhar TV",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "CARTOON Drama",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8"
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8"
         },
         {
             "name": "Tom & Jerry TV",
@@ -1380,11 +2150,18 @@
             "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8"
         },
         {
-            "name": "Gopal Bhar TV",
+            "name": "Motu Patlu",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "CARTOON Drama",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8"
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8"
+        },
+        {
+            "name": "Doraemon TV",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "CARTOON Drama",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8"
         },
         {
             "name": "Mr Bean Animated",
@@ -1394,6 +2171,27 @@
             "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8"
         },
         {
+            "name": "Arihant TV",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Relagion Channel",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8"
+        },
+        {
+            "name": "EWTN TV",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Relagion Channel",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8"
+        },
+        {
+            "name": "Peace TV Urdu",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Relagion Channel",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8"
+        },
+        {
             "name": "Channel 7",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "Utrun Broadband",
@@ -1401,32 +2199,11 @@
             "url": "http://103.13.193.194:8082/T-SPORTS-HD/video.m3u8?token=RusriRM-L73G33"
         },
         {
-            "name": "Live Sports",
+            "name": "Channel-16",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Live Sports",
+            "group": "Bangla Music",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://66.102.126.10:8000/play/a018/index.m3u8"
-        },
-        {
-            "name": "NK",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Indian Bangla News",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8"
-        },
-        {
-            "name": "Kolkata TV",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Indian Bangla News",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8"
-        },
-        {
-            "name": "Dhoom Music",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Kolkata Bangla Music",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://103.175.73.12:8080/live/378/378_0.m3u8"
+            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8"
         },
         {
             "name": "R Plus Gold",
@@ -1443,67 +2220,46 @@
             "url": "https://cdn-4.pishow.tv/live/969/master.m3u8"
         },
         {
+            "name": "Dhoom Music",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Kolkata Bangla Music",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://103.175.73.12:8080/live/378/378_0.m3u8"
+        },
+        {
+            "name": "NK",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Indian Bangla News",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8"
+        },
+        {
+            "name": "R Plus News",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Indian Bangla News",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8"
+        },
+        {
+            "name": "Big Magic",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://103.175.73.12:8080/live/13/13_0.m3u8"
+        },
+        {
+            "name": "MK Six",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8"
+        },
+        {
             "name": "Tom & Jarry",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "KIDS",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8"
-        },
-        {
-            "name": "Zee Anmol TV",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://103.175.73.12:8080/live/256/256_0.m3u8"
-        },
-        {
-            "name": "Sheemaroo Bollywood",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8"
-        },
-        {
-            "name": "Goldmines Bollywood",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://103.175.73.12:8080/live/52/52_0.m3u8"
-        },
-        {
-            "name": "Zee Action",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://103.175.73.12:8080/live/270/270_0.m3u8"
-        },
-        {
-            "name": "Hinde Movies 3",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://vods2.aynaott.com/hindimovies/index.m3u8"
-        },
-        {
-            "name": "B4U Kadak",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn-2.pishow.tv/live/227/master.m3u8"
-        },
-        {
-            "name": "Goldmines Movies 2",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8"
-        },
-        {
-            "name": "Goldmines Movies",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8"
         },
         {
             "name": "Action Hollywood Movies",
@@ -1527,11 +2283,18 @@
             "url": "http://premimum.online/movie/jen12345/jen54321/353751.mp4"
         },
         {
-            "name": "Hindi Hits HD",
+            "name": "Food Food",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi Music",
+            "group": "Information",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8"
+            "url": "http://103.175.73.12:8080/live/143/143_0.m3u8"
+        },
+        {
+            "name": "Nat Geo HD",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Information",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "http://202.70.146.135:8000/play/a05o/index.m3u8"
         },
         {
             "name": "9XM",
@@ -1555,46 +2318,11 @@
             "url": "http://103.175.73.12:8080/live/158/158_0.m3u8"
         },
         {
-            "name": "DW Naws",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "English News",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8"
-        },
-        {
-            "name": "NHK World",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "English News",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://103.175.73.12:8080/live/417/417_0.m3u8"
-        },
-        {
-            "name": "Surongo",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Bangla Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://pub-d8f5af7f053343ed8295b16a145f6c1c.r2.dev/siam/[FGBDVibes]Surongo.(2023).480p.mkv"
-        },
-        {
-            "name": "Antarjal",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Bangla Movies",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://103.225.94.27/Infobase/hdd-2/Bangla/Antarjal%20(2023)%201080p%20WEBDL.mp4"
-        },
-        {
             "name": "Jana Nayagan (2026) (Hindi)",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "Hindi Dabbing Movies",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "http://premimum.online/movie/jen12345/jen54321/724489.mp4"
-        },
-        {
-            "name": "Music Mastii",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "MUSIC",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/tracks-v1a1/mono.ts.m3u8"
         },
         {
             "name": "Baallee",
@@ -1604,39 +2332,18 @@
             "url": "https://mcncdndigital.com/balleballetv/tracks-v1a1/mono.ts.m3u8"
         },
         {
-            "name": "B4U Movies",
+            "name": "Hindi Hits HD",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi",
+            "group": "MUSIC",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://amg00877-b4unew-amg00877c2-xiaomi-in-5489.playouts.now.amagi.tv/playlist.m3u8"
+            "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8"
         },
         {
-            "name": "Big Magic",
+            "name": "NHK World",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi",
+            "group": "English News",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://103.175.73.12:8080/live/13/13_0.m3u8"
-        },
-        {
-            "name": "MK Six",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn-3.pishow.tv/live/1253/master.m3u8"
-        },
-        {
-            "name": "Bflix Movies",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8"
-        },
-        {
-            "name": "Cowboy tv",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "SPORTS",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8"
+            "url": "http://103.175.73.12:8080/live/417/417_0.m3u8"
         },
         {
             "name": "Live Sports-4",
@@ -1646,18 +2353,18 @@
             "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8"
         },
         {
+            "name": "Cowboy tv",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "SPORTS",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://amg17292-amg17292c1-distrotv-us-4170.playouts.now.amagi.tv/playlist/amg17292-tetonridgellc-tetonridgefast-distrotvus/playlist.m3u8"
+        },
+        {
             "name": "T-Sports [2]",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
             "group": "SPORTS",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
             "url": "http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8"
-        },
-        {
-            "name": "Food Food",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Information",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "http://103.175.73.12:8080/live/143/143_0.m3u8"
         },
         {
             "name": "R Plus Gould",
@@ -1667,11 +2374,18 @@
             "url": "https://cdn-4.pishow.tv/live/1231/1231_2.m3u8"
         },
         {
-            "name": "Doraemon",
+            "name": "Akash Aath",
             "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Bangla | 24/7",
+            "group": "Indian-Bangla",
             "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8"
+            "url": "https://live.thebosstv.com:30443/dwlive/AAKAASH-AATH/chunks.m3u8"
+        },
+        {
+            "name": "South Movies",
+            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+            "group": "Hindi | 24/7",
+            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8"
         },
         {
             "name": "Hindi Movies",
@@ -1681,11 +2395,11 @@
             "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8"
         },
         {
-            "name": "South Movies",
-            "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-            "group": "Hindi | 24/7",
-            "source": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-Tv/refs/heads/main/playlist.m3u",
-            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8"
+            "name": "Drama 24",
+            "logo": "https://raw.githubusercontent.com/BadhanStrom/img/refs/heads/main/G-Series_Logo.png",
+            "group": "SM All TV",
+            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
+            "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8"
         },
         {
             "name": "BTV",
@@ -1737,13 +2451,6 @@
             "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/index.m3u8"
         },
         {
-            "name": "Desh TV",
-            "logo": "https://otapp.store/uploads/tv_image/sm/desh-tv.png",
-            "group": "SM All TV",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8"
-        },
-        {
             "name": "Probashi",
             "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzayWMQexbfPV-jTx3ZNoq-XOmlHKSX1SCjg&s",
             "group": "SM All TV",
@@ -1779,13 +2486,6 @@
             "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/asian-test-sample-ok-d.stream/tracks-v1a1/mono.m3u8"
         },
         {
-            "name": "G TV",
-            "logo": "https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/gtv-hd-bd.png",
-            "group": "SM All TV",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/gazibdz.stream/tracks-v1a1/mono.m3u8"
-        },
-        {
             "name": "Global TV",
             "logo": "https://s3.aynaott.com/storage/bda05e1c2173251baebc20ffe43dea0b",
             "group": "SM All TV",
@@ -1814,13 +2514,6 @@
             "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ayna.stream/tracks-v1a1/mono.m3u8"
         },
         {
-            "name": "Channel 16",
-            "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGN4JrZ3Ur3BHiD2tQhsQq3WQ5DXpv7HATFyNDT6o-rSNwAZaeQieMBdfPoGPio5UPipGV2ZBb8rLmyYJe5vySfQjEmTE5MLc_6q8CKfXuzb4eRQREjPiyL5tkncb1Xt5pVMJa6t77CT98JvAFozg95IH_9qofXJ2s1ubKCbJ-_JsuRVb458aBztLImQ/s1080/1000015295.png",
-            "group": "SM All TV",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8"
-        },
-        {
             "name": "Sananda",
             "logo": "https://otapp.store/uploads/tv_image/sm/sananda-tv.png",
             "group": "SM All TV",
@@ -1840,13 +2533,6 @@
             "group": "SM All TV",
             "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
             "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8"
-        },
-        {
-            "name": "Mohona TV",
-            "logo": "https://i.imgur.com/ENyPcL0.png",
-            "group": "SM All TV",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8"
         },
         {
             "name": "Movie Bangla",
@@ -1975,13 +2661,6 @@
             "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8"
         },
         {
-            "name": "EP TV",
-            "logo": "http://data.jaagobd.com/media/channel_logos/EPTV-Logo-400x400.png",
-            "group": "SM All TV",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/eptv.stream/playlist.m3u8"
-        },
-        {
             "name": "Star Jalsha HD",
             "logo": "https://static.wikia.nocookie.net/logopedia/images/3/3c/Star_Jalsha_HD.png",
             "group": "SM All TV",
@@ -2043,13 +2722,6 @@
             "group": "SM All TV",
             "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
             "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_240p/chunks.m3u8"
-        },
-        {
-            "name": "R Plus Gold",
-            "logo": "https://static.wikia.nocookie.net/logopedia/images/c/c7/RPlus_Gold_logo_%282013%29.png",
-            "group": "SM All TV",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8"
         },
         {
             "name": "SONY AATH HD",
@@ -2570,18 +3242,18 @@
             "url": "https://mtv.sunplex.live/MAASRANGA/index.m3u8"
         },
         {
+            "name": "Boishakhi TV",
+            "logo": "https://otapp.store/uploads/tv_image/sm/boishakhi-tv.png",
+            "group": "SM_IPTV",
+            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
+            "url": "https://boishakhi.sonarbanglatv.com/boishakhi/boishakhitv/index.m3u8"
+        },
+        {
             "name": "ATN Bangla",
             "logo": "https://otapp.store/uploads/tv_image/sm/atn-bangla.png",
             "group": "SM_IPTV",
             "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
             "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8"
-        },
-        {
-            "name": "Ekushey TV",
-            "logo": "https://otapp.store/uploads/tv_image/sm/ekushey-tv.png",
-            "group": "SM_IPTV",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://ekusheyserver.com/etvlivesn.m3u8"
         },
         {
             "name": "Channel I",
@@ -3109,53 +3781,11 @@
             "url": "https://book4u.top/worker/index.php?path=api/37788832c8/playlist.m3u8"
         },
         {
-            "name": "Day 1 [LIVE]",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/The-Open-Championship_fc-web.jpg",
+            "name": "West Indies Vs New Zealand [LIVE]",
+            "logo": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-WI_Odi_fc-web.png",
             "group": "Fancode",
             "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://bd-mc-flive.fancode.com/mumbai/4246808_english_hls_cd63cc5f7314604_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784294765~_GO=Generated~acl=/mumbai/4246808_english_hls_cd63cc5f7314604_1ta-di_h264/*~Signature=AeRM5cX_RU2HT6FqUqQsj3gF2MyPHOo8Fd1t5hVYVNUmKkQVAUO6ZXliiHWrMIKbjYjL9vzBMyasxmciW8JaESb7oPwD"
-        },
-        {
-            "name": "Day 4   World Feed [LIVE]",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/EFG-Swiss-Open-Gstaad_fc-Web.jpg",
-            "group": "Fancode",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://bd-mc-flive.fancode.com/mumbai/143493_english_hls_b547409e2039401_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784305805~_GO=Generated~acl=/mumbai/143493_english_hls_b547409e2039401_1ta-di_h264/*~Signature=AeRM5cVQYHHt9YEUVCb3oyIINJxCNb55T0vfkIzfAjo9dTqVuZbxlqeknQRLhBr581q-yqZZ876aHLkf74yPVthRtLwM"
-        },
-        {
-            "name": "Day 4   World Feed [LIVE]",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/Nordea-Open_Web-match-card.png",
-            "group": "Fancode",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://bd-mc-flive.fancode.com/mumbai/143486_english_hls_3440f4b86a36375_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784307065~_GO=Generated~acl=/mumbai/143486_english_hls_3440f4b86a36375_1ta-di_h264/*~Signature=AeRM5cUP9jAI1Wi2NXAQZ5udiAaIBBy9vzHRs9EjAZ9Jl2ORGfn2UN0Y86aUqlNyxdHxdwKIvB5-uYj8rBgNQyKcbDMP"
-        },
-        {
-            "name": "Day 4   World Feed [LIVE]",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/Plava-Laguna-Croatia-Open-Umag_2026_FC-WEB.jpg",
-            "group": "Fancode",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://bd-mc-flive.fancode.com/mumbai/143500_english_hls_7bbdedc9af52746_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784296264~_GO=Generated~acl=/mumbai/143500_english_hls_7bbdedc9af52746_1ta-di_h264/*~Signature=AeRM5cXbkz28HFFl8Dir2zap01CnwD5uwR6qhwWy-7XObUH-2uxkwsOBM_f2NlJrgHXU4Fsg33aWSZiWI3H1_bhIRQIC"
-        },
-        {
-            "name": "Day 1 [LIVE]",
-            "logo": "https://www.fancode.com/skillup-uploads/cms-media/Corales-Puntacana-Championship-2026-old.png",
-            "group": "Fancode",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://bd-mc-flive.fancode.com/mumbai/4246623_english_hls_06092def8531484_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784306644~_GO=Generated~acl=/mumbai/4246623_english_hls_06092def8531484_1ta-di_h264/*~Signature=AeRM5cVYRc268gLF2iX3w7IJDfDm6cN0aCXAqJjH86-qpVqSJsVUQcLE8Cqq8bhbS6Z5KB-07A-TNqji3OvBGxrVJuIN"
-        },
-        {
-            "name": "England vs India | India Tour of England 2026",
-            "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17840197681020x576.jpg",
-            "group": "Tapmad",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8"
-        },
-        {
-            "name": "FreeFire - Day 2 | Esports World Cup 2026 (EWC)",
-            "logo": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17841050281020x576.jpg",
-            "group": "Tapmad",
-            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
-            "url": "https://bpl24middleeast.akamaized.net/hls/live/2109311/tapmad-258tjui/master.m3u8"
+            "url": "https://bd-mc-flive.fancode.com/mumbai/143605_english_hls_2af830d3f124274_1ta-di_h264/1080p.m3u8?hdntl=Expires=1784325906~_GO=Generated~acl=/mumbai/143605_english_hls_2af830d3f124274_1ta-di_h264/*~Signature=AeRM5cUjVu3Xr7FC4eFZpOdwH68WBYBpnA1mf34gnoVr8EwrfX-VMvdKNTPzHpqQhMfqYHF3eQK-92PXjhzfz4gYPo8P"
         },
         {
             "name": "Somoy TV",
@@ -3177,6 +3807,13 @@
             "group": "Cartoon",
             "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
             "url": "https://d1eg24xrsfr6kv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-b4b1bzxkt1uzo-prod/tg/tg/tg.m3u8"
+        },
+        {
+            "name": "0. WowKidz (Motu Patlu)",
+            "logo": "https://static.wikia.nocookie.net/logopedia/images/6/64/WowKidz_Logo.png",
+            "group": "Cartoon",
+            "source": "https://raw.githubusercontent.com/sm-monirulislam/SM-Live-TV/refs/heads/main/Combined_Live_TV.m3u",
+            "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8"
         },
         {
             "name": "📺 Welcome",

@@ -1,28 +1,31 @@
 ==================================================
   MERGE REPORT — merge_link.json
 ==================================================
-  Generated : 2026-08-06 17:17:22 +0600 (Dhaka)
-  Total unique movies : 21666
+  Generated : 2026-08-07 09:22:19 +0600 (Dhaka)
+  Total unique movies : 0
 
   Per-source breakdown:
 --------------------------------------------------
   Source : 103.225.94.27
-    Fetched   : 2119
-    Added     : 2119
+    Fetched   : 0
+    Added     : 0
     Duplicate : 0
     Skipped   : 0
+    Error     : 404 Client Error: Not Found for url: https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/scripts/static_movies(103.225.94.27).json
 
   Source : cinehub24.com
-    Fetched   : 17756
-    Added     : 17756
+    Fetched   : 0
+    Added     : 0
     Duplicate : 0
     Skipped   : 0
+    Error     : 404 Client Error: Not Found for url: https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/scripts/static_movies(cinehub24).json
 
   Source : ctgfun
-    Fetched   : 1791
-    Added     : 1791
+    Fetched   : 0
+    Added     : 0
     Duplicate : 0
     Skipped   : 0
+    Error     : 404 Client Error: Not Found for url: https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/scripts/static_movies(ctgfun).json
 
   Source : discoveryftp
     Fetched   : 0
@@ -32,8 +35,8 @@
     Error     : 404 Client Error: Not Found for url: https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/scripts/static_movies(discoveryftp).json
 
 --------------------------------------------------
-  TOTAL Fetched   : 21666
-  TOTAL Added     : 21666
+  TOTAL Fetched   : 0
+  TOTAL Added     : 0
   TOTAL Duplicate : 0
   TOTAL Skipped   : 0
 ==================================================

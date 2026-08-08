@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-08 03:40:05 UTC",
+  "generated_at_utc": "2026-08-08 14:38:41 UTC",
   "playlist_files": [
     "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
@@ -25,14 +25,14 @@
     "iptv_category_sort": true
   },
   "counts": {
-    "total_streams": 8545,
-    "after_dedup": 8545,
+    "total_streams": 8528,
+    "after_dedup": 8528,
     "checked_streams": 200,
     "dead_removed": 85,
     "alive_after_check": 115,
-    "final_survivors": 8460,
-    "movies": 7643,
-    "tv": 817,
+    "final_survivors": 8443,
+    "movies": 7625,
+    "tv": 818,
     "epg_channels_loaded": 0,
     "quality_checked_streams": 30,
     "posters_generated": 10,
@@ -42174,7 +42174,7 @@
         "name": "Мёртвые не причиняют боли",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
         "group": "2023",
-        "url": "https://o9.anwap.be/ohls/WlFoGm60BH1dJ5x_1zfdHw/1751323569/Myortvyee_ne_prichinyayut_boli-42102_(anwap.org).m3u8",
+        "url": "https://m.cdntv.online/f/y36ankzrhc/TheDeadDontHurt.m3u8",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
@@ -42184,7 +42184,7 @@
         "name": "Мёртвые не причиняют боли",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
         "group": "2023",
-        "url": "https://m.cdntv.online/f/y36ankzrhc/TheDeadDontHurt.m3u8",
+        "url": "https://o9.anwap.be/ohls/WlFoGm60BH1dJ5x_1zfdHw/1751323569/Myortvyee_ne_prichinyayut_boli-42102_(anwap.org).m3u8",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
@@ -53356,7 +53356,7 @@
         "name": "Спящая",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
         "group": "2024",
-        "url": "https://m.cdntv.online/f/y36ankzrhc/TheSleepingWoman.m3u8",
+        "url": "https://m.cdntv.online/f/y36ankzrhc/Lamujerdormida.m3u8",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
@@ -53366,7 +53366,7 @@
         "name": "Спящая",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
         "group": "2024",
-        "url": "https://m.cdntv.online/f/y36ankzrhc/Lamujerdormida.m3u8",
+        "url": "https://m.cdntv.online/f/y36ankzrhc/TheSleepingWoman.m3u8",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
@@ -63819,16 +63819,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/v5urG30.png\" group-title=\"Entertainment\",Pulari TV"
       },
       {
-        "name": "Raj TV (1080p)",
-        "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png",
-        "group": "Entertainment",
-        "url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/RAJTV/master_1.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAJ_TV/images/LOGO_HD/image.png\" group-title=\"Entertainment\",Raj TV (1080p)"
-      },
-      {
         "name": "Rupasi Bangla (720p)",
         "logo": "https://dtil.tmsimg.com/assets/s143733_ld_h15_aa.png?lock=720x540",
         "group": "Entertainment",
@@ -63940,6 +63930,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/BOhgz2T.png\" group-title=\"Entertainment\",Studio Yuva (576p)"
+      },
+      {
+        "name": "Subin TV (1080p)",
+        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/subintvtamil.png",
+        "group": "Entertainment",
+        "url": "https://stream.galaxyott.live/live/subintv/index.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/subintvtamil.png\" group-title=\"Entertainment\",Subin TV (1080p)"
       },
       {
         "name": "Suriya TV (1080p)",
@@ -65206,16 +65206,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MAKKAL_TV/images/LOGO_HD/image.png\" group-title=\"General\",Makkal TV (576i)"
       },
       {
-        "name": "Metro TV (1080p)",
-        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Metro_TV.png",
-        "group": "General",
-        "url": "https://mercury.streambridge.link:8042/telugu/metrotv/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Metro_TV.png\" group-title=\"General\",Metro TV (1080p)"
-      },
-      {
         "name": "News 11 (396p)",
         "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/News11.png",
         "group": "General",
@@ -65264,6 +65254,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/KbU36xI.png\" group-title=\"General\",VCV (720p) [Not 24/7]"
+      },
+      {
+        "name": "Vision (576p)",
+        "logo": "https://i.imgur.com/YozqNL3.jpg",
+        "group": "General",
+        "url": "http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/YozqNL3.jpg\" group-title=\"General\",Vision (576p)"
       }
     ],
     "HBO Max": [
@@ -66289,16 +66289,6 @@
     ],
     "Hollywood": [
       {
-        "name": "(HD)Destino final: Lazos de sangre",
-        "logo": "https://image.tmdb.org/t/p/original/eMrXZnGTPy52zgplp7PbZWll8W7.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/01_20250621_20250621_2307/10.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/eMrXZnGTPy52zgplp7PbZWll8W7.jpg\" group-title=\"Hollywood\",(HD)Destino final: Lazos de sangre"
-      },
-      {
         "name": "(M)Cómo entrenar a tu dragón (2025)",
         "logo": "https://image.tmdb.org/t/p/original/sGFO6VshDEQ9vX4tOSobLJpkNhq.jpg",
         "group": "Hollywood",
@@ -66417,16 +66407,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://archive.org/download/10010010/Cover%20-%20Love%20%26%20Other%20Drugs.jpg\" group-title=\"Hollywood\",amor y otras drogas (2010)"
-      },
-      {
-        "name": "Animales Peligrosos (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/5T4ICTtZ2IqqFYqz9WEKDtuNQuR.jpg",
-        "group": "Hollywood",
-        "url": "https://dl.dropbox.com/scl/fi/5u5eossxaip3auxr4y7ee/f-sica.mp4?rlkey=3vp9qy4ihrnhhoj6hl1llrtsn&st=o6esv36m&dl=0",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5T4ICTtZ2IqqFYqz9WEKDtuNQuR.jpg\" group-title=\"Hollywood\",Animales Peligrosos (2025)"
       },
       {
         "name": "Annabelle (2014)",
@@ -66699,16 +66679,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOTZkNTNkNjgtNTk2Yy00NTY1LWEyZjctZWFiZTU0MTVhMTM0XkEyXkFqcGc@._V1_FMjpg_UY474_.jp\" group-title=\"Hollywood\",Cumbres borrascosas(2026)"
       },
       {
-        "name": "Cómo entrenar a tu dragón (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/47HoQdGvW4Jy4ntUbsQ3bEnJHDh.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/01_20250621_20250621_2307/09.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/47HoQdGvW4Jy4ntUbsQ3bEnJHDh.jpg\" group-title=\"Hollywood\",Cómo entrenar a tu dragón (2025)"
-      },
-      {
         "name": "Cómo llegar al cielo desde Belfast (2026)",
         "logo": "https://image.tmdb.org/t/p/original/7A37vpIWIAQqaoFtnzaVSVKcaZ7.jpg",
         "group": "Hollywood",
@@ -66759,16 +66729,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/9OvSVH1KJQRlLzOVLEGHta9pwfX.jpg\" group-title=\"Hollywood\",Devilman Crybaby (2018)"
       },
       {
-        "name": "Dios Loco (2021)SUB",
-        "logo": "https://image.tmdb.org/t/p/original/efEC2f2TJ5JfKsMXTQsh2kcKmFL.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/mad-god-2021-1080-p-subtitulada-ver-peliculas-online.org/Mad%20God%20%5B2021%5D%20%5B1080P%5D%5BSubtitulada%5D%5BVerPeliculasOnline.org%5D.ia.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/efEC2f2TJ5JfKsMXTQsh2kcKmFL.jpg\" group-title=\"Hollywood\",Dios Loco (2021)SUB"
-      },
-      {
         "name": "Doble Traición (2025)",
         "logo": "https://image.tmdb.org/t/p/original/bEOvj0cEDHTXiyYlCSJ76BpzPuB.jpg",
         "group": "Hollywood",
@@ -66777,16 +66737,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/bEOvj0cEDHTXiyYlCSJ76BpzPuB.jpg\" group-title=\"Hollywood\",Doble Traición (2025)"
-      },
-      {
-        "name": "Donnie Darko (2001)",
-        "logo": "https://image.tmdb.org/t/p/original/6FKym4sm5LcqUC80HNpn2ejVoro.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/donnie-darko-2001-full-movie-the-directors-cut/Donnie%20Darko%282001%29_Full%20Movie%20-%20The%20Director%27s%20Cut.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/6FKym4sm5LcqUC80HNpn2ejVoro.jpg\" group-title=\"Hollywood\",Donnie Darko (2001)"
       },
       {
         "name": "Downton Abbey El gran final (2025)",
@@ -67329,16 +67279,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/2xVyCvnuVVRpYohPxrvwxZiH49r.jpg\" group-title=\"Hollywood\",House on Eden (2025)"
       },
       {
-        "name": "Infección (2019)",
-        "logo": "https://image.tmdb.org/t/p/original/AU1xAbnkR4dj8WUC82by0gW4BE.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/infeccion-2019/Infecci%C3%B3n%20%282019%29.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/AU1xAbnkR4dj8WUC82by0gW4BE.jpg\" group-title=\"Hollywood\",Infección (2019)"
-      },
-      {
         "name": "Infelices para Siempre (2023)",
         "logo": "https://image.tmdb.org/t/p/original/8pueo1YEmFhzW4R2C4gtGhobeLz.jpg",
         "group": "Hollywood",
@@ -67539,16 +67479,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/x0ryPlzZjpOojEAuGrre2lFuBv6.jpg\" group-title=\"Hollywood\",La monja II (2023)"
       },
       {
-        "name": "La mujer de las sombras (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/7EqXQpRpDLJA09ufah6Vsr487WW.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/01_20250624_20250624_1917/pascal/09.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/7EqXQpRpDLJA09ufah6Vsr487WW.jpg\" group-title=\"Hollywood\",La mujer de las sombras (2025)"
-      },
-      {
         "name": "La pirámide (2014)",
         "logo": "https://image.tmdb.org/t/p/original/a2N5St0TCmyJy2F8IwPlo2lEbiJ.jpg",
         "group": "Hollywood",
@@ -67607,16 +67537,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/7ML1ZEpWjR8IKEb2wpK3k4KMvhK.jpg\" group-title=\"Hollywood\",Las Ratas Una historia de The Witcher"
-      },
-      {
-        "name": "Las tías (2024)",
-        "logo": "https://image.tmdb.org/t/p/original/mEgWL3PlfEA6IFXNLoi6x9IWLZx.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/las-tias-ver-online-en-espanol-latino/Las%20t%C3%ADas%20-%20Ver%20Online%20en%20Espa%C3%B1ol%20Latino.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/mEgWL3PlfEA6IFXNLoi6x9IWLZx.jpg\" group-title=\"Hollywood\",Las tías (2024)"
       },
       {
         "name": "Lobos contra el mundo (2024)",
@@ -67727,6 +67647,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/fSRRH7UasrE6q240H00dww3vE1c.jpg\" group-title=\"Hollywood\",Los extraños: Capítulo 2 (2025)"
+      },
+      {
+        "name": "Los Padrinos Mágicos, la película: ¡Momento de crecer, Timmy Turner! (2011)",
+        "logo": "https://image.tmdb.org/t/p/original/5QK5lBNxntov4g6fDT1HyBtGK17.jpg",
+        "group": "Hollywood",
+        "url": "https://archive.org/download/los-padrinos-magicos-la-pelicula-momento-de-crecer-timmy-tuner-2011-espanol-latino/8bdd084b17c5f1bad154cb0e3435514849d94a0f698515a737dd297c6c6a78a4.ia.mp4",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5QK5lBNxntov4g6fDT1HyBtGK17.jpg\" group-title=\"Hollywood\",Los Padrinos Mágicos, la película: ¡Momento de crecer, Timmy Turner! (2011)"
       },
       {
         "name": "Maa (2025)",
@@ -68019,16 +67949,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/mW7PYDUeWYwTdbtzThqLMfdNa56.jpg\" group-title=\"Hollywood\",Piglets Return (2025)"
       },
       {
-        "name": "Play Dead (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/5THjBLt4vE9lAnLODqXFf5qEwxa.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/asterix_202506/pbx/01.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5THjBLt4vE9lAnLODqXFf5qEwxa.jpg\" group-title=\"Hollywood\",Play Dead (2025)"
-      },
-      {
         "name": "Pose (2026)",
         "logo": "https://image.tmdb.org/t/p/original/qhyyyWrHUbl6QG4udAJj17CBa5.jpg",
         "group": "Hollywood",
@@ -68047,16 +67967,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/w200/39a7zYZvkGfs7EOVVK3dQlWyYJ0.jpg\" group-title=\"Hollywood\",Possessions (2024)"
-      },
-      {
-        "name": "Presencia (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/hZ8dTeBzigV5SVgwG1ikSROAFiS.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/presencia-2025-1/Presencia%202025%20%281%29.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/hZ8dTeBzigV5SVgwG1ikSROAFiS.jpg\" group-title=\"Hollywood\",Presencia (2025)"
       },
       {
         "name": "Primate (2026)",
@@ -68087,16 +67997,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w300_and_h450_face/qkyqQqQN8HAkLezR6xWTYzz6Icv.jpg\" group-title=\"Hollywood\",Punisher:La ultima muerte 480p latino"
-      },
-      {
-        "name": "Pura energia",
-        "logo": "https://i.ibb.co/TkSRqy7/Pura-Energia.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/kohbn/ptol/kohbn.avi",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/TkSRqy7/Pura-Energia.jpg\" group-title=\"Hollywood\",Pura energia"
       },
       {
         "name": "Raw File (2025)",
@@ -68587,16 +68487,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/hbS0ysfUnAaxFm2PeNWVaRccQZA.jpg\" group-title=\"Hollywood\",The Sadness (2021)"
-      },
-      {
-        "name": "The Shed (2019)",
-        "logo": "https://image.tmdb.org/t/p/original/3xOYf938hlGXR7Epta7jH2CjCba.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/the-shed-2019/THE%20SHED%20%20%282019%29.ia.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/3xOYf938hlGXR7Epta7jH2CjCba.jpg\" group-title=\"Hollywood\",The Shed (2019)"
       },
       {
         "name": "The Ugly Stepsister (2025)",
@@ -73943,8 +73833,8 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Kids\",Cartoon Network",
-        "quality": "Unknown",
-        "hls_valid": false
+        "quality": "720p",
+        "hls_valid": true
       },
       {
         "name": "Chithiram (576p)",
@@ -74001,7 +73891,7 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Kids\",Nursary Rhymes",
-        "quality": "720p",
+        "quality": "1080p",
         "hls_valid": true
       },
       {
@@ -76697,6 +76587,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/eKQs51V.png\" group-title=\"News\",Awaaz India TV (720p) [Not 24/7]"
       },
       {
+        "name": "Bansal News (720p)",
+        "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BANSAL_NEWS/images/LOGO_HD/image.png",
+        "group": "News",
+        "url": "https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BANSAL_NEWS/images/LOGO_HD/image.png\" group-title=\"News\",Bansal News (720p)"
+      },
+      {
         "name": "BIG TV (720p)",
         "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Big_TV.png",
         "group": "News",
@@ -77567,6 +77467,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/s143692_ld_h15_aa.png?lock=720x540\" group-title=\"News\",Puthiya Thalaimurai (576p)"
       },
       {
+        "name": "RDX Goa (720p) [Geo-blocked]",
+        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/RDX_News.png",
+        "group": "News",
+        "url": "https://g5nl6xoalpq6-hls-live.5centscdn.com/rdxgoa/d0dbe915091d400bd8ee7f27f0791303.sdp/playlist.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/RDX_News.png\" group-title=\"News\",RDX Goa (720p) [Geo-blocked]"
+      },
+      {
         "name": "Real News Kerala (1080p) [Not 24/7]",
         "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Real_News_Kerala.png",
         "group": "News",
@@ -77785,16 +77695,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/TNP_News.png\" group-title=\"News\",TNP News (1080p)"
-      },
-      {
-        "name": "TV Punjab (720p) [Geo-blocked]",
-        "logo": "https://en.tvpunjab.com/storage/2022/03/logo-2022.png",
-        "group": "News",
-        "url": "https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://en.tvpunjab.com/storage/2022/03/logo-2022.png\" group-title=\"News\",TV Punjab (720p) [Geo-blocked]"
       },
       {
         "name": "TV13 Gujarati (720p)",
@@ -79429,7 +79329,7 @@
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Sports\",Star Sports 1 HD",
         "alive": true,
-        "quality": "1080p",
+        "quality": "720p",
         "hls_valid": true
       },
       {
@@ -79494,16 +79394,6 @@
       }
     ],
     "Star+": [
-      {
-        "name": "AMERICAN DAD",
-        "logo": "http://archive.org/download/125452445445/AMERICAN DAD.jpg",
-        "group": "Star+",
-        "url": "http://archive.org/download/ladarius34b_k964n_mygeoweb_2/AD1.m3u",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://archive.org/download/125452445445/AMERICAN DAD.jpg\" group-title=\"Star+\",AMERICAN DAD"
-      },
       {
         "name": "AMERICAN HORROR HISTORY",
         "logo": "https://pelisimg.online/cover/american-horror-story.jpg",
@@ -81313,16 +81203,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/qjQX2r8PLbGNFvBUa8kVHvLRkAG.jpg\" group-title=\"\",al borde del abismo (2024)"
       },
       {
-        "name": "Alicia país de las pesadillas (2024)",
-        "logo": "https://dl.dropbox.com/scl/fi/0wmrjibm4lp0nnlfoch14/IMG_20240706_192319_554.jpg?rlkey=ybhmpy5jfs6whk45rwy4b137o&dl=0",
-        "group": "Uncategorized",
-        "url": "https://archive.org/download/vid-20240706-193635-556/VID_20240706_193635_556.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://dl.dropbox.com/scl/fi/0wmrjibm4lp0nnlfoch14/IMG_20240706_192319_554.jpg?rlkey=ybhmpy5jfs6whk45rwy4b137o&dl=0\" group-title=\"\",Alicia país de las pesadillas (2024)"
-      },
-      {
         "name": "All hallows eve 1",
         "logo": "https://i.ibb.co/5F1RrHw/MV5-BYTUy-MGVh-Mz-Ut-Zm-Y3-NS00-Mz-Jk-LTkx-Zj-Qt-Nz-Uy-Zm-Y5-ZDQ1-YTZi-Xk-Ey-Xk-Fqc-Gde-QXVy-Mj-Q0-O.jpg",
         "group": "Uncategorized",
@@ -81513,16 +81393,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/1jvCVdlgInyItAUEvvvCakm1Yxz.jpg\" group-title=\"\",Culpa tuya"
       },
       {
-        "name": "cásate conmigo (2008)",
-        "logo": "https://archive.org/download/0024658/0024658.jpg",
-        "group": "Uncategorized",
-        "url": "https://archive.org/download/casate-conmigo/casate%20conmigo.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://archive.org/download/0024658/0024658.jpg\" group-title=\"\",cásate conmigo (2008)"
-      },
-      {
         "name": "de noche con el diablo(2024)",
         "logo": "https://dl.dropbox.com/scl/fi/r1eek8yml6rwlkg61fwfh/IMG_20240706_161219_975.jpg?rlkey=7jfd19iagpdvwoyqd6tnix42j&dl=0",
         "group": "Uncategorized",
@@ -81673,16 +81543,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://dl.dropbox.com/scl/fi/z0bntvcmhifnrxckaxs1s/IMG_20240706_151131_415.jpg?rlkey=aqf25wzi5sfyw6gdhqisgo0o2&dl=0\" group-title=\"\",Goyo (2024)"
       },
       {
-        "name": "Guardianes de la Galaxia",
-        "logo": "https://image.tmdb.org/t/p/original/lGR9yjcPctrIxNrnGBiXlEbM6nT.jpg",
-        "group": "Uncategorized",
-        "url": "https://dl.dropbox.com/scl/fi/qzmsdlhygo8qd9gx7e2uz/guardianes-de-la-galaxia-1.mp4?rlkey=m7dak5y5edu9y1be74b58os5c&st=clhp0fag&dl=0",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/lGR9yjcPctrIxNrnGBiXlEbM6nT.jpg\" group-title=\"\",Guardianes de la Galaxia"
-      },
-      {
         "name": "Guardianes de la Galaxia vol.2",
         "logo": "https://image.tmdb.org/t/p/original/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg",
         "group": "Uncategorized",
@@ -81721,16 +81581,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/qp0xpheiKwK2ASjX3YUwDPVOzHx.jpg\" group-title=\"\",Hotel sin salida 2"
-      },
-      {
-        "name": "iron man 1",
-        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg",
-        "group": "Uncategorized",
-        "url": "https://dl.dropbox.com/scl/fi/i46badogboadxjf2jgna6/1_5046378812346991048.mp4?rlkey=ezk04w0vy4kksluje1v68stl5&st=bapnmme5&dl=0",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg\" group-title=\"\",iron man 1"
       },
       {
         "name": "iron man 2",
@@ -81933,16 +81783,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/k24RXPX/IMG-20240629-193836-391.jpg\" group-title=\"\",mil veces asta siempre (2024)"
       },
       {
-        "name": "novia por contrato",
-        "logo": "https://image.tmdb.org/t/p/original/5umEGkCrshN1JDywCbWZRvkdmry.jpg",
-        "group": "Uncategorized",
-        "url": "https://archive.org/download/s-0lt-3r-0-3n-c-4s-4/s0lt3r0%203n%20c4s4.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5umEGkCrshN1JDywCbWZRvkdmry.jpg\" group-title=\"\",novia por contrato"
-      },
-      {
         "name": "Noviembre dulce (2001)",
         "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/etZBiCuTbCsAPbdLzLMBfdGik61.jpg",
         "group": "Uncategorized",
@@ -82023,14 +81863,14 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg\" group-title=\"\",Spider-Man: A través del Spider-Verso"
       },
       {
-        "name": "Spider-Man: De Regreso a Casa",
-        "logo": "https://image.tmdb.org/t/p/original/81qIJbnS2L0rUAAB55G8CZODpS5.jpg",
+        "name": "Spider-Man: Lejos de Casa",
+        "logo": "https://image.tmdb.org/t/p/original/o59zDVJDIehGcWZsMUGU5SN0V0D.jpg",
         "group": "Uncategorized",
-        "url": "https://dl.dropbox.com/scl/fi/7spw4ulsd1cnijcpn1h0d/spiderman-regreso-a-casa.mp4?rlkey=uau5i7yol6a766rw0b0u9x926&st=vsok9n0v&dl=0",
+        "url": "https://dl.dropbox.com/scl/fi/zjg602kxwm5ddi0h6h9fv/spiderman-lejos-de-casa.mp4?rlkey=vhs7pjuuem1hga0cyzeuu8ufm&st=rqk0v2mf&dl=0",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/81qIJbnS2L0rUAAB55G8CZODpS5.jpg\" group-title=\"\",Spider-Man: De Regreso a Casa"
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/o59zDVJDIehGcWZsMUGU5SN0V0D.jpg\" group-title=\"\",Spider-Man: Lejos de Casa"
       },
       {
         "name": "Spider-Man: un nuevo universo",
@@ -82123,16 +81963,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg\" group-title=\"\",Thor Ragnarok"
       },
       {
-        "name": "Thor un mundo oscuro",
-        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/gPAmH41VpK5UPaNhAiNJePzrL8z.jpg",
-        "group": "Uncategorized",
-        "url": "https://archive.org/download/cuartormuna/20.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/gPAmH41VpK5UPaNhAiNJePzrL8z.jpg\" group-title=\"\",Thor un mundo oscuro"
-      },
-      {
         "name": "Thunderbolts (2025) 720p latino",
         "logo": "https://image.tmdb.org/t/p/w154/zLbhKNJGDSfBCXFNtypM7ZuPTaW.jpg",
         "group": "Uncategorized",
@@ -82183,6 +82013,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/3AvLBac3KejQ1cO0d183t4rALua.jpg\" group-title=\"\",Vi el Brillo del Televisor I Saw the TV Glow(2024)"
       },
       {
+        "name": "Viuda negra",
+        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/oggEsESyLjVGD7jbIdBfa2hFUrx.jpg",
+        "group": "Uncategorized",
+        "url": "https://archive.org/download/manguera_20210711/Bl4ck.mkv",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/oggEsESyLjVGD7jbIdBfa2hFUrx.jpg\" group-title=\"\",Viuda negra"
+      },
+      {
         "name": "WILD EYED AND WICKED (SUB 2024)",
         "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/nJMNvYZ21bMdB2Pq0qCk88jnQc6.jpg",
         "group": "Uncategorized",
@@ -82191,16 +82031,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/nJMNvYZ21bMdB2Pq0qCk88jnQc6.jpg\" group-title=\"\",WILD EYED AND WICKED (SUB 2024)"
-      },
-      {
-        "name": "Winnie The Pooh: Miel y Sangre 2",
-        "logo": "https://archive.org/download/img-20240704-162904-988/IMG_20240704_162904_988.jpg",
-        "group": "Uncategorized",
-        "url": "https://archive.org/download/winnie-the-pooh-miel-y-sangre-2-2024-1080p-dual-1.53-gb/Winnie%20The%20Pooh%20Miel%20y%20Sangre%202%20%282024%29%201080p%20DUAL%201.53%20GB.mkv",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://archive.org/download/img-20240704-162904-988/IMG_20240704_162904_988.jpg\" group-title=\"\",Winnie The Pooh: Miel y Sangre 2"
       },
       {
         "name": "Winnie the Pooh: Sangre y miel (2023)",

@@ -1,16 +1,16 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 8514
-After duplicate remove: 8514
+Total parsed streams  : 8499
+After duplicate remove: 8499
 Checked (async)       : 200
-Dead removed          : 90
-Final survivors       : 8424
-Movies                : 7611
-TV channels           : 813
+Dead removed          : 86
+Final survivors       : 8413
+Movies                : 7598
+TV channels           : 815
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 144
+Category groups       : 145
 
 Sample quality checks:
   - Sheemaroo Bollywood => 1080p | HLS valid: True
@@ -22,9 +22,9 @@ Sample quality checks:
   - Ekushey TV => Unknown | HLS valid: True
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
+  - GAZI TV => Unknown | HLS valid: True
+  - Desh TV => Unknown | HLS valid: True
+  - RTV => Unknown | HLS valid: True
+  - EP tv => 720p | HLS valid: True
   - Maasranga Tv => Unknown | HLS valid: True
-  - SRK TV => 1080p | HLS valid: True
-  - Colors Infinity SD => 720p | HLS valid: True
-  - FASHION ONE => SD | HLS valid: True
-  - FASHION ONE => 720p | HLS valid: True
-  - Star Sports 1 HD => 720p | HLS valid: True
+  - BTV News => 1080p | HLS valid: True

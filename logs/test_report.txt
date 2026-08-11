@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 8443
-After duplicate remove: 8443
+Total parsed streams  : 8339
+After duplicate remove: 8339
 Checked (async)       : 200
-Dead removed          : 85
-Final survivors       : 8358
-Movies                : 7541
-TV channels           : 817
+Dead removed          : 92
+Final survivors       : 8247
+Movies                : 7478
+TV channels           : 769
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 144
+Category groups       : 142
 
 Sample quality checks:
-  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
   - Zee Action => Unknown | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
+  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
   - Ekushey TV => Unknown | HLS valid: True
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
-  - GAZI TV => Unknown | HLS valid: True
-  - Desh TV => Unknown | HLS valid: True
-  - RTV => Unknown | HLS valid: True
-  - EP tv => 720p | HLS valid: True
   - Maasranga Tv => Unknown | HLS valid: True
-  - BTV News => 1080p | HLS valid: True
+  - T Sports (1080p) (2) => 720p | HLS valid: True
+  - Star Sports 1 HD => 1080p | HLS valid: True
+  - w_300,q_85/xi6xX5UBv9knK3AH9aMk/posters/f4db1c12-b10f-46e8-a09b-e0efb8820970.png" group-title="[LIVE] BDIX ♛",[BD] Sony Aath => Unknown | HLS valid: False
+  - w_300,q_85/7x0Jd5YBEef-9-uVv_Gy/posters/f9c07bfc-9fde-40d0-91a1-e28c5840f400.png" group-title="[LIVE] BDIX ♛",[BD] Zee Anmol => Unknown | HLS valid: False
+  - w_300,q_85/PS6F-JQBv9knK3AHqjVz/posters/0f83ee72-be0f-4861-94df-30b158d3df8d.webp" group-title="[LIVE] BDIX ♛",[BD] B4U Music => Unknown | HLS valid: False

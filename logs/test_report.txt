@@ -1,20 +1,20 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 8247
-After duplicate remove: 8247
+Total parsed streams  : 8307
+After duplicate remove: 8307
 Checked (async)       : 200
-Dead removed          : 86
-Final survivors       : 8161
-Movies                : 7378
-TV channels           : 783
+Dead removed          : 91
+Final survivors       : 8216
+Movies                : 7444
+TV channels           : 772
 Posters generated     : 10
 EPG channels loaded   : 0
 Category groups       : 141
 
 Sample quality checks:
-  - Zee Action => Unknown | HLS valid: True
   - Zee Anmol TV => Unknown | HLS valid: True
+  - Zee Action => Unknown | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
   - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
@@ -22,9 +22,9 @@ Sample quality checks:
   - Ekushey TV => Unknown | HLS valid: True
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
-  - GAZI TV => Unknown | HLS valid: True
-  - Desh TV => Unknown | HLS valid: False
-  - RTV => Unknown | HLS valid: True
-  - EP tv => 720p | HLS valid: True
   - Maasranga Tv => Unknown | HLS valid: True
-  - BTV News => 1080p | HLS valid: True
+  - T Sports HD (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) => Unknown | HLS valid: False
+  - T Sports (1080p) (2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) => 720p | HLS valid: True
+  - Star Sports 1 HD => 1080p | HLS valid: True
+  - w_300,q_85/7x0Jd5YBEef-9-uVv_Gy/posters/f9c07bfc-9fde-40d0-91a1-e28c5840f400.png" group-title="[LIVE] BDIX ♛",[BD] Zee Anmol => Unknown | HLS valid: False
+  - w_300,q_85/PS6F-JQBv9knK3AHqjVz/posters/0f83ee72-be0f-4861-94df-30b158d3df8d.webp" group-title="[LIVE] BDIX ♛",[BD] B4U Music => Unknown | HLS valid: False

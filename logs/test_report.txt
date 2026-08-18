@@ -1,16 +1,16 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 8236
-After duplicate remove: 8236
+Total parsed streams  : 8244
+After duplicate remove: 8244
 Checked (async)       : 200
-Dead removed          : 92
-Final survivors       : 8144
-Movies                : 7374
-TV channels           : 770
+Dead removed          : 90
+Final survivors       : 8154
+Movies                : 7383
+TV channels           : 771
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 140
+Category groups       : 141
 
 Sample quality checks:
   - Zee Anmol TV => Unknown | HLS valid: True
@@ -23,8 +23,8 @@ Sample quality checks:
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
   - Maasranga Tv => Unknown | HLS valid: True
-  - T Sports (1080p) (1) => 720p | HLS valid: True
-  - Star Sports 1 HD => 720p | HLS valid: True
-  - w_300,q_85/7x0Jd5YBEef-9-uVv_Gy/posters/f9c07bfc-9fde-40d0-91a1-e28c5840f400.png" group-title="[LIVE] BDIX ♛",[BD] Zee Anmol => Unknown | HLS valid: False
+  - RTV => Unknown | HLS valid: False
+  - BTV News => Unknown | HLS valid: False
+  - T Sports (1080p) (1) (2) => 720p | HLS valid: True
+  - Star Sports 1 HD => 1080p | HLS valid: True
   - w_300,q_85/PS6F-JQBv9knK3AHqjVz/posters/0f83ee72-be0f-4861-94df-30b158d3df8d.webp" group-title="[LIVE] BDIX ♛",[BD] B4U Music => Unknown | HLS valid: False
-  - w_300,q_85/DK8dd5YBrjBfS2_Ru22e/posters/a4e57fd0-1853-4540-a9bc-0265ee43b5cb.png" group-title="[LIVE] BDIX ♛",[BD] Zing => Unknown | HLS valid: False

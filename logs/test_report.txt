@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 8095
-After duplicate remove: 8095
+Total parsed streams  : 8236
+After duplicate remove: 8236
 Checked (async)       : 200
-Dead removed          : 91
-Final survivors       : 8004
-Movies                : 7235
-TV channels           : 769
+Dead removed          : 92
+Final survivors       : 8144
+Movies                : 7374
+TV channels           : 770
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 141
+Category groups       : 140
 
 Sample quality checks:
   - Zee Anmol TV => Unknown | HLS valid: True
   - Zee Action => Unknown | HLS valid: True
-  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Goldmines Bollywood => Unknown | HLS valid: True
+  - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
   - Ekushey TV => Unknown | HLS valid: True
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
   - Maasranga Tv => Unknown | HLS valid: True
-  - T Sports HD (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) => Unknown | HLS valid: False
-  - T Sports (1080p) (2) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) => 720p | HLS valid: True
-  - Star Sports 1 HD => 1080p | HLS valid: True
-  - w_300,q_85/WtPBX5UBm1RY_In7mXEU/posters/188d51f6-aeef-41ed-835b-e25ff911e209.png" group-title="[LIVE] BDIX ♛",[BD] HUM Sitaray => Unknown | HLS valid: False
-  - w_300,q_85/xi6xX5UBv9knK3AH9aMk/posters/f4db1c12-b10f-46e8-a09b-e0efb8820970.png" group-title="[LIVE] BDIX ♛",[BD] Sony Aath => Unknown | HLS valid: False
+  - T Sports (1080p) (1) => 720p | HLS valid: True
+  - Star Sports 1 HD => 720p | HLS valid: True
+  - w_300,q_85/7x0Jd5YBEef-9-uVv_Gy/posters/f9c07bfc-9fde-40d0-91a1-e28c5840f400.png" group-title="[LIVE] BDIX ♛",[BD] Zee Anmol => Unknown | HLS valid: False
+  - w_300,q_85/PS6F-JQBv9knK3AHqjVz/posters/0f83ee72-be0f-4861-94df-30b158d3df8d.webp" group-title="[LIVE] BDIX ♛",[BD] B4U Music => Unknown | HLS valid: False
+  - w_300,q_85/DK8dd5YBrjBfS2_Ru22e/posters/a4e57fd0-1853-4540-a9bc-0265ee43b5cb.png" group-title="[LIVE] BDIX ♛",[BD] Zing => Unknown | HLS valid: False

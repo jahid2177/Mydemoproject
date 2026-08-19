@@ -1,21 +1,18 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 8244
-After duplicate remove: 8244
+Total parsed streams  : 8175
+After duplicate remove: 8175
 Checked (async)       : 200
-Dead removed          : 90
-Final survivors       : 8154
-Movies                : 7383
-TV channels           : 771
+Dead removed          : 95
+Final survivors       : 8080
+Movies                : 7353
+TV channels           : 727
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 141
+Category groups       : 127
 
 Sample quality checks:
-  - Zee Anmol TV => Unknown | HLS valid: True
-  - Zee Action => Unknown | HLS valid: True
-  - Goldmines Bollywood => Unknown | HLS valid: True
   - Sheemaroo Bollywood => 1080p | HLS valid: True
   - Goldmines Movies 2 => 480p | HLS valid: True
   - Welcome to PlayZ TV => Unknown | HLS valid: True
@@ -23,8 +20,11 @@ Sample quality checks:
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
   - Maasranga Tv => Unknown | HLS valid: True
-  - RTV => Unknown | HLS valid: False
-  - BTV News => Unknown | HLS valid: False
-  - T Sports (1080p) (1) (2) => 720p | HLS valid: True
-  - Star Sports 1 HD => 1080p | HLS valid: True
-  - w_300,q_85/PS6F-JQBv9knK3AHqjVz/posters/0f83ee72-be0f-4861-94df-30b158d3df8d.webp" group-title="[LIVE] BDIX ♛",[BD] B4U Music => Unknown | HLS valid: False
+  - T Sports (1080p) (1) (2) (2) (2) => 720p | HLS valid: True
+  - Star Sports 1 HD => 720p | HLS valid: True
+  - w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png" group-title="[LIVE] BDIX ♛",[BD] &TV HD => Unknown | HLS valid: False
+  - w_300,q_85/2S5t-JQBv9knK3AHJTTW/posters/ae74f943-77c9-4395-a16c-8ed84b439080.webp" group-title="[LIVE] BDIX ♛",[BD] Sony Entertainment Television => Unknown | HLS valid: False
+  - w_300,q_85/7S6j-JQBv9knK3AHbzXC/posters/0973097c-bc5c-4b28-aaca-f04d6f6cb5e2.webp" group-title="[LIVE] BDIX ♛",[BD] TLC HD => Unknown | HLS valid: False
+  - w_300,q_85/7C6j-JQBv9knK3AHVzUA/posters/e8f84105-5efe-4e91-a0d4-18a0849cf2f2.webp" group-title="[LIVE] BDIX ♛",[BD] TLC => Unknown | HLS valid: False
+  - w_300,q_85/Ny61-JQBv9knK3AHgzZ7/posters/0909b36a-afd5-426a-93b3-4512800977db.webp" group-title="[LIVE] BDIX ♛",[BD] Animal Planet => Unknown | HLS valid: False
+  - w_300,q_85/Ni61-JQBv9knK3AHcDYc/posters/c16e8633-6b2a-401a-9cd6-ac26a4fcdedb.webp" group-title="[LIVE] BDIX ♛",[BD] Animal Planet HD => Unknown | HLS valid: False

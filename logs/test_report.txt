@@ -1,13 +1,13 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 6642
-After duplicate remove: 6642
+Total parsed streams  : 8157
+After duplicate remove: 8157
 Checked (async)       : 200
 Dead removed          : 95
-Final survivors       : 6547
-Movies                : 5828
-TV channels           : 719
+Final survivors       : 8062
+Movies                : 7316
+TV channels           : 746
 Posters generated     : 10
 EPG channels loaded   : 0
 Category groups       : 129
@@ -20,7 +20,7 @@ Sample quality checks:
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
   - Maasranga Tv => Unknown | HLS valid: True
-  - T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) => 720p | HLS valid: True
+  - T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) => 720p | HLS valid: True
   - Star Sports 1 HD => 1080p | HLS valid: True
   - w_300,q_85/ltPQX5UBm1RY_In7b3F1/posters/d039d9df-9877-4969-a0b6-56888ebe2385.png" group-title="[LIVE] BDIX ♛",[BD] Zee TV HD => Unknown | HLS valid: False
   - w_300,q_85/5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png" group-title="[LIVE] BDIX ♛",[BD] &TV HD => Unknown | HLS valid: False

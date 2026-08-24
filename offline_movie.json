@@ -10,6 +10,26 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOWYzZDRhNTgtZGI1MS00NGZiLTkwNzYtMzE2NzlmZjE2MmRhXkEyXkFqcGc@._V1_.jpg\" group-title=\"Southindian Hindi Dubbed\",Arjun S/O Vyjayanthi"
   },
   {
+    "name": "Deshe Bideshe",
+    "logo": "https://pbs.twimg.com/profile_images/739539785304281088/zMwNO936_400x400.jpg",
+    "group": "BANGLA",
+    "url": "https://dbcanada.sonarbanglatv.com/deshebideshe/dbtv/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://pbs.twimg.com/profile_images/739539785304281088/zMwNO936_400x400.jpg\" group-title=\"BANGLA\",Deshe Bideshe"
+  },
+  {
+    "name": "RTV",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "BANGLA",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",RTV"
+  },
+  {
     "name": "MUSIC BANGLA",
     "logo": "https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg",
     "group": "Bangla",
@@ -20,14 +40,14 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg\" group-title=\"Bangla\",MUSIC BANGLA"
   },
   {
-    "name": "A SPOR",
+    "name": "RTV (720p)",
     "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Football",
-    "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
+    "group": "Unknown",
+    "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Football\",A SPOR"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",RTV (720p)"
   },
   {
     "name": "COLORS HD [BENGALI]",
@@ -3700,93 +3720,73 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/URDU-1.png\" group-title=\"URDU | PAKISTAN\",URDU 1 [PK]"
   },
   {
-    "name": "Los Padrinos Mágicos, la película: ¡Momento de crecer, Timmy Turner! (2011)",
-    "logo": "https://image.tmdb.org/t/p/original/5QK5lBNxntov4g6fDT1HyBtGK17.jpg",
-    "group": "Hollywood",
-    "url": "https://archive.org/download/los-padrinos-magicos-la-pelicula-momento-de-crecer-timmy-tuner-2011-espanol-latino/8bdd084b17c5f1bad154cb0e3435514849d94a0f698515a737dd297c6c6a78a4.ia.mp4",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "Manoranjan Grand (720p)",
+    "logo": "https://dtil.tmsimg.com/assets/s143302_ld_h15_aa.png?lock=720x540",
+    "group": "Movies",
+    "url": "https://cdn-1.pishow.tv/live/1011/master.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5QK5lBNxntov4g6fDT1HyBtGK17.jpg\" group-title=\"Hollywood\",Los Padrinos Mágicos, la película: ¡Momento de crecer, Timmy Turner! (2011)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/s143302_ld_h15_aa.png?lock=720x540\" group-title=\"Movies\",Manoranjan Grand (720p)"
   },
   {
-    "name": "The funeral (2024)",
-    "logo": "https://image.tmdb.org/t/p/w200/8K69J04Zvqnt89E28AhF56qLilk.jpg",
-    "group": "Hollywood",
-    "url": "https://ia600109.us.archive.org/25/items/the-funeral-2024/The%20funeral%20%282024%29.mp4",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "Darshan 24 (576p)",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Darshan_24.png",
+    "group": "Religious",
+    "url": "https://mumt05.tangotv.in/87NeALx2DARSHAN24/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/w200/8K69J04Zvqnt89E28AhF56qLilk.jpg\" group-title=\"Hollywood\",The funeral (2024)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Darshan_24.png\" group-title=\"Religious\",Darshan 24 (576p)"
   },
   {
-    "name": "CHUCKY EL MUNECO DIABOLICO",
-    "logo": "https://image.tmdb.org/t/p/original/mRTnim0xPxYiH0LWi2O59Lqk2Gd.jpg",
-    "group": "Hollywood",
-    "url": "https://archive.org/download/080520712070508aCh/08052071.mkv",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "SVBC 2 (1080p)",
+    "logo": "https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540",
+    "group": "Religious",
+    "url": "https://player.mslivestream.net/tamil/ac206e74d75b285755ee4924df87d951.sdp/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/mRTnim0xPxYiH0LWi2O59Lqk2Gd.jpg\" group-title=\"Hollywood\",CHUCKY EL MUNECO DIABOLICO"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/s143890_ld_h9_aa.png?lock=720x540\" group-title=\"Religious\",SVBC 2 (1080p)"
   },
   {
-    "name": "The Shed (2019)",
-    "logo": "https://image.tmdb.org/t/p/original/3xOYf938hlGXR7Epta7jH2CjCba.jpg",
-    "group": "Hollywood",
-    "url": "https://archive.org/download/the-shed-2019/THE%20SHED%20%20%282019%29.ia.mp4",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "E 24 (576p)",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_E24/images/LOGO_HD/image.png",
+    "group": "Entertainment",
+    "url": "https://mumt04.tangotv.in/m18aqlK4E24/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/3xOYf938hlGXR7Epta7jH2CjCba.jpg\" group-title=\"Hollywood\",The Shed (2019)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_E24/images/LOGO_HD/image.png\" group-title=\"Entertainment\",E 24 (576p)"
   },
   {
-    "name": "Avengers",
-    "logo": "https://image.tmdb.org/t/p/original/ugX4WZJO3jEvTOerctAWJLinujo.jpg",
-    "group": "Uncategorized",
-    "url": "https://dl.dropbox.com/scl/fi/1mmzq9w8pt472bgbu4zsf/the-avengers.mp4?rlkey=tjwdp586tvo7rutp7wooj1lsh&st=f9cy34px&dl=0",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "Manoranjan Prime (576p)",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Entertainment",
+    "url": "https://mumt06.tangotv.in/qYyB8fXVMANORANJANPRIME/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/ugX4WZJO3jEvTOerctAWJLinujo.jpg\" group-title=\"\",Avengers"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Entertainment\",Manoranjan Prime (576p)"
   },
   {
-    "name": "Ant-Man: El hombre hormiga",
-    "logo": "https://image.tmdb.org/t/p/original/zwuE28gSXlLFLgueqMe9b7xKy1f.jpg",
-    "group": "Uncategorized",
-    "url": "https://dl.dropbox.com/scl/fi/nx47yd4k4soizpqux19ft/ant-man-1.mp4?rlkey=5ub6dzlq8hvl7icopr11sgrhb&st=3guwfu55&dl=0",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "Nepal 1 (576p)",
+    "logo": "https://i.imgur.com/Xr4FjC8.png",
+    "group": "Entertainment",
+    "url": "https://mumt05.tangotv.in/87NeALx2NEPAL1/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/zwuE28gSXlLFLgueqMe9b7xKy1f.jpg\" group-title=\"\",Ant-Man: El hombre hormiga"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/Xr4FjC8.png\" group-title=\"Entertainment\",Nepal 1 (576p)"
   },
   {
-    "name": "Viuda negra",
-    "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/oggEsESyLjVGD7jbIdBfa2hFUrx.jpg",
-    "group": "Uncategorized",
-    "url": "https://archive.org/download/manguera_20210711/Bl4ck.mkv",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "Raftaar Media (576p)",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAFTAAR_MEDIA/images/LOGO_HD/image.png",
+    "group": "Undefined",
+    "url": "https://mumt04.tangotv.in/m18aqlK4RAFTAARMEDIA/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/oggEsESyLjVGD7jbIdBfa2hFUrx.jpg\" group-title=\"\",Viuda negra"
-  },
-  {
-    "name": "novia por contrato",
-    "logo": "https://image.tmdb.org/t/p/original/5umEGkCrshN1JDywCbWZRvkdmry.jpg",
-    "group": "Uncategorized",
-    "url": "https://archive.org/download/s-0lt-3r-0-3n-c-4s-4/s0lt3r0%203n%20c4s4.mp4",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5umEGkCrshN1JDywCbWZRvkdmry.jpg\" group-title=\"\",novia por contrato"
-  },
-  {
-    "name": "Alicia país de las pesadillas (2024)",
-    "logo": "https://dl.dropbox.com/scl/fi/0wmrjibm4lp0nnlfoch14/IMG_20240706_192319_554.jpg?rlkey=ybhmpy5jfs6whk45rwy4b137o&dl=0",
-    "group": "Uncategorized",
-    "url": "https://archive.org/download/vid-20240706-193635-556/VID_20240706_193635_556.mp4",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://dl.dropbox.com/scl/fi/0wmrjibm4lp0nnlfoch14/IMG_20240706_192319_554.jpg?rlkey=ybhmpy5jfs6whk45rwy4b137o&dl=0\" group-title=\"\",Alicia país de las pesadillas (2024)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_RAFTAAR_MEDIA/images/LOGO_HD/image.png\" group-title=\"Undefined\",Raftaar Media (576p)"
   }
 ]

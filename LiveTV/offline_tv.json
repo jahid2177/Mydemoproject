@@ -1180,6 +1180,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",ATN Music (360p)"
   },
   {
+    "name": "Nexus TV (576p)",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Unknown",
+    "url": "https://tvsen6.aynaott.com/Epm7WrFa/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Nexus TV (576p)"
+  },
+  {
     "name": "BEIN SPORTS AFC [AR]",
     "logo": "http://51.158.145.100/picons/logos/bein/1363489.png",
     "group": "ARAB | BEIN SPORTS UHD",
@@ -4140,43 +4150,23 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/TAKBEER.png\" group-title=\"URDU | PAKISTAN\",TAKBEER TV [PK]"
   },
   {
-    "name": "TV Punjab (720p) [Geo-blocked]",
-    "logo": "https://en.tvpunjab.com/storage/2022/03/logo-2022.png",
-    "group": "News",
-    "url": "https://932y483pdjv8-hls-live.5centscdn.com/stream/deb10bae362f810630ec3abedcae5894.sdp/playlist.m3u8",
+    "name": "Hope Channel India (576p)",
+    "logo": "https://i.imgur.com/wPzPUrK.png",
+    "group": "Religious",
+    "url": "https://mumt01.tangotv.in/O5aw8Zn3HOPECHANNELINDIA/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://en.tvpunjab.com/storage/2022/03/logo-2022.png\" group-title=\"News\",TV Punjab (720p) [Geo-blocked]"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/wPzPUrK.png\" group-title=\"Religious\",Hope Channel India (576p)"
   },
   {
-    "name": "OM TV (576p)",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png",
+    "name": "Namdhari (404p) [Not 24/7]",
+    "logo": "https://i.imgur.com/NalsXTo.png",
     "group": "Religious",
-    "url": "https://mumt01.tangotv.in/O5aw8Zn3OMTV/index.m3u8",
+    "url": "https://namdhari.tv/live/sbs1.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png\" group-title=\"Religious\",OM TV (576p)"
-  },
-  {
-    "name": "SVBC 4 (1080p)",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/SVBC4.png",
-    "group": "Religious",
-    "url": "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/SVBC4.png\" group-title=\"Religious\",SVBC 4 (1080p)"
-  },
-  {
-    "name": "SVBC Sri Venkateswara Bhakti Channel (1080p)",
-    "logo": "https://dtil.tmsimg.com/assets/s143889_ld_h9_ab.png?lock=720x540",
-    "group": "Religious",
-    "url": "https://player.mslivestream.net/telugu/5d076e5c3d34cb8bb08e54a4bb7e223e.sdp/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/s143889_ld_h9_ab.png?lock=720x540\" group-title=\"Religious\",SVBC Sri Venkateswara Bhakti Channel (1080p)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/NalsXTo.png\" group-title=\"Religious\",Namdhari (404p) [Not 24/7]"
   }
 ]

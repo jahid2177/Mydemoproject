@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-27 12:41:24 UTC",
+  "generated_at_utc": "2026-08-27 23:43:03 UTC",
   "playlist_files": [
     "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
@@ -25,18 +25,18 @@
     "iptv_category_sort": true
   },
   "counts": {
-    "total_streams": 2227,
-    "after_dedup": 2227,
+    "total_streams": 2200,
+    "after_dedup": 2200,
     "checked_streams": 200,
-    "dead_removed": 93,
-    "alive_after_check": 107,
-    "final_survivors": 2134,
-    "movies": 1379,
+    "dead_removed": 187,
+    "alive_after_check": 13,
+    "final_survivors": 2013,
+    "movies": 1258,
     "tv": 755,
     "epg_channels_loaded": 0,
     "quality_checked_streams": 30,
     "posters_generated": 10,
-    "category_groups": 88
+    "category_groups": 84
   },
   "groups": {
     "ARAB | BEIN SPORTS UHD": [
@@ -311,7 +311,7 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"BANGLA\",RTV",
         "alive": true,
         "quality": "Unknown",
-        "hls_valid": true
+        "hls_valid": false
       }
     ],
     "Bangla": [
@@ -325,297 +325,11 @@
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangla\",BTV News",
         "alive": true,
-        "quality": "Unknown",
+        "quality": "1080p",
         "hls_valid": false
       }
     ],
     "Bangla Movies": [
-      {
-        "name": "2,190,281_.jpg\" group-title=\"Bangla Movies\",Rakkhosh",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYTliMTg2MWMtZmM2NS00MWFmLTg1NjMtYTdmZmM4ZjEyZGZkXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20888",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYTliMTg2MWMtZmM2NS00MWFmLTg1NjMtYTdmZmM4ZjEyZGZkXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg\" group-title=\"Bangla Movies\",Rakkhosh",
-        "alive": true
-      },
-      {
-        "name": "Aatka",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMTFkN2IwMjctYzBmNC00NDZlLThiYjUtZDdhMDI3NWZhNTZlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20529",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMTFkN2IwMjctYzBmNC00NDZlLThiYjUtZDdhMDI3NWZhNTZlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Aatka",
-        "alive": true
-      },
-      {
-        "name": "Antaratma",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZDc5YjcxYmEtOWYzMy00YjE2LThiMTEtZmYyYzI2NGFjMzk1XkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20459",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZDc5YjcxYmEtOWYzMy00YjE2LThiMTEtZmYyYzI2NGFjMzk1XkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Antaratma",
-        "alive": true
-      },
-      {
-        "name": "Bonolota Express",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZmY0M2I1NjYtODU4Zi00MmIyLTk0OWUtMDlhN2JmNzFmOWI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20909",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZmY0M2I1NjYtODU4Zi00MmIyLTk0OWUtMDlhN2JmNzFmOWI1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Bonolota Express",
-        "alive": true
-      },
-      {
-        "name": "Borbaad",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNWViYzgzNzQtMTA0YS00NmRhLWFhZDEtNzEzMjM5OTA4NzRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18616",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNWViYzgzNzQtMTA0YS00NmRhLWFhZDEtNzEzMjM5OTA4NzRhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Borbaad",
-        "alive": true
-      },
-      {
-        "name": "Cactus",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZjk4NmJkZjgtMDAwNS00N2EwLTllZDktNTkzZDA2MTZkYTRkXkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20703",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZjk4NmJkZjgtMDAwNS00N2EwLTllZDktNTkzZDA2MTZkYTRkXkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Cactus",
-        "alive": true
-      },
-      {
-        "name": "Cha Gorom",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNDQ3ZDM2ZjEtMjFjMy00NDljLWI2ZDktNDFkODYwMzFkOGNhXkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20809",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNDQ3ZDM2ZjEtMjFjMy00NDljLWI2ZDktNDFkODYwMzFkOGNhXkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Cha Gorom",
-        "alive": true
-      },
-      {
-        "name": "Chokkor 302",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/7/72/Chokkor_302_official_logo.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18623",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/7/72/Chokkor_302_official_logo.jpg\" group-title=\"Bangla Movies\",Chokkor 302",
-        "alive": true
-      },
-      {
-        "name": "Daagi",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNGRlNWFmNmItZjFkMy00OGRkLWEyMzUtNDZlMDIxMjRlN2M2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18619",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNGRlNWFmNmItZjFkMy00OGRkLWEyMzUtNDZlMDIxMjRlN2M2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Daagi",
-        "alive": true
-      },
-      {
-        "name": "Dimlight",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYTAwODc4NDYtOGI3MS00Nzc1LTk2MzctZTE3MzM2OThkMTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20460",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYTAwODc4NDYtOGI3MS00Nzc1LTk2MzctZTE3MzM2OThkMTE5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Dimlight",
-        "alive": true
-      },
-      {
-        "name": "Djinner Bachcha",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZTNiZjM4NzctMWFmOC00MGI4LWJjMDctZjIwNDY5ZjIwNmQ2XkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20656",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZTNiZjM4NzctMWFmOC00MGI4LWJjMDctZjIwNDY5ZjIwNmQ2XkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Djinner Bachcha",
-        "alive": true
-      },
-      {
-        "name": "Domm",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMDY5MTJmNDEtMjM5Zi00NmEwLWI5YjgtMzc2MmRhYTYyMDRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20887",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMDY5MTJmNDEtMjM5Zi00NmEwLWI5YjgtMzc2MmRhYTYyMDRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Domm",
-        "alive": true
-      },
-      {
-        "name": "Ekshathe Alada",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYzczZThkYmItMjk4YS00NDU3LWIwNzItMzkzYWIwODE0ZTQ3XkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20704",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYzczZThkYmItMjk4YS00NDU3LWIwNzItMzkzYWIwODE0ZTQ3XkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Ekshathe Alada",
-        "alive": true
-      },
-      {
-        "name": "Ghumpori",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZjExOGFmYTYtMzE3NS00ODY2LTg4N2YtN2YxOTE0NzYzZWIwXkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18621",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZjExOGFmYTYtMzE3NS00ODY2LTg4N2YtN2YxOTE0NzYzZWIwXkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Ghumpori",
-        "alive": true
-      },
-      {
-        "name": "Hubba",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Hubba_film_poster.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18648",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/b/b4/Hubba_film_poster.jpg\" group-title=\"Bangla Movies\",Hubba",
-        "alive": true
-      },
-      {
-        "name": "Insaaf: Tale of Legends",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMTY1Y2Q3MzMtMzFiZi00OGEwLTg5OGMtZThmZmYyNjlkODEyXkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20098",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMTY1Y2Q3MzMtMzFiZi00OGEwLTg5OGMtZThmZmYyNjlkODEyXkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Insaaf: Tale of Legends",
-        "alive": true
-      },
-      {
-        "name": "Jackpot",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkDrZ0O6BCvMBRI8nDs8bDrpL-gpn5XDPxw&s",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20708",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFkDrZ0O6BCvMBRI8nDs8bDrpL-gpn5XDPxw&s\" group-title=\"Bangla Movies\",Jackpot",
-        "alive": true
-      },
-      {
-        "name": "Jazz City",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/b/b5/Jazz_City_2026_poster.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20706",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/b/b5/Jazz_City_2026_poster.jpg\" group-title=\"Bangla Movies\",Jazz City",
-        "alive": true
-      },
-      {
-        "name": "Jongli",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMGI2NjI2MzAtNTkwYi00NWRlLWIwN2ItYTYyYTc3YjE0NjdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18624",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMGI2NjI2MzAtNTkwYi00NWRlLWIwN2ItYTYyYTc3YjE0NjdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Jongli",
-        "alive": true
-      },
-      {
-        "name": "Last Defenders of Monogamy",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYzhhMjAyMmItZTAwNS00ZmI1LThlZmMtYWE0ZmE0N2FiMmExXkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18639",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYzhhMjAyMmItZTAwNS00ZmI1LThlZmMtYWE0ZmE0N2FiMmExXkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Last Defenders of Monogamy",
-        "alive": true
-      },
-      {
-        "name": "Neel Chokro",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNDZhYjMwMmEtM2NmOS00OWQxLWI5ZTUtYjJiNGJkNjY1MDA5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20354",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNDZhYjMwMmEtM2NmOS00OWQxLWI5ZTUtYjJiNGJkNjY1MDA5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Neel Chokro",
-        "alive": true
-      },
-      {
-        "name": "Noor",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Noor_2025_film.jpg/250px-Noor_2025_film.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20461",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Noor_2025_film.jpg/250px-Noor_2025_film.jpg\" group-title=\"Bangla Movies\",Noor",
-        "alive": true
-      },
-      {
-        "name": "Prince Once Upon a Time in Dhaka",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMjg2MGQyYmYtNWY4My00Yjc2LTgwZmItMzRkYjQ3ZDVmNmIwXkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20886",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMjg2MGQyYmYtNWY4My00Yjc2LTgwZmItMzRkYjQ3ZDVmNmIwXkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Prince Once Upon a Time in Dhaka",
-        "alive": true
-      },
-      {
-        "name": "Rockstar",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkY9Nys3OtNsrz72yXkP_DYdyydd6ZVhgOH4sIhoYcrsC9Twx4062w5g&s=10",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21055",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVkY9Nys3OtNsrz72yXkP_DYdyydd6ZVhgOH4sIhoYcrsC9Twx4062w5g&s=10\" group-title=\"Bangla Movies\",Rockstar",
-        "alive": true
-      },
-      {
-        "name": "Shortcut",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbHGinJgclavls6-dqn0jISlax3MJ2BeNAFQ&s",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20355",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbHGinJgclavls6-dqn0jISlax3MJ2BeNAFQ&s\" group-title=\"Bangla Movies\",Shortcut",
-        "alive": true
-      },
-      {
-        "name": "Surongo",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZTVhYmNhNTgtN2UwMi00NjYwLWE5ZDYtNjhiZGZmOGQ2MGQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18651",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZTVhYmNhNTgtN2UwMi00NjYwLWE5ZDYtNjhiZGZmOGQ2MGQxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Surongo",
-        "alive": true
-      },
       {
         "name": "Surongo",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
@@ -625,61 +339,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangla Movies\",Surongo",
-        "alive": true
-      },
-      {
-        "name": "Taandob",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZmMwZTk1MDctMjM1My00YTA5LTg0YmYtZWE5Y2Q4N2JhZGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20021",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZmMwZTk1MDctMjM1My00YTA5LTg0YmYtZWE5Y2Q4N2JhZGQ1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Taandob",
-        "alive": true
-      },
-      {
-        "name": "Taarkata",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-eB8lmSUI6pCh_dsexHng6Ha6qNxQce-TgQ&s",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20938",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-eB8lmSUI6pCh_dsexHng6Ha6qNxQce-TgQ&s\" group-title=\"Bangla Movies\",Taarkata",
-        "alive": true
-      },
-      {
-        "name": "Tomar Jonno Mon",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMTViZjY5MWItYWVhMy00ODdmLTg3ZjUtNjE2Y2IyODM0YzQ0XkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20358",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMTViZjY5MWItYWVhMy00ODdmLTg3ZjUtNjE2Y2IyODM0YzQ0XkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Tomar Jonno Mon",
-        "alive": true
-      },
-      {
-        "name": "Toofan",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNzdlMDUyZGItYTBkYS00OWJjLTkyMjYtZGE0ZDVjYmQ1ZWJjXkEyXkFqcGc@._V1_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18641",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNzdlMDUyZGItYTBkYS00OWJjLTkyMjYtZGE0ZDVjYmQ1ZWJjXkEyXkFqcGc@._V1_.jpg\" group-title=\"Bangla Movies\",Toofan",
-        "alive": true
-      },
-      {
-        "name": "Utshob",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZTgzM2IyZGQtOWEyNC00MmQyLTg5ZTAtMzlhZjlhMGJlNzZhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20022",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZTgzM2IyZGQtOWEyNC00MmQyLTg5ZTAtMzlhZjlhMGJlNzZhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Bangla Movies\",Utshob",
         "alive": true
       }
     ],
@@ -2407,36 +2066,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/vQVRf3G/Avatar.jpg\" group-title=\"Film Animasi\",Avatar The Legend of Aang EP9"
-      },
-      {
-        "name": "Sunflowers of Inferno (2015)",
-        "logo": "http://i.ibb.co/xq956Qf/Sunflowers-of-Inferno-2015.jpg",
-        "group": "Film Animasi",
-        "url": "https://filmku.yesioktaviana.workers.dev/Sunflowers%20of%20Inferno%20(2015).mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/xq956Qf/Sunflowers-of-Inferno-2015.jpg\" group-title=\"Film Animasi\",Sunflowers of Inferno (2015)"
-      },
-      {
-        "name": "The Lost Ship in the Sky (2010)",
-        "logo": "http://i.ibb.co/q5DzzSP/The-Lost-Ship-in-the-Sky-2010.jpg",
-        "group": "Film Animasi",
-        "url": "https://filmku.yesioktaviana.workers.dev/The%20Lost%20Ship%20in%20the%20Sky%20(2010).mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/q5DzzSP/The-Lost-Ship-in-the-Sky-2010.jpg\" group-title=\"Film Animasi\",The Lost Ship in the Sky (2010)"
-      },
-      {
-        "name": "The Raven Chaser (2009)",
-        "logo": "http://i.ibb.co/nc59ff2/The-Raven-Chaser-2009.jpg",
-        "group": "Film Animasi",
-        "url": "https://filmku.yesioktaviana.workers.dev/The%20Raven%20Chaser%20(2009).mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/nc59ff2/The-Raven-Chaser-2009.jpg\" group-title=\"Film Animasi\",The Raven Chaser (2009)"
       }
     ],
     "Football": [
@@ -3321,204 +2950,6 @@
     ],
     "Hindi Movies": [
       {
-        "name": "1920 Horrors of the Heart",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMDVmYjc4M2YtYjUwYi00NmIyLTk0NWUtNDMxMzlmMzdlYmVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=17427",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMDVmYjc4M2YtYjUwYi00NmIyLTk0NWUtNDMxMzlmMzdlYmVlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",1920 Horrors of the Heart",
-        "alive": true
-      },
-      {
-        "name": "Aakhri Sawal",
-        "logo": "https://m.media-amazon.com/images/M/MV5BY2VlMTM0OTEtYmU1My00ODBhLTk2MzItMDlkMDRiZjcwYWQ1XkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20899",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BY2VlMTM0OTEtYmU1My00ODBhLTk2MzItMDlkMDRiZjcwYWQ1XkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Aakhri Sawal",
-        "alive": true
-      },
-      {
-        "name": "Accused",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNTFjODQwNWYtMzMyOC00MzhhLWE1OTgtYmZjMzNjYjBhOTllXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20654",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNTFjODQwNWYtMzMyOC00MzhhLWE1OTgtYmZjMzNjYjBhOTllXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Accused",
-        "alive": true
-      },
-      {
-        "name": "Alpha",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMjUzMGZjMjYtYjRmMy00NWNkLWExMmUtZTc4MDU4NDZmNzcwXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21004",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMjUzMGZjMjYtYjRmMy00NWNkLWExMmUtZTc4MDU4NDZmNzcwXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Alpha",
-        "alive": true
-      },
-      {
-        "name": "Assi",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMWJkNDFjMDctOGVhYS00ZGE1LWIzY2YtMzBiNjQwMjVhNmQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20812",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMWJkNDFjMDctOGVhYS00ZGE1LWIzY2YtMzBiNjQwMjVhNmQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Assi",
-        "alive": true
-      },
-      {
-        "name": "Badmaash Company",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMTc4MTA5NjY5OF5BMl5BanBnXkFtZTgwNDUzMzI2NTE@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=15806",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMTc4MTA5NjY5OF5BMl5BanBnXkFtZTgwNDUzMzI2NTE@._V1_.jpg\" group-title=\"Hindi Movies\",Badmaash Company",
-        "alive": true
-      },
-      {
-        "name": "Bhabiji Ghar Par Hain - Fun on the Run",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYTU5NzQwMTktZTVhOC00MjllLThjZDEtMGNkYjgwNWFhMmVmXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20605",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYTU5NzQwMTktZTVhOC00MjllLThjZDEtMGNkYjgwNWFhMmVmXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Bhabiji Ghar Par Hain - Fun on the Run",
-        "alive": true
-      },
-      {
-        "name": "Bhooth Bangla",
-        "logo": "https://m.media-amazon.com/images/M/MV5BN2Y3NjRhYmMtNWVjMy00ZmE1LWJkNGYtNDY3Y2I3NjkzOGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20813",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BN2Y3NjRhYmMtNWVjMy00ZmE1LWJkNGYtNDY3Y2I3NjkzOGE0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Bhooth Bangla",
-        "alive": true
-      },
-      {
-        "name": "Border 2",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNjQ5MzQ5ZDAtOTlkMi00YmIwLWI3MzctZGM5OGQ5OWU2MjJiXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20565",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNjQ5MzQ5ZDAtOTlkMi00YmIwLWI3MzctZGM5OGQ5OWU2MjJiXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Border 2",
-        "alive": true
-      },
-      {
-        "name": "Chand Mera Dil",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNzIwMzcwNzEtYzU4ZS00ZjhjLWFlYTAtMzc4Y2RjMDFjNDNlXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20914",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNzIwMzcwNzEtYzU4ZS00ZjhjLWFlYTAtMzc4Y2RjMDFjNDNlXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Chand Mera Dil",
-        "alive": true
-      },
-      {
-        "name": "Cocktail 2",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjFr3ysBEwmNVIrABKyFOTUsLPTYll79z_rph6tHz8Tvx9qrts8Z9S-fE&s=10",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20977",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjFr3ysBEwmNVIrABKyFOTUsLPTYll79z_rph6tHz8Tvx9qrts8Z9S-fE&s=10\" group-title=\"Hindi Movies\",Cocktail 2",
-        "alive": true
-      },
-      {
-        "name": "Daadi Ki Shaadi",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZGEyMDRmYTMtZjNhYy00Mjc0LTg4NDItYWE5NzE1ZDE3NjM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20898",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZGEyMDRmYTMtZjNhYy00Mjc0LTg4NDItYWE5NzE1ZDE3NjM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Daadi Ki Shaadi",
-        "alive": true
-      },
-      {
-        "name": "Dhamaal 4",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNjhkY2ViNTYtYjc3MC00OWU3LWFhYWMtMjU5ZDhjZTNkYTc3XkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21026",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNjhkY2ViNTYtYjc3MC00OWU3LWFhYWMtMjU5ZDhjZTNkYTc3XkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Dhamaal 4",
-        "alive": true
-      },
-      {
-        "name": "Dhurandhar The Revenge",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNzdkNjAxNWMtNWY3My00NTI1LTg2YWQtOGI3MDA0NzdhMjEyXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20702",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNzdkNjAxNWMtNWY3My00NTI1LTg2YWQtOGI3MDA0NzdhMjEyXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Dhurandhar The Revenge",
-        "alive": true
-      },
-      {
-        "name": "Do Deewane Seher Mein",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/5/5c/DDSM_Poster.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20655",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/5/5c/DDSM_Poster.jpg\" group-title=\"Hindi Movies\",Do Deewane Seher Mein",
-        "alive": true
-      },
-      {
-        "name": "Ek Din",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZjZkNmI4MWUtMDAzNS00OTAzLWJmNDYtMDBkMGQyZWRiMzVjXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20855",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZjZkNmI4MWUtMDAzNS00OTAzLWJmNDYtMDBkMGQyZWRiMzVjXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Ek Din",
-        "alive": true
-      },
-      {
-        "name": "Everybody Loves Sohrab Handa",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNDU1ZTQ3YjctMGZjMi00MjAzLWE1NTQtOWVhNDBjZjQ3YzIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20791",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNDU1ZTQ3YjctMGZjMi00MjAzLWE1NTQtOWVhNDBjZjQ3YzIxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Everybody Loves Sohrab Handa",
-        "alive": true
-      },
-      {
-        "name": "Ginny Wedss Sunny 2",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwFGZcW1fZ9wmGZeEkAUnpI1iIR9EgduJYUA&s",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20850",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwFGZcW1fZ9wmGZeEkAUnpI1iIR9EgduJYUA&s\" group-title=\"Hindi Movies\",Ginny Wedss Sunny 2",
-        "alive": true
-      },
-      {
         "name": "Goldmines Movies 2",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
         "group": "Hindi Movies",
@@ -3532,171 +2963,6 @@
         "hls_valid": true
       },
       {
-        "name": "Hai Jawani Toh Ishq Hona Hai",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZWE1OTg5ZDMtYjllZC00YzE2LTg1N2UtZmI0OTBmMWE3NzFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20935",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZWE1OTg5ZDMtYjllZC00YzE2LTg1N2UtZmI0OTBmMWE3NzFkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Hai Jawani Toh Ishq Hona Hai",
-        "alive": true
-      },
-      {
-        "name": "Happy Patel Khatarnak Jasoos",
-        "logo": "https://m.media-amazon.com/images/M/MV5BOWUyZTBjYTctMGQyNS00Mjg0LTg5ZTMtZDA1YmEyZDIxZjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20563",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOWUyZTBjYTctMGQyNS00Mjg0LTg5ZTMtZDA1YmEyZDIxZjRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Happy Patel Khatarnak Jasoos",
-        "alive": true
-      },
-      {
-        "name": "Hotspot 2 Much",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYjA4MTQxZjUtMDI2NC00ZWE1LWFiMzAtYTIwYTA5ZTYyMjgzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20637",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYjA4MTQxZjUtMDI2NC00ZWE1LWFiMzAtYTIwYTA5ZTYyMjgzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Hotspot 2 Much",
-        "alive": true
-      },
-      {
-        "name": "Ikka",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Ikka_film_poster.jpg/250px-Ikka_film_poster.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21028",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Ikka_film_poster.jpg/250px-Ikka_film_poster.jpg\" group-title=\"Hindi Movies\",Ikka",
-        "alive": true
-      },
-      {
-        "name": "Ikkis",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/5/5e/Ikkis_Poster.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20505",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/5/5e/Ikkis_Poster.jpg\" group-title=\"Hindi Movies\",Ikkis",
-        "alive": true
-      },
-      {
-        "name": "Indian Institute of Zombies",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMGM5M2I0YWEtMjNlOS00ZmIwLThiYjYtODA5ODAzYTc3ZDU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20900",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMGM5M2I0YWEtMjNlOS00ZmIwLThiYjYtODA5ODAzYTc3ZDU5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Indian Institute of Zombies",
-        "alive": true
-      },
-      {
-        "name": "Kartavya",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZDg2MzhlN2YtYzU5ZC00OTZlLTgwNzctMjJmMzQ1ODQ1NDY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20884",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZDg2MzhlN2YtYzU5ZC00OTZlLTgwNzctMjJmMzQ1ODQ1NDY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Kartavya",
-        "alive": true
-      },
-      {
-        "name": "Lucky",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMTNiNzcxMDQtY2RlOS00MjAxLWIyN2MtNTYyMmIyMDM0ZDJhXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20639",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMTNiNzcxMDQtY2RlOS00MjAxLWIyN2MtNTYyMmIyMDM0ZDJhXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Lucky",
-        "alive": true
-      },
-      {
-        "name": "Mardaani 3",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNWZjMzgxMjctZDMzYi00MmMxLThiZmMtZjk3ZDAxZjcwZDE3XkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20577",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNWZjMzgxMjctZDMzYi00MmMxLThiZmMtZjk3ZDAxZjcwZDE3XkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Mardaani 3",
-        "alive": true
-      },
-      {
-        "name": "Mcoca",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNjc4ZmY1ZGEtZmRmYi00OTQzLTliY2MtMzhkNGFjYjM4ZTdhXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20576",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNjc4ZmY1ZGEtZmRmYi00OTQzLTliY2MtMzhkNGFjYjM4ZTdhXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Mcoca",
-        "alive": true
-      },
-      {
-        "name": "Nukkad Naatak",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYzNiZmRlMzctNTRmYi00OTk1LWFhZGMtMTE2NjM3NDNlZGNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20830",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYzNiZmRlMzctNTRmYi00OTk1LWFhZGMtMTE2NjM3NDNlZGNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Nukkad Naatak",
-        "alive": true
-      },
-      {
-        "name": "O' Romeo",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZTQzZTgyODItYzg5My00YzhhLWFlYzctYTljM2E5NWI5NDcyXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20640",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZTQzZTgyODItYzg5My00YzhhLWFlYzctYTljM2E5NWI5NDcyXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",O' Romeo",
-        "alive": true
-      },
-      {
-        "name": "Pati Patni Aur Woh Do",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZmE0ZTA5MTgtNTE4NC00NThmLWFiM2EtZTI2MTc2Y2FmZjkwXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20885",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZmE0ZTA5MTgtNTE4NC00NThmLWFiM2EtZTI2MTc2Y2FmZjkwXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Pati Patni Aur Woh Do",
-        "alive": true
-      },
-      {
-        "name": "Rahu Ketu",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNzJlYjZkMDUtM2MzMi00NmVhLWJhYWYtYzI4NTA4ZGIxZjM3XkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20564",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNzJlYjZkMDUtM2MzMi00NmVhLWJhYWYtYzI4NTA4ZGIxZjM3XkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Rahu Ketu",
-        "alive": true
-      },
-      {
-        "name": "Raja Shivaji",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZmEwNTU4MzEtY2Y4Ni00ZWRmLThhMGMtMDE5MTZmMDIzMGVjXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20867",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZmEwNTU4MzEtY2Y4Ni00ZWRmLThhMGMtMDE5MTZmMDIzMGVjXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Raja Shivaji",
-        "alive": true
-      },
-      {
         "name": "Sheemaroo Bollywood",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
         "group": "Hindi Movies",
@@ -3708,127 +2974,6 @@
         "alive": true,
         "quality": "1080p",
         "hls_valid": true
-      },
-      {
-        "name": "Spider-Man: Brand New Day",
-        "logo": "https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21074",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Spider-Man: Brand New Day",
-        "alive": true
-      },
-      {
-        "name": "Subedaar",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMWVjYWQzZTQtNTI2MC00NzlmLTg3MjUtNGZlYzViNjcyODU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20672",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMWVjYWQzZTQtNTI2MC00NzlmLTg3MjUtNGZlYzViNjcyODU4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Subedaar",
-        "alive": true
-      },
-      {
-        "name": "Supergirl",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMmJkOTE0MWUtY2E5OS00NzEyLWI4NjEtYzQzYzFmMjk5ODE3XkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21090",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMmJkOTE0MWUtY2E5OS00NzEyLWI4NjEtYzQzYzFmMjk5ODE3XkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Supergirl",
-        "alive": true
-      },
-      {
-        "name": "System",
-        "logo": "https://m.media-amazon.com/images/M/MV5BOGEyMzAxZTEtNTMzZi00NTU5LTg2OTktNzM2YTYxMzdkODE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20901",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOGEyMzAxZTEtNTMzZi00NTU5LTg2OTktNzM2YTYxMzdkODE3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",System",
-        "alive": true
-      },
-      {
-        "name": "The Kerala Story 2 Goes Beyond",
-        "logo": "https://m.media-amazon.com/images/M/MV5BODA0ZWI5YTktZmE3Ny00NTUyLWEwZGMtNjEyMWZhZDhmNGRlXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20673",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BODA0ZWI5YTktZmE3Ny00NTUyLWEwZGMtNjEyMWZhZDhmNGRlXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",The Kerala Story 2 Goes Beyond",
-        "alive": true
-      },
-      {
-        "name": "The Raja Saab",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYWVmYmJhOTMtMzlhOS00ZDgwLWE3OGUtMGJmZTI3MjRiZmJhXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20608",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYWVmYmJhOTMtMzlhOS00ZDgwLWE3OGUtMGJmZTI3MjRiZmJhXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",The Raja Saab",
-        "alive": true
-      },
-      {
-        "name": "Toaster",
-        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Toaster_film_poster.jpg/250px-Toaster_film_poster.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20795",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/6/60/Toaster_film_poster.jpg/250px-Toaster_film_poster.jpg\" group-title=\"Hindi Movies\",Toaster",
-        "alive": true
-      },
-      {
-        "name": "Toh, Ti ani Fuji",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNjZjYjhmOTUtNDg2MS00YjcwLTg4NzMtMWY1OTA4NWU0MDVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20811",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNjZjYjhmOTUtNDg2MS00YjcwLTg4NzMtMWY1OTA4NWU0MDVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Toh, Ti ani Fuji",
-        "alive": true
-      },
-      {
-        "name": "Tu Yaa Main",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZTI0NmU5MTItY2RjNC00MzRiLThkMzEtNGFhMTAxZDU1MDdiXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20641",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZTI0NmU5MTItY2RjNC00MzRiLThkMzEtNGFhMTAxZDU1MDdiXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Tu Yaa Main",
-        "alive": true
-      },
-      {
-        "name": "Vadh 2",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNjM1OWU5N2QtMTQwYy00N2Q5LTg5NjUtYWZhOTgwZjkxOWFlXkEyXkFqcGc@._V1_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20769",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNjM1OWU5N2QtMTQwYy00N2Q5LTg5NjUtYWZhOTgwZjkxOWFlXkEyXkFqcGc@._V1_.jpg\" group-title=\"Hindi Movies\",Vadh 2",
-        "alive": true
-      },
-      {
-        "name": "Welcome to the Jungle",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMTY5ODUxNDctZGJjNC00OTk0LWIzMzAtMWQ5NTAyMGZhY2NmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Hindi Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20993",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMTY5ODUxNDctZGJjNC00OTk0LWIzMzAtMWQ5NTAyMGZhY2NmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Hindi Movies\",Welcome to the Jungle",
-        "alive": true
       }
     ],
     "Hindi Music": [
@@ -3887,16 +3032,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/sGFO6VshDEQ9vX4tOSobLJpkNhq.jpg\" group-title=\"Hollywood\",(M)Cómo entrenar a tu dragón (2025)"
       },
       {
-        "name": "100 AN DE SOLEDAD (2024)",
-        "logo": "https://image.tmdb.org/t/p/original/yZ0HCHe4rMFBWMEqmt1gGyjU7ZK.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/la-ninera-4/cienanods0l3dad.m3u",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/yZ0HCHe4rMFBWMEqmt1gGyjU7ZK.jpg\" group-title=\"Hollywood\",100 AN DE SOLEDAD (2024)"
-      },
-      {
         "name": "28 años después (2025)",
         "logo": "https://image.tmdb.org/t/p/original/hvIqaDUC48dwfd7taKczB7909Qg.jpg",
         "group": "Hollywood",
@@ -3938,16 +3073,6 @@
       },
       {
         "name": "825 Forest Road (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/rSOYVDmg4VFoVuZzu4941X2s1fO.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/11_20251104/Gedit/05.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/rSOYVDmg4VFoVuZzu4941X2s1fO.jpg\" group-title=\"Hollywood\",825 Forest Road (2025)"
-      },
-      {
-        "name": "825 Forest Road (2025)",
         "logo": "https://image.tmdb.org/t/p/original/mxvRZxq6ACTeJYJZKsHQAhz76yF.jpg",
         "group": "Hollywood",
         "url": "https://dl.dropbox.com/scl/fi/nor0xl5ju0p432aga5dow/fisica.mp4?rlkey=o7ekjd430280tw2hy64slsuya&st=fsu5alcs&dl=0",
@@ -3955,6 +3080,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/mxvRZxq6ACTeJYJZKsHQAhz76yF.jpg\" group-title=\"Hollywood\",825 Forest Road (2025)"
+      },
+      {
+        "name": "825 Forest Road (2025)",
+        "logo": "https://image.tmdb.org/t/p/original/rSOYVDmg4VFoVuZzu4941X2s1fO.jpg",
+        "group": "Hollywood",
+        "url": "https://archive.org/download/11_20251104/Gedit/05.mp4",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/rSOYVDmg4VFoVuZzu4941X2s1fO.jpg\" group-title=\"Hollywood\",825 Forest Road (2025)"
       },
       {
         "name": "A Minecraft Movie (2025)",
@@ -4137,16 +3272,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/wytZFBYpkEgxsALpg5l2euGeVQz.jpg\" group-title=\"Hollywood\",Caerás (2025)"
       },
       {
-        "name": "Cazadores Del Fin Del Mundo (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/6VTnUQx6nY3UsZUV0BQX5S6l1Nq.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%281%29.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/6VTnUQx6nY3UsZUV0BQX5S6l1Nq.jpg\" group-title=\"Hollywood\",Cazadores Del Fin Del Mundo (2025)"
-      },
-      {
         "name": "CHUCKY EL MUNECO DIABOLICO",
         "logo": "https://image.tmdb.org/t/p/original/mRTnim0xPxYiH0LWi2O59Lqk2Gd.jpg",
         "group": "Hollywood",
@@ -4185,16 +3310,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/w154/zVC3YIA8C3Lyf30UGVRaxrBW3GE.jpg\" group-title=\"Hollywood\",Comando de criaturas(2024) latino"
-      },
-      {
-        "name": "conjuro siniestro (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/jyEcMBORFuwyetoVjlqMZqEV0fM.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/05_20250626_202506/linux/12.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/jyEcMBORFuwyetoVjlqMZqEV0fM.jpg\" group-title=\"Hollywood\",conjuro siniestro (2025)"
       },
       {
         "name": "Contigo, todo (2025)",
@@ -4287,36 +3402,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOTZkNTNkNjgtNTk2Yy00NTY1LWEyZjctZWFiZTU0MTVhMTM0XkEyXkFqcGc@._V1_FMjpg_UY474_.jp\" group-title=\"Hollywood\",Cumbres borrascosas(2026)"
       },
       {
-        "name": "Cómo entrenar a tu dragón (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/47HoQdGvW4Jy4ntUbsQ3bEnJHDh.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/01_20250621_20250621_2307/09.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/47HoQdGvW4Jy4ntUbsQ3bEnJHDh.jpg\" group-title=\"Hollywood\",Cómo entrenar a tu dragón (2025)"
-      },
-      {
-        "name": "Cómo llegar al cielo desde Belfast (2026)",
-        "logo": "https://image.tmdb.org/t/p/original/7A37vpIWIAQqaoFtnzaVSVKcaZ7.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/como-llegar-al-cielo-desde-belfast-2026/C%C3%B3mo%20llegar%20al%20cielo%20desde%20Belfast%20%282026%29.m3u",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/7A37vpIWIAQqaoFtnzaVSVKcaZ7.jpg\" group-title=\"Hollywood\",Cómo llegar al cielo desde Belfast (2026)"
-      },
-      {
-        "name": "desencanto(2018)",
-        "logo": "https://image.tmdb.org/t/p/original/1WynayCqKRzrl4cFZR8NOfiDwd6.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/la-ninera-4/desencanto.m3u",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/1WynayCqKRzrl4cFZR8NOfiDwd6.jpg\" group-title=\"Hollywood\",desencanto(2018)"
-      },
-      {
         "name": "Destino final: Lazos de sangre",
         "logo": "https://image.tmdb.org/t/p/original/eMrXZnGTPy52zgplp7PbZWll8W7.jpg",
         "group": "Hollywood",
@@ -4335,16 +3420,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/frNkbclQpexf3aUzZrnixF3t5Hw.jpg\" group-title=\"Hollywood\",Destino final: Lazos de sangre (2025)"
-      },
-      {
-        "name": "Devilman Crybaby (2018)",
-        "logo": "https://image.tmdb.org/t/p/original/9OvSVH1KJQRlLzOVLEGHta9pwfX.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/spartacus_202412/DEVILMAN.m3u",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/9OvSVH1KJQRlLzOVLEGHta9pwfX.jpg\" group-title=\"Hollywood\",Devilman Crybaby (2018)"
       },
       {
         "name": "Dios Loco (2021)SUB",
@@ -4777,16 +3852,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg\" group-title=\"Hollywood\",Five Nights at Freddy's (2023)"
       },
       {
-        "name": "Frankenstein (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/jJ8AiqKKiZWZaiYMyhlF0FNH4xJ.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/10_20251106/nano/11.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/jJ8AiqKKiZWZaiYMyhlF0FNH4xJ.jpg\" group-title=\"Hollywood\",Frankenstein (2025)"
-      },
-      {
         "name": "Free Bert (2026)",
         "logo": "https://image.tmdb.org/t/p/original/18jsL1sUIDL3ice67KoNkq22K6m.jpg",
         "group": "Hollywood",
@@ -5060,7 +4125,7 @@
         "name": "La hora de la desaparición (2025)",
         "logo": "https://image.tmdb.org/t/p/original/cwjNSLj5FCkwFsTx7g57ybWQDcp.jpg",
         "group": "Hollywood",
-        "url": "https://archive.org/download/ver-el-cuento-del-lobo-2025-online-hd-cuevana/Ver%20La%20hora%20de%20la%20desaparici%C3%B3n%20%282025%29%20Online%20Gratis%20Espa%C3%B1ol%20-%20Pelisplus.mp4",
+        "url": "https://dl.dropbox.com/scl/fi/lc1iy4qq3vjl7m0qq6enj/matematica.mp4?rlkey=aj6orxpf427juia306cv3i6k0&st=t8sqsdf6&dl=0",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
@@ -5070,7 +4135,7 @@
         "name": "La hora de la desaparición (2025)",
         "logo": "https://image.tmdb.org/t/p/original/cwjNSLj5FCkwFsTx7g57ybWQDcp.jpg",
         "group": "Hollywood",
-        "url": "https://dl.dropbox.com/scl/fi/lc1iy4qq3vjl7m0qq6enj/matematica.mp4?rlkey=aj6orxpf427juia306cv3i6k0&st=t8sqsdf6&dl=0",
+        "url": "https://archive.org/download/ver-el-cuento-del-lobo-2025-online-hd-cuevana/Ver%20La%20hora%20de%20la%20desaparici%C3%B3n%20%282025%29%20Online%20Gratis%20Espa%C3%B1ol%20-%20Pelisplus.mp4",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
@@ -5215,16 +4280,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/PxbO8UzZ17dMcqs0YwAnKuwfHA.jpg\" group-title=\"Hollywood\",Las Brujas (2020)"
-      },
-      {
-        "name": "Las Ratas Una historia de The Witcher",
-        "logo": "https://image.tmdb.org/t/p/original/7ML1ZEpWjR8IKEb2wpK3k4KMvhK.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/fisica-cuantica-2/fisica%20cuantica%20%2810%29.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/7ML1ZEpWjR8IKEb2wpK3k4KMvhK.jpg\" group-title=\"Hollywood\",Las Ratas Una historia de The Witcher"
       },
       {
         "name": "Las tías (2024)",
@@ -5407,16 +4462,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/wdhUHVEwpfsutJ7gJPqsOTOf2i2.jpg\" group-title=\"Hollywood\",Mantenimiento requerido (2025)"
       },
       {
-        "name": "MAS ALLA DEL JARDIN(2014)",
-        "logo": "https://image.tmdb.org/t/p/original/9YwTAvpjCj0daiIjcwI7Hhml4yJ.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/masallasdeljardin/masallasdeljardin.m3u",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/9YwTAvpjCj0daiIjcwI7Hhml4yJ.jpg\" group-title=\"Hollywood\",MAS ALLA DEL JARDIN(2014)"
-      },
-      {
         "name": "Mas que rivales (2025) Latino",
         "logo": "https://media.themoviedb.org/t/p/w300_and_h450_face/2y95f1NtLLRM0IIfzHd2hJF6rwk.jpg",
         "group": "Hollywood",
@@ -5447,16 +4492,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/po3Rhi2iOV1sXLpQQy8fOlMrlUW.jpg\" group-title=\"Hollywood\",Miocardio (2025)"
       },
       {
-        "name": "Misterios sin Resolver (1988)",
-        "logo": "https://image.tmdb.org/t/p/original/lEKsuLjivwkgNb9Y6Upj86aabdK.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/la-ninera-4/misteriosinr3s0lv3r1.m3u",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/lEKsuLjivwkgNb9Y6Upj86aabdK.jpg\" group-title=\"Hollywood\",Misterios sin Resolver (1988)"
-      },
-      {
         "name": "Museo de la Inocencia (2026)",
         "logo": "https://image.tmdb.org/t/p/original/gdDPQ5vs7HdhoqUqV0DOgqUPcXU.jpg",
         "group": "Hollywood",
@@ -5465,16 +4500,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/gdDPQ5vs7HdhoqUqV0DOgqUPcXU.jpg\" group-title=\"Hollywood\",Museo de la Inocencia (2026)"
-      },
-      {
-        "name": "My Oxford Year (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/iKT49ApsXGKYY3wdZ0THYhhgOBe.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/mi-ano-en-oxford-online-castellano/Mi%20a%C3%B1o%20en%20Oxford%20Online%20Castellano.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/iKT49ApsXGKYY3wdZ0THYhhgOBe.jpg\" group-title=\"Hollywood\",My Oxford Year (2025)"
       },
       {
         "name": "No entres (2024)",
@@ -5745,16 +4770,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/i4EiDq1lXEEJIc439BVzdreQZEX.jpg\" group-title=\"Hollywood\",Return to Silent Hill (2026)"
-      },
-      {
-        "name": "RICK Y MORTY",
-        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/5Yiep9EwcQgLolg013ETBVqHxuD.jpg",
-        "group": "Hollywood",
-        "url": "https://bit.ly/3y81KkU",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/5Yiep9EwcQgLolg013ETBVqHxuD.jpg\" group-title=\"Hollywood\",RICK Y MORTY"
       },
       {
         "name": "robin el poseido (2025)",
@@ -6177,16 +5192,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg\" group-title=\"Hollywood\",the pitt (2025)"
       },
       {
-        "name": "The Purge: La noche de las bestias (2013)",
-        "logo": "https://image.tmdb.org/t/p/original/1smw9aHuPiHga2Of5TOJs0Ps1rZ.jpg",
-        "group": "Hollywood",
-        "url": "https://archive.org/download/The.Purge.1080p.latino/The.Purge.1080p.latino.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/1smw9aHuPiHga2Of5TOJs0Ps1rZ.jpg\" group-title=\"Hollywood\",The Purge: La noche de las bestias (2013)"
-      },
-      {
         "name": "The Sadness (2021)",
         "logo": "https://image.tmdb.org/t/p/original/hbS0ysfUnAaxFm2PeNWVaRccQZA.jpg",
         "group": "Hollywood",
@@ -6248,16 +5253,6 @@
       },
       {
         "name": "Together (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/5Cd9UNLfkSkPe5Yk8csrp4QNvRh.jpg",
-        "group": "Hollywood",
-        "url": "https://dl.dropbox.com/scl/fi/grscmskx15e8gj4t33vsq/matematica-2.mp4?rlkey=enppejlgo3kp779djfeefhpfi&st=09ajnlyd&dl=0",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5Cd9UNLfkSkPe5Yk8csrp4QNvRh.jpg\" group-title=\"Hollywood\",Together (2025)"
-      },
-      {
-        "name": "Together (2025)",
         "logo": "https://image.tmdb.org/t/p/original/s20aKxjeaMR7d74NAAmkrp7TaOV.jpg",
         "group": "Hollywood",
         "url": "https://dl.dropbox.com/scl/fi/6zz1vgvwi9efa19o65u6g/sociales.mp4?rlkey=12t01rwvqe71mzjz9hkvoezu0&st=mmdzeabt&dl=0",
@@ -6265,6 +5260,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/s20aKxjeaMR7d74NAAmkrp7TaOV.jpg\" group-title=\"Hollywood\",Together (2025)"
+      },
+      {
+        "name": "Together (2025)",
+        "logo": "https://image.tmdb.org/t/p/original/5Cd9UNLfkSkPe5Yk8csrp4QNvRh.jpg",
+        "group": "Hollywood",
+        "url": "https://dl.dropbox.com/scl/fi/grscmskx15e8gj4t33vsq/matematica-2.mp4?rlkey=enppejlgo3kp779djfeefhpfi&st=09ajnlyd&dl=0",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5Cd9UNLfkSkPe5Yk8csrp4QNvRh.jpg\" group-title=\"Hollywood\",Together (2025)"
       },
       {
         "name": "Together (2025) HD",
@@ -6535,19 +5540,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://pics.filmaffinity.com/love_me_love_me-334501553-mmed.jpg\" group-title=\"Hollywood\",Ámame, ámame (2026)"
-      }
-    ],
-    "Horror Movies": [
-      {
-        "name": "The Devil's Mouth",
-        "logo": "https://m.media-amazon.com/images/M/MV5BOWMyNGRhZDctMTIzNC00MDc3LTkzYTctNGJjZmU4MjgzMzEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Horror Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21094",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOWMyNGRhZDctMTIzNC00MDc3LTkzYTctNGJjZmU4MjgzMzEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Horror Movies\",The Devil's Mouth",
-        "alive": true
       }
     ],
     "INDIA | BENGALI": [
@@ -11434,41 +10426,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"KIDS\",Tom & Jarry"
       }
     ],
-    "Kalkata Bangla Movies": [
-      {
-        "name": "Grihapravesh",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNjMwYTQ5ZTktODVjMC00ZmRmLTgzM2YtMzM5MDljM2IwODU0XkEyXkFqcGc@._V1_.jpg",
-        "group": "Kalkata Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20271",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNjMwYTQ5ZTktODVjMC00ZmRmLTgzM2YtMzM5MDljM2IwODU0XkEyXkFqcGc@._V1_.jpg\" group-title=\"Kalkata Bangla Movies\",Grihapravesh",
-        "alive": true
-      },
-      {
-        "name": "Pariah Volume 1 Every Street Dog Has a Name",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNjQ5MDI5YTEtYmJkMi00MjczLTg0NzMtN2Y5MGEyZDlmMTdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Kalkata Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18649",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNjQ5MDI5YTEtYmJkMi00MjczLTg0NzMtN2Y5MGEyZDlmMTdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Kalkata Bangla Movies\",Pariah Volume 1 Every Street Dog Has a Name",
-        "alive": true
-      },
-      {
-        "name": "Shontaan",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNTk3ODhkZTgtNTVkMC00NTRmLWIzMjctNzY0YmIxZGFjOTY4XkEyXkFqcGc@._V1_.jpg",
-        "group": "Kalkata Bangla Movies",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=18637",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNTk3ODhkZTgtNTVkMC00NTRmLWIzMjctNzY0YmIxZGFjOTY4XkEyXkFqcGc@._V1_.jpg\" group-title=\"Kalkata Bangla Movies\",Shontaan",
-        "alive": true
-      }
-    ],
     "Kids": [
       {
         "name": "BBC Cbeebies",
@@ -12569,16 +11526,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/hGtsGoccGg87FBqsokkoyHWX9cL.jpg\" group-title=\"Netflix\",Bulgasal: Almas inmortales (2021)"
-      },
-      {
-        "name": "CASA DE FLORES",
-        "logo": "http://archive.org/download/125452445445/CASA DE FLORES.jpg",
-        "group": "Netflix",
-        "url": "http://archive.org/download/ns_20210520/casa%20de%20flores%20.m3u",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://archive.org/download/125452445445/CASA DE FLORES.jpg\" group-title=\"Netflix\",CASA DE FLORES"
       },
       {
         "name": "Cashero (2025)",
@@ -16857,173 +15804,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://cdn.uc.assets.prezly.com/f12e798d-6da4-46e1-8ec5-e391d6762659/InWonder_portrait-purple.png\" group-title=\"Science\",InWonder (1080p)"
       }
     ],
-    "Southindian Hindi Dubbed": [
-      {
-        "name": "Blast",
-        "logo": "https://m.media-amazon.com/images/M/MV5BM2Y5NjY0NzktZjc2MS00YWMyLThlNDAtYWY3YWZlNGM5YjA2XkEyXkFqcGc@._V1_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20984",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BM2Y5NjY0NzktZjc2MS00YWMyLThlNDAtYWY3YWZlNGM5YjA2XkEyXkFqcGc@._V1_.jpg\" group-title=\"Southindian Hindi Dubbed\",Blast",
-        "alive": true
-      },
-      {
-        "name": "Dacoit",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNTA2YzhlYTUtMGJmMS00MjlmLWExMjYtOWEzOTBmMTViMWQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20794",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNTA2YzhlYTUtMGJmMS00MjlmLWExMjYtOWEzOTBmMTViMWQyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Southindian Hindi Dubbed\",Dacoit",
-        "alive": true
-      },
-      {
-        "name": "Drishyam 3",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2rcj4xr5EEEI8G6K1d62SovnzZ-IIO_0FTGklGGEBw&s",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21016",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT2rcj4xr5EEEI8G6K1d62SovnzZ-IIO_0FTGklGGEBw&s\" group-title=\"Southindian Hindi Dubbed\",Drishyam 3",
-        "alive": true
-      },
-      {
-        "name": "Gatta Kusthi 2",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZDViOGJmYjYtZjI5Yi00YTE1LTljMDgtZjQ4OTMyZjZjMDZhXkEyXkFqcGc@._V1_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21084",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZDViOGJmYjYtZjI5Yi00YTE1LTljMDgtZjQ4OTMyZjZjMDZhXkEyXkFqcGc@._V1_.jpg\" group-title=\"Southindian Hindi Dubbed\",Gatta Kusthi 2",
-        "alive": true
-      },
-      {
-        "name": "Jana Nayagan",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNDE2YjkzOTgtYmJhYi00NGE2LTg2ZWQtMTgyMTFiMjBjODFkXkEyXkFqcGc@._V1_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20854",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNDE2YjkzOTgtYmJhYi00NGE2LTg2ZWQtMTgyMTFiMjBjODFkXkEyXkFqcGc@._V1_.jpg\" group-title=\"Southindian Hindi Dubbed\",Jana Nayagan",
-        "alive": true
-      },
-      {
-        "name": "Kara",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNDUzOGQyNTEtZDlhOC00OTRlLThiNzMtMWI5NDliYWVhMTllXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20915",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNDUzOGQyNTEtZDlhOC00OTRlLThiNzMtMWI5NDliYWVhMTllXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Southindian Hindi Dubbed\",Kara",
-        "alive": true
-      },
-      {
-        "name": "Karuppu",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYTY4NWY2MWQtMGFkMi00MDViLWEwZDgtNGMyZjA3MmYzMWU5XkEyXkFqcGc@._V1_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20948",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYTY4NWY2MWQtMGFkMi00MDViLWEwZDgtNGMyZjA3MmYzMWU5XkEyXkFqcGc@._V1_.jpg\" group-title=\"Southindian Hindi Dubbed\",Karuppu",
-        "alive": true
-      },
-      {
-        "name": "Love Insurance Kompany",
-        "logo": "https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20868",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOGViNGU3MWUtNDY0Zi00ZTJiLTg0MDUtZGNkN2ZkNjYwOWJhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Southindian Hindi Dubbed\",Love Insurance Kompany",
-        "alive": true
-      },
-      {
-        "name": "Madhuvidhu",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FJuZJLGDzsBPlFyMwDOgLeCva0vmlRMT5g&s",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20904",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FJuZJLGDzsBPlFyMwDOgLeCva0vmlRMT5g&s\" group-title=\"Southindian Hindi Dubbed\",Madhuvidhu",
-        "alive": true
-      },
-      {
-        "name": "Mohiniyattam",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMzZkN2FlMTQtZTI1MC00OGE4LTgxNDktOTdjNTlhYzVkN2MwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20869",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMzZkN2FlMTQtZTI1MC00OGE4LTgxNDktOTdjNTlhYzVkN2MwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Southindian Hindi Dubbed\",Mohiniyattam",
-        "alive": true
-      },
-      {
-        "name": "Nagabandham - The Secret Treasure",
-        "logo": "https://m.media-amazon.com/images/M/MV5BOWE5NzE3NDEtNjAzNC00OTQ2LWJjZWYtNmQ1MjIxODk5ZTk5XkEyXkFqcGc@._V1_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=21086",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BOWE5NzE3NDEtNjAzNC00OTQ2LWJjZWYtNmQ1MjIxODk5ZTk5XkEyXkFqcGc@._V1_.jpg\" group-title=\"Southindian Hindi Dubbed\",Nagabandham - The Secret Treasure",
-        "alive": true
-      },
-      {
-        "name": "Peddi",
-        "logo": "https://m.media-amazon.com/images/M/MV5BZjZiM2VjZTUtZTI5My00MjhmLWJjMGEtMzU1MmRhYTY2NjdlXkEyXkFqcGc@._V1_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20931",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BZjZiM2VjZTUtZTI5My00MjhmLWJjMGEtMzU1MmRhYTY2NjdlXkEyXkFqcGc@._V1_.jpg\" group-title=\"Southindian Hindi Dubbed\",Peddi",
-        "alive": true
-      },
-      {
-        "name": "Sathi Leelavathi",
-        "logo": "https://m.media-amazon.com/images/M/MV5BYTBiYWQyMWQtYTQwMC00NmZiLWFkOWYtNmNlNjM4NDlkNjQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20918",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BYTBiYWQyMWQtYTQwMC00NmZiLWFkOWYtNmNlNjM4NDlkNjQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Southindian Hindi Dubbed\",Sathi Leelavathi",
-        "alive": true
-      },
-      {
-        "name": "TN 2026",
-        "logo": "https://m.media-amazon.com/images/M/MV5BNTk2NjNmYjUtMGEzNS00ZDFiLWE5NmItMDAzZDAyNDYwYTA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20919",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BNTk2NjNmYjUtMGEzNS00ZDFiLWE5NmItMDAzZDAyNDYwYTA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg\" group-title=\"Southindian Hindi Dubbed\",TN 2026",
-        "alive": true
-      },
-      {
-        "name": "Ugly Story",
-        "logo": "https://m.media-amazon.com/images/M/MV5BMDQwM2QwMDEtMDk5MC00NmNlLThjMGMtY2IwZDhmZTU1MzFmXkEyXkFqcGc@._V1_.jpg",
-        "group": "Southindian Hindi Dubbed",
-        "url": "https://fmftp.net/api/stream/video/stream?type=movies&id=20933",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMDQwM2QwMDEtMDk5MC00NmNlLThjMGMtY2IwZDhmZTU1MzFmXkEyXkFqcGc@._V1_.jpg\" group-title=\"Southindian Hindi Dubbed\",Ugly Story",
-        "alive": true
-      }
-    ],
     "Sports": [
       {
         "name": "DD Sports SD (1080p)",
@@ -18892,16 +17672,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://m.media-amazon.com/images/M/MV5BMzAwMmQxNTctYjVmYi00MDdlLWEzMWUtOTE5NTRiNDhhNjI2L2ltYWdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_QL75_UX100_CR0,0,100,148_.jpg\" group-title=\"\",0,100,148_.jpg\"group-title=\"\",Life:vida inteligente"
       },
       {
-        "name": "a través de mi ventana 2",
-        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/hisRiTK0zCP1sXtlCSrmFRVOVlz.jpg",
-        "group": "Uncategorized",
-        "url": "https://archive.org/download/mi-2-1023.87-mb/mi%202%201023.87%20MB.mkv",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/hisRiTK0zCP1sXtlCSrmFRVOVlz.jpg\" group-title=\"\",a través de mi ventana 2"
-      },
-      {
         "name": "a través de mi ventana 3",
         "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/1RxPBKMpHlcm5PORiPo6LHUV2ft.jpg",
         "group": "Uncategorized",
@@ -19102,16 +17872,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/YZ5jSzb/Carnada-2024.jpg\" group-title=\"\",Carnada (2024)"
       },
       {
-        "name": "casese quien pueda",
-        "logo": "https://i.ibb.co/HVhP7R8/IMG-20240727-110227-797.jpg",
-        "group": "Uncategorized",
-        "url": "https://archive.org/download/video_2024-07-27_08-56-23/video_2024-07-27_08-56-23.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.ibb.co/HVhP7R8/IMG-20240727-110227-797.jpg\" group-title=\"\",casese quien pueda"
-      },
-      {
         "name": "Cazafantasmas: Imperio Helado",
         "logo": "https://ia600307.us.archive.org/16/items/ghostbusters-apocalipsis-fantasma_202404/ghostbusters-apocalipsis-fantasma.jpg",
         "group": "Uncategorized",
@@ -19242,6 +18002,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/7WfK17BXE6szXlm4WOxfswgbdsL.jpg\" group-title=\"\",Doctor strange"
       },
       {
+        "name": "Doctor Strange en el multiverso de la locura",
+        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/9VZO30aIAhQoiiP3qsRd5jd7UvQ.jpg",
+        "group": "Uncategorized",
+        "url": "https://dl.dropbox.com/scl/fi/rp0qfsb7972904nn77lpi/doc.mp4?rlkey=aw5nu60vzu02562ol3jglh8fk&dl=0",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/9VZO30aIAhQoiiP3qsRd5jd7UvQ.jpg\" group-title=\"\",Doctor Strange en el multiverso de la locura"
+      },
+      {
         "name": "el diario de noa (2024)",
         "logo": "https://i.ibb.co/z6742S0/el-diario-de-noa.jpg",
         "group": "Uncategorized",
@@ -19332,6 +18102,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/lGR9yjcPctrIxNrnGBiXlEbM6nT.jpg\" group-title=\"\",Guardianes de la Galaxia"
       },
       {
+        "name": "Guardianes de la Galaxia vol.2",
+        "logo": "https://image.tmdb.org/t/p/original/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg",
+        "group": "Uncategorized",
+        "url": "https://dl.dropbox.com/scl/fi/rbmutulamg47dot5sbs5h/guardianes-de-la-galaxia-2.mp4?rlkey=czoji9frorkpelgoupbm7s7h7&st=rt6qhqcg&dl=0",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/kdg6Y06jfq9FV7qknWNcKLYtBJn.jpg\" group-title=\"\",Guardianes de la Galaxia vol.2"
+      },
+      {
         "name": "Horror in the High Desert (2021) 720p sub español",
         "logo": "https://media.themoviedb.org/t/p/w300_and_h450_face/s1D5ZGgbxVgQHw70CDwYZQbvaBT.jpg",
         "group": "Uncategorized",
@@ -19360,16 +18140,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/qp0xpheiKwK2ASjX3YUwDPVOzHx.jpg\" group-title=\"\",Hotel sin salida 2"
-      },
-      {
-        "name": "iron man 1",
-        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg",
-        "group": "Uncategorized",
-        "url": "https://dl.dropbox.com/scl/fi/i46badogboadxjf2jgna6/1_5046378812346991048.mp4?rlkey=ezk04w0vy4kksluje1v68stl5&st=bapnmme5&dl=0",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg\" group-title=\"\",iron man 1"
       },
       {
         "name": "iron man 2",
@@ -19780,16 +18550,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/pGtkLdk4rnF2A3Yz2BHiTgRwMU4.jpg\" group-title=\"\",Thor Ragnarok"
-      },
-      {
-        "name": "Thor un mundo oscuro",
-        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/gPAmH41VpK5UPaNhAiNJePzrL8z.jpg",
-        "group": "Uncategorized",
-        "url": "https://archive.org/download/cuartormuna/20.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/gPAmH41VpK5UPaNhAiNJePzrL8z.jpg\" group-title=\"\",Thor un mundo oscuro"
       },
       {
         "name": "Thunderbolts (2025) 720p latino",
@@ -21310,78 +20070,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i-milkshake.bunkr.ru/20231024_003621-KI7BgzS8.png?download=true\" group-title=\"VOD KIDS\",Wreck-It Ralph (2012)"
-      }
-    ],
-    "WarKop DKI": [
-      {
-        "name": "Bisa Naik Bisa Turun (1991)",
-        "logo": "http://i.ibb.co/zrLrZZf/Bisa-Naik-Bisa-Turun-1991.jpg",
-        "group": "WarKop DKI",
-        "url": "https://hadeh.pitoyoabdi.workers.dev/saringan/Bisa.Naik.Bisa.Turun.1992.mkv",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/zrLrZZf/Bisa-Naik-Bisa-Turun-1991.jpg\" group-title=\"WarKop DKI\",Bisa Naik Bisa Turun (1991)"
-      },
-      {
-        "name": "Depan Bisa Belakang Bisa (1987)",
-        "logo": "http://i.ibb.co/khrxjFp/Depan-Bisa-Belakang-Bisa-1987.jpg",
-        "group": "WarKop DKI",
-        "url": "https://hadeh.pitoyoabdi.workers.dev/Depan.Bisa.Belakang.Bisa.1987.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/khrxjFp/Depan-Bisa-Belakang-Bisa-1987.jpg\" group-title=\"WarKop DKI\",Depan Bisa Belakang Bisa (1987)"
-      },
-      {
-        "name": "Godain Kita Dong (1989)",
-        "logo": "http://i.ibb.co/cX8wRLZ/Godain-Kita-Dong-1989.jpg",
-        "group": "WarKop DKI",
-        "url": "https://hadeh.pitoyoabdi.workers.dev/saringan/Godain%20Kita%20Dong%20(1989).mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/cX8wRLZ/Godain-Kita-Dong-1989.jpg\" group-title=\"WarKop DKI\",Godain Kita Dong (1989)"
-      },
-      {
-        "name": "Maju Kena Mundur Kena (1983)",
-        "logo": "http://i.ibb.co/J2mrDzv/Maju-Kena-Mundur-Kena-1983.jpg",
-        "group": "WarKop DKI",
-        "url": "https://hadeh.pitoyoabdi.workers.dev/Maju.Kena.Mundur.Kena.1983.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/J2mrDzv/Maju-Kena-Mundur-Kena-1983.jpg\" group-title=\"WarKop DKI\",Maju Kena Mundur Kena (1983)"
-      },
-      {
-        "name": "Mana Bisa Tahan (1990)",
-        "logo": "http://i.ibb.co/R01JKV9/Mana-Bisa-Tahan-1990.jpg",
-        "group": "WarKop DKI",
-        "url": "https://hadeh.pitoyoabdi.workers.dev/saringan/Mana%20bisa%20tahan%20(1990).mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/R01JKV9/Mana-Bisa-Tahan-1990.jpg\" group-title=\"WarKop DKI\",Mana Bisa Tahan (1990)"
-      },
-      {
-        "name": "Manusia 6.000.000 Dollar (1981)",
-        "logo": "http://i.ibb.co/2KgGTqt/Manusia-6-000-000-Dollar-1981.jpg",
-        "group": "WarKop DKI",
-        "url": "https://hadeh.pitoyoabdi.workers.dev/Manusia%206%20Juta%20Dolar.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/2KgGTqt/Manusia-6-000-000-Dollar-1981.jpg\" group-title=\"WarKop DKI\",Manusia 6.000.000 Dollar (1981)"
-      },
-      {
-        "name": "Sabar Dulu Doong…! (1989)",
-        "logo": "http://i.ibb.co/mbqHrCM/Sabar-Dulu-Doong-1989.jpg",
-        "group": "WarKop DKI",
-        "url": "https://hadeh.pitoyoabdi.workers.dev/saringan/Sabar%20Dulu%20Dong%20(1989).mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/mbqHrCM/Sabar-Dulu-Doong-1989.jpg\" group-title=\"WarKop DKI\",Sabar Dulu Doong…! (1989)"
       }
     ],
     "Weather": [

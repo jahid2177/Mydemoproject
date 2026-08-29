@@ -1200,6 +1200,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Football\",Mundial Sports HD"
   },
   {
+    "name": "Star Sports-2",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "SPORTS",
+    "url": "http://power8kse.xyz/s5b6tb5b8/c6a783a669/441103",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"SPORTS\",Star Sports-2"
+  },
+  {
     "name": "BEIN SPORTS AFC [AR]",
     "logo": "http://51.158.145.100/picons/logos/bein/1363489.png",
     "group": "ARAB | BEIN SPORTS UHD",
@@ -4160,33 +4170,43 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/TAKBEER.png\" group-title=\"URDU | PAKISTAN\",TAKBEER TV [PK]"
   },
   {
-    "name": "Bansal News (720p)",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BANSAL_NEWS/images/LOGO_HD/image.png",
-    "group": "News",
-    "url": "https://8yzmq2gbdvax-hls-live.wmncdn.net/bansalnewstv1/live1.stream/playlist.m3u8",
+    "name": "Arputhar Yesu TV (720p)",
+    "logo": "https://arputharyesutv.net/wp-content/uploads/2022/07/AR-LOGO-PNG.png",
+    "group": "Religious",
+    "url": "https://arputharyesutv.arputharyesutv.com/live/md/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_BANSAL_NEWS/images/LOGO_HD/image.png\" group-title=\"News\",Bansal News (720p)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://arputharyesutv.net/wp-content/uploads/2022/07/AR-LOGO-PNG.png\" group-title=\"Religious\",Arputhar Yesu TV (720p)"
   },
   {
-    "name": "Nagaland TV (576p)",
-    "logo": "https://i.imgur.com/EBEIpPo.png",
-    "group": "News",
-    "url": "https://mumt06.tangotv.in/qYyB8fXVNAGALANDTV/index.m3u8",
+    "name": "Star Sports 2 HD (720p)",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png",
+    "group": "Sports",
+    "url": "http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/EBEIpPo.png\" group-title=\"News\",Nagaland TV (576p)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_STAR_SPORTS_2/images/LOGO_HD/image.png\" group-title=\"Sports\",Star Sports 2 HD (720p)"
   },
   {
-    "name": "MediBizTV (720p)",
-    "logo": "https://www.medibiztv.com/assets/logo-E76jcvP9.png",
-    "group": "Education;News;Science",
-    "url": "https://43wrzjnpqoxe-hls-live.wmncdn.net/marinebiztvlive/marinebiztvlive/playlist.m3u8",
+    "name": "Star Sports 2 Hindi (720p)",
+    "logo": "https://i.imgur.com/kHerF19.png",
+    "group": "Sports",
+    "url": "https://tvsen5.aynaott.com/cXPB2LKkErN9/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://www.medibiztv.com/assets/logo-E76jcvP9.png\" group-title=\"Education;News;Science\",MediBizTV (720p)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/kHerF19.png\" group-title=\"Sports\",Star Sports 2 Hindi (720p)"
+  },
+  {
+    "name": "Star Sports Select 2 HD (720p)",
+    "logo": "https://i.imgur.com/FtRT73R.png",
+    "group": "Sports",
+    "url": "http://tvsen7.aynascope.net/ssport2hd/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/FtRT73R.png\" group-title=\"Sports\",Star Sports Select 2 HD (720p)"
   }
 ]

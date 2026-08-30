@@ -191,10 +191,6 @@ https://fmftp.net/api/stream/video/stream?type=movies&id=18637
 https://fmftp.net/api/stream/video/stream?type=movies&id=21094
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg" group-title="Bangla",MUSIC BANGLA
 http://live.matribhumitv.com/music-bangla/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png" group-title="Hindi | 24/7",Hindi Movies
-https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png" group-title="Hindi | 24/7",South Movies
-https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="INDIA | BENGALI",COLORS HD [BENGALI]
 http://xown.site/token/stream.php?id=1487889&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/COLORS.png" group-title="INDIA | BENGALI",COLORS [BENGALI]
@@ -929,11 +925,13 @@ http://xown.site/token/stream.php?id=1488744&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwG
 http://xown.site/token/stream.php?id=1488742&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
 #EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/logos/URDU-1.png" group-title="URDU | PAKISTAN",URDU 1 [PK]
 http://xown.site/token/stream.php?id=1488751&token=jzVQIX8Sa8Du818wRZdAH2eDDBHwGaqq
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/zwuE28gSXlLFLgueqMe9b7xKy1f.jpg" group-title="Uncategorized",Ant-Man: El hombre hormiga
-https://dl.dropbox.com/scl/fi/nx47yd4k4soizpqux19ft/ant-man-1.mp4?rlkey=5ub6dzlq8hvl7icopr11sgrhb&st=3guwfu55&dl=0
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ugX4WZJO3jEvTOerctAWJLinujo.jpg" group-title="Uncategorized",Avengers
-https://dl.dropbox.com/scl/fi/1mmzq9w8pt472bgbu4zsf/the-avengers.mp4?rlkey=tjwdp586tvo7rutp7wooj1lsh&st=f9cy34px&dl=0
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/br6krBFpaYmCSglLBWRuhui7tPc.jpg" group-title="Uncategorized",Avengers end game
-https://dl.dropbox.com/scl/fi/sv96bj3rk3u7vkdn1vgxi/end-game.mp4?rlkey=937chdfr0brlw1t0m4dpkg8ld&st=qwzui7ms&dl=0
-#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/original/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg" group-title="Uncategorized",Avengers infinity war
-https://dl.dropbox.com/scl/fi/zsjcga9ukt88q4n02u6cp/Infinity-war.mp4?rlkey=3kofwpagvvczhymkznzrd32qs&st=605pxgi3&dl=0
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/aopSAyEQrUucB25WZo2M9xeLZvH.jpg" group-title="Hollywood",El último exorcismo Parte II (2013)
+https://dl.dropbox.com/scl/fi/p5bmwf49snp8z4jjjlgfh/3XORC2.mkv?rlkey=mt3l30jk6k1sk0aj25ovssdjh
+#EXTINF:-1 tvg-logo="https://image.tmdb.org/t/p/w200/agsDcjlpyqVYf9aJeU3N3JVq0mb.jpg" group-title="Hollywood",El último exorcismo (2010)
+https://dl.dropbox.com/scl/fi/2p3yurj8sa2wcev81qpkw/3X0RC1S1.mp4?rlkey=6h8izj5oytfoz3may5zoivxmx
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbmusic.png" group-title="Music",ZB Music (720p)
+https://server.zillarbarta.com/zbmusic/index.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbbhakti.png" group-title="Religious",ZB Bhakti (720p)
+https://server.zillarbarta.com/zbbhakti/index.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="Kids",ZB Cartoon (1080p)
+https://server.zillarbarta.com/zbcatun/video.m3u8

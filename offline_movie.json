@@ -960,26 +960,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://static.wikia.nocookie.net/logopedia/images/7/75/Music_Bangla_new.jpeg\" group-title=\"Bangla\",MUSIC BANGLA"
   },
   {
-    "name": "Hindi Movies",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Hindi | 24/7",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209612/tracks-v1a1/mono.ts.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi | 24/7\",Hindi Movies"
-  },
-  {
-    "name": "South Movies",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Hindi | 24/7",
-    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi | 24/7\",South Movies"
-  },
-  {
     "name": "COLORS HD [BENGALI]",
     "logo": "http://103.176.90.118/picons/logos/logos/COLORS.png",
     "group": "INDIA | BENGALI",
@@ -4650,43 +4630,53 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/URDU-1.png\" group-title=\"URDU | PAKISTAN\",URDU 1 [PK]"
   },
   {
-    "name": "Ant-Man: El hombre hormiga",
-    "logo": "https://image.tmdb.org/t/p/original/zwuE28gSXlLFLgueqMe9b7xKy1f.jpg",
-    "group": "Uncategorized",
-    "url": "https://dl.dropbox.com/scl/fi/nx47yd4k4soizpqux19ft/ant-man-1.mp4?rlkey=5ub6dzlq8hvl7icopr11sgrhb&st=3guwfu55&dl=0",
+    "name": "El último exorcismo Parte II (2013)",
+    "logo": "https://image.tmdb.org/t/p/w200/aopSAyEQrUucB25WZo2M9xeLZvH.jpg",
+    "group": "Hollywood",
+    "url": "https://dl.dropbox.com/scl/fi/p5bmwf49snp8z4jjjlgfh/3XORC2.mkv?rlkey=mt3l30jk6k1sk0aj25ovssdjh",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/zwuE28gSXlLFLgueqMe9b7xKy1f.jpg\" group-title=\"\",Ant-Man: El hombre hormiga"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/w200/aopSAyEQrUucB25WZo2M9xeLZvH.jpg\" group-title=\"Hollywood\",El último exorcismo Parte II (2013)"
   },
   {
-    "name": "Avengers",
-    "logo": "https://image.tmdb.org/t/p/original/ugX4WZJO3jEvTOerctAWJLinujo.jpg",
-    "group": "Uncategorized",
-    "url": "https://dl.dropbox.com/scl/fi/1mmzq9w8pt472bgbu4zsf/the-avengers.mp4?rlkey=tjwdp586tvo7rutp7wooj1lsh&st=f9cy34px&dl=0",
+    "name": "El último exorcismo (2010)",
+    "logo": "https://image.tmdb.org/t/p/w200/agsDcjlpyqVYf9aJeU3N3JVq0mb.jpg",
+    "group": "Hollywood",
+    "url": "https://dl.dropbox.com/scl/fi/2p3yurj8sa2wcev81qpkw/3X0RC1S1.mp4?rlkey=6h8izj5oytfoz3may5zoivxmx",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/ugX4WZJO3jEvTOerctAWJLinujo.jpg\" group-title=\"\",Avengers"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/w200/agsDcjlpyqVYf9aJeU3N3JVq0mb.jpg\" group-title=\"Hollywood\",El último exorcismo (2010)"
   },
   {
-    "name": "Avengers end game",
-    "logo": "https://image.tmdb.org/t/p/original/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
-    "group": "Uncategorized",
-    "url": "https://dl.dropbox.com/scl/fi/sv96bj3rk3u7vkdn1vgxi/end-game.mp4?rlkey=937chdfr0brlw1t0m4dpkg8ld&st=qwzui7ms&dl=0",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "ZB Music (720p)",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zbmusic.png",
+    "group": "Music",
+    "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/br6krBFpaYmCSglLBWRuhui7tPc.jpg\" group-title=\"\",Avengers end game"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/zbmusic.png\" group-title=\"Music\",ZB Music (720p)"
   },
   {
-    "name": "Avengers infinity war",
-    "logo": "https://image.tmdb.org/t/p/original/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
-    "group": "Uncategorized",
-    "url": "https://dl.dropbox.com/scl/fi/zsjcga9ukt88q4n02u6cp/Infinity-war.mp4?rlkey=3kofwpagvvczhymkznzrd32qs&st=605pxgi3&dl=0",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "ZB Bhakti (720p)",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zbbhakti.png",
+    "group": "Religious",
+    "url": "https://server.zillarbarta.com/zbbhakti/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg\" group-title=\"\",Avengers infinity war"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/zbbhakti.png\" group-title=\"Religious\",ZB Bhakti (720p)"
+  },
+  {
+    "name": "ZB Cartoon (1080p)",
+    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png",
+    "group": "Kids",
+    "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png\" group-title=\"Kids\",ZB Cartoon (1080p)"
   }
 ]

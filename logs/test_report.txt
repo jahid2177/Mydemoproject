@@ -1,30 +1,30 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 2161
-After duplicate remove: 2161
+Total parsed streams  : 2376
+After duplicate remove: 2376
 Checked (async)       : 200
-Dead removed          : 187
-Final survivors       : 1974
-Movies                : 1276
-TV channels           : 698
+Dead removed          : 158
+Final survivors       : 2218
+Movies                : 1334
+TV channels           : 884
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 68
+Category groups       : 74
 
 Sample quality checks:
   - Welcome to PlayZ TV => Unknown | HLS valid: True
   - Ekushey TV => Unknown | HLS valid: True
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
-  - T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) => 720p | HLS valid: True
-  - T Sports (3) (3) (3) (3) => Unknown | HLS valid: True
-  - Bein Sports Extra 2 => Unknown | HLS valid: True
-  - MTRSPT => 1080p | HLS valid: True
-  - Horse & Country => 720p | HLS valid: True
-  - Trace Sport => 1080p | HLS valid: True
-  - Willow => Unknown | HLS valid: True
-  - A Sports => 720p | HLS valid: True
-  - Star Sports 1 Hindi HD => 1080p | HLS valid: True
-  - w_300,q_85/5y7HX5UBv9knK3AHs6Nk/posters/7582fb79-c15f-4247-ba5b-1d2dd27f3d71.png" group-title="[LIVE] BDIX ♛",[BD] Zee Cinema HD => Unknown | HLS valid: False
-  - w_300,q_85/QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png" group-title="[LIVE] BDIX ♛",[BD] & Pictures HD => Unknown | HLS valid: False
+  - Channel I => 720p | HLS valid: True
+  - NTV => 720p | HLS valid: True
+  - Bangla Vision => 720p | HLS valid: True
+  - RTV => 720p | HLS valid: True
+  - ATN Bangla => 720p | HLS valid: True
+  - ETV => 720p | HLS valid: True
+  - Maasranga TV => 720p | HLS valid: True
+  - Deepto TV => 720p | HLS valid: True
+  - Ekhon TV => 720p | HLS valid: True
+  - SA TV => 720p | HLS valid: True
+  - Asian TV => 720p | HLS valid: True

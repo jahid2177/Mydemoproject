@@ -1,13 +1,13 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 2132
-After duplicate remove: 2132
+Total parsed streams  : 2161
+After duplicate remove: 2161
 Checked (async)       : 200
 Dead removed          : 187
-Final survivors       : 1945
-Movies                : 1248
-TV channels           : 697
+Final survivors       : 1974
+Movies                : 1276
+TV channels           : 698
 Posters generated     : 10
 EPG channels loaded   : 0
 Category groups       : 68
@@ -17,14 +17,14 @@ Sample quality checks:
   - Ekushey TV => Unknown | HLS valid: True
   - Deepto TV => Unknown | HLS valid: True
   - Deshe Bideshe => Unknown | HLS valid: True
-  - T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) => 720p | HLS valid: True
-  - T Sports (3) (3) (3) => Unknown | HLS valid: True
-  - MTRSPT => 1080p | HLS valid: True
+  - T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) => 720p | HLS valid: True
+  - T Sports (3) (3) (3) (3) => Unknown | HLS valid: True
   - Bein Sports Extra 2 => Unknown | HLS valid: True
+  - MTRSPT => 1080p | HLS valid: True
   - Horse & Country => 720p | HLS valid: True
-  - Star Sports 1 Hindi HD => 1080p | HLS valid: True
-  - A Sports => 720p | HLS valid: True
   - Trace Sport => 1080p | HLS valid: True
   - Willow => Unknown | HLS valid: True
-  - w_300,q_85/PC6F-JQBv9knK3AHlTUO/posters/fb0243ba-39a0-4101-a78c-c197be550c6c.webp" group-title="[LIVE] BDIX ♛",[BD] B4U Movies APAC => Unknown | HLS valid: False
-  - w_300,q_85/Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp" group-title="[LIVE] BDIX ♛",[BD] Sony MAX 2 => Unknown | HLS valid: False
+  - A Sports => 720p | HLS valid: True
+  - Star Sports 1 Hindi HD => 1080p | HLS valid: True
+  - w_300,q_85/5y7HX5UBv9knK3AHs6Nk/posters/7582fb79-c15f-4247-ba5b-1d2dd27f3d71.png" group-title="[LIVE] BDIX ♛",[BD] Zee Cinema HD => Unknown | HLS valid: False
+  - w_300,q_85/QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png" group-title="[LIVE] BDIX ♛",[BD] & Pictures HD => Unknown | HLS valid: False

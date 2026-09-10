@@ -1,16 +1,16 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 2352
-After duplicate remove: 2352
+Total parsed streams  : 2333
+After duplicate remove: 2333
 Checked (async)       : 200
 Dead removed          : 155
-Final survivors       : 2197
-Movies                : 1363
-TV channels           : 834
+Final survivors       : 2178
+Movies                : 1366
+TV channels           : 812
 Posters generated     : 10
 EPG channels loaded   : 0
-Category groups       : 72
+Category groups       : 73
 
 Sample quality checks:
   - Welcome to PlayZ TV => Unknown | HLS valid: True
@@ -22,9 +22,9 @@ Sample quality checks:
   - Bangla Vision => 720p | HLS valid: True
   - RTV => 720p | HLS valid: True
   - ATN Bangla => 720p | HLS valid: True
-  - ETV => 720p | HLS valid: True
   - Maasranga TV => 720p | HLS valid: True
-  - Deepto TV => 720p | HLS valid: True
-  - Ekhon TV => 720p | HLS valid: True
+  - Ekhon TV => SD | HLS valid: True
   - SA TV => 720p | HLS valid: True
   - Asian TV => 720p | HLS valid: True
+  - Duronto TV => 720p | HLS valid: True
+  - Bangla TV => 720p | HLS valid: True

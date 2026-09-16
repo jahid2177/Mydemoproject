@@ -990,6 +990,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/b30147b97d86754e4b97fc2989628391\" group-title=\"Bangla\",BTV World"
   },
   {
+    "name": "Cartoon Network",
+    "logo": "https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb",
+    "group": "Kids",
+    "url": "https://tvsen5.aynaott.com/cartoonnetwork/index.m3u8?e=1784102579&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=9563d33da06516fd262e9156a110a8d8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/a89142109d049ae325fd1681b50bfffb\" group-title=\"Kids\",Cartoon Network"
+  },
+  {
     "name": "Disney JR",
     "logo": "https://s3.aynaott.com/storage/31a070024b6516e3738baec70168f0b6",
     "group": "Kids",
@@ -998,6 +1008,36 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/31a070024b6516e3738baec70168f0b6\" group-title=\"Kids\",Disney JR"
+  },
+  {
+    "name": "Nicktoons",
+    "logo": "https://s3.aynaott.com/storage/a130687320f6b07db4bc3729b9d5e96e",
+    "group": "Kids",
+    "url": "https://tvsen5.aynaott.com/nicktoons/index.m3u8?e=1784102580&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=8eaa14af29c832e9b2b22399a5dfd762",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/a130687320f6b07db4bc3729b9d5e96e\" group-title=\"Kids\",Nicktoons"
+  },
+  {
+    "name": "Nickjr",
+    "logo": "https://s3.aynaott.com/storage/921409bfe77e2e3d32492116bc22fa3e",
+    "group": "Kids",
+    "url": "https://tvsen5.aynaott.com/nickjr/index.m3u8?e=1784102581&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=1a9cf0bc5e79f08de29d345545216d31",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/921409bfe77e2e3d32492116bc22fa3e\" group-title=\"Kids\",Nickjr"
+  },
+  {
+    "name": "Discovery Family",
+    "logo": "https://s3.aynaott.com/storage/3f7983c0bc7cacd206dd195a2eff6b10",
+    "group": "Kids",
+    "url": "https://tvsen5.aynaott.com/discoveryfamily/index.m3u8?e=1784102581&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=7551ec4daacd3d773ab2a992615f1f6c",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/3f7983c0bc7cacd206dd195a2eff6b10\" group-title=\"Kids\",Discovery Family"
   },
   {
     "name": "Disney XD",
@@ -1060,26 +1100,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5d052254516639955d06182690d3fda2\" group-title=\"Hindi\",9X Tashan"
   },
   {
-    "name": "Goldmines",
-    "logo": "https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776",
-    "group": "Hindi",
-    "url": "https://tvsen6.aynaott.com/hKrngve2/index.m3u8?e=1784102592&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=c2995b4981869497cd8659e3a739f2d1",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776\" group-title=\"Hindi\",Goldmines"
-  },
-  {
-    "name": "Goldmines Movies",
-    "logo": "https://s3.aynaott.com/storage/f8d9220406fa9ae79006914639f52e9b",
-    "group": "Hindi",
-    "url": "https://tvsen6.aynaott.com/FsD43fcG/index.m3u8?e=1784102593&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=5da1770fba3540984206a834fafb382a",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/f8d9220406fa9ae79006914639f52e9b\" group-title=\"Hindi\",Goldmines Movies"
-  },
-  {
     "name": "Goldmines Bollywood",
     "logo": "https://s3.aynaott.com/storage/e92e9e2fb70909f3dd30a8d89e644119",
     "group": "Hindi",
@@ -1100,6 +1120,26 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/67b12df982bbb07b6a5af35d691dbb54\" group-title=\"Hindi\",Dangal 2"
   },
   {
+    "name": "The Q",
+    "logo": "https://s3.aynaott.com/storage/5e07d993dda4763f4c35125fb9734e72",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/3PjZZahm/index.m3u8?e=1784102596&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=92ddc6a5821e135aef133dbd8b8b6fc7",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5e07d993dda4763f4c35125fb9734e72\" group-title=\"Hindi\",The Q"
+  },
+  {
+    "name": "Dhinchaak",
+    "logo": "https://s3.aynaott.com/storage/f4edcca7247bbb4a263a51d7ebb82282",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8?e=1784102597&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=18f202477e23fba0f1d6d5e94ac5c4f3",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/f4edcca7247bbb4a263a51d7ebb82282\" group-title=\"Hindi\",Dhinchaak"
+  },
+  {
     "name": "CGTN Docu",
     "logo": "https://s3.aynaott.com/storage/319020b844885cbabcd34e3f2f84d283",
     "group": "English",
@@ -1108,6 +1148,26 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/319020b844885cbabcd34e3f2f84d283\" group-title=\"English\",CGTN Docu"
+  },
+  {
+    "name": "AXS",
+    "logo": "https://s3.aynaott.com/storage/56d2c21362152b678998094f1c670dd5",
+    "group": "English",
+    "url": "https://tvsen6.aynaott.com/axs/index.m3u8?e=1784102603&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=5b48c4a7bd1890ccb2bba27e4471f1db",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/56d2c21362152b678998094f1c670dd5\" group-title=\"English\",AXS"
+  },
+  {
+    "name": "MTV",
+    "logo": "https://s3.aynaott.com/storage/c0bfcdb40393eb5824907adaaa63a653",
+    "group": "English",
+    "url": "https://tvsen6.aynaott.com/mtv/index.m3u8?e=1784102610&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=b99f4b905260714794250d1410a936a2",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/c0bfcdb40393eb5824907adaaa63a653\" group-title=\"English\",MTV"
   },
   {
     "name": "HBO",
@@ -1140,6 +1200,26 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/be15ed692e22ad4b7dcb9d7251ce32a6\" group-title=\"English\",HGTV"
   },
   {
+    "name": "pix 11",
+    "logo": "https://s3.aynaott.com/storage/294b72dc2ca7b74ab3312059728cab22",
+    "group": "English",
+    "url": "https://tvsen6.aynaott.com/pix11/index.m3u8?e=1784102618&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=a0dee7e79b0bdfa720434250b5fa6240",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/294b72dc2ca7b74ab3312059728cab22\" group-title=\"English\",pix 11"
+  },
+  {
+    "name": "YTV",
+    "logo": "https://s3.aynaott.com/storage/d79d89851faee0823a1f2bed1a96e84d",
+    "group": "English",
+    "url": "https://tvsen6.aynaott.com/ytv/index.m3u8?e=1784102618&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=984e9148885e8c2f8cc1fbbf456eaa27",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d79d89851faee0823a1f2bed1a96e84d\" group-title=\"English\",YTV"
+  },
+  {
     "name": "BRAVO",
     "logo": "https://s3.aynaott.com/storage/7604a2c87620363fce86b73731b8035d",
     "group": "English",
@@ -1150,6 +1230,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/7604a2c87620363fce86b73731b8035d\" group-title=\"English\",BRAVO"
   },
   {
+    "name": "TLC HD",
+    "logo": "https://s3.aynaott.com/storage/ba3c9fa1144bc65322f8ae3a1bb69cc9",
+    "group": "English",
+    "url": "https://tvsen6.aynaott.com/tlc_hd/index.m3u8?e=1784102621&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=032b2c039214b5eb81d1d06aac66a512",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/ba3c9fa1144bc65322f8ae3a1bb69cc9\" group-title=\"English\",TLC HD"
+  },
+  {
     "name": "COMEDY CENTRAL",
     "logo": "https://s3.aynaott.com/storage/211d55de947bdf03f5c18b7e30e0d98b",
     "group": "English",
@@ -1158,6 +1248,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/211d55de947bdf03f5c18b7e30e0d98b\" group-title=\"English\",COMEDY CENTRAL"
+  },
+  {
+    "name": "Food Network",
+    "logo": "https://s3.aynaott.com/storage/582675c375dfa47c2d66e6639fcd2eac",
+    "group": "English",
+    "url": "https://tvsen6.aynaott.com/foodnetwork/index.m3u8?e=1784102622&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=dabd0667017770543635be4bb1f63c22",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/582675c375dfa47c2d66e6639fcd2eac\" group-title=\"English\",Food Network"
   },
   {
     "name": "TAQBEER",
@@ -1178,16 +1278,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/f00eda9194eb13e8ef1d1387889173bf\" group-title=\"Religious\",RTV Islam"
-  },
-  {
-    "name": "Sangeet Bangla",
-    "logo": "https://s3.aynaott.com/storage/80424ce0682e14e7d51e28de33d5f380",
-    "group": "Music",
-    "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8?e=1784102630&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=36c90e8e5a1cee8374378d93fb7c4971",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/80424ce0682e14e7d51e28de33d5f380\" group-title=\"Music\",Sangeet Bangla"
   },
   {
     "name": "Geo ENT",
@@ -1248,6 +1338,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/155b665c91fc74cf01b2b43d4b8c3e09\" group-title=\"Radio\",Bangla Radio"
+  },
+  {
+    "name": "Espn",
+    "logo": "https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76",
+    "group": "Football",
+    "url": "https://tvsen5.aynaott.com/espn/index.m3u8?e=1784102653&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=fbc560646ea38d9fce118fcd264926c5",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/b46df1959322aa48d270a6b163234c76\" group-title=\"Football\",Espn"
   },
   {
     "name": "COLORS HD [BENGALI]",
@@ -4920,13 +5020,23 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/URDU-1.png\" group-title=\"URDU | PAKISTAN\",URDU 1 [PK]"
   },
   {
-    "name": "Dímelo bajito (2025)",
-    "logo": "https://image.tmdb.org/t/p/original/dvebFZgb6HczmYkOA43bGfSrvYl.jpg",
-    "group": "Hollywood",
-    "url": "https://dl.dropbox.com/scl/fi/xcuwbga8v98233hw1wniz/sociales.mp4?rlkey=ux7ej5w7rf5x8asbryuj52ipa&st=js1zdcgy&dl=0",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "name": "YET Max (720p)",
+    "logo": "https://yettelevision.com/assets/images/logo/channel_11847.png",
+    "group": "Music",
+    "url": "https://live.yettelevision.com:5443/LiveApp/streams/yettv2.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/dvebFZgb6HczmYkOA43bGfSrvYl.jpg\" group-title=\"Hollywood\",Dímelo bajito (2025)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://yettelevision.com/assets/images/logo/channel_11847.png\" group-title=\"Music\",YET Max (720p)"
+  },
+  {
+    "name": "All Time Movies (576p)",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png",
+    "group": "Movies",
+    "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png\" group-title=\"Movies\",All Time Movies (576p)"
   }
 ]

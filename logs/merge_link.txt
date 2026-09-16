@@ -1,7 +1,7 @@
 ==================================================
   MERGE REPORT — merge_link.json
 ==================================================
-  Generated : 2026-09-16 10:59:35 +0600 (Dhaka)
+  Generated : 2026-09-16 19:35:33 +0600 (Dhaka)
   Total unique movies : 0
 
   Per-source breakdown:
@@ -25,7 +25,7 @@
     Added     : 0
     Duplicate : 0
     Skipped   : 0
-    Error     : ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+    Error     : 404 Client Error: Not Found for url: https://raw.githubusercontent.com/time2shine/IPTV/refs/heads/master/scripts/static_movies(ctgfun).json
 
   Source : discoveryftp
     Fetched   : 0

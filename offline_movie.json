@@ -1100,6 +1100,16 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5d052254516639955d06182690d3fda2\" group-title=\"Hindi\",9X Tashan"
   },
   {
+    "name": "9x Jalwa",
+    "logo": "https://s3.aynaott.com/storage/d2d8f00a60dc64dad6c0181cd86f7869",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/CiPT1VTG8bVekeAZiibd/index.m3u8?e=1784102591&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=6ff3e5a92d4d71f3fc281780d3831c05",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d2d8f00a60dc64dad6c0181cd86f7869\" group-title=\"Hindi\",9x Jalwa"
+  },
+  {
     "name": "Goldmines",
     "logo": "https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776",
     "group": "Hindi",
@@ -1108,6 +1118,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776\" group-title=\"Hindi\",Goldmines"
+  },
+  {
+    "name": "Goldmines Movies",
+    "logo": "https://s3.aynaott.com/storage/f8d9220406fa9ae79006914639f52e9b",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/FsD43fcG/index.m3u8?e=1784102593&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=5da1770fba3540984206a834fafb382a",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/f8d9220406fa9ae79006914639f52e9b\" group-title=\"Hindi\",Goldmines Movies"
   },
   {
     "name": "Goldmines Bollywood",
@@ -1128,16 +1148,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5e07d993dda4763f4c35125fb9734e72\" group-title=\"Hindi\",The Q"
-  },
-  {
-    "name": "Dhinchaak",
-    "logo": "https://s3.aynaott.com/storage/f4edcca7247bbb4a263a51d7ebb82282",
-    "group": "Hindi",
-    "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8?e=1784102597&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=18f202477e23fba0f1d6d5e94ac5c4f3",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/f4edcca7247bbb4a263a51d7ebb82282\" group-title=\"Hindi\",Dhinchaak"
   },
   {
     "name": "CGTN Docu",
@@ -5030,14 +5040,24 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/URDU-1.png\" group-title=\"URDU | PAKISTAN\",URDU 1 [PK]"
   },
   {
-    "name": "All Time Movies (576p)",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png",
+    "name": "Zee Action (576p)",
+    "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540",
     "group": "Movies",
-    "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
+    "url": "http://107.167.16.138/zeeaction/index.m3u8?token=test",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png\" group-title=\"Movies\",All Time Movies (576p)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540\" group-title=\"Movies\",Zee Action (576p)"
+  },
+  {
+    "name": "Zee Talkies (576p)",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png",
+    "group": "Movies",
+    "url": "http://107.167.16.138/zeetalkies/index.m3u8?token=test",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TALKIES/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Movies\",Zee Talkies (576p)"
   },
   {
     "name": "&xplor HD (1080p) [Geo-blocked]",
@@ -5048,15 +5068,5 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Movies\",&xplor HD (1080p) [Geo-blocked]"
-  },
-  {
-    "name": "Harvest USA (576p)",
-    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-    "group": "Religious",
-    "url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Religious\",Harvest USA (576p)"
   }
 ]

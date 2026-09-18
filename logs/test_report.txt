@@ -1,13 +1,13 @@
 IPTV Feature Check Report
 =========================
 Playlist files loaded : 8
-Total parsed streams  : 2536
-After duplicate remove: 2536
+Total parsed streams  : 2484
+After duplicate remove: 2484
 Checked (async)       : 200
-Dead removed          : 159
-Final survivors       : 2377
-Movies                : 1444
-TV channels           : 933
+Dead removed          : 161
+Final survivors       : 2323
+Movies                : 1388
+TV channels           : 935
 Posters generated     : 10
 EPG channels loaded   : 0
 Category groups       : 75
@@ -24,7 +24,7 @@ Sample quality checks:
   - ATN Bangla => 720p | HLS valid: True
   - ETV => 720p | HLS valid: True
   - Maasranga TV => 720p | HLS valid: True
-  - Deepto TV => SD | HLS valid: True
+  - Deepto TV => 720p | HLS valid: True
   - Ekhon TV => 720p | HLS valid: True
   - SA TV => 720p | HLS valid: True
   - Asian TV => 720p | HLS valid: True

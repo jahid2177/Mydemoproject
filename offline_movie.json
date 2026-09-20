@@ -1100,16 +1100,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5d052254516639955d06182690d3fda2\" group-title=\"Hindi\",9X Tashan"
   },
   {
-    "name": "9x Jalwa",
-    "logo": "https://s3.aynaott.com/storage/d2d8f00a60dc64dad6c0181cd86f7869",
-    "group": "Hindi",
-    "url": "https://tvsen6.aynaott.com/CiPT1VTG8bVekeAZiibd/index.m3u8?e=1784102591&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=6ff3e5a92d4d71f3fc281780d3831c05",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d2d8f00a60dc64dad6c0181cd86f7869\" group-title=\"Hindi\",9x Jalwa"
-  },
-  {
     "name": "Goldmines",
     "logo": "https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776",
     "group": "Hindi",
@@ -1118,6 +1108,36 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776\" group-title=\"Hindi\",Goldmines"
+  },
+  {
+    "name": "Goldmines Bollywood",
+    "logo": "https://s3.aynaott.com/storage/e92e9e2fb70909f3dd30a8d89e644119",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/55xNrLdf/index.m3u8?e=1784102593&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=bdf9e0d52656d2f220337254a719a208",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/e92e9e2fb70909f3dd30a8d89e644119\" group-title=\"Hindi\",Goldmines Bollywood"
+  },
+  {
+    "name": "Dangal 2",
+    "logo": "https://s3.aynaott.com/storage/67b12df982bbb07b6a5af35d691dbb54",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/U8SSRsqP/index.m3u8?e=1784102594&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=e51e1a1419a8e13a78b319b915184125",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/67b12df982bbb07b6a5af35d691dbb54\" group-title=\"Hindi\",Dangal 2"
+  },
+  {
+    "name": "Dangal",
+    "logo": "https://s3.aynaott.com/storage/cb1c3e153b951760fb0396cd27b8a715",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/uS9QwrbB/index.m3u8?e=1784102594&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=1f2a210560b673b66b0d398f2d6fc2fd",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/cb1c3e153b951760fb0396cd27b8a715\" group-title=\"Hindi\",Dangal"
   },
   {
     "name": "The Q",
@@ -1278,6 +1298,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/e0d54d73e6b9cf211cd760650467e596\" group-title=\"Urdhu\",Geo ENT"
+  },
+  {
+    "name": "Khushboo",
+    "logo": "https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44",
+    "group": "Indian Bangla",
+    "url": "https://tvsen6.aynaott.com/mzwbzfZ4/index.m3u8?e=1784102631&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=98108f8c82a0dc91e30e52fe77713a09",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44\" group-title=\"Indian Bangla\",Khushboo"
   },
   {
     "name": "Republic Bangla",
@@ -5008,5 +5038,75 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/URDU-1.png\" group-title=\"URDU | PAKISTAN\",URDU 1 [PK]"
+  },
+  {
+    "name": "Cosecha oscura (2023)",
+    "logo": "https://image.tmdb.org/t/p/w200/cpbukMqjn96Vdw8bt4MPRF8h41T.jpg",
+    "group": "Hollywood",
+    "url": "https://archive.org/download/cosecha-oscura/atardecer/Cosecha%20Oscura.mkv",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/w200/cpbukMqjn96Vdw8bt4MPRF8h41T.jpg\" group-title=\"Hollywood\",Cosecha oscura (2023)"
+  },
+  {
+    "name": "Doctor strange",
+    "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/7WfK17BXE6szXlm4WOxfswgbdsL.jpg",
+    "group": "Uncategorized",
+    "url": "https://archive.org/download/dilapalabra9/41519.mp4",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/7WfK17BXE6szXlm4WOxfswgbdsL.jpg\" group-title=\"\",Doctor strange"
+  },
+  {
+    "name": "iron man 1",
+    "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg",
+    "group": "Uncategorized",
+    "url": "https://dl.dropbox.com/scl/fi/i46badogboadxjf2jgna6/1_5046378812346991048.mp4?rlkey=ezk04w0vy4kksluje1v68stl5&st=bapnmme5&dl=0",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg\" group-title=\"\",iron man 1"
+  },
+  {
+    "name": "Deewana HD (540p)",
+    "logo": "https://i.imgur.com/xIYITQ9.png",
+    "group": "Music",
+    "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/index.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/xIYITQ9.png\" group-title=\"Music\",Deewana HD (540p)"
+  },
+  {
+    "name": "&xplor HD (1080p) [Geo-blocked]",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",
+    "group": "Movies",
+    "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Movies\",&xplor HD (1080p) [Geo-blocked]"
+  },
+  {
+    "name": "Star Jalsha (576p) [Geo-blocked]",
+    "logo": "https://i.imgur.com/IlufzR5.png",
+    "group": "Entertainment",
+    "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/IlufzR5.png\" group-title=\"Entertainment\",Star Jalsha (576p) [Geo-blocked]"
+  },
+  {
+    "name": "VTU (1080p)",
+    "logo": "https://i.imgur.com/zMwZRGJ.png",
+    "group": "Undefined",
+    "url": "https://lbgo.bozztv.com/ssh101/ssh101/afghantheatretv/playlist.m3u8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/zMwZRGJ.png\" group-title=\"Undefined\",VTU (1080p)"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-21 07:52:30 UTC",
+  "generated_at_utc": "2026-09-21 19:14:21 UTC",
   "playlist_files": [
     "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
     "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bollywood/Movies.m3u",
@@ -25,14 +25,14 @@
     "iptv_category_sort": true
   },
   "counts": {
-    "total_streams": 2558,
-    "after_dedup": 2558,
+    "total_streams": 2557,
+    "after_dedup": 2557,
     "checked_streams": 200,
-    "dead_removed": 159,
-    "alive_after_check": 41,
-    "final_survivors": 2399,
-    "movies": 1448,
-    "tv": 951,
+    "dead_removed": 161,
+    "alive_after_check": 39,
+    "final_survivors": 2396,
+    "movies": 1451,
+    "tv": 945,
     "epg_channels_loaded": 0,
     "quality_checked_streams": 30,
     "posters_generated": 10,
@@ -449,7 +449,7 @@
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/76717b7a598a30815a1bdb16ecd3af6c\" group-title=\"Bangla\",Deepto TV",
         "alive": true,
-        "quality": "SD",
+        "quality": "720p",
         "hls_valid": true
       },
       {
@@ -527,7 +527,7 @@
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/ffd7ba9b76ad555933f94bcb7ff26b44\" group-title=\"Bangla\",Global TV",
         "alive": true,
-        "quality": "SD",
+        "quality": "720p",
         "hls_valid": true
       },
       {
@@ -632,7 +632,7 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/6d1aaa03b84a69992940873fc11af8fc\" group-title=\"Bangla\",Thikana",
         "alive": true,
         "quality": "1080p",
-        "hls_valid": true
+        "hls_valid": false
       }
     ],
     "Bangla | 24/7": [
@@ -719,6 +719,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangladesh\",Desh TV"
       },
       {
+        "name": "Ekattor TV",
+        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+        "group": "Bangladesh",
+        "url": "https://tvsen6.aynaott.com/EWDrV5QskgarZEUBb3pU/index.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangladesh\",Ekattor TV"
+      },
+      {
         "name": "Ekhon TV",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
         "group": "Bangladesh",
@@ -727,6 +737,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangladesh\",Ekhon TV"
+      },
+      {
+        "name": "Ekushe ETV",
+        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+        "group": "Bangladesh",
+        "url": "https://tvsen6.aynaott.com/y4mEVZNAbeNWTbd6Z2Pw/index.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangladesh\",Ekushe ETV"
       },
       {
         "name": "Global TV",
@@ -767,16 +787,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangladesh\",News 21 HD"
-      },
-      {
-        "name": "NTV",
-        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-        "group": "Bangladesh",
-        "url": "https://tvsen5.aynaott.com/xV4jEKf3D9zc/tracks-v1a1/mono.ts.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Bangladesh\",NTV"
       },
       {
         "name": "RTV",
@@ -1082,16 +1092,6 @@
       }
     ],
     "Culture;Religious": [
-      {
-        "name": "JTBS Classic",
-        "logo": "https://jtbsclassic.dpdns.org/logo.png",
-        "group": "Culture;Religious",
-        "url": "https://jtbsclassic.dpdns.org/live.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://jtbsclassic.dpdns.org/logo.png\" group-title=\"Culture;Religious\",JTBS Classic"
-      },
       {
         "name": "Sanskar TV (1080p)",
         "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SANSKAR/images/LOGO_HD/image.png",
@@ -1767,6 +1767,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/BEr1r7L.png\" group-title=\"Entertainment\",Dangal 2 (720p)"
       },
       {
+        "name": "Darshana TV (576p)",
+        "logo": "https://dtil.tmsimg.com/assets/s142774_ld_h15_aa.png?lock=720x540",
+        "group": "Entertainment",
+        "url": "https://mumt04.tangotv.in/m18aqlK4DARSHANATV/index.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/s142774_ld_h15_aa.png?lock=720x540\" group-title=\"Entertainment\",Darshana TV (576p)"
+      },
+      {
         "name": "DD Malayalam (504p)",
         "logo": "https://i.postimg.cc/BZjmjJJs/DD-Malayalam.png",
         "group": "Entertainment",
@@ -2317,16 +2327,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://www.spondontv.com/wp-content/uploads/2025/10/cropped-SPONDON_Blue-Violet_1-copy-300x100.png\" group-title=\"Entertainment\",Spondon (1080p)"
       },
       {
-        "name": "Star Jalsha (576p) [Geo-blocked]",
-        "logo": "https://i.imgur.com/IlufzR5.png",
-        "group": "Entertainment",
-        "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/IlufzR5.png\" group-title=\"Entertainment\",Star Jalsha (576p) [Geo-blocked]"
-      },
-      {
         "name": "Star Jalsha HD (720p)",
         "logo": "https://i.imgur.com/IlufzR5.png",
         "group": "Entertainment",
@@ -2535,6 +2535,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Entertainment\",Zee TV HD (720p) [Geo-blocked]"
+      },
+      {
+        "name": "Zodiak TV (1080p)",
+        "logo": "https://i.imgur.com/gE166hZ.jpeg",
+        "group": "Entertainment",
+        "url": "https://ranacable.duckdns.org/ZodiakTv/index.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/gE166hZ.jpeg\" group-title=\"Entertainment\",Zodiak TV (1080p)"
       }
     ],
     "Entertainment;Movies": [
@@ -3003,16 +3013,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/vQVRf3G/Avatar.jpg\" group-title=\"Film Animasi\",Avatar The Legend of Aang EP9"
       },
       {
-        "name": "Captured in Her Eyes (2000)",
-        "logo": "http://i.ibb.co/Fnd4ZXv/Captured-in-Her-Eyes-2000.jpg",
-        "group": "Film Animasi",
-        "url": "https://filmku.yesioktaviana.workers.dev/Captured%20in%20Her%20Eyes%20(2000).mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/Fnd4ZXv/Captured-in-Her-Eyes-2000.jpg\" group-title=\"Film Animasi\",Captured in Her Eyes (2000)"
-      },
-      {
         "name": "Countdown to Heaven (2001)",
         "logo": "http://i.ibb.co/0ZpfQW6/Countdown-to-Heaven-2001.jpg",
         "group": "Film Animasi",
@@ -3101,16 +3101,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/6bVm8kR/Strategy-Above-the-Depths-2005.jpg\" group-title=\"Film Animasi\",Strategy Above the Depths (2005)"
-      },
-      {
-        "name": "Sunflowers of Inferno (2015)",
-        "logo": "http://i.ibb.co/xq956Qf/Sunflowers-of-Inferno-2015.jpg",
-        "group": "Film Animasi",
-        "url": "https://filmku.yesioktaviana.workers.dev/Sunflowers%20of%20Inferno%20(2015).mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/xq956Qf/Sunflowers-of-Inferno-2015.jpg\" group-title=\"Film Animasi\",Sunflowers of Inferno (2015)"
       },
       {
         "name": "The Darkest Nightmare (2016)",
@@ -4271,6 +4261,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi | 24/7\",Hindi Movies"
+      },
+      {
+        "name": "South Movies",
+        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+        "group": "Hindi | 24/7",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Hindi | 24/7\",South Movies"
       }
     ],
     "Hollywood": [
@@ -4333,16 +4333,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/cr2kxtNVWXzWt0Ny6tEXcKvjOun.jpg\" group-title=\"Hollywood\",28 semanas después (2007)"
-      },
-      {
-        "name": "365 Dias(2020)",
-        "logo": "https://image.tmdb.org/t/p/original/jBpqADo9XAKaecvI3f0J4hRAEyO.jpg",
-        "group": "Hollywood",
-        "url": "https://github.com/BrianRVP/Meteorito_Juego/releases/download/2.12.1/Ver.365.dias.2020.online.HD.-.Cuevana.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/jBpqADo9XAKaecvI3f0J4hRAEyO.jpg\" group-title=\"Hollywood\",365 Dias(2020)"
       },
       {
         "name": "825 Forest Road (2025)",
@@ -5148,7 +5138,7 @@
         "name": "Five Nights at Freddy's (2023)",
         "logo": "https://image.tmdb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg",
         "group": "Hollywood",
-        "url": "https://archive.org/download/five-nights-at-freddys-2023-1080p-dual-2.86-gb/Five%20Nights%20At%20Freddys%20%282023%29%201080p%20DUAL%202.86%20GB.mp4",
+        "url": "https://archive.org/download/fnaf-la-pelicula-2023-espanol-latino/FNAF%20La%20Pelicula%202023%20Espa%C3%B1ol%20Latino.mp4",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
@@ -5158,7 +5148,7 @@
         "name": "Five Nights at Freddy's (2023)",
         "logo": "https://image.tmdb.org/t/p/original/4dKRTUylqwXQ4VJz0BS84fqW2wa.jpg",
         "group": "Hollywood",
-        "url": "https://archive.org/download/fnaf-la-pelicula-2023-espanol-latino/FNAF%20La%20Pelicula%202023%20Espa%C3%B1ol%20Latino.mp4",
+        "url": "https://archive.org/download/five-nights-at-freddys-2023-1080p-dual-2.86-gb/Five%20Nights%20At%20Freddys%20%282023%29%201080p%20DUAL%202.86%20GB.mp4",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
@@ -6165,16 +6155,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/nJTlyY4dpuIlWf9aDiC4FHrt5Vi.jpg\" group-title=\"Hollywood\",robin el poseido (2025)"
       },
       {
-        "name": "Romper el circulo",
-        "logo": "https://image.tmdb.org/t/p/original/2EH42blLQzgqwDWxn39RXkTgb91.jpg",
-        "group": "Hollywood",
-        "url": "https://github.com/BrianRVP/Prueba-plugins-/releases/download/214.85.4/Ver.Romper.el.circulo.2024.online.HD.-.Cuevana.mp4",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/2EH42blLQzgqwDWxn39RXkTgb91.jpg\" group-title=\"Hollywood\",Romper el circulo"
-      },
-      {
         "name": "rosario (2025)",
         "logo": "https://image.tmdb.org/t/p/original/7BkDJ4DfjkEG6NRJPeyw9w2iRFx.jpg",
         "group": "Hollywood",
@@ -6656,16 +6636,6 @@
       },
       {
         "name": "Together (2025)",
-        "logo": "https://image.tmdb.org/t/p/original/s20aKxjeaMR7d74NAAmkrp7TaOV.jpg",
-        "group": "Hollywood",
-        "url": "https://dl.dropbox.com/scl/fi/6zz1vgvwi9efa19o65u6g/sociales.mp4?rlkey=12t01rwvqe71mzjz9hkvoezu0&st=mmdzeabt&dl=0",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/s20aKxjeaMR7d74NAAmkrp7TaOV.jpg\" group-title=\"Hollywood\",Together (2025)"
-      },
-      {
-        "name": "Together (2025)",
         "logo": "https://image.tmdb.org/t/p/original/5Cd9UNLfkSkPe5Yk8csrp4QNvRh.jpg",
         "group": "Hollywood",
         "url": "https://dl.dropbox.com/scl/fi/grscmskx15e8gj4t33vsq/matematica-2.mp4?rlkey=enppejlgo3kp779djfeefhpfi&st=09ajnlyd&dl=0",
@@ -6673,6 +6643,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/5Cd9UNLfkSkPe5Yk8csrp4QNvRh.jpg\" group-title=\"Hollywood\",Together (2025)"
+      },
+      {
+        "name": "Together (2025)",
+        "logo": "https://image.tmdb.org/t/p/original/s20aKxjeaMR7d74NAAmkrp7TaOV.jpg",
+        "group": "Hollywood",
+        "url": "https://dl.dropbox.com/scl/fi/6zz1vgvwi9efa19o65u6g/sociales.mp4?rlkey=12t01rwvqe71mzjz9hkvoezu0&st=mmdzeabt&dl=0",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/s20aKxjeaMR7d74NAAmkrp7TaOV.jpg\" group-title=\"Hollywood\",Together (2025)"
       },
       {
         "name": "Together (2025) HD",
@@ -12271,6 +12251,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDTV/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Movies\",&TV HD (1080p)"
       },
       {
+        "name": "&xplor HD (1080p) [Geo-blocked]",
+        "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",
+        "group": "Movies",
+        "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Movies\",&xplor HD (1080p) [Geo-blocked]"
+      },
+      {
         "name": "Alankar TV (720p)",
         "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALANKAR/images/LOGO_HD/image.png",
         "group": "Movies",
@@ -12279,16 +12269,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALANKAR/images/LOGO_HD/image.png\" group-title=\"Movies\",Alankar TV (720p)"
-      },
-      {
-        "name": "All Time Movies (576p)",
-        "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png",
-        "group": "Movies",
-        "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png\" group-title=\"Movies\",All Time Movies (576p)"
       },
       {
         "name": "Asianet Movies HD (720p)",
@@ -12755,6 +12735,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Boogle_Bollywood.png\" group-title=\"Music\",Boogle Bollywood (720p)"
       },
       {
+        "name": "Deewana HD (540p)",
+        "logo": "https://i.imgur.com/xIYITQ9.png",
+        "group": "Music",
+        "url": "https://live20.bozztv.com/giatvplayout7/giatv-209592/index.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/xIYITQ9.png\" group-title=\"Music\",Deewana HD (540p)"
+      },
+      {
         "name": "Dhamaal (576p)",
         "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Dhamaal_TV.png",
         "group": "Music",
@@ -13035,6 +13025,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/s142920_ld_h9_aa.png?lock=720x540\" group-title=\"Music\",Songdew TV (396p)"
       },
       {
+        "name": "Steelbird Music (720p) [Not 24/7]",
+        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Steelbird_Music.png",
+        "group": "Music",
+        "url": "https://cdn2.in/SteelbirdMusicTVhls/live.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Steelbird_Music.png\" group-title=\"Music\",Steelbird Music (720p) [Not 24/7]"
+      },
+      {
         "name": "Stingray Classic Rock (1080p)",
         "logo": "https://i.imgur.com/FBgu8yB.png",
         "group": "Music",
@@ -13103,6 +13103,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/oSm8zFD.png\" group-title=\"Music\",Tarang Music (720p)"
+      },
+      {
+        "name": "TNT Music",
+        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+        "group": "Music",
+        "url": "https://tntm.mediacdn.ru/cdn/tntmusic/playlist.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Music\",TNT Music"
       },
       {
         "name": "Ultimate TV (1080p)",
@@ -13877,6 +13887,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"http://archive.org/download/125452445445/LA CASA DE LAS FLORES.jpg\" group-title=\"Netflix\",LA CASA DE LAS FLORES"
       },
       {
+        "name": "LA CASA DE PAPEL",
+        "logo": "http://archive.org/download/125452445445/LA CASA DE PAPEL.jpg",
+        "group": "Netflix",
+        "url": "http://archive.org/download/ns_20210520/la%20casa%20de%20pape.m3u",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"http://archive.org/download/125452445445/LA CASA DE PAPEL.jpg\" group-title=\"Netflix\",LA CASA DE PAPEL"
+      },
+      {
         "name": "la nueva brigada (2025)",
         "logo": "https://image.tmdb.org/t/p/original/ifHhwXs52bofSvgoUWFKPTyIy6v.jpg",
         "group": "Netflix",
@@ -14107,6 +14127,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/77767BnO2ZIEBmkgqjQqTZnz9eh.jpg\" group-title=\"Netflix\",Nero the Assassin (2025)"
       },
       {
+        "name": "NICKY JAM EL GANADOR",
+        "logo": "http://archive.org/download/125452445445/NICKY JAM EL GANADOR.jpg",
+        "group": "Netflix",
+        "url": "http://archive.org/download/ns_20210520/ELGAN.m3u",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"http://archive.org/download/125452445445/NICKY JAM EL GANADOR.jpg\" group-title=\"Netflix\",NICKY JAM EL GANADOR"
+      },
+      {
         "name": "One Piece:Live Action (2023) latino",
         "logo": "https://image.tmdb.org/t/p/w154/fsQ2KHbZk12z3h3dba2ActMEudj.jpg",
         "group": "Netflix",
@@ -14147,6 +14177,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/w154/ikqlGaEt9lv9LEUX02LO9fNJ0x4.jpg\" group-title=\"Netflix\",Peaky Blinders"
       },
       {
+        "name": "PINOCCHIO",
+        "logo": "https://pm1.narvii.com/6061/68c942f64555dfba90e3f78c25317b5be581359f_hq.jpg",
+        "group": "Netflix",
+        "url": "https://archive.org/download/ns_20210520/pinocho.m3u",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://pm1.narvii.com/6061/68c942f64555dfba90e3f78c25317b5be581359f_hq.jpg\" group-title=\"Netflix\",PINOCCHIO"
+      },
+      {
         "name": "Plan de resurreccion (2025)",
         "logo": "https://image.tmdb.org/t/p/original/yq4TfasaovGloVDXTIdfO132v39.jpg",
         "group": "Netflix",
@@ -14155,6 +14195,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/yq4TfasaovGloVDXTIdfO132v39.jpg\" group-title=\"Netflix\",Plan de resurreccion (2025)"
+      },
+      {
+        "name": "RAGNAROK",
+        "logo": "http://archive.org/download/125452445445/RAGNAROK.jpg",
+        "group": "Netflix",
+        "url": "http://archive.org/download/ns_20210520/ragnar.m3u",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"http://archive.org/download/125452445445/RAGNAROK.jpg\" group-title=\"Netflix\",RAGNAROK"
       },
       {
         "name": "Rebelde (2022)",
@@ -14205,6 +14255,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/2heNhOUKqZDeUNPuxX2R4YJuSky.jpg\" group-title=\"Netflix\",Ríos del destino (2025)"
+      },
+      {
+        "name": "SANTA CLARITA DIET",
+        "logo": "http://archive.org/download/125452445445/SANTA CLARITA DIET.jpg",
+        "group": "Netflix",
+        "url": "http://archive.org/download/ns_20210520/SANDIE.m3u",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"http://archive.org/download/125452445445/SANTA CLARITA DIET.jpg\" group-title=\"Netflix\",SANTA CLARITA DIET"
       },
       {
         "name": "Se puede traducir este amor (2026)",
@@ -14789,16 +14849,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANB_NEWS/images/LOGO_HD/image.png\" group-title=\"News\",ANB News (720p)"
       },
       {
-        "name": "APN (576p)",
-        "logo": "https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/APN.png",
-        "group": "News",
-        "url": "https://mumt01.tangotv.in/O5aw8Zn3APN/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/APN.png\" group-title=\"News\",APN (576p)"
-      },
-      {
         "name": "Argus News (576p)",
         "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARGUS/images/LOGO_HD/image.png",
         "group": "News",
@@ -14839,16 +14889,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/s142682_ld_h15_aa.png?lock=720x540\" group-title=\"News\",Asianet Suvarna News (1080p) [Not 24/7]"
       },
       {
-        "name": "Asom Live 24 (576p)",
-        "logo": "https://papaji.freetvindia.com/media/channels/asom_live_24x7.png",
-        "group": "News",
-        "url": "https://mumt06.tangotv.in/qYyB8fXVASHOMLIVE/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://papaji.freetvindia.com/media/channels/asom_live_24x7.png\" group-title=\"News\",Asom Live 24 (576p)"
-      },
-      {
         "name": "Assam Talks (576p)",
         "logo": "https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540",
         "group": "News",
@@ -14877,6 +14917,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/6f17785db48e7b5fb68b7d441ad3ad10\" group-title=\"News\",Awaaz India"
+      },
+      {
+        "name": "Awaaz India TV (720p) [Not 24/7]",
+        "logo": "https://i.imgur.com/eKQs51V.png",
+        "group": "News",
+        "url": "https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/eKQs51V.png\" group-title=\"News\",Awaaz India TV (720p) [Not 24/7]"
       },
       {
         "name": "BBC News",
@@ -15699,16 +15749,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/s143540_ld_h15_aa.png?lock=720x540\" group-title=\"News\",Mh 1 News (576p)"
       },
       {
-        "name": "MKN Marathi (576p)",
-        "logo": "https://dtil.tmsimg.com/assets/GNLZZGG0021LWE6.png?lock=720x540",
-        "group": "News",
-        "url": "https://mumt04.tangotv.in/m18aqlK4MKNNEWSHINDI/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://dtil.tmsimg.com/assets/GNLZZGG0021LWE6.png?lock=720x540\" group-title=\"News\",MKN Marathi (576p)"
-      },
-      {
         "name": "Mojo TV (576p)",
         "logo": "https://upload.wikimedia.org/wikipedia/en/1/19/MOJO_TV_LOGO.png",
         "group": "News",
@@ -15747,16 +15787,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MUNSIF_TV/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"News\",Munsif TV (576p)"
-      },
-      {
-        "name": "Nagaland TV (576p)",
-        "logo": "https://i.imgur.com/EBEIpPo.png",
-        "group": "News",
-        "url": "https://mumt06.tangotv.in/qYyB8fXVNAGALANDTV/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/EBEIpPo.png\" group-title=\"News\",Nagaland TV (576p)"
       },
       {
         "name": "Nation News (720p)",
@@ -16329,16 +16359,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PTC_NEWS/images/LOGO_HD/image.png\" group-title=\"News\",PTC News (576p)"
       },
       {
-        "name": "Public First (576p)",
-        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Public_First.png",
-        "group": "News",
-        "url": "https://mumt06.tangotv.in/qYyB8fXVPUBLICFIRST/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Public_First.png\" group-title=\"News\",Public First (576p)"
-      },
-      {
         "name": "Public TV (720p)",
         "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_PUBLIC_TV/images/LOGO_HD/image.png",
         "group": "News",
@@ -16657,16 +16677,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Swadesh_News.png\" group-title=\"News\",Swadesh News (720p)"
-      },
-      {
-        "name": "Swaraj Express SMBC (576p)",
-        "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/SMBC_TV.png",
-        "group": "News",
-        "url": "https://mumt04.tangotv.in/m18aqlK4SWARAJEXPRESS/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/SMBC_TV.png\" group-title=\"News\",Swaraj Express SMBC (576p)"
       },
       {
         "name": "Swatantra TV (1080p)",
@@ -17575,16 +17585,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/66ac3ae1e56001353b69bb5f63ebcc6e\" group-title=\"Religious\",Deen TV"
-      },
-      {
-        "name": "Dheeran TV (576p)",
-        "logo": "https://i.imgur.com/jSedjXf.png",
-        "group": "Religious",
-        "url": "https://live.we2live.in/dheerantv/dheerantv/playlist.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/jSedjXf.png\" group-title=\"Religious\",Dheeran TV (576p)"
       },
       {
         "name": "Divyavani TV (576p)",
@@ -18524,6 +18524,16 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/f55bea3263be1af187fe1122e4f44142\" group-title=\"Sports\",Bahrain Sports 1"
       },
       {
+        "name": "Bein Sports Extra 2",
+        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+        "group": "Sports",
+        "url": "https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Sports\",Bein Sports Extra 2"
+      },
+      {
         "name": "Bleav Football",
         "logo": "https://s3.aynaott.com/storage/030ec528e912afb9a2ec3b4c5167a928",
         "group": "Sports",
@@ -18633,8 +18643,7 @@
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488\" group-title=\"Sports\",KTV Sport Plus",
-        "alive": true
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/b54495ee3cdd53ddaa19d1f98120f488\" group-title=\"Sports\",KTV Sport Plus"
       },
       {
         "name": "like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Sports\",Unite8 Sports 2",
@@ -18686,6 +18695,16 @@
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/0a241a80bf51d2c3b3722531706ce086\" group-title=\"Sports\",NBC Sports",
         "alive": true
+      },
+      {
+        "name": "NFL Network",
+        "logo": "https://s3.aynaott.com/storage/79f1ee920d6931a767ae0030e1c7c12b",
+        "group": "Sports",
+        "url": "https://tvsen6.aynaott.com/nfl/index.m3u8?e=1784102521&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=b788fb69852f06155761f8a22c9676c4",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/79f1ee920d6931a767ae0030e1c7c12b\" group-title=\"Sports\",NFL Network"
       },
       {
         "name": "Oman Sports TV",
@@ -18900,27 +18919,27 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/FtRT73R.png\" group-title=\"Sports\",Star Sports Select 2 HD (720p)"
       },
       {
-        "name": "T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2)",
+        "name": "T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2)",
         "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
         "group": "Sports",
         "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg\" group-title=\"Sports\",T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2)",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg\" group-title=\"Sports\",T Sports (1080p) (1) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2) (2)",
         "alive": true,
         "quality": "720p",
         "hls_valid": true
       },
       {
-        "name": "T Sports (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3)",
+        "name": "T Sports (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3)",
         "logo": "https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg",
         "group": "Sports",
         "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg\" group-title=\"Sports\",T Sports (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3)",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/abusaeeidx/T-Sports-Playlist-Auto-Update/refs/heads/main/images/images%20(6)%20(9).jpeg\" group-title=\"Sports\",T Sports (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3) (3)",
         "alive": true
       },
       {
@@ -18931,8 +18950,7 @@
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5128cd32518d5a9ba7a37e21947fd8fd\" group-title=\"Sports\",Talk Sport",
-        "alive": true
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5128cd32518d5a9ba7a37e21947fd8fd\" group-title=\"Sports\",Talk Sport"
       },
       {
         "name": "Trace Sport",
@@ -20899,26 +20917,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/ugX4WZJO3jEvTOerctAWJLinujo.jpg\" group-title=\"\",Avengers"
       },
       {
-        "name": "Avengers end game",
-        "logo": "https://image.tmdb.org/t/p/original/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
-        "group": "Uncategorized",
-        "url": "https://dl.dropbox.com/scl/fi/sv96bj3rk3u7vkdn1vgxi/end-game.mp4?rlkey=937chdfr0brlw1t0m4dpkg8ld&st=qwzui7ms&dl=0",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/br6krBFpaYmCSglLBWRuhui7tPc.jpg\" group-title=\"\",Avengers end game"
-      },
-      {
-        "name": "Avengers infinity war",
-        "logo": "https://image.tmdb.org/t/p/original/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
-        "group": "Uncategorized",
-        "url": "https://dl.dropbox.com/scl/fi/zsjcga9ukt88q4n02u6cp/Infinity-war.mp4?rlkey=3kofwpagvvczhymkznzrd32qs&st=605pxgi3&dl=0",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg\" group-title=\"\",Avengers infinity war"
-      },
-      {
         "name": "Black panter: Wakanda forever",
         "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/mYpT2R7639KvKZ668uoQGS2QNFp.jpg",
         "group": "Uncategorized",
@@ -21027,6 +21025,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://image.tmdb.org/t/p/original/1jvCVdlgInyItAUEvvvCakm1Yxz.jpg\" group-title=\"\",Culpa tuya"
+      },
+      {
+        "name": "cásate conmigo (2008)",
+        "logo": "https://archive.org/download/0024658/0024658.jpg",
+        "group": "Uncategorized",
+        "url": "https://archive.org/download/casate-conmigo/casate%20conmigo.mp4",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://archive.org/download/0024658/0024658.jpg\" group-title=\"\",cásate conmigo (2008)"
       },
       {
         "name": "de noche con el diablo(2024)",
@@ -21227,6 +21235,16 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/qp0xpheiKwK2ASjX3YUwDPVOzHx.jpg\" group-title=\"\",Hotel sin salida 2"
+      },
+      {
+        "name": "iron man 1",
+        "logo": "https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg",
+        "group": "Uncategorized",
+        "url": "https://dl.dropbox.com/scl/fi/i46badogboadxjf2jgna6/1_5046378812346991048.mp4?rlkey=ezk04w0vy4kksluje1v68stl5&st=bapnmme5&dl=0",
+        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Hollywood/Movies.m3u",
+        "epg_id": "",
+        "epg_name": "",
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://media.themoviedb.org/t/p/w220_and_h330_face/tFCTNx7foAsUQpgu2x1KjAJD1wT.jpg\" group-title=\"\",iron man 1"
       },
       {
         "name": "iron man 2",
@@ -21961,16 +21979,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAAM_TV/images/LOGO_HD/image.png\" group-title=\"Undefined\",Saam TV"
       },
       {
-        "name": "Sai TV (576p)",
-        "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAI_TV/images/LOGO_HD/image.png",
-        "group": "Undefined",
-        "url": "https://mumt03.tangotv.in/Dsly5z3HSAITV/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SAI_TV/images/LOGO_HD/image.png\" group-title=\"Undefined\",Sai TV (576p)"
-      },
-      {
         "name": "Santvani Channel (576p)",
         "logo": "https://dtil.tmsimg.com/assets/s143763_ld_h15_aa.png?lock=720x540",
         "group": "Undefined",
@@ -22113,16 +22121,6 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Ananda TV"
       },
       {
-        "name": "ATN Music (360p)",
-        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-        "group": "Unknown",
-        "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",ATN Music (360p)"
-      },
-      {
         "name": "Boishakhi TV",
         "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
         "group": "Unknown",
@@ -22161,16 +22159,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Duronto TV (720p)"
-      },
-      {
-        "name": "Ekushey TV (480p)",
-        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-        "group": "Unknown",
-        "url": "https://ekusheyserver.com/etvlivesn.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Ekushey TV (480p)"
       },
       {
         "name": "Gazi TV",
@@ -22231,26 +22219,6 @@
         "epg_id": "",
         "epg_name": "",
         "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",NTV (720p)"
-      },
-      {
-        "name": "Rajdhani TV (1080p)",
-        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-        "group": "Unknown",
-        "url": "https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",Rajdhani TV (1080p)"
-      },
-      {
-        "name": "RTV (720p)",
-        "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
-        "group": "Unknown",
-        "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/index.m3u8",
-        "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-        "epg_id": "",
-        "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Unknown\",RTV (720p)"
       },
       {
         "name": "RTV (720p)",
@@ -23922,14 +23890,14 @@
         "extinf": "#EXTINF:-1 tvg-logo=\"https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png\" group-title=\"[LIVE] BDIX ♛\",[BD] Bangla TV"
       },
       {
-        "name": "w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/c4b24abc-1124-43f4-ab68-946d5b1b472c.png\" group-title=\"[LIVE] BDIX ♛\",[BD] EPL channel 1",
-        "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/c4b24abc-1124-43f4-ab68-946d5b1b472c.png",
+        "name": "w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/f030066c-0649-4d82-836f-c85321381d67.png\" group-title=\"[LIVE] BDIX ♛\",[BD] EPL channel 1",
+        "logo": "https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/f030066c-0649-4d82-836f-c85321381d67.png",
         "group": "[LIVE] BDIX ♛",
         "url": "https://mprod-cdn.toffeelive.com/live/match-1/index.m3u8",
         "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
         "epg_id": "",
         "epg_name": "",
-        "extinf": "#EXTINF:-1 tvg-logo=\"https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/c4b24abc-1124-43f4-ab68-946d5b1b472c.png\" group-title=\"[LIVE] BDIX ♛\",[BD] EPL channel 1"
+        "extinf": "#EXTINF:-1 tvg-logo=\"https://assets-prod.services.toffeelive.com/f_png,w_300,q_85/JS1AqZgBNnOkwJLWlwg-/posters/f030066c-0649-4d82-836f-c85321381d67.png\" group-title=\"[LIVE] BDIX ♛\",[BD] EPL channel 1"
       },
       {
         "name": "w_300,q_85/KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp\" group-title=\"[LIVE] BDIX ♛\",[BD] Discovery HD",

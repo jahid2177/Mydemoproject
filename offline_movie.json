@@ -1100,16 +1100,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5d052254516639955d06182690d3fda2\" group-title=\"Hindi\",9X Tashan"
   },
   {
-    "name": "Goldmines",
-    "logo": "https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776",
-    "group": "Hindi",
-    "url": "https://tvsen6.aynaott.com/hKrngve2/index.m3u8?e=1784102592&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=c2995b4981869497cd8659e3a739f2d1",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/9d0cda929d2a459842a85cce47442776\" group-title=\"Hindi\",Goldmines"
-  },
-  {
     "name": "Dangal",
     "logo": "https://s3.aynaott.com/storage/cb1c3e153b951760fb0396cd27b8a715",
     "group": "Hindi",
@@ -1118,26 +1108,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/cb1c3e153b951760fb0396cd27b8a715\" group-title=\"Hindi\",Dangal"
-  },
-  {
-    "name": "The Q",
-    "logo": "https://s3.aynaott.com/storage/5e07d993dda4763f4c35125fb9734e72",
-    "group": "Hindi",
-    "url": "https://tvsen6.aynaott.com/3PjZZahm/index.m3u8?e=1784102596&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=92ddc6a5821e135aef133dbd8b8b6fc7",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/5e07d993dda4763f4c35125fb9734e72\" group-title=\"Hindi\",The Q"
-  },
-  {
-    "name": "Dhinchaak",
-    "logo": "https://s3.aynaott.com/storage/f4edcca7247bbb4a263a51d7ebb82282",
-    "group": "Hindi",
-    "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8?e=1784102597&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=18f202477e23fba0f1d6d5e94ac5c4f3",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/f4edcca7247bbb4a263a51d7ebb82282\" group-title=\"Hindi\",Dhinchaak"
   },
   {
     "name": "CGTN Docu",
@@ -1288,6 +1258,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/e0d54d73e6b9cf211cd760650467e596\" group-title=\"Urdhu\",Geo ENT"
+  },
+  {
+    "name": "Khushboo",
+    "logo": "https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44",
+    "group": "Indian Bangla",
+    "url": "https://tvsen6.aynaott.com/mzwbzfZ4/index.m3u8?e=1784102631&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=98108f8c82a0dc91e30e52fe77713a09",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d90eb718a6674494d2dac28e1d96bf44\" group-title=\"Indian Bangla\",Khushboo"
   },
   {
     "name": "Republic Bangla",
@@ -5020,43 +5000,13 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/URDU-1.png\" group-title=\"URDU | PAKISTAN\",URDU 1 [PK]"
   },
   {
-    "name": "All Time Movies (576p)",
-    "logo": "https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj",
-    "group": "Movies",
-    "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
+    "name": "Harvest USA (576p)",
+    "logo": "https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png",
+    "group": "Religious",
+    "url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj\" group-title=\"Movies\",All Time Movies (576p)"
-  },
-  {
-    "name": "&xplor HD (1080p) [Geo-blocked]",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png",
-    "group": "Movies",
-    "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=209743&extension=ts&play_token=mR7FwO88sY",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_SYMANDXPLOR_HD/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Movies\",&xplor HD (1080p) [Geo-blocked]"
-  },
-  {
-    "name": "KTV Bangla (720p)",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/channel/2f8e3b371c660faa2f43a7f0942948a4.png",
-    "group": "General",
-    "url": "https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/channel/2f8e3b371c660faa2f43a7f0942948a4.png\" group-title=\"General\",KTV Bangla (720p)"
-  },
-  {
-    "name": "Saya Duluan Dong (1994)",
-    "logo": "http://i.ibb.co/b2YrZmZ/Saya-Duluan-Dong-1994.jpg",
-    "group": "WarKop DKI",
-    "url": "https://hadeh.pitoyoabdi.workers.dev/saringan/Saya%20Duluan%20Dong%20(1994).mp4",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/WorldwideVOD/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"http://i.ibb.co/b2YrZmZ/Saya-Duluan-Dong-1994.jpg\" group-title=\"WarKop DKI\",Saya Duluan Dong (1994)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://raw.githubusercontent.com/jahid2177/Mydemoproject/main/logo/default-logo.png\" group-title=\"Religious\",Harvest USA (576p)"
   }
 ]

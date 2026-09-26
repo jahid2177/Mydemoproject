@@ -1520,16 +1520,6 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/111bfd01fb43770e925ca9cf16663f56\" group-title=\"News\",TIME TV USA"
   },
   {
-    "name": "Republic TV Bharat",
-    "logo": "https://s3.aynaott.com/storage/947715e0a22f16ac21805073ce6eb0b6",
-    "group": "News",
-    "url": "https://tvsen6.aynaott.com/faGd3tuq/index.m3u8?e=1784102553&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=8133079644fb0609090a409e519aaa73",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/947715e0a22f16ac21805073ce6eb0b6\" group-title=\"News\",Republic TV Bharat"
-  },
-  {
     "name": "Hindi Khabar",
     "logo": "https://s3.aynaott.com/storage/d3943796d7fe5962ca5385b656682b1a",
     "group": "News",
@@ -1538,26 +1528,6 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/d3943796d7fe5962ca5385b656682b1a\" group-title=\"News\",Hindi Khabar"
-  },
-  {
-    "name": "News 1 India",
-    "logo": "https://s3.aynaott.com/storage/c643b3f7d7f79ad3913b5d2037f13a88",
-    "group": "News",
-    "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8?e=1784102555&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=48799eef4dce6bc5c63337d0e5a2312c",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/c643b3f7d7f79ad3913b5d2037f13a88\" group-title=\"News\",News 1 India"
-  },
-  {
-    "name": "ANB News",
-    "logo": "https://s3.aynaott.com/storage/4ec06dcab54cbbf5b204f797555e6b31",
-    "group": "News",
-    "url": "https://tvsen6.aynaott.com/H5aeGVSj/index.m3u8?e=1784102558&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=d854e648379933601524b35077263247",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/4ec06dcab54cbbf5b204f797555e6b31\" group-title=\"News\",ANB News"
   },
   {
     "name": "Disney Channel",
@@ -1598,6 +1568,16 @@
     "epg_id": "",
     "epg_name": "",
     "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/01c9cb3e1a4c90da6685700da863f0ce\" group-title=\"Hindi\",Taaza TV"
+  },
+  {
+    "name": "Manoranjan TV",
+    "logo": "https://s3.aynaott.com/storage/1a62a70103bac9999411a72b8a8b7ccc",
+    "group": "Hindi",
+    "url": "https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8?e=1784102598&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=a7992b8a768b673dd9befef8df89c6e8",
+    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/Bengali/Movies.m3u",
+    "epg_id": "",
+    "epg_name": "",
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://s3.aynaott.com/storage/1a62a70103bac9999411a72b8a8b7ccc\" group-title=\"Hindi\",Manoranjan TV"
   },
   {
     "name": "CMAC TV",
@@ -4790,43 +4770,23 @@
     "extinf": "#EXTINF:-1 tvg-logo=\"http://103.176.90.118/picons/logos/logos/TAKBEER.png\" group-title=\"URDU | PAKISTAN\",TAKBEER TV [PK]"
   },
   {
-    "name": "ANB News (720p)",
-    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANB_NEWS/images/LOGO_HD/image.png",
-    "group": "News",
-    "url": "https://server.livelegitpro.in:9899/anbnews/anbnews/index.m3u8",
+    "name": "Zee TV HD (720p) [Geo-blocked]",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png",
+    "group": "Entertainment",
+    "url": "http://41.205.93.154/ZEE-TV/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ANB_NEWS/images/LOGO_HD/image.png\" group-title=\"News\",ANB News (720p)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ZEE_TV/images/LOGO_HD/LOGO_HD_image.png\" group-title=\"Entertainment\",Zee TV HD (720p) [Geo-blocked]"
   },
   {
-    "name": "Global Punjab (1080p)",
-    "logo": "https://i.imgur.com/WDLqcWW.png",
-    "group": "News",
-    "url": "https://server.livelegitpro.in/globalpunjab/globalpunjab/index.m3u8",
+    "name": "Aryan TV National (576p)",
+    "logo": "https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png",
+    "group": "Undefined",
+    "url": "https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8",
     "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
     "epg_id": "",
     "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://i.imgur.com/WDLqcWW.png\" group-title=\"News\",Global Punjab (1080p)"
-  },
-  {
-    "name": "Samay Kolkata (1080p)",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png",
-    "group": "News",
-    "url": "https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/Samay_Kolkata.png\" group-title=\"News\",Samay Kolkata (1080p)"
-  },
-  {
-    "name": "TV45 (1080p)",
-    "logo": "https://jiotvimages.cdn.jio.com/dare_images/images/TV45.png",
-    "group": "News",
-    "url": "https://server.livelegitpro.in/bnews24/bnews24/video.m3u8",
-    "source": "/home/runner/work/Mydemoproject/Mydemoproject/Movies/SouthIndian/Movies.m3u",
-    "epg_id": "",
-    "epg_name": "",
-    "extinf": "#EXTINF:-1 tvg-logo=\"https://jiotvimages.cdn.jio.com/dare_images/images/TV45.png\" group-title=\"News\",TV45 (1080p)"
+    "extinf": "#EXTINF:-1 tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ARYAN_TV_NATIONAL/images/LOGO_HD/image.png\" group-title=\"Undefined\",Aryan TV National (576p)"
   }
 ]
